@@ -1,0 +1,15 @@
+* [33m7dfcc07[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Initial commit
+* [33m243f94d[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Delete all files from repository
+* [33m0742413[m Remove nested hello-world repo
+* [33mbced5d4[m Initial commit
+* [33m15867fb[m Delete all files from repository
+* [33m71188f7[m Uthmani script: KFGQPC Uthmanic Hafs font for all Arabic text, normalize Persian/Urdu letters to Arabic, remove Persian-text dua
+* [33m14312e3[m Remove 2 more duas with commentary; compact reminders beside search; add sepia theme and font-size control
+* [33mc9a117b[m Remove 28 duas with instructions in translation; search now finds individual duas in all categories incl. Others
+* [33m6913707[m Remove 9 duas that have no Arabic text (e.g. scorpion bite) and update counts
+* [33mfb82ca0[m Update UI from latest water_bottle.zip (keeps character fixes)
+* [33m5a560fe[m Fix broken characters (ï¿½) in dua text: restore quotes, apostrophes and ayn marks
+* [33m0c3f23d[m Update app from water_bottle.zip (restyled UI), project kept at repo root
+* [33mbd96c10[m Move project files to repository root so Render finds package.json
+* [33mae23694[m Replace repository contents
+* [33m35fd339[m Add Flutter-friendly Duas collection (JSON reorganization, React app, Flutter app)
