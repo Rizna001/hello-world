@@ -1,0 +1,345 @@
+{
+    "api_version":  "3.0.0",
+    "description":  "Comprehensive Islamic Duas API - Authentic supplications from Quran and Sahih Hadith",
+    "base_url":  "/api/v1",
+    "documentation":  "https://github.com/Rizna001/FLUTTER-FRIENDLY-DUA-2/blob/main/API.md",
+    "endpoints":  {
+                      "all_duas":  "/api/v1/duas.json",
+                      "api_index":  "/api/v1/index.json"
+                  },
+    "total_categories":  36,
+    "total_duas":  179,
+    "supported_languages":  [
+                                {
+                                    "code":  "en",
+                                    "name":  "English",
+                                    "flag":  "🇬🇧"
+                                },
+                                {
+                                    "code":  "ar",
+                                    "name":  "العربية",
+                                    "flag":  "🇸🇦"
+                                },
+                                {
+                                    "code":  "ur",
+                                    "name":  "اردو",
+                                    "flag":  "🇵🇰"
+                                },
+                                {
+                                    "code":  "fr",
+                                    "name":  "Français",
+                                    "flag":  "🇫🇷"
+                                },
+                                {
+                                    "code":  "tr",
+                                    "name":  "Türkçe",
+                                    "flag":  "🇹🇷"
+                                },
+                                {
+                                    "code":  "id",
+                                    "name":  "Bahasa Indonesia",
+                                    "flag":  "🇮🇩"
+                                },
+                                {
+                                    "code":  "bn",
+                                    "name":  "বাংলা",
+                                    "flag":  "🇧🇩"
+                                },
+                                {
+                                    "code":  "ms",
+                                    "name":  "Bahasa Melayu",
+                                    "flag":  "🇲🇾"
+                                },
+                                {
+                                    "code":  "ta",
+                                    "name":  "தமிழ்",
+                                    "flag":  "🇮🇳"
+                                },
+                                {
+                                    "code":  "ml",
+                                    "name":  "മലയാളം",
+                                    "flag":  "🇮🇳"
+                                }
+                            ],
+    "categories":  [
+                       {
+                           "id":  "morning-evening",
+                           "name":  {
+                                        "en":  "Morning \u0026 Evening"
+                                    },
+                           "duas_count":  3
+                       },
+                       {
+                           "id":  "eating",
+                           "name":  {
+                                        "en":  "Before \u0026 After Eating"
+                                    },
+                           "duas_count":  4
+                       },
+                       {
+                           "id":  "sleep-wake",
+                           "name":  {
+                                        "en":  "Sleep \u0026 Waking Up"
+                                    },
+                           "duas_count":  3
+                       },
+                       {
+                           "id":  "mosque",
+                           "name":  {
+                                        "en":  "Mosque"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "home",
+                           "name":  {
+                                        "en":  "Home"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "bathroom",
+                           "name":  {
+                                        "en":  "Bathroom"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "travel",
+                           "name":  {
+                                        "en":  "Travel"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "hardship",
+                           "name":  {
+                                        "en":  "Hardship \u0026 Distress"
+                                    },
+                           "duas_count":  3
+                       },
+                       {
+                           "id":  "forgiveness",
+                           "name":  {
+                                        "en":  "Forgiveness \u0026 Repentance"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "protection",
+                           "name":  {
+                                        "en":  "Protection"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "parents",
+                           "name":  {
+                                        "en":  "For Parents"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "knowledge",
+                           "name":  {
+                                        "en":  "Knowledge \u0026 Study"
+                                    },
+                           "duas_count":  3
+                       },
+                       {
+                           "id":  "sickness",
+                           "name":  {
+                                        "en":  "Sickness \u0026 Healing"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "rain",
+                           "name":  {
+                                        "en":  "Rain \u0026 Weather"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "anger",
+                           "name":  {
+                                        "en":  "Anger \u0026 Calm"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "friday",
+                           "name":  {
+                                        "en":  "Friday (Jumu\u0027ah)"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "dua-general",
+                           "name":  {
+                                        "en":  "General Good"
+                                    },
+                           "duas_count":  3
+                       },
+                       {
+                           "id":  "death-funeral",
+                           "name":  {
+                                        "en":  "Death \u0026 Funeral"
+                                    },
+                           "duas_count":  6
+                       },
+                       {
+                           "id":  "salawat",
+                           "name":  {
+                                        "en":  "Salawat upon the Prophet"
+                                    },
+                           "duas_count":  4
+                       },
+                       {
+                           "id":  "asma-ul-husna",
+                           "name":  {
+                                        "en":  "99 Names of Allah (Asma ul Husna)"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "asma-ul-anbiya",
+                           "name":  {
+                                        "en":  "Names of Prophets (Asma ul Anbiya)"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "wudu-adhan",
+                           "name":  {
+                                        "en":  "Wudu \u0026 Adhan"
+                                    },
+                           "duas_count":  4
+                       },
+                       {
+                           "id":  "laylatul-qadr",
+                           "name":  {
+                                        "en":  "Laylatul Qadr (Night of Power)"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "istikhara",
+                           "name":  {
+                                        "en":  "Istikhara (Seeking Guidance)"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "nightmare",
+                           "name":  {
+                                        "en":  "Nightmare \u0026 Bad Dreams"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "evil-eye",
+                           "name":  {
+                                        "en":  "Protection from Evil Eye"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "fasting",
+                           "name":  {
+                                        "en":  "Fasting \u0026 Ramadan"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "hajj-umrah",
+                           "name":  {
+                                        "en":  "Hajj \u0026 Umrah"
+                                    },
+                           "duas_count":  5
+                       },
+                       {
+                           "id":  "debt-poverty",
+                           "name":  {
+                                        "en":  "Debt \u0026 Poverty"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "children-newborn",
+                           "name":  {
+                                        "en":  "Children \u0026 Newborn"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "marriage-wedding",
+                           "name":  {
+                                        "en":  "Marriage \u0026 Wedding"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "clothes-appearance",
+                           "name":  {
+                                        "en":  "Clothes \u0026 Appearance"
+                                    },
+                           "duas_count":  2
+                       },
+                       {
+                           "id":  "market-business",
+                           "name":  {
+                                        "en":  "Market \u0026 Business"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "good-character",
+                           "name":  {
+                                        "en":  "Good Character"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "ummah",
+                           "name":  {
+                                        "en":  "For the Ummah"
+                                    },
+                           "duas_count":  1
+                       },
+                       {
+                           "id":  "Others",
+                           "name":  {
+                                        "en":  "Others"
+                                    },
+                           "duas_count":  103
+                       }
+                   ],
+    "sources":  [
+                    "Sahih al-Bukhari",
+                    "Sahih Muslim",
+                    "Sunan Abu Dawud",
+                    "Jami\u0027 at-Tirmidhi",
+                    "Sunan an-Nasa\u0027i",
+                    "Sunan Ibn Majah",
+                    "The Noble Quran",
+                    "Musnad Ahmad",
+                    "Al-Adab Al-Mufrad"
+                ],
+    "usage":  {
+                  "description":  "This API provides authentic Islamic duas organized by situation with translations in multiple languages.",
+                  "authentication":  "None required - public API",
+                  "rate_limit":  "No rate limit for static JSON files",
+                  "cors":  "Enabled - can be accessed from any domain",
+                  "caching":  "Recommended to cache for 24 hours"
+              },
+    "examples":  {
+                     "javascript":  "fetch(\u0027/api/v1/duas.json\u0027).then(res =\u003e res.json()).then(data =\u003e console.log(data))",
+                     "python":  "import requests; data = requests.get(\u0027/api/v1/duas.json\u0027).json()",
+                     "curl":  "curl https://rizna001.github.io/islamic-duas-collection/api/v1/duas.json"
+                 },
+    "license":  "MIT",
+    "repository":  "https://github.com/Rizna001/FLUTTER-FRIENDLY-DUA-2",
+    "issues":  "https://github.com/Rizna001/FLUTTER-FRIENDLY-DUA-2/issues",
+    "contributing":  "https://github.com/Rizna001/FLUTTER-FRIENDLY-DUA-2/blob/main/CONTRIBUTING.md"
+}

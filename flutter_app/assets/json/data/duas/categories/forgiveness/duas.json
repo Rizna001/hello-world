@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "forgiveness",
+  "count": 2,
+  "duas": [
+    {
+      "id": "frg-1",
+      "category_id": "forgiveness",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Seeking Forgiveness",
+        "ar": "طلب المغفرة",
+        "ur": "مغفرت کی درخواست",
+        "fr": "Demander le Pardon",
+        "tr": "MaÄŸfiret Ä°stemek",
+        "id": "Memohon Ampunan",
+        "bn": "ক্ষমা প্রার্থনা",
+        "ms": "Memohon Keampunan",
+        "ta": "மன்னிப்பு தேடுதல்",
+        "ml": "പാപമോചനം തേടുന്നു"
+      },
+      "arabic": "رَبِّ اغْفِرْ لِي وَتُبْ عَلَيَّ إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ",
+      "translation": {
+        "en": "My Lord, forgive me and accept my repentance. Indeed, You are the Accepting of Repentance, the Merciful.",
+        "ar": "رب اغفر لي وتب علي إنك أنت التواب الرحيم",
+        "ur": "اے میرے رب! مجھے بخش دے اور میری توبہ قبول فرما، بے شک تو بہت توبہ قبول کرنے والا، رحم کرنے والا ہے۔",
+        "fr": "Mon Seigneur, pardonne-moi et accepte mon repentir. Certes, Tu es Celui qui accepte le repentir, le Miséricordieux.",
+        "tr": "Rabbim! Beni bağışla ve tövbemi kabul et. Şüphesiz Sen tövbeleri çok kabul edensin, çok merhamet edensin.",
+        "id": "Tuhanku, ampunilah aku dan terimalah taubatku. Sesungguhnya Engkau Maha Penerima taubat, Maha Penyayang.",
+        "bn": "হে আমার রব, আমাকে ক্ষমা করো এবং আমার তাওবা কবুল করো। নিশ্চয়ই তুমি তাওবা কবুলকারী, দয়ালু।",
+        "ms": "Tuhanku, ampunilah aku dan terimalah taubatku. Sesungguhnya Engkau Maha Penerima taubat, Maha Penyayang.",
+        "ta": "என் இறைவா! என்னை மன்னித்து, என் பாவமன்னிப்பை ஏற்றுக்கொள்வாயாக. நிச்சயமாக நீரே பாவமன்னிப்பை ஏற்பவர், கருணையுள்ளவர்.",
+        "ml": "എന്റെ രക്ഷിതാവേ, എന്നെ പൊറുക്കുകയും എന്റെ പശ്ചാത്താപം സ്വീകരിക്കുകയും ചെയ്യണമേ. തീർച്ചയായും നീയാണ് പശ്ചാത്താപം സ്വീകരിക്കുന്നവൻ, കാരുണ്യവാനും."
+      },
+      "reference": {
+        "source": "Abu",
+        "reference_text": "Abu Dawud 2/85"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "frg-2",
+      "category_id": "forgiveness",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "Comprehensive Forgiveness Dua",
+        "ar": "دعاء المغفرة الشاملة",
+        "ur": "جامع مغفرت کی دعا",
+        "fr": "Doua Complet pour le Pardon",
+        "tr": "KapsamlÄ± MaÄŸfiret DuasÄ±",
+        "id": "Doa Ampunan Lengkap",
+        "bn": "সামগ্রিক ক্ষমার দোয়া",
+        "ms": "Doa Keampunan Lengkap",
+        "ta": "விரிவான மன்னிப்பு துஆ",
+        "ml": "സമഗ്രമായ പാപമോചന ദുആ"
+      },
+      "arabic": "اللَّهُمَّ إِنَّكَ عَفُوٌّ كَرِيمٌ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
+      "translation": {
+        "en": "O Allah, You are the One who pardons, You are generous, You love to pardon, so pardon me.",
+        "ar": "اللهم إنك عفو كريم تحب العفو فاعف عني",
+        "ur": "اے اللہ! تو درگزر کرنے والا ہے، کریم ہے، درگزر کو پسند فرماتا ہے، پس مجھے بھی درگزر فرما۔",
+        "fr": "Ô Allah, Tu es Celui qui pardonne, Tu es Généreux, Tu aimes pardonner, alors pardonne-moi.",
+        "tr": "Allah'Ä±m! Sen affedicisin, kerimsin, affetmeyi seversin, beni de affet.",
+        "id": "Ya Allah, sesungguhnya Engkau Maha Pemaaf, Maha Mulia, Engkau mencintai maaf, maka maafkanlah aku.",
+        "bn": "হে আল্লাহ, তুমি ক্ষমাশীল, মহিমাময়, তুমি ক্ষমা করতে ভালোবাসো, সুতরাং আমাকে ক্ষমা করো।",
+        "ms": "Ya Allah, sesungguhnya Engkau Maha Pemaaf, Maha Mulia, Engkau mencintai kemaafan, maka maafkanlah aku.",
+        "ta": "இறைவா! நீர் மன்னிப்பவர், கரீமானவர், மன்னிப்பை விரும்புபவர், எனவே என்னை மன்னிப்பாயாக.",
+        "ml": "അല്ലാഹുവേ, നീ പൊറുക്കുന്നവനാണ്, ഉദാരനാണ്, പൊറുക്കുന്നതിനെ സ്നേഹിക്കുന്നു, അതിനാൽ എന്നെ പൊറുക്കണമേ."
+      },
+      "reference": {
+        "source": "Tirmidhi",
+        "reference_text": "Tirmidhi 5/542"
+      },
+      "repetition_count": 1
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "home",
+  "count": 2,
+  "duas": [
+    {
+      "id": "hm-1",
+      "category_id": "home",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Entering the Home",
+        "ar": "دخول البيت",
+        "ur": "گھر میں داخل ہونا",
+        "fr": "Entrer dans la Maison",
+        "tr": "Eve Girerken",
+        "id": "Masuk Rumah",
+        "bn": "ঘরে প্রবেশ",
+        "ms": "Masuk Rumah",
+        "ta": "வீட்டில் நுழையும்போது",
+        "ml": "വീട്ടിൽ പ്രവേശിക്കുമ്പോൾ"
+      },
+      "arabic": "بِسْمِ اللهِ وَلَجْنَا، وَبِسْمِ اللهِ خَرَجْنَا، وَعَلَى رَبِّنَا تَوَكَّلْنَا",
+      "translation": {
+        "en": "In the name of Allah we enter, in the name of Allah we leave, and upon our Lord we rely.",
+        "ar": "بسم الله ولجنا وبسم الله خرجنا وعلى ربنا توكلنا",
+        "ur": "اللہ کے نام سے ہم داخل ہوئے اور اللہ کے نام سے ہم نکلے اور اپنے رب پر بھروسہ کیا۔",
+        "fr": "Au nom d'Allah nous entrons, au nom d'Allah nous sortons, et sur notre Seigneur nous nous fions.",
+        "tr": "Allah'ın adıyla girdik, Allah'ın adıyla çıktık ve Rabbimize tevekkül ettik.",
+        "id": "Dengan nama Allah kami masuk, dengan nama Allah kami keluar, dan kepada Tuhan kami kami bertawakkal.",
+        "bn": "আল্লাহর নামে আমরা প্রবেশ করি, আল্লাহর নামে আমরা বের হই এবং আমাদের রবের উপর আমরা ভরসা করি।",
+        "ms": "Dengan nama Allah kami masuk, dengan nama Allah kami keluar, dan kepada Tuhan kami kami bertawakkal.",
+        "ta": "அல்லாஹ்வின் பெயரால் நுழைகிறோம், அல்லாஹ்வின் பெயரால் வெளியேறுகிறோம், எங்கள் இறைவன் மீது நம்பிக்கை வைக்கிறோம்.",
+        "ml": "അല്ലാഹുവിന്റെ നാമത്തിൽ ഞങ്ങൾ പ്രവേശിക്കുന്നു, അല്ലാഹുവിന്റെ നാമത്തിൽ ഞങ്ങൾ പുറപ്പെടുന്നു, ഞങ്ങളുടെ രക്ഷിതാവിൽ ഞങ്ങൾ ഭരമേൽപ്പിക്കുന്നു."
+      },
+      "reference": {
+        "source": "Abu",
+        "reference_text": "Abu Dawud 4/325"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "hm-2",
+      "category_id": "home",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "Leaving the Home",
+        "ar": "الخروج من البيت",
+        "ur": "گھر سے نکلنا",
+        "fr": "Sortir de la Maison",
+        "tr": "Evden Çıkarken",
+        "id": "Keluar Rumah",
+        "bn": "ঘর থেকে বের হওয়া",
+        "ms": "Keluar Rumah",
+        "ta": "வீட்டை விட்டு வெளியேறும்போது",
+        "ml": "വീട്ടിൽനിന്ന് പുറപ്പെടുമ്പോൾ"
+      },
+      "arabic": "بِسْمِ اللهِ، تَوَكَّلْتُ عَلَى اللهِ، وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ",
+      "translation": {
+        "en": "In the name of Allah, I rely upon Allah, there is no might nor power except with Allah.",
+        "ar": "بسم الله، توكلت على الله، ولا حول ولا قوة إلا بالله",
+        "ur": "اللہ کے نام سے، میں نے اللہ پر بھروسہ کیا اور اللہ کے بغیر کوئی طاقت اور قوت نہیں۔",
+        "fr": "Au nom d'Allah, je me fie à Allah, il n'y a de puissance ni de force qu'en Allah.",
+        "tr": "Allah'ın adıyla, Allah'a tevekkül ettim, Allah'tan başka güç ve kuvvet yoktur.",
+        "id": "Dengan nama Allah, aku bertawakkal kepada Allah, tiada daya dan kekuatan kecuali dengan Allah.",
+        "bn": "আল্লাহর নামে, আমি আল্লাহর উপর ভরসা করি, আল্লাহ ছাড়া কোনো শক্তি ও ক্ষমতা নেই।",
+        "ms": "Dengan nama Allah, aku bertawakkal kepada Allah, tiada daya dan kekuatan kecuali dengan Allah.",
+        "ta": "அல்லாஹ்வின் பெயரால், அல்லாஹ்வின் மீது நம்பிக்கை வைக்கிறேன், அல்லாஹ்வைத் தவிர எந்த சக்தியும் வலிமையும் இல்லை.",
+        "ml": "അല്ലാഹുവിന്റെ നാമത്തിൽ, ഞാൻ അല്ലാഹുവിൽ ഭരമേൽപ്പിക്കുന്നു, അല്ലാഹുവല്ലാതെ ഒരു ശക്തിയും കഴിവും ഇല്ല."
+      },
+      "reference": {
+        "source": "Abu",
+        "reference_text": "Abu Dawud 4/325, Tirmidhi 5/490"
+      },
+      "repetition_count": 1
+    }
+  ]
+}
