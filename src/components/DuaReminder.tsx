@@ -74,7 +74,7 @@ export default function DuaReminder({ language }: DuaReminderProps) {
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <h3 className={`text-lg font-bold ${isDark ? 'text-white' : 'text-gray-900'}`}>
-          ⏰ {label.title}
+          {label.title}
         </h3>
         <button
           onClick={() => setShowForm(!showForm)}
@@ -210,7 +210,7 @@ export default function DuaReminder({ language }: DuaReminderProps) {
                         : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                     }`}
                   >
-                    {sound.emoji} {sound.name}
+                    {sound.name}
                   </button>
                 ))}
               </div>
@@ -258,7 +258,6 @@ export default function DuaReminder({ language }: DuaReminderProps) {
               <div className="flex items-start justify-between gap-3">
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-lg">⏰</span>
                     <h4 className={`font-semibold ${isDark ? 'text-white' : 'text-gray-900'}`}>
                       {reminder.duaTitle}
                     </h4>
@@ -268,31 +267,31 @@ export default function DuaReminder({ language }: DuaReminderProps) {
                   </p>
                   <div className="flex items-center gap-3 text-xs">
                     <span className={isDark ? 'text-gray-500' : 'text-gray-500'}>
-                      🕐 {reminder.time}
+                      {label.time}: {reminder.time}
                     </span>
                     <span className={isDark ? 'text-gray-500' : 'text-gray-500'}>
                       {reminder.frequency === 'daily' ? label.daily : reminder.frequency === 'weekly' ? label.weekly : label.custom}
                     </span>
                     <span className={isDark ? 'text-gray-500' : 'text-gray-500'}>
-                      {sounds.find(s => s.id === reminder.sound)?.emoji} {sounds.find(s => s.id === reminder.sound)?.name}
+                      {sounds.find(s => s.id === reminder.sound)?.name}
                     </span>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   <button
                     onClick={() => playSound(reminder.sound)}
-                    className={`p-2 rounded-lg transition-colors ${
+                    className={`px-3 py-2 rounded-lg text-sm transition-colors ${
                       isDark
                         ? 'bg-slate-700 hover:bg-slate-600 text-gray-300'
                         : 'bg-gray-200 hover:bg-gray-300 text-gray-700'
                     }`}
                     title={label.test}
                   >
-                    🔊
+                    {label.test}
                   </button>
                   <button
                     onClick={() => toggleReminder(reminder.id)}
-                    className={`p-2 rounded-lg transition-colors ${
+                    className={`px-3 py-2 rounded-lg text-sm transition-colors ${
                       reminder.enabled
                         ? isDark
                           ? 'bg-emerald-900/50 text-emerald-400 hover:bg-emerald-900'
@@ -302,18 +301,18 @@ export default function DuaReminder({ language }: DuaReminderProps) {
                         : 'bg-gray-200 text-gray-500 hover:bg-gray-300'
                     }`}
                   >
-                    {reminder.enabled ? '✓' : '○'}
+                    {reminder.enabled ? 'Enabled' : 'Paused'}
                   </button>
                   <button
                     onClick={() => removeReminder(reminder.id)}
-                    className={`p-2 rounded-lg transition-colors ${
+                    className={`px-3 py-2 rounded-lg text-sm transition-colors ${
                       isDark
                         ? 'bg-red-900/50 text-red-400 hover:bg-red-900'
                         : 'bg-red-100 text-red-600 hover:bg-red-200'
                     }`}
                     title={label.delete}
                   >
-                    ✕
+                    {label.delete}
                   </button>
                 </div>
               </div>

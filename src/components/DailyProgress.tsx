@@ -84,7 +84,7 @@ export default function DailyProgress({ language }: DailyProgressProps) {
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <h3 className={`text-lg font-bold ${isDark ? 'text-white' : 'text-gray-900'}`}>
-          📊 {label.title}
+          {label.title}
         </h3>
         <button
           onClick={resetTasks}
@@ -140,7 +140,6 @@ export default function DailyProgress({ language }: DailyProgressProps) {
                       ? isDark ? 'text-emerald-300' : 'text-emerald-700'
                       : isDark ? 'text-gray-200' : 'text-gray-800'
                   }`}>
-                    {isCompleted && '✓ '}
                     {task.name[language] || task.name.en}
                   </p>
                   <p className={`text-xs mt-1 ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>

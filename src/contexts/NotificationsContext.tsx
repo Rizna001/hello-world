@@ -1,11 +1,11 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 
 const NOTIFICATION_SOUNDS = [
-  { id: 'adhan', name: 'Adhan', emoji: '🕌' },
-  { id: 'bell', name: 'Bell', emoji: '🔔' },
-  { id: 'chime', name: 'Chime', emoji: '🎵' },
-  { id: 'gentle', name: 'Gentle', emoji: '🎶' },
-  { id: 'none', name: 'No Sound', emoji: '🔇' },
+  { id: 'adhan', name: 'Adhan' },
+  { id: 'bell', name: 'Bell' },
+  { id: 'chime', name: 'Chime' },
+  { id: 'gentle', name: 'Gentle' },
+  { id: 'none', name: 'No Sound' },
 ];
 
 interface CustomReminder {
@@ -181,9 +181,8 @@ export function NotificationsProvider({ children }: { children: ReactNode }) {
       
       // Trigger notification
       showNotification(
-        `🤲 ${reminder.duaTitle}`,
-        reminder.duaArabic.substring(0, 100) + '...',
-        '🤲'
+        reminder.duaTitle,
+        reminder.duaArabic.substring(0, 100) + '...'
       );
       if (reminder.sound !== 'none') {
         playSound(reminder.sound);
@@ -215,7 +214,7 @@ export function NotificationsProvider({ children }: { children: ReactNode }) {
       const granted = await requestPermission();
       if (granted) {
         setNotificationsEnabled(true);
-        showNotification('Notifications Enabled', 'You will receive daily duas at your scheduled time.', '🔔');
+        showNotification('Notifications Enabled', 'You will receive daily duas at your scheduled time.');
         playSound();
       }
     } else {
@@ -226,7 +225,7 @@ export function NotificationsProvider({ children }: { children: ReactNode }) {
   const setNotificationTime = (time: string) => {
     setNotificationTimeState(time);
     if (notificationsEnabled) {
-      showNotification('Time Updated', `Daily duas will be sent at ${time}`, '⏰');
+      showNotification('Time Updated', `Daily duas will be sent at ${time}`);
     }
   };
 
@@ -267,13 +266,13 @@ export function NotificationsProvider({ children }: { children: ReactNode }) {
       { title: 'Gratitude', text: 'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ' },
     ];
     const randomDua = duas[Math.floor(Math.random() * duas.length)];
-    showNotification(`Daily Dua: ${randomDua.title}`, randomDua.text, '🤲');
+    showNotification(`Daily Dua: ${randomDua.title}`, randomDua.text);
     if (notificationSound !== 'none') playSound();
   };
 
-  const showNotification = (title: string, body: string, icon: string = '🤲') => {
+  const showNotification = (title: string, body: string) => {
     if ('Notification' in window && Notification.permission === 'granted') {
-      new Notification(`${icon} ${title}`, { body, tag: 'daily-dua', requireInteraction: false });
+      new Notification(title, { body, tag: 'daily-dua', requireInteraction: false });
     }
   };
 

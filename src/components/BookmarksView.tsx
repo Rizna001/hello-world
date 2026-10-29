@@ -28,7 +28,6 @@ export default function BookmarksView({ language, onDuaClick }: BookmarksViewPro
   if (bookmarks.length === 0) {
     return (
       <div className="text-center py-16">
-        <div className="text-6xl mb-4">📑</div>
         <h3 className={`text-xl font-bold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>
           {label.empty}
         </h3>
@@ -43,7 +42,7 @@ export default function BookmarksView({ language, onDuaClick }: BookmarksViewPro
     <div>
       <div className="flex items-center justify-between mb-6">
         <h2 className={`text-2xl font-bold ${isDark ? 'text-white' : 'text-gray-900'}`}>
-          📑 {label.title} ({bookmarks.length})
+          {label.title} ({bookmarks.length})
         </h2>
         <button
           onClick={clearAllBookmarks}
@@ -94,16 +93,14 @@ export default function BookmarksView({ language, onDuaClick }: BookmarksViewPro
                   e.stopPropagation();
                   removeBookmark(bookmark.id);
                 }}
-                className={`flex-shrink-0 p-2 rounded-lg transition-colors ${
+                className={`flex-shrink-0 px-3 py-2 rounded-lg text-sm transition-colors ${
                   isDark 
                     ? 'hover:bg-red-900/50 text-red-400' 
                     : 'hover:bg-red-50 text-red-500'
                 }`}
                 title={label.remove}
               >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
+                {label.remove}
               </button>
             </div>
           </div>

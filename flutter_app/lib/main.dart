@@ -12,17 +12,20 @@ class DuaApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const seedColor = Color(0xFF176B58);
+    const primaryColor = Color(0xFF005A3C);
+    const goldColor = Color(0xFFC9A34A);
+    const lightSurface = Color(0xFFF3F7F3);
+    final colorScheme = ColorScheme.fromSeed(
+      seedColor: primaryColor,
+      surface: lightSurface,
+    ).copyWith(secondary: goldColor);
 
     return MaterialApp(
       title: 'Dua Library',
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: seedColor,
-          surface: const Color(0xFFF7F8F5),
-        ),
-        scaffoldBackgroundColor: const Color(0xFFF7F8F5),
+        colorScheme: colorScheme,
+        scaffoldBackgroundColor: lightSurface,
       ),
       home: HomeScreen(repository: DuaRepository()),
     );

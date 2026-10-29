@@ -40,6 +40,7 @@ export default function Settings({ language }: SettingsProps) {
     <>
       <button
         onClick={() => setIsOpen(true)}
+        aria-label={label.title}
         className={`fixed bottom-6 right-6 w-14 h-14 rounded-full shadow-lg transition-all hover:scale-110 ${
           isDark
             ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
@@ -66,13 +67,11 @@ export default function Settings({ language }: SettingsProps) {
                 </h2>
                 <button
                   onClick={() => setIsOpen(false)}
-                  className={`w-8 h-8 rounded-lg flex items-center justify-center transition-colors ${
+                  className={`px-2 py-1 rounded-lg text-xs whitespace-nowrap transition-colors ${
                     isDark ? 'hover:bg-slate-700 text-gray-400' : 'hover:bg-gray-100 text-gray-500'
                   }`}
                 >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
+                  {label.close}
                 </button>
               </div>
             </div>
@@ -82,7 +81,7 @@ export default function Settings({ language }: SettingsProps) {
               {/* Theme Toggle */}
               <div>
                 <h3 className={`text-sm font-semibold mb-3 ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
-                  🎨 {label.theme}
+                  {label.theme}
                 </h3>
                 <div className={`p-4 rounded-xl border ${isDark ? 'bg-slate-900 border-slate-700' : 'bg-gray-50 border-gray-200'}`}>
                   <div className="flex items-center justify-between">
@@ -122,7 +121,7 @@ export default function Settings({ language }: SettingsProps) {
               {/* Notifications */}
               <div>
                 <h3 className={`text-sm font-semibold mb-3 ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
-                  🔔 {label.notifications}
+                  {label.notifications}
                 </h3>
                 <div className={`p-4 rounded-xl border space-y-4 ${isDark ? 'bg-slate-900 border-slate-700' : 'bg-gray-50 border-gray-200'}`}>
                   {/* Enable Notifications */}
@@ -163,7 +162,7 @@ export default function Settings({ language }: SettingsProps) {
                       {/* Notification Time */}
                       <div>
                         <label className={`block text-sm font-medium mb-2 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-                          ⏰ {label.notificationTime}
+                          {label.notificationTime}
                         </label>
                         <input
                           type="time"
@@ -180,7 +179,7 @@ export default function Settings({ language }: SettingsProps) {
                       {/* Sound Selection */}
                       <div>
                         <label className={`block text-sm font-medium mb-2 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-                          🔊 {label.sound}
+                          {label.sound}
                         </label>
                         <div className="grid grid-cols-2 gap-2">
                           {sounds.map((sound) => (
@@ -197,7 +196,7 @@ export default function Settings({ language }: SettingsProps) {
                                   : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
                               }`}
                             >
-                              {sound.emoji} {sound.name}
+                              {sound.name}
                             </button>
                           ))}
                         </div>
@@ -209,7 +208,7 @@ export default function Settings({ language }: SettingsProps) {
                               : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
                           }`}
                         >
-                          🔊 {label.testSound}
+                          {label.testSound}
                         </button>
                       </div>
                     </>

@@ -112,11 +112,11 @@ export default function AudioPlayer({ arabicText, language }: AudioPlayerProps) 
   if (!isSupported) {
     return (
       <div className={`mt-4 p-3 rounded-xl text-center text-sm ${isDark ? 'bg-slate-800 text-gray-400' : 'bg-gray-50 text-gray-500'}`}>
-        {language === 'en' ? '🔇 Audio not supported on this device' :
-         language === 'ar' ? '🔇 الصوت غير مدعوم على هذا الجهاز' :
-         language === 'ta' ? '🔇 இந்த சாதனத்தில் ஆடியோ ஆதரிக்கப்படவில்லை' :
-         language === 'ml' ? '🔇 ഈ ഉപകരണത്തിൽ ഓഡിയോ പിന്തുണയ്ക്കുന്നില്ല' :
-         '🔇 Audio not supported'}
+        {language === 'en' ? 'Audio not supported on this device' :
+         language === 'ar' ? 'الصوت غير مدعوم على هذا الجهاز' :
+         language === 'ta' ? 'இந்த சாதனத்தில் ஆடியோ ஆதரிக்கப்படவில்லை' :
+         language === 'ml' ? 'ഈ ഉപകരണത്തിൽ ഓഡിയോ പിന്തുണയ്ക്കുന്നില്ല' :
+         'Audio not supported'}
       </div>
     );
   }
@@ -143,7 +143,7 @@ export default function AudioPlayer({ arabicText, language }: AudioPlayerProps) 
     <div className={`mt-4 p-4 rounded-xl border ${isDark ? 'bg-slate-800 border-slate-700' : 'bg-gray-50 border-gray-200'}`}>
       <div className="flex items-center justify-between mb-3">
         <span className={`text-xs font-medium ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
-          🎧 {label.listen}
+          {label.listen}
         </span>
         <div className="flex items-center gap-2">
           <button
@@ -201,7 +201,7 @@ export default function AudioPlayer({ arabicText, language }: AudioPlayerProps) 
 
       <button
         onClick={togglePlay}
-        className={`w-full py-3 px-4 rounded-lg font-medium transition-all flex items-center justify-center gap-2 ${
+        className={`w-full py-3 px-4 rounded-lg font-medium transition-all text-center ${
           isPlaying
             ? isDark
               ? 'bg-red-600 hover:bg-red-700 text-white'
@@ -211,24 +211,7 @@ export default function AudioPlayer({ arabicText, language }: AudioPlayerProps) 
             : 'bg-emerald-500 hover:bg-emerald-600 text-white'
         }`}
       >
-        {isPlaying ? (
-          <>
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zM7 8a1 1 0 012 0v4a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v4a1 1 0 102 0V8a1 1 0 00-1-1z" clipRule="evenodd" />
-            </svg>
-            <span>{label.pause}</span>
-            <div className="audio-wave ml-2">
-              <span></span><span></span><span></span><span></span><span></span>
-            </div>
-          </>
-        ) : (
-          <>
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
-            </svg>
-            <span>{label.play}</span>
-          </>
-        )}
+        {isPlaying ? label.pause : label.play}
       </button>
 
       <p className={`text-xs mt-2 text-center ${isDark ? 'text-gray-500' : 'text-gray-400'}`}>

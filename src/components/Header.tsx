@@ -13,11 +13,11 @@ export default function Header({
   bookmarksCount,
 }: {
   language: string;
-  languages: { code: string; name: string; flag: string }[];
+  languages: { code: string; name: string }[];
   showLanguageMenu: boolean;
   setShowLanguageMenu: (v: boolean) => void;
   setLanguage: (code: any) => void;
-  currentLanguage: { code: string; name: string; flag: string };
+  currentLanguage: { code: string; name: string };
   onSettingsClick: () => void;
   viewMode: 'categories' | 'bookmarks';
   setViewMode: (mode: 'categories' | 'bookmarks') => void;
@@ -48,19 +48,16 @@ export default function Header({
     'ഓരോ സന്ദർഭത്തിനുമുള്ള ആധികാരികമായ പ്രാർത്ഥനകൾ';
 
   return (
-    <header className={`sticky top-0 z-50 backdrop-blur-xl border-b shadow-sm transition-colors ${
+    <header className={`sticky top-0 z-50 backdrop-blur-xl border-b border-t-2 border-amber-400/80 shadow-sm transition-colors ${
       isDark ? 'bg-slate-900/80 border-slate-800' : 'bg-white/80 border-gray-100'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo & Title */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-400 to-teal-600 flex items-center justify-center shadow-lg shadow-emerald-200">
-              <span className="text-white text-lg">🤲</span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className={`text-lg font-bold ${isDark ? 'text-white' : 'text-gray-900'}`}>{title}</h1>
-              <p className={`text-xs ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>{subtitle}</p>
+            <div className="min-w-0">
+              <h1 className={`truncate text-sm sm:text-lg font-bold ${isDark ? 'text-white' : 'text-gray-900'}`}>{title}</h1>
+              <p className={`hidden sm:block text-xs ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>{subtitle}</p>
             </div>
           </div>
 
@@ -76,7 +73,7 @@ export default function Header({
                     : isDark ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'
                 }`}
               >
-                📚 {language === 'en' ? 'Categories' : language === 'ar' ? 'الفئات' : language === 'ur' ? 'زمرہ جات' : language === 'fr' ? 'Catégories' : language === 'tr' ? 'Kategoriler' : language === 'id' ? 'Kategori' : language === 'bn' ? 'বিভাগ' : language === 'ms' ? 'Kategori' : language === 'ta' ? 'வகைகள்' : 'വിഭാഗങ്ങൾ'}
+                {language === 'en' ? 'Categories' : language === 'ar' ? 'الفئات' : language === 'ur' ? 'زمرہ جات' : language === 'fr' ? 'Catégories' : language === 'tr' ? 'Kategoriler' : language === 'id' ? 'Kategori' : language === 'bn' ? 'বিভাগ' : language === 'ms' ? 'Kategori' : language === 'ta' ? 'வகைகள்' : 'വിഭാഗങ്ങൾ'}
               </button>
               <button
                 onClick={() => setViewMode('bookmarks')}
@@ -86,7 +83,7 @@ export default function Header({
                     : isDark ? 'text-gray-400 hover:text-white' : 'text-gray-600 hover:text-gray-900'
                 }`}
               >
-                📑 {language === 'en' ? 'Saved' : language === 'ar' ? 'المحفوظة' : language === 'ur' ? 'محفوظ' : language === 'fr' ? 'Enregistrés' : language === 'tr' ? 'Kaydedilen' : language === 'id' ? 'Tersimpan' : language === 'bn' ? 'সংরক্ষিত' : language === 'ms' ? 'Disimpan' : language === 'ta' ? 'சேமிக்கப்பட்டவை' : 'സേവ് ചെയ്തവ'}
+                {language === 'en' ? 'Saved' : language === 'ar' ? 'المحفوظة' : language === 'ur' ? 'محفوظ' : language === 'fr' ? 'Enregistrés' : language === 'tr' ? 'Kaydedilen' : language === 'id' ? 'Tersimpan' : language === 'bn' ? 'সংরক্ষিত' : language === 'ms' ? 'Disimpan' : language === 'ta' ? 'சேமிக்கப்பட்டவை' : 'സേവ് ചെയ്തവ'}
                 {bookmarksCount > 0 && (
                   <span className={`text-xs px-1.5 py-0.5 rounded-full ${
                     viewMode === 'bookmarks'
@@ -106,6 +103,7 @@ export default function Header({
                 isDark ? 'bg-slate-800 hover:bg-slate-700 text-yellow-400' : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
               }`}
               title={isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+              aria-label={isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
             >
               {isDark ? (
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -121,6 +119,7 @@ export default function Header({
             {/* Settings Button */}
             <button
               onClick={onSettingsClick}
+              aria-label="Settings"
               className={`w-10 h-10 rounded-lg flex items-center justify-center transition-colors ${
                 isDark ? 'bg-slate-800 hover:bg-slate-700 text-gray-300' : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
               }`}
@@ -142,11 +141,7 @@ export default function Header({
                     : 'bg-gray-50 hover:bg-gray-100 border-gray-200'
                 }`}
               >
-                <span className="text-lg">{currentLanguage.flag}</span>
-                <span className={`text-sm font-medium hidden sm:inline ${isDark ? 'text-gray-200' : 'text-gray-700'}`}>{currentLanguage.name}</span>
-                <svg className={`w-4 h-4 transition-transform ${showLanguageMenu ? 'rotate-180' : ''} ${isDark ? 'text-gray-400' : 'text-gray-500'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
+                <span className={`text-xs sm:text-sm font-medium ${isDark ? 'text-gray-200' : 'text-gray-700'}`}>{currentLanguage.name}</span>
               </button>
 
               {showLanguageMenu && (
@@ -168,13 +163,7 @@ export default function Header({
                             : isDark ? 'text-gray-300 hover:bg-slate-700' : 'text-gray-700 hover:bg-gray-50'
                         }`}
                       >
-                        <span className="text-lg">{lang.flag}</span>
                         <span className="text-sm font-medium">{lang.name}</span>
-                        {language === lang.code && (
-                          <svg className="w-4 h-4 ml-auto text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                          </svg>
-                        )}
                       </button>
                     ))}
                   </div>
