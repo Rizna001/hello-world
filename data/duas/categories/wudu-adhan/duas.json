@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0.0",
   "category_id": "wudu-adhan",
-  "count": 4,
+  "count": 3,
   "duas": [
     {
       "id": "wa-1",
@@ -72,42 +72,6 @@
       "reference": {
         "source": "Muslim",
         "reference_text": "Muslim 1/209, Tirmidhi 1/78"
-      },
-      "repetition_count": 1
-    },
-    {
-      "id": "wa-3",
-      "category_id": "wudu-adhan",
-      "subcategory_id": null,
-      "order": 3,
-      "title": {
-        "en": "Response to Adhan",
-        "ar": "الإجابة للأذان",
-        "ur": "اذان کا جواب",
-        "fr": "Réponse à l'Appel",
-        "tr": "Ezana Cevap",
-        "id": "Menjawab Adzan",
-        "bn": "আযানের জবাব",
-        "ms": "Menjawab Azan",
-        "ta": "அழானுக்கு பதில்",
-        "ml": "അദാനിന് മറുപടി"
-      },
-      "arabic": "يَقُولُ مِثْلَ مَا يَقُولُ الْمُؤَذِّنُ إِلاَّ فِي التَّثْوِيبِ فَيَقُولُ: لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ",
-      "translation": {
-        "en": "Repeat what the mu'adhdhin says, except when he says 'Come to prayer' and 'Come to success', then say: There is no might nor power except with Allah.",
-        "ar": "يقول مثل ما يقول المؤذن إلا في التثويب فيقول: لا حول ولا قوة إلا بالله",
-        "ur": "جو مؤذن کہے وہی کہے سوائے حیعرتین کے تو لا حول ولا قوة إلا بالله کہے۔",
-        "fr": "Répète ce que dit le muezzin, sauf quand il dit 'Venez à la prière' et 'Venez au succès', alors dis: Il n'y a de puissance ni de force qu'en Allah.",
-        "tr": "Müezzin ne derse onu tekrar et, ancak 'Haydi namaza' ve 'Haydi kurtuluşa' dediğinde 'La havle vela kuvvete illa billah' de.",
-        "id": "Ucapkan seperti yang diucapkan muadzin kecuali pada tatswib maka ucapkan: Laa haula walaa quwwata illaa billaah.",
-        "bn": "মুয়াজ্জিন যা বলে তাই বলো, তবে 'সালাতের দিকে এসো' এবং 'সফলতার দিকে এসো' বললে বলো: আল্লাহ ছাড়া কোনো শক্তি ও ক্ষমতা নেই।",
-        "ms": "Ucapkan seperti yang diucapkan muazzin kecuali pada tatswib maka ucapkan: Laa haula walaa quwwata illaa billaah.",
-        "ta": "முஅத்தின் கூறுவதை நீயும் கூறு, 'தொழுகையை நோக்கி வாருங்கள்' மற்றும் 'வெற்றியை நோக்கி வாருங்கள்' என்று கூறும்போது தவிர, அப்போது 'அல்லாஹ்வைத் தவிர எந்த சக்தியும் வலிமையும் இல்லை' என்று கூறு.",
-        "ml": "മുഅദ്ദിൻ പറയുന്നത് പോലെ നീയും പറയുക, 'നമസ്കാരത്തിലേക്ക് വരിക' 'വിജയത്തിലേക്ക് വരിക' എന്ന് പറയുമ്പോൾ ഒഴികെ, അപ്പോൾ 'അല്ലാഹുവല്ലാതെ ഒരു ശക്തിയും കഴിവും ഇല്ല' എന്ന് പറയുക."
-      },
-      "reference": {
-        "source": "Bukhari",
-        "reference_text": "Bukhari 1/209, Muslim 1/288"
       },
       "repetition_count": 1
     },

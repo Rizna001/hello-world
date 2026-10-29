@@ -8,7 +8,7 @@
                       "api_index":  "/api/v1/index.json"
                   },
     "total_categories":  36,
-    "total_duas":  170,
+    "total_duas":  142,
     "supported_languages":  [
                                 {
                                     "code":  "en",
@@ -214,7 +214,7 @@
                            "name":  {
                                         "en":  "Wudu \u0026 Adhan"
                                     },
-                           "duas_count":  4
+                           "duas_count":  3
                        },
                        {
                            "id":  "laylatul-qadr",
@@ -312,7 +312,7 @@
                            "name":  {
                                         "en":  "Others"
                                     },
-                           "duas_count":  94
+                           "duas_count":  67
                        }
                    ],
     "sources":  [

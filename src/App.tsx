@@ -20,6 +20,7 @@ interface Dua {
   title: Record<string, string>;
   arabic: string;
   translation: Record<string, string>;
+  transliteration?: string;
   reference: string;
   times: number;
 }
@@ -36,6 +37,26 @@ interface Category {
 }
 
 type ViewMode = 'categories' | 'bookmarks';
+
+// Lower-cases and strips Arabic diacritics, Latin accents and apostrophe-like marks
+// so that "a'laa", "aalaa" style spellings and Arabic with/without harakat all match.
+const normalize = (s: string) =>
+  (s || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g, '')
+    .replace(/['’‘ʿʻ`]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+const duaSearchText = (dua: Dua) =>
+  normalize([
+    ...Object.values(dua.title || {}),
+    ...Object.values(dua.translation || {}),
+    dua.arabic,
+    dua.transliteration,
+    dua.reference,
+  ].filter(Boolean).join(' \n '));
 
 function AppContent() {
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
@@ -61,19 +82,37 @@ function AppContent() {
     .filter(category => category.duas.length > 0), []);
   const languages = duasData.languages;
 
+  const normalizedQuery = useMemo(() => normalize(searchQuery), [searchQuery]);
+  const isSearching = normalizedQuery.length > 0;
+
+  // Pre-computed searchable text for every dua (all categories, including "Others").
+  const searchIndex = useMemo(
+    () => categories.flatMap(category =>
+      category.duas.map(dua => ({ category, dua, text: duaSearchText(dua) }))
+    ),
+    [categories]
+  );
+
+  // Individual duas matching the query, across every category.
+  const searchResults = useMemo(() => {
+    if (!isSearching) return [];
+    return searchIndex.filter(item => item.text.includes(normalizedQuery));
+  }, [isSearching, normalizedQuery, searchIndex]);
+
+  // Categories whose own name matches the query.
   const filteredCategories = useMemo(() => {
-    if (!searchQuery.trim()) return categories;
-    const query = searchQuery.toLowerCase();
-    return categories.filter(cat => {
-      const catName = cat.name[language] || cat.name.en;
-      if (catName.toLowerCase().includes(query)) return true;
-      return cat.duas.some(dua => {
-        const title = dua.title[language] || dua.title.en;
-        const translation = dua.translation[language] || dua.translation.en;
-        return title.toLowerCase().includes(query) || translation.toLowerCase().includes(query);
-      });
-    });
-  }, [searchQuery, categories, language]);
+    if (!isSearching) return categories;
+    return categories.filter(cat =>
+      normalize(Object.values(cat.name).join(' ')).includes(normalizedQuery)
+    );
+  }, [isSearching, normalizedQuery, categories]);
+
+  // Inside an open category, narrow the list by the search text too.
+  const visibleCategoryDuas = useMemo(() => {
+    if (!selectedCategory) return [];
+    if (!isSearching) return selectedCategory.duas;
+    return selectedCategory.duas.filter(dua => duaSearchText(dua).includes(normalizedQuery));
+  }, [selectedCategory, isSearching, normalizedQuery]);
 
   const currentLanguage = languages.find(l => l.code === language) || languages[0];
 
@@ -127,7 +166,7 @@ function AppContent() {
         <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} language={language} />
 
         {/* View Mode Toggle */}
-        {viewMode === 'categories' && !selectedCategory && !selectedDua && (
+        {viewMode === 'categories' && !selectedCategory && !selectedDua && !isSearching && (
           <div className="mb-8 text-center">
             <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
               {bannerText[language as keyof typeof bannerText] || bannerText.en}
@@ -136,14 +175,14 @@ function AppContent() {
         )}
 
         {/* Dua Reminder */}
-        {viewMode === 'categories' && !selectedCategory && !selectedDua && (
+        {viewMode === 'categories' && !selectedCategory && !selectedDua && !isSearching && (
           <div className="mb-8">
             <DuaReminder language={language} duas={categories.flatMap(category => category.duas)} />
           </div>
         )}
 
         {/* Categories Grid */}
-        {viewMode === 'categories' && !selectedCategory && !selectedDua && (
+        {viewMode === 'categories' && !selectedCategory && !selectedDua && filteredCategories.length > 0 && (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {filteredCategories.map((category) => (
               <CategoryCard
@@ -153,6 +192,42 @@ function AppContent() {
                 onClick={() => setSelectedCategory(category)}
               />
             ))}
+          </div>
+        )}
+
+        {/* Search results: individual duas from every category (including Others) */}
+        {viewMode === 'categories' && !selectedCategory && !selectedDua && isSearching && (
+          <div className={filteredCategories.length > 0 ? 'mt-8' : ''}>
+            <h2 className={`text-lg font-semibold mb-4 ${isDark ? 'text-white' : 'text-gray-800'}`}>
+              {language === 'ar' ? 'نتائج الأدعية' : language === 'ur' ? 'دعاؤں کے نتائج' : language === 'fr' ? 'Résultats' : 'Dua results'} ({searchResults.length})
+            </h2>
+            {searchResults.length === 0 ? (
+              <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
+                {language === 'ar' ? 'لا توجد نتائج' : language === 'ur' ? 'کوئی نتیجہ نہیں ملا' : language === 'fr' ? 'Aucun résultat' : 'No duas found'}
+              </p>
+            ) : (
+              <div className="space-y-3">
+                {searchResults.map(({ category, dua }) => (
+                  <div
+                    key={`${category.id}-${dua.id}`}
+                    onClick={() => { setSelectedCategory(category); setSelectedDua(dua); }}
+                    className={`${isDark ? 'bg-slate-800 border-slate-700 hover:border-slate-600' : `${category.bg} ${category.border} hover:shadow-md`} border rounded-xl p-4 cursor-pointer transition-all duration-200`}
+                  >
+                    <div className="flex items-center justify-between gap-3 mb-1">
+                      <h3 className={`font-semibold ${isDark ? 'text-white' : category.text}`}>
+                        {dua.title[language] || dua.title.en}
+                      </h3>
+                      <span className={`text-xs px-2 py-0.5 rounded-full whitespace-nowrap ${isDark ? 'bg-slate-700 text-gray-300' : 'bg-white/80 text-gray-500'}`}>
+                        {category.name[language] || category.name.en}
+                      </span>
+                    </div>
+                    <p className={`${isDark ? 'text-gray-400' : 'text-gray-600'} text-sm line-clamp-2`}>
+                      {dua.translation[language] || dua.translation.en}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         )}
 
@@ -188,13 +263,13 @@ function AppContent() {
             <div className={`rounded-2xl p-6 mb-6 bg-gradient-to-r ${selectedCategory.gradient} text-white shadow-lg`}>
               <div>
                 <h2 className="text-2xl font-bold">{selectedCategory.name[language] || selectedCategory.name.en}</h2>
-                <p className="text-white/80 text-sm">{selectedCategory.duas.length} {language === 'en' ? 'duas' : language === 'ar' ? 'دعاء' : language === 'ur' ? 'دعائیں' : language === 'fr' ? 'duas' : language === 'tr' ? 'dua' : language === 'id' ? 'doa' : language === 'bn' ? 'দোয়া' : language === 'ms' ? 'doa' : language === 'ta' ? 'துஆ' : 'ദുആ'}</p>
+                <p className="text-white/80 text-sm">{visibleCategoryDuas.length} {language === 'en' ? 'duas' : language === 'ar' ? 'دعاء' : language === 'ur' ? 'دعائیں' : language === 'fr' ? 'duas' : language === 'tr' ? 'dua' : language === 'id' ? 'doa' : language === 'bn' ? 'দোয়া' : language === 'ms' ? 'doa' : language === 'ta' ? 'துஆ' : 'ദുആ'}</p>
               </div>
             </div>
 
             {/* Duas List */}
             <div className="space-y-4">
-              {selectedCategory.duas.map((dua, index) => (
+              {visibleCategoryDuas.map((dua, index) => (
                 <div
                   key={dua.id}
                   onClick={() => setSelectedDua(dua)}

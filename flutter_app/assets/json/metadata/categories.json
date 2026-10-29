@@ -461,7 +461,7 @@
                                     },
                            "parent_id":  null,
                            "order":  22,
-                           "item_count":  4,
+                           "item_count":  3,
                            "metadata_file":  "data/duas/categories/wudu-adhan/metadata.json",
                            "data_file":  "data/duas/categories/wudu-adhan/duas.json"
                        },
@@ -755,7 +755,7 @@
                                     },
                            "parent_id":  null,
                            "order":  36,
-                           "item_count":  94,
+                           "item_count":  67,
                            "metadata_file":  "data/duas/categories/Others/metadata.json",
                            "data_file":  "data/duas/categories/Others/duas.json"
                        },
