@@ -1,0 +1,115 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "knowledge",
+  "count": 3,
+  "duas": [
+    {
+      "id": "knw-1",
+      "category_id": "knowledge",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Dua for Knowledge",
+        "ar": "دعاء العلم",
+        "ur": "علم کی دعا",
+        "fr": "Doua pour la Connaissance",
+        "tr": "Ä°lim DuasÄ±",
+        "id": "Doa Memohon Ilmu",
+        "bn": "জ্ঞানের দোয়া",
+        "ms": "Doa Memohon Ilmu",
+        "ta": "அறிவுக்கான துஆ",
+        "ml": "അറിവിനുള്ള ദുആ"
+      },
+      "arabic": "رَبِّ زِدْنِي عِلْمًا",
+      "translation": {
+        "en": "My Lord, increase me in knowledge.",
+        "ar": "رب زدني علما",
+        "ur": "اے میرے رب! میرے علم میں اضافہ فرما۔",
+        "fr": "Mon Seigneur, augmente-moi en savoir.",
+        "tr": "Rabbim! Ä°lmimi artÄ±r.",
+        "id": "Tuhanku, tambahkanlah ilmu kepadaku.",
+        "bn": "হে আমার রব, আমার জ্ঞান বৃদ্ধি করো।",
+        "ms": "Tuhanku, tambahkanlah ilmu kepadaku.",
+        "ta": "என் இறைவா! எனக்கு அறிவை அதிகரிப்பாயாக.",
+        "ml": "എന്റെ രക്ഷിതാവേ, എനിക്ക് അറിവ് വർധിപ്പിച്ചുതരണമേ."
+      },
+      "reference": {
+        "source": "Quran",
+        "reference_text": "Quran 20:114"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "knw-2",
+      "category_id": "knowledge",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "Dua for Beneficial Knowledge",
+        "ar": "دعاء العلم النافع",
+        "ur": "نفع بخش علم کی دعا",
+        "fr": "Doua pour un Savoir Utile",
+        "tr": "FaydalÄ± Ä°lim DuasÄ±",
+        "id": "Doa Ilmu yang Bermanfaat",
+        "bn": "উপকারী জ্ঞানের দোয়া",
+        "ms": "Doa Ilmu yang Bermanfaat",
+        "ta": "பயனுள்ள அறிவுக்கான துஆ",
+        "ml": "പ്രയോജനകരമായ അറിവിനുള്ള ദുആ"
+      },
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً",
+      "translation": {
+        "en": "O Allah, I ask You for beneficial knowledge, good provision, and accepted deeds.",
+        "ar": "اللهم إني أسألك علما نافعا ورزقا طيبا وعملا متقبلا",
+        "ur": "اے اللہ! میں تجھ سے نفع بخش علم، پاکیزہ رزق اور قبول شدہ عمل مانگتا ہوں۔",
+        "fr": "Ô Allah, je Te demande un savoir utile, une bonne subsistance et des œuvres acceptées.",
+        "tr": "Allah'ım! Senden faydalı ilim, güzel rızık ve kabul edilmiş amel istiyorum.",
+        "id": "Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang baik, dan amal yang diterima.",
+        "bn": "হে আল্লাহ, আমি তোমার কাছে উপকারী জ্ঞান, ভালো রিযিক এবং কবুল আমল চাই।",
+        "ms": "Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang baik, dan amal yang diterima.",
+        "ta": "இறைவா! பயனுள்ள அறிவு, நல்ல உபஜீவனம், ஏற்றுக்கொள்ளப்படும் செயல்களை உம்மிடம் கேட்கிறேன்.",
+        "ml": "അല്ലാഹുവേ, പ്രയോജനകരമായ അറിവ്, നല്ല ഉപജീവനം, അംഗീകരിക്കപ്പെട്ട പ്രവൃത്തികൾ എന്നിവ ഞാൻ നിന്നോട് ചോദിക്കുന്നു."
+      },
+      "reference": {
+        "source": "Ibn",
+        "reference_text": "Ibn Majah 1/250"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "knw-3",
+      "category_id": "knowledge",
+      "subcategory_id": null,
+      "order": 3,
+      "title": {
+        "en": "Before Studying/Exam",
+        "ar": "قبل الدراسة/الامتحان",
+        "ur": "مطالعہ/امتحان سے پہلے",
+        "fr": "Avant d'Étudier/Examen",
+        "tr": "Ders/İmtihan Öncesi",
+        "id": "Sebelum Belajar/Ujian",
+        "bn": "পড়াশোনা/পরীক্ষার আগে",
+        "ms": "Sebelum Belajar/Peperiksaan",
+        "ta": "படிப்பு/தேர்வுக்கு முன்",
+        "ml": "പഠനം/പരീക്ഷയ്ക്ക് മുമ്പ്"
+      },
+      "arabic": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي يَفْقَهُوا قَوْلِي",
+      "translation": {
+        "en": "My Lord, expand for me my chest, and ease for me my task, and untie the knot from my tongue that they may understand my speech.",
+        "ar": "رب اشرح لي صدري ويسر لي أمري واحلل عقدة من لساني يفقهوا قولي",
+        "ur": "اے میرے رب! میرا سینہ کھول دے، میرا کام آسان کر دے اور میری زبان کی گرہ کھول دے تاکہ وہ میری بات سمجھ سکیں۔",
+        "fr": "Mon Seigneur, ouvre-moi la poitrine, facilite-moi la tâche et dénoue le nœud de ma langue afin qu'ils comprennent mes paroles.",
+        "tr": "Rabbim! Göğsümü aç, işimi kolaylaştır ve dilimdeki düğümü çöz ki sözümü anlasınlar.",
+        "id": "Tuhanku, lapangkanlah dadaku, mudahkanlah urusanku, dan lepaskanlah kekakuan dari lisanku agar mereka mengerti perkataanku.",
+        "bn": "হে আমার রব, আমার বুক প্রশস্ত করো, আমার কাজ সহজ করো এবং আমার জিহ্বার গ্রন্থি খুলে দাও যাতে তারা আমার কথা বুঝতে পারে।",
+        "ms": "Tuhanku, lapangkanlah dadaku, mudahkanlah urusanku, dan lepaskanlah kekakuan dari lisanku agar mereka mengerti perkataanku.",
+        "ta": "என் இறைவா! என் மார்பை விரிவாக்குவாயாக, எனக்கு என் காரியத்தை எளிதாக்குவாயாக, என் நாவின் முடிச்சை அவிழ்ப்பாயாக, அவர்கள் என் பேச்சை புரிந்துகொள்ள.",
+        "ml": "എന്റെ രക്ഷിതാവേ, എന്റെ നെഞ്ച് വിശാലമാക്കണമേ, എന്റെ കാര്യം എളുപ്പമാക്കണമേ, എന്റെ നാക്കിലെ മുണ്ട് അഴിച്ചുതരണമേ, അവർ എന്റെ വാക്ക് മനസ്സിലാക്കാൻ."
+      },
+      "reference": {
+        "source": "Quran",
+        "reference_text": "Quran 20:25-28"
+      },
+      "repetition_count": 1
+    }
+  ]
+}

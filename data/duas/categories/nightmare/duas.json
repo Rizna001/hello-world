@@ -1,0 +1,43 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "nightmare",
+  "count": 1,
+  "duas": [
+    {
+      "id": "nm-1",
+      "category_id": "nightmare",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "When Seeing a Bad Dream",
+        "ar": "عند رؤية حلم سيئ",
+        "ur": "برا خواب دیکھنے پر",
+        "fr": "En Voyant un Mauvais Rêve",
+        "tr": "Kötü Rüya Görünce",
+        "id": "Saat Melihat Mimpi Buruk",
+        "bn": "খারাপ স্বপ্ন দেখলে",
+        "ms": "Apabila Melihat Mimpi Buruk",
+        "ta": "கெட்ட கனவு காணும்போது",
+        "ml": "മോശം സ്വപ്നം കാണുമ്പോൾ"
+      },
+      "arabic": "أَعُوذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ غَضَبِهِ وَعِقَابِهِ وَشَرِّ عِبَادِهِ، وَمِنْ هَمَزَاتِ الشَّيَاطِينِ وَأَنْ يَحْضُرُونِ",
+      "translation": {
+        "en": "I seek refuge in the perfect words of Allah from His anger, His punishment, the evil of His servants, from the whisperings of the devils and from their presence.",
+        "ar": "أعوذ بكلمات الله التامات من غضبه وعقابه وشر عباده، ومن همزات الشياطين وأن يحضرون",
+        "ur": "میں اللہ کے کامل کلمات کی پناہ مانگتا ہوں اس کے غضب سے، اس کے عذاب سے، اس کے بندوں کے شر سے، شیاطین کے وسوسوں سے اور ان کے حاضر ہونے سے۔",
+        "fr": "Je cherche refuge dans les paroles parfaites d'Allah contre Sa colère, Son châtiment, le mal de Ses serviteurs, les chuchotements des démons et leur présence.",
+        "tr": "Allah'ın mükemmel kelimelerine O'nun gazabından, azabından, kullarının şerrinden, şeytanların vesveselerinden ve onların hazır bulunmalarından sığınırım.",
+        "id": "Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari murka-Nya, siksa-Nya, kejahatan hamba-hamba-Nya, dari bisikan-bisikan setan dan kehadiran mereka.",
+        "bn": "আমি আল্লাহর পূর্ণাঙ্গ বাক্যসমূহে আশ্রয় চাই তাঁর ক্রোধ থেকে, তাঁর শাস্তি থেকে, তাঁর বান্দাদের অনিষ্ট থেকে, শয়তানদের কুচকি থেকে এবং তাদের উপস্থিতি থেকে।",
+        "ms": "Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari murka-Nya, siksa-Nya, kejahatan hamba-hamba-Nya, dari bisikan-bisikan syaitan dan kehadiran mereka.",
+        "ta": "அல்லாஹ்வின் முழுமையான வார்த்தைகளில் அவனது கோபத்திலிருந்தும், அவனது தண்டனையிலிருந்தும், அவனது அடிமைகளின் தீமையிலிருந்தும், ஷைத்தான்களின் சலசலப்புகளிலிருந்தும் மற்றும் அவர்களின் சமூகத்திலிருந்தும் நான் புகலளிக்கிறேன்.",
+        "ml": "അല്ലാഹുവിന്റെ പൂർണമായ വാക്കുകളിൽ അവന്റെ കോപത്തിൽനിന്നും അവന്റെ ശിക്ഷയിൽനിന്നും അവന്റെ ദാസന്മാരുടെ തിന്മയിൽനിന്നും പിശാചുക്കളുടെ മന്ത്രണങ്ങളിൽനിന്നും അവരുടെ സാന്നിധ്യത്തിൽനിന്നും ഞാൻ അഭയം തേടുന്നു."
+      },
+      "reference": {
+        "source": "Abu",
+        "reference_text": "Abu Dawud 4/123"
+      },
+      "repetition_count": 3
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "debt-poverty",
+  "count": 2,
+  "duas": [
+    {
+      "id": "dp-1",
+      "category_id": "debt-poverty",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Dua for Paying Off Debt",
+        "ar": "دعاء قضاء الدين",
+        "ur": "قرض ادا کرنے کی دعا",
+        "fr": "Doua pour Payer la Dette",
+        "tr": "Borç Ödeme Duası",
+        "id": "Doa Melunasi Hutang",
+        "bn": "ঋণ পরিশোধের দোয়া",
+        "ms": "Doa Melunaskan Hutang",
+        "ta": "கடனை தீர்க்கும் துஆ",
+        "ml": "കടം വീട്ടാനുള്ള ദുആ"
+      },
+      "arabic": "اللَّهُمَّ اكْفِنِي بِحَلاَلِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+      "translation": {
+        "en": "O Allah, suffice me with what You have made lawful over what You have made unlawful, and enrich me by Your grace over anyone other than You.",
+        "ar": "اللهم اكفني بحلالك عن حرامك وأغنني بفضلك عمن سواك",
+        "ur": "اے اللہ! مجھے اپنے حلال سے اپنے حرام سے بے نیاز کر دے اور اپنے فضل سے اپنے سوا ہر ایک سے بے نیاز کر دے۔",
+        "fr": "Ô Allah, suffis-moi par ce que Tu as rendu licite de ce que Tu as rendu illicite, et enrichis-moi par Ta grâce de quiconque autre que Toi.",
+        "tr": "Allah'Ä±m! Haram kÄ±ldÄ±klarÄ±ndan helal kÄ±ldÄ±klarÄ±nla beni koru ve fazlÄ±nla Senden baÅŸkasÄ±ndan beni zengin kÄ±l.",
+        "id": "Ya Allah, cukupkanlah aku dengan yang halal dari-Mu dari yang haram dari-Mu, dan kayakanlah aku dengan karunia-Mu dari selain Engkau.",
+        "bn": "হে আল্লাহ, তোমার হালাল দ্বারা তোমার হারাম থেকে আমাকে যথেষ্ট করো এবং তোমার অনুগ্রহ দ্বারা তোমার বাইরে অন্যদের থেকে আমাকে সমৃদ্ধ করো।",
+        "ms": "Ya Allah, cukupkanlah aku dengan yang halal dari-Mu dari yang haram dari-Mu, dan kayakanlah aku dengan kurnia-Mu dari selain Engkau.",
+        "ta": "இறைவா! உமது ஹராமிலிருந்து உமது ஹலாலால் எனக்கு போதுமானதாக இருப்பாயாக, மேலும் உமது அருளால் உம்மைத் தவிர மற்றவர்களிடமிருந்து எனனை செல்வமாக்குவாயாக.",
+        "ml": "അല്ലാഹുവേ, നിന്റെ ഹറാമിൽനിന്ന് നിന്റെ ഹലാൽകൊണ്ട് എന്നെ പര്യാപ്തനാക്കണമേ, നിന്റെ അനുഗ്രഹംകൊണ്ട് നിന്നല്ലാതെ മറ്റുള്ളവരിൽനിന്ന് എന്നെ സമ്പന്നനാക്കണമേ."
+      },
+      "reference": {
+        "source": "Tirmidhi",
+        "reference_text": "Tirmidhi 5/526"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "dp-2",
+      "category_id": "debt-poverty",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "Seeking Refuge from Debt",
+        "ar": "الاستعاذة من الدين",
+        "ur": "قرض سے پناہ",
+        "fr": "Chercher Refuge contre la Dette",
+        "tr": "Borçtan Korunma",
+        "id": "Berlindung dari Hutang",
+        "bn": "ঋণ থেকে আশ্রয়",
+        "ms": "Berlindung dari Hutang",
+        "ta": "கடனிலிருந்து புகலடைதல்",
+        "ml": "കടത്തിൽനിന്ന് അഭയം തേടുന്നു"
+      },
+      "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ",
+      "translation": {
+        "en": "O Allah, I seek refuge in You from anxiety and sorrow, weakness and laziness, miserliness and cowardice, the burden of debts and from being overpowered by men.",
+        "ar": "اللهم إني أعوذ بك من الهم والحزن والعجز والكسل والبخل والجبن وضلع الدين وغلبة الرجال",
+        "ur": "اے اللہ! میں تیری پناہ مانگتا ہوں فکر اور غم سے، کمزوری اور سستی سے، کنجوسی اور بزدلی سے، قرض کے بوجھ سے اور لوگوں کے غلبہ سے۔",
+        "fr": "Ô Allah, je cherche refuge auprès de Toi contre l'anxiété et le chagrin, la faiblesse et la paresse, l'avarice et la lâcheté, le fardeau des dettes et la domination des hommes.",
+        "tr": "Allah'ım! Sıkıntı ve üzüntüden, acizlik ve tembellikten, cimrilik ve korkaklıktan, borç yükünden ve insanların galibiyetinden Sana sığınırım.",
+        "id": "Ya Allah, aku berlindung kepada-Mu dari kecemasan dan kesedihan, kelemahan dan kemalasan, kekikiran dan kepengecutan, beban hutang dan dikuasai oleh manusia.",
+        "bn": "হে আল্লাহ, আমি চিন্তা ও দুঃখ, দুর্বলতা ও অলসতা, কার্পণ্য ও কাপুরুষতা, ঋণের বোঝা এবং মানুষের প্রাধান্য থেকে তোমার আশ্রয় চাই।",
+        "ms": "Ya Allah, aku berlindung kepada-Mu dari kebimbangan dan kesedihan, kelemahan dan kemalasan, kedekut dan pengecut, beban hutang dan dikuasai oleh manusia.",
+        "ta": "இறைவா! கவலை, துக்கம், பலவீனம், சோம்பல், கஞ்சத்தனம், கோழைத்தனம், கடன் சுமை மற்றும் மனிதர்களின் ஆதிக்கத்திலிருந்து உம்மிடம் புகலளிக்கிறேன்.",
+        "ml": "അല്ലാഹുവേ, വ്യാകുലത, ദുഃഖം, ദൗർബല്യം, മടിയ, പിശുക്ക്, ഭീരുത്വം, കടബാധ്യതയുടെ ഭാരം, മനുഷ്യരുടെ ആധിപത്യം എന്നിവയിൽനിന്ന് ഞാൻ നിന്നോട് അഭയം തേടുന്നു."
+      },
+      "reference": {
+        "source": "Bukhari",
+        "reference_text": "Bukhari 7/158"
+      },
+      "repetition_count": 1
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "children-newborn",
+  "count": 2,
+  "duas": [
+    {
+      "id": "cn-1",
+      "category_id": "children-newborn",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Dua for Newborn (Tahnik)",
+        "ar": "دعاء المولود الجديد",
+        "ur": "نومولود کے لیے دعا",
+        "fr": "Doua pour le Nouveau-né",
+        "tr": "Yeni Doğan İçin Dua",
+        "id": "Doa untuk Bayi Baru Lahir",
+        "bn": "নবজাতকের জন্য দোয়া",
+        "ms": "Doa untuk Bayi Baru Lahir",
+        "ta": "புதிய பிறப்புக்கான துஆ",
+        "ml": "നവജാതശിശുവിനുള്ള ദുആ"
+      },
+      "arabic": "بَارَكَ اللهُ لَكَ فِي الْمَوْهُوبِ لَكَ، وَشَكَرْتَ الْوَاهِبَ، وَبَلَغَ أَشُدَّهُ، وَرُزِقْتَ بِرَّهُ",
+      "translation": {
+        "en": "May Allah bless you in what He has given you, and may you thank the Giver, and may the child reach maturity, and may you be granted his righteousness.",
+        "ar": "بارك الله لك في الموهوب لك وشكرت الواهب وبلغ أشده ورزقت بره",
+        "ur": "اللہ تعالیٰ تمہیں جو عطا کیا ہے اس میں برکت دے، تم دینے والے کا شکر ادا کرو، وہ جوان ہو جائے اور تمہیں اس کی نیکی نصیب ہو۔",
+        "fr": "Qu'Allah te bénisse dans ce qu'Il t'a donné, et que tu remercies le Donateur, et que l'enfant atteigne la maturité, et que tu sois gratifié de sa piété.",
+        "tr": "Allah sana verdiği şeyde bereket versin, Verene şükredesin, çocuk erginliğe erişsin ve onun iyiliğine nail olasın.",
+        "id": "Semoga Allah memberkahimu dalam apa yang Dia berikan kepadamu, dan semoga engkau bersyukur kepada Pemberi, dan semoga anak mencapai kedewasaan, dan semoga engkau dikaruniai kebaikannya.",
+        "bn": "আল্লাহ তোমাকে যা দিয়েছেন তাতে বরকত দান করুন, তুমি দাতার শুকরিয়া আদায় করো, সে প্রাপ্তবয়স্ক হোক এবং তুমি তার নেকি লাভ করো।",
+        "ms": "Semoga Allah memberkatimu dalam apa yang Dia berikan kepadamu, dan semoga engkau bersyukur kepada Pemberi, dan semoga anak mencapai kedewasaan, dan semoga engkau dikurniakan kebaikannya.",
+        "ta": "அல்லாஹ் உமக்கு அளித்ததில் உமக்கு அருள்புரிவானாக, நீர் கொடுப்பவருக்கு நன்றி செலுத்துவீராக, அந்த குழந்தை பருவமடையட்டும், அவனது நன்மை உமக்கு கிடைக்கட்டும்.",
+        "ml": "അല്ലാഹു നിനക്ക് നൽകിയതിൽ നിനക്ക് അനുഗ്രഹം നൽകട്ടെ, നീ ദാതാവിന് നന്ദി പറയട്ടെ, കുഞ്ഞ് പക്വത പ്രാപിക്കട്ടെ, അവന്റെ നന്മ നിനക്ക് ലഭിക്കട്ടെ."
+      },
+      "reference": {
+        "source": "Ibn",
+        "reference_text": "Ibn Sunni, Amal al-Yawm"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "cn-2",
+      "category_id": "children-newborn",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "Dua for Righteous Children",
+        "ar": "دعاء للذرية الصالحة",
+        "ur": "نیک اولاد کی دعا",
+        "fr": "Doua pour une Descendance Pieuse",
+        "tr": "Salih Evlat DuasÄ±",
+        "id": "Doa Anak yang Saleh",
+        "bn": "সৎ সন্তানের দোয়া",
+        "ms": "Doa Anak yang Soleh",
+        "ta": "நல்ல பிள்ளைகளுக்கான துஆ",
+        "ml": "സദ്ഗുണമുള്ള മക്കൾക്കുള്ള ദുആ"
+      },
+      "arabic": "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلاَةِ وَمِنْ ذُرِّيَّتِي رَبَّنَا وَتَقَبَّلْ دُعَاءِ",
+      "translation": {
+        "en": "My Lord, make me an establisher of prayer, and from my descendants. Our Lord, and accept my supplication.",
+        "ar": "رب اجعلني مقيم الصلاة ومن ذريتي ربنا وتقبل دعاء",
+        "ur": "اے میرے رب! مجھے اور میری نسل سے نماز قائم کرنے والا بنا اور اے ہمارے رب! میری دعا قبول فرما۔",
+        "fr": "Mon Seigneur, fais de moi un établisseur de la prière, et de ma descendance. Notre Seigneur, et accepte ma supplication.",
+        "tr": "Rabbim! Beni ve neslimden namazÄ± dosdoÄŸru kÄ±lanlardan eyle. Rabbimiz! DuamÄ± kabul et.",
+        "id": "Tuhanku, jadikanlah aku dan keturunanku orang yang tetap mendirikan shalat. Ya Tuhan kami, perkenankanlah doaku.",
+        "bn": "হে আমার রব, আমাকে এবং আমার বংশধরদেরকে নামায় কায়েমকারী করো। হে আমাদের রব, আমার দোয়া কবুল করো।",
+        "ms": "Tuhanku, jadikanlah aku dan keturunanku orang yang tetap mendirikan solat. Ya Tuhan kami, perkenankanlah doaku.",
+        "ta": "என் இறைவா! என்னையும் என் சந்ததியையும் தொழுகையை நிலைநாட்டுபவர்களாக ஆக்குவாயாக. எங்கள் இறைவா, என் பிரார்த்தனையை ஏற்றுக்கொள்வாயாக.",
+        "ml": "എന്റെ രക്ഷിതാവേ, എന്നെയും എന്റെ സന്തതിയെയും നമസ്കാരം നിലനിർത്തുന്നവരാക്കണമേ. ഞങ്ങളുടെ രക്ഷിതാവേ, എന്റെ പ്രാർത്ഥന സ്വീകരിക്കണമേ."
+      },
+      "reference": {
+        "source": "Quran",
+        "reference_text": "Quran 14:40"
+      },
+      "repetition_count": 1
+    }
+  ]
+}

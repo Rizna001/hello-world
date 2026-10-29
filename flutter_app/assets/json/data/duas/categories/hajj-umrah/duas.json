@@ -1,0 +1,187 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "hajj-umrah",
+  "count": 5,
+  "duas": [
+    {
+      "id": "hu-1",
+      "category_id": "hajj-umrah",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Talbiyah",
+        "ar": "التلبية",
+        "ur": "تلبیہ",
+        "fr": "Talbiyah",
+        "tr": "Telbiye",
+        "id": "Talbiyah",
+        "bn": "তালবিয়াহ",
+        "ms": "Talbiyah",
+        "ta": "தல்பியா",
+        "ml": "തൽബിയ"
+      },
+      "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+      "translation": {
+        "en": "Here I am at Your service, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise and blessings are Yours, and all sovereignty, You have no partner.",
+        "ar": "لبيك اللهم لبيك، لبيك لا شريك لك لبيك، إن الحمد والنعمة لك والملك، لا شريك لك",
+        "ur": "میں حاضر ہوں اے اللہ! میں حاضر ہوں، تیرا کوئی شریک نہیں، میں حاضر ہوں، بے شک تمام تعریف اور نعمت تیرے لیے ہے اور بادشاہت تیری ہے، تیرا کوئی شریک نہیں۔",
+        "fr": "Me voici à Ton service, ô Allah, me voici. Me voici, Tu n'as pas d'associé, me voici. Certes, toute louange et grâce sont à Toi, ainsi que la souveraineté, Tu n'as pas d'associé.",
+        "tr": "Emrindeyim Allah'ım, emrindeyim. Emrindeyim, Senin ortağın yoktur, emrindeyim. Şüphesiz hamd, nimet ve mülk Sanadır, ortağın yoktur.",
+        "id": "Aku penuhi panggilan-Mu ya Allah, aku penuhi panggilan-Mu. Aku penuhi panggilan-Mu, tiada sekutu bagi-Mu, aku penuhi panggilan-Mu. Sesungguhnya segala puji, nikmat dan kerajaan adalah milik-Mu, tiada sekutu bagi-Mu.",
+        "bn": "আমি হাজির হলাম হে আল্লাহ! আমি হাজির হলাম। আমি হাজির হলাম, তোমার কোনো শরীক নেই, আমি হাজির হলাম। নিশ্চয়ই সমস্ত প্রশংসা, নেয়ামত ও কর্তৃত্ব তোমারই, তোমার কোনো শরীক নেই।",
+        "ms": "Aku penuhi panggilan-Mu ya Allah, aku penuhi panggilan-Mu. Aku penuhi panggilan-Mu, tiada sekutu bagi-Mu, aku penuhi panggilan-Mu. Sesungguhnya segala puji, nikmat dan kerajaan adalah milik-Mu, tiada sekutu bagi-Mu.",
+        "ta": "நான் உமக்கு பதிலளிக்கிறேன் இறைவா, நான் பதிலளிக்கிறேன். நான் பதிலளிக்கிறேன், உமக்கு இணையில்லை, நான் பதிலளிக்கிறேன். நிச்சயமாக எல்லா புகழும், அருளும், ஆளுகையும் உமக்கே, உமக்கு இணையில்லை.",
+        "ml": "ഞാൻ നിന്റെ വിളിക്ക് ഉത്തരം നൽകുന്നു അല്ലാഹുവേ, ഞാൻ ഉത്തരം നൽകുന്നു. ഞാൻ ഉത്തരം നൽകുന്നു, നിനക്ക് പങ്കാളികളില്ല, ഞാൻ ഉത്തരം നൽകുന്നു. തീർച്ചയായും എല്ലാ സ്തുതിയും അനുഗ്രഹവും ആധിപത്യവും നിന്റേതാണ്, നിനക്ക് പങ്കാളികളില്ല."
+      },
+      "reference": {
+        "source": "Bukhari",
+        "reference_text": "Bukhari 2/20"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "hu-2",
+      "category_id": "hajj-umrah",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "When Seeing the Ka'bah",
+        "ar": "عند رؤية الكعبة",
+        "ur": "کعبہ دیکھنے پر",
+        "fr": "En Voyant la Ka'bah",
+        "tr": "Kabe'yi Görünce",
+        "id": "Saat Melihat Ka'bah",
+        "bn": "কাবা দেখার সময়",
+        "ms": "Apabila Melihat Kaabah",
+        "ta": "கஃபாவை காணும்போது",
+        "ml": "കഅ്ബ കാണുമ്പോൾ"
+      },
+      "arabic": "اللَّهُمَّ زِدْ هَٰذَا الْبَيْتَ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَمَهَابَةً",
+      "translation": {
+        "en": "O Allah, increase this House in honor, greatness, nobility and reverence.",
+        "ar": "اللهم زد هذا البيت تشريفا وتعظيما وتكريما ومهابة",
+        "ur": "اے اللہ! اس گھر کی عزت، عظمت، کرامت اور ہیبت میں اضافہ فرما۔",
+        "fr": "Ô Allah, augmente cette Maison en honneur, grandeur, noblesse et révérence.",
+        "tr": "Allah'ım! Bu evin şeref, büyüklük, ikram ve heybetini artır.",
+        "id": "Ya Allah, tambahkanlah kehormatan, keagungan, kemuliaan dan kebesaran rumah ini.",
+        "bn": "হে আল্লাহ, এই ঘরের সম্মান, মহত্ত্ব, মর্যাদা ও ভীতি বৃদ্ধি করো।",
+        "ms": "Ya Allah, tambahkanlah kehormatan, keagungan, kemuliaan dan kebesaran rumah ini.",
+        "ta": "இறைவா! இந்த இல்லத்தின் மரியாதை, பெருமை, கௌரவம் மற்றும் பயபக்தியை அதிகரிப்பாயாக.",
+        "ml": "അല്ലാഹുവേ, ഈ ഗൃഹത്തിന്റെ ബഹുമാനവും മഹത്വവും ആദരവും ഭക്തിയും വർധിപ്പിക്കണമേ."
+      },
+      "reference": {
+        "source": "Traditional",
+        "reference_text": "Traditional"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "hu-3",
+      "category_id": "hajj-umrah",
+      "subcategory_id": null,
+      "order": 3,
+      "title": {
+        "en": "Between Rukn al-Yamani and Black Stone",
+        "ar": "بين الركن اليماني والحجر الأسود",
+        "ur": "رکن یمانی اور حجر اسود کے درمیان",
+        "fr": "Entre le Coin Yamani et la Pierre Noire",
+        "tr": "Rüknü'l-Yemani ile Hacerü'l-Esved Arasında",
+        "id": "Antara Rukun Yamani dan Hajar Aswad",
+        "bn": "রুকনুল ইয়ামানী ও হাজরে আসওয়াদের মধ্যে",
+        "ms": "Antara Rukun Yamani dan Hajar Aswad",
+        "ta": "ருக்னுல் யமானி மற்றும் ஹஜருல் அஸ்வத் இடையில்",
+        "ml": "റുക്നുൽ യമാനിയും ഹജറുൽ അസ്വദും ഇടയിൽ"
+      },
+      "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "translation": {
+        "en": "Our Lord, give us in this world that which is good and in the Hereafter that which is good, and protect us from the punishment of the Fire.",
+        "ar": "ربنا آتنا في الدنيا حسنة وفي الآخرة حسنة وقنا عذاب النار",
+        "ur": "اے ہمارے رب! ہمیں دنیا میں بھی بھلائی عطا فرما اور آخرت میں بھی بھلائی عطا فرما اور ہمیں آتش جہنم کے عذاب سے بچا۔",
+        "fr": "Notre Seigneur, donne-nous le bien dans ce monde et le bien dans l'au-delà, et protège-nous du châtiment du Feu.",
+        "tr": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver ve bizi ateş azabından koru.",
+        "id": "Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari siksa api neraka.",
+        "bn": "হে আমাদের রব, আমাদের দুনিয়াতেও কল্যাণ দাও এবং আখিরাতেও কল্যাণ দাও এবং আমাদের আগুনের শাস্তি থেকে রক্ষা করো।",
+        "ms": "Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari siksa api neraka.",
+        "ta": "எங்கள் இறைவா! இவ்வுலகில் நன்மையை அளிப்பாயாக, மறுமையில் நன்மையை அளிப்பாயாக, நரக வேதனையிலிருந்து எங்களை காப்பாற்றுவாயாக.",
+        "ml": "ഞങ്ങളുടെ രക്ഷിതാവേ, ഈ ലോകത്ത് നന്മയും പരലോകത്ത് നന്മയും ഞങ്ങൾക്ക് നൽകണമേ, നരകശിക്ഷയിൽനിന്ന് ഞങ്ങളെ സംരക്ഷിക്കണമേ."
+      },
+      "reference": {
+        "source": "Quran",
+        "reference_text": "Quran 2:201, Abu Dawud"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "hu-4",
+      "category_id": "hajj-umrah",
+      "subcategory_id": null,
+      "order": 4,
+      "title": {
+        "en": "At Safa and Marwah",
+        "ar": "عند الصفا والمروة",
+        "ur": "صفا اور مروہ پر",
+        "fr": "À Safa et Marwah",
+        "tr": "Safa ve Merve'de",
+        "id": "Di Safa dan Marwah",
+        "bn": "সাফা ও মারওয়ায়",
+        "ms": "Di Safa dan Marwah",
+        "ta": "ஸஃபா மற்றும் மர்வாவில்",
+        "ml": "സ്വഫാ-മർവയിൽ"
+      },
+      "arabic": "إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللهِ، أَبْدَأُ بِمَا بَدَأَ اللهُ بِهِ",
+      "translation": {
+        "en": "Indeed, Safa and Marwah are among the symbols of Allah. I begin with what Allah began with.",
+        "ar": "إن الصفا والمروة من شعائر الله، أبدأ بما بدأ الله به",
+        "ur": "بے شک صفا اور مروہ اللہ کی نشانیوں میں سے ہیں، میں اس چیز سے شروع کرتا ہوں جس سے اللہ نے شروع کیا۔",
+        "fr": "Certes, Safa et Marwah font partie des symboles d'Allah. Je commence par ce qu'Allah a commencé.",
+        "tr": "Şüphesiz Safa ve Merve Allah'ın şiarlarındandır. Allah'ın başladığıyla başlarım.",
+        "id": "Sesungguhnya Safa dan Marwah adalah sebagian dari syiar Allah. Aku mulai dengan apa yang Allah mulai.",
+        "bn": "নিশ্চয়ই সাফা ও মারওয়া আল্লাহর নিদর্শনসমূহের অন্তর্ভুক্ত। আমি সেই বিষয় দিয়ে শুরু করি যা দিয়ে আল্লাহ শুরু করেছেন।",
+        "ms": "Sesungguhnya Safa dan Marwah adalah sebahagian daripada syiar Allah. Aku mulakan dengan apa yang Allah mulakan.",
+        "ta": "நிச்சயமாக ஸஃபா மற்றும் மர்வா அல்லாஹ்வின் அடையாளங்களில் உள்ளன. அல்லாஹ் தொடங்கியதை நான் தொடங்குகிறேன்.",
+        "ml": "തീർച്ചയായും സ്വഫായും മർവയും അല്ലാഹുവിന്റെ ചിഹ്നങ്ങളിൽപ്പെട്ടതാണ്. അല്ലാഹു തുടങ്ങിയതിൽനിന്ന് ഞാൻ തുടങ്ങുന്നു."
+      },
+      "reference": {
+        "source": "Muslim",
+        "reference_text": "Muslim 2/889"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "hu-5",
+      "category_id": "hajj-umrah",
+      "subcategory_id": null,
+      "order": 5,
+      "title": {
+        "en": "At Arafat",
+        "ar": "بعرفة",
+        "ur": "عرفہ میں",
+        "fr": "À Arafat",
+        "tr": "Arafat'ta",
+        "id": "Di Arafah",
+        "bn": "আরাফাতে",
+        "ms": "Di Arafah",
+        "ta": "அரஃபாவில்",
+        "ml": "അറഫാത്തിൽ"
+      },
+      "arabic": "لاَ إِلَٰهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "translation": {
+        "en": "There is no god but Allah alone, without partner. To Him belongs the dominion and to Him belongs all praise, and He is over all things omnipotent.",
+        "ar": "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير",
+        "ur": "اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، بادشاہت اسی کی ہے اور تمام تعریف اسی کے لیے ہے اور وہ ہر چیز پر قادر ہے۔",
+        "fr": "Il n'y a de dieu qu'Allah seul, sans associé. À Lui appartient la royauté et à Lui appartient toute louange, et Il est Omnipotent sur toute chose.",
+        "tr": "Allah'tan başka ilah yoktur, O tektir, ortağı yoktur. Mülk O'nundur, hamd O'nadır ve O her şeye kadirdir.",
+        "id": "Tiada tuhan selain Allah Yang Maha Esa, tiada sekutu bagi-Nya. Bagi-Nya kerajaan dan bagi-Nya pujian, dan Dia Maha Kuasa atas segala sesuatu.",
+        "bn": "আল্লাহ ছাড়া কোনো ইলাহ নেই, তিনি একক, তাঁর কোনো শরীক নেই। কর্তৃত্ব তাঁরই এবং সমস্ত প্রশংসা তাঁরই এবং তিনি সব কিছুর উপর সর্বশক্তিমান।",
+        "ms": "Tiada Tuhan selain Allah Yang Maha Esa, tiada sekutu bagi-Nya. Bagi-Nya kerajaan dan bagi-Nya pujian, dan Dia Maha Kuasa atas segala sesuatu.",
+        "ta": "அல்லாஹ் தவிர வணக்கத்திற்குரியவர் இல்லை, அவன் ஒற்றையானவன், அவனுக்கு இணையில்லை. ஆளுகை அவனுக்கே, புகழ் அவனுக்கே, அவன் எல்லாப் பொருட்களின் மீதும் வல்லமையுள்ளவன்.",
+        "ml": "അല്ലാഹു അല്ലാതെ ആരാധനയർഹനായ ദൈവമില്ല, അവൻ ഒറ്റവനാണ്, അവന് പങ്കാളികളില്ല. ആധിപത്യം അവന്റേതാണ്, സ്തുതി അവന്റേതാണ്, അവൻ എല്ലാറ്റിന്മേലും സർവശക്തനാണ്."
+      },
+      "reference": {
+        "source": "Tirmidhi",
+        "reference_text": "Tirmidhi 5/504"
+      },
+      "repetition_count": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rabbana-duas",
+  "name": {
+    "en": "40 Rabbana Duas",
+    "ta": "40 ரੱবና துஆக்கள்"
+  },
+  "description": {
+    "en": "Forty Quranic supplications that begin with 'Rabbana' (Our Lord), each with its verse reference.",
+    "ta": "'ரੱబ్ன' (எங்கள் இறைவா) எனத் தொடங்கும் 40 குர்ஆன் துஆக்கள், ஒவ்வொன்றையும் வசன ஆதாரத்துடன்."
+  },
+  "parent_id": null,
+  "order": 4,
+  "icon": "🤲",
+  "theme": null,
+  "item_count": 40,
+  "data_file": "duas.json"
+}

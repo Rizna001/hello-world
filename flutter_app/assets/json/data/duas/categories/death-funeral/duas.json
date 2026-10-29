@@ -1,0 +1,223 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "death-funeral",
+  "count": 6,
+  "duas": [
+    {
+      "id": "df-1",
+      "category_id": "death-funeral",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Visiting the Dying",
+        "ar": "زيارة المحتضر",
+        "ur": "احتضار کی عیادت",
+        "fr": "Visiter le Mourant",
+        "tr": "Ölüm Döşeğindeki Ziyaret",
+        "id": "Menjenguk Orang Sakaratul Maut",
+        "bn": "মৃত্যুশয্যায় দেখা",
+        "ms": "Melawat Orang Sakaratul Maut",
+        "ta": "மரண வேதனையில் உள்ளவரை சந்தித்தல்",
+        "ml": "മരണാസന്നനെ സന്ദർശിക്കുമ്പോൾ"
+      },
+      "arabic": "لاَ إِلَٰهَ إِلاَّ اللهُ وَاللهُ أَكْبَرُ، لاَ إِلَٰهَ إِلاَّ اللهُ وَحْدَهُ، لاَ إِلَٰهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لاَ إِلَٰهَ إِلاَّ اللهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، لاَ إِلَٰهَ إِلاَّ اللهُ وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ",
+      "translation": {
+        "en": "There is no god but Allah, Allah is the Greatest. There is no god but Allah alone. There is no god but Allah alone, without partner. There is no god but Allah, to Him belongs the dominion and to Him belongs all praise. There is no god but Allah, and there is no might nor power except with Allah.",
+        "ar": "لا إله إلا الله والله أكبر، لا إله إلا الله وحده، لا إله إلا الله وحده لا شريك له، لا إله إلا الله له الملك وله الحمد، لا إله إلا الله ولا حول ولا قوة إلا بالله",
+        "ur": "اللہ کے سوا کوئی معبود نہیں اور اللہ سب سے بڑا ہے۔ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے۔ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں۔ اللہ کے سوا کوئی معبود نہیں، بادشاہت اسی کی ہے اور تمام تعریف اسی کے لیے ہے۔ اللہ کے سوا کوئی معبود نہیں اور اللہ کے بغیر کوئی طاقت اور قوت نہیں۔",
+        "fr": "Il n'y a de dieu qu'Allah, Allah est le Plus Grand. Il n'y a de dieu qu'Allah seul. Il n'y a de dieu qu'Allah seul, sans associé. Il n'y a de dieu qu'Allah, à Lui la royauté et à Lui la louange. Il n'y a de dieu qu'Allah, et il n'y a de puissance ni de force qu'en Allah.",
+        "tr": "Allah'tan başka ilah yoktur, Allah en büyüktür. Allah'tan başka ilah yoktur, O tektir. Allah'tan başka ilah yoktur, O tektir, ortağı yoktur. Allah'tan başka ilah yoktur, mülk O'nundur, hamd O'nadır. Allah'tan başka ilah yoktur, Allah'tan başka güç ve kuvvet yoktur.",
+        "id": "Tiada tuhan selain Allah, Allah Maha Besar. Tiada tuhan selain Allah Yang Maha Esa. Tiada tuhan selain Allah Yang Maha Esa, tiada sekutu bagi-Nya. Tiada tuhan selain Allah, bagi-Nya kerajaan dan bagi-Nya pujian. Tiada tuhan selain Allah, dan tiada daya dan kekuatan kecuali dengan Allah.",
+        "bn": "আল্লাহ ছাড়া কোনো ইলাহ নেই এবং আল্লাহ সর্বশ্রেষ্ঠ। আল্লাহ ছাড়া কোনো ইলাহ নেই, তিনি একক। আল্লাহ ছাড়া কোনো ইলাহ নেই, তিনি একক, তাঁর কোনো শরীক নেই। আল্লাহ ছাড়া কোনো ইলাহ নেই, কর্তৃত্ব তাঁরই এবং সমস্ত প্রশংসা তাঁরই। আল্লাহ ছাড়া কোনো ইলাহ নেই এবং আল্লাহ ছাড়া কোনো শক্তি ও ক্ষমতা নেই।",
+        "ms": "Tiada Tuhan selain Allah, Allah Maha Besar. Tiada Tuhan selain Allah Yang Maha Esa. Tiada Tuhan selain Allah Yang Maha Esa, tiada sekutu bagi-Nya. Tiada Tuhan selain Allah, bagi-Nya kerajaan dan bagi-Nya pujian. Tiada Tuhan selain Allah, dan tiada daya dan kekuatan kecuali dengan Allah.",
+        "ta": "அல்லாஹ் தவிர வணக்கத்திற்குரியவர் இல்லை, அல்லாஹ் மிகப் பெரியவன். அல்லாஹ் தவிர வணக்கத்திற்குரியவர் இல்லை, அவன் ஒற்றையானவன். அல்லாஹ் தவிர வணக்கத்திற்குரியவர் இல்லை, அவன் ஒற்றையானவன், அவனுக்கு இணையில்லை. அல்லாஹ் தவிர வணக்கத்திற்குரியவர் இல்லை, ஆளுகை அவனுக்கே, புகழ் அவனுக்கே. அல்லாஹ் தவிர வணக்கத்திற்குரியவர் இல்லை, அல்லாஹ்வைத் தவிர எந்த சக்தியும் வலிமையும் இல்லை.",
+        "ml": "അല്ലാഹു അല്ലാതെ ആരാധനയർഹനായ ദൈവമില്ല, അല്ലാഹു ഏറ്റവും വലിയവനാണ്. അല്ലാഹു അല്ലാതെ ആരാധനയർഹനായ ദൈവമില്ല, അവൻ ഒറ്റവനാണ്. അല്ലാഹു അല്ലാതെ ആരാധനയർഹനായ ദൈവമില്ല, അവൻ ഒറ്റവനാണ്, അവന് പങ്കാളികളില്ല. അല്ലാഹു അല്ലാതെ ആരാധനയർഹനായ ദൈവമില്ല, ആധിപത്യം അവന്റേതാണ്, സ്തുതി അവന്റേതാണ്. അല്ലാഹു അല്ലാതെ ആരാധനയർഹനായ ദൈവമില്ല, അല്ലാഹുവല്ലാതെ ഒരു ശക്തിയും കഴിവും ഇല്ല."
+      },
+      "reference": {
+        "source": "Muslim",
+        "reference_text": "Muslim 2/632"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "df-2",
+      "category_id": "death-funeral",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "When Death Occurs (Inna lillahi)",
+        "ar": "عند وقوع الموت",
+        "ur": "موت واقع ہونے پر",
+        "fr": "Lorsque la Mort Survient",
+        "tr": "Ölüm Gerçekleştiğinde",
+        "id": "Ketika Kematian Terjadi",
+        "bn": "মৃত্যু সংঘটিত হলে",
+        "ms": "Apabila Kematian Berlaku",
+        "ta": "மரணம் நிகழும்போது",
+        "ml": "മരണം സംഭവിക്കുമ്പോൾ"
+      },
+      "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ، اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي وَأَخْلِفْ لِي خَيْرًا مِنْهَا",
+      "translation": {
+        "en": "Indeed we belong to Allah, and indeed to Him we shall return. O Allah, reward me in my affliction and replace it for me with something better.",
+        "ar": "إنا لله وإنا إليه راجعون، اللهم أجرني في مصيبتي وأخلف لي خيرا منها",
+        "ur": "بے شک ہم اللہ کے لیے ہیں اور بے شک ہم اسی کی طرف لوٹنے والے ہیں۔ اے اللہ! میری مصیبت میں مجھے اجر عطا فرما اور اس کے عوض مجھے اس سے بہتر عطا فرما۔",
+        "fr": "Certes nous appartenons à Allah, et c'est vers Lui que nous retournerons. Ô Allah, récompense-moi dans mon épreuve et remplace-la par quelque chose de meilleur.",
+        "tr": "Şüphesiz biz Allah'ınız ve şüphesiz O'na döneceğiz. Allah'ım! Musibetimde bana ecir ver ve onu bana daha hayırlısı ile değiştir.",
+        "id": "Sesungguhnya kami milik Allah dan sesungguhnya kepada-Nya kami akan kembali. Ya Allah, berilah aku pahala dalam musibahku dan gantilah untukku dengan yang lebih baik.",
+        "bn": "নিশ্চয়ই আমরা আল্লাহর এবং নিশ্চয়ই আমরা তাঁরই দিকে প্রত্যাবর্তনকারী। হে আল্লাহ, আমার বিপদে আমাকে প্রতিদান দাও এবং এর বদলে আমাকে এর চেয়ে উত্তম দাও।",
+        "ms": "Sesungguhnya kami milik Allah dan sesungguhnya kepada-Nya kami akan kembali. Ya Allah, kurniakanlah aku pahala dalam musibahku dan gantikanlah untukku dengan yang lebih baik.",
+        "ta": "நிச்சயமாக நாங்கள் அல்லாஹ்வுக்கு உரியவர்கள், நிச்சயமாக நாங்கள் அவனிடமே திரும்புவோம். இறைவா! என் சோதனையில் எனக்கு கூலி அளிப்பாயாக, அதற்கு பதிலாக எனக்கு அதைவிட நல்லதை தருவாயாக.",
+        "ml": "തീർച്ചയായും ഞങ്ങൾ അല്ലാഹുവിന്റേതാണ്, തീർച്ചയായും ഞങ്ങൾ അവങ്കലേക്ക് മടങ്ങും. അല്ലാഹുവേ, എന്റെ പരീക്ഷണത്തിൽ എനിക്ക് പ്രതിഫലം നൽകണമേ, അതിനുപകരം അതിലും നല്ലത് എനിക്ക് നൽകണമേ."
+      },
+      "reference": {
+        "source": "Muslim",
+        "reference_text": "Muslim 2/632"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "df-3",
+      "category_id": "death-funeral",
+      "subcategory_id": null,
+      "order": 3,
+      "title": {
+        "en": "Condolence",
+        "ar": "التعزية",
+        "ur": "تعزیت",
+        "fr": "Condoléances",
+        "tr": "Taziye",
+        "id": "Takziah",
+        "bn": "সান্ত্বনা",
+        "ms": "Takziah",
+        "ta": "இரங்கல்",
+        "ml": "അനുശോചനം"
+      },
+      "arabic": "أَعْظَمَ اللهُ أَجْرَكَ، وَأَحْسَنَ عَزَاءَكَ، وَغَفَرَ لِمَيِّتِكَ",
+      "translation": {
+        "en": "May Allah magnify your reward, give you the best of consolation, and forgive your deceased.",
+        "ar": "أعظم الله أجرك وأحسن عزاءك وغفر لميتك",
+        "ur": "اللہ تعالیٰ تمہارا اجر عظیم فرمائے، تمہاری تسلیت کو بہتر بنائے اور تمہارے مُردے کو بخش دے۔",
+        "fr": "Qu'Allah magnifie ta récompense, t'accorde la meilleure des consolations et pardonne ton défunt.",
+        "tr": "Allah ecirinizi büyük kılsın, taziyenizi güzel eylesin ve vefat edeni bağışlasın.",
+        "id": "Semoga Allah membesarkan pahalamu, memberikan penghiburan terbaik, dan mengampuni orang yang meninggal.",
+        "bn": "আল্লাহ তোমার প্রতিদান মহান করুন, তোমাকে সর্বোত্তম সান্ত্বনা দিন এবং তোমার মৃতকে ক্ষমা করুন।",
+        "ms": "Semoga Allah membesarkan pahalamu, memberikan penghiburan terbaik, dan mengampuni orang yang meninggal.",
+        "ta": "அல்லாஹ் உமது கூலியைப் பெரிதாக்குவானாக, உமக்கு சிறந்த ஆறுதலை அளிப்பானாக, உமது மரணித்தவரை மன்னிப்பானாக.",
+        "ml": "അല്ലാഹു നിന്റെ പ്രതിഫലം വർധിപ്പിക്കട്ടെ, നിനക്ക് ഏറ്റവും നല്ല ആശ്വാസം നൽകട്ടെ, മരിച്ചവനെ പൊറുക്കട്ടെ."
+      },
+      "reference": {
+        "source": "Ibn",
+        "reference_text": "Ibn Majah 1/478"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "df-4",
+      "category_id": "death-funeral",
+      "subcategory_id": null,
+      "order": 4,
+      "title": {
+        "en": "Funeral Prayer (Salat al-Janazah)",
+        "ar": "صلاة الجنازة",
+        "ur": "نماز جنازہ",
+        "fr": "Prière Funéraire",
+        "tr": "Cenaze NamazÄ±",
+        "id": "Shalat Jenazah",
+        "bn": "জানাজার নামাজ",
+        "ms": "Solat Jenazah",
+        "ta": "ஜனாஸா தொழுகை",
+        "ml": "ജനാസ നമസ്കാരം"
+      },
+      "arabic": "اللَّهُمَّ اغْفِرْ لِحَيِّنَا وَمَيِّتِنَا، وَشَاهِدِنَا وَغَائِبِنَا، وَصَغِيرِنَا وَكَبِيرِنَا، وَذَكَرِنَا وَأُنْثَانَا. اللَّهُمَّ مَنْ أَحْيَيْتَهُ مِنَّا فَأَحْيِهِ عَلَى الإِسْلاَمِ، وَمَنْ تَوَفَّيْتَهُ مِنَّا فَتَوَفَّهُ عَلَى الإِيمَانِ",
+      "translation": {
+        "en": "O Allah, forgive our living and our dead, those present and those absent, our young and our old, our males and our females. O Allah, whomever among us You keep alive, let him live upon Islam, and whomever among us You cause to die, let him die upon faith.",
+        "ar": "اللهم اغفر لحينا وميتنا وشاهدنا وغائبنا وصغيرنا وكبيرنا وذكرنا وأنثانا، اللهم من أحييته منا فأحيه على الإسلام، ومن توفيته منا فتوفه على الإيمان",
+        "ur": "اے اللہ! ہمارے زندوں اور مُردوں، حاضر اور غائب، چھوٹے اور بڑے، مردوں اور عورتوں کو بخش دے۔ اے اللہ! ہم میں سے جسے تو زندہ رکھے اسے اسلام پر زندہ رکھ اور ہم میں سے جسے تو وفات دے اسے ایمان پر وفات دے۔",
+        "fr": "Ô Allah, pardonne à nos vivants et nos morts, nos présents et nos absents, nos jeunes et nos vieux, nos mâles et nos femelles. Ô Allah, quiconque parmi nous Tu maintiens en vie, fais-le vivre sur l'Islam, et quiconque parmi nous Tu fais mourir, fais-le mourir sur la foi.",
+        "tr": "Allah'ım! Dirilerimizi ve ölülerümüzü, hazır olanlarımızı ve gıyabımızdakileri, küçüklerimizi ve büyüklerimizi, erkeklerimizi ve kadınlarımızı bağışla. Allah'ım! Bizden kimi yaşatırsan İslam üzere yaşat, bizden kimi vefat ettirirsen iman üzere vefat ettir.",
+        "id": "Ya Allah, ampunilah orang-orang yang hidup di antara kami dan yang mati, yang hadir dan yang tidak hadir, yang kecil dan yang besar, yang laki-laki dan yang perempuan. Ya Allah, barangsiapa di antara kami yang Engkau hidupkan, hidupkanlah ia di atas Islam, dan barangsiapa di antara kami yang Engkau wafatkan, wafatkanlah ia di atas iman.",
+        "bn": "হে আল্লাহ, আমাদের জীবিত ও মৃত, উপস্থিত ও অনুপস্থিত, ছোট ও বড়, পুরুষ ও নারীদের ক্ষমা করো। হে আল্লাহ, আমাদের মধ্যে যাকে তুমি জীবিত রাখো তাকে ইসলামের উপর জীবিত রাখো এবং আমাদের মধ্যে যাকে তুমি মৃত্যু দাও তাকে ঈমানের উপর মৃত্যু দাও।",
+        "ms": "Ya Allah, ampunilah orang-orang yang hidup di antara kami dan yang mati, yang hadir dan yang tidak hadir, yang kecil dan yang besar, yang lelaki dan yang perempuan. Ya Allah, barangsiapa di antara kami yang Engkau hidupkan, hidupkanlah ia di atas Islam, dan barangsiapa di antara kami yang Engkau wafatkan, wafatkanlah ia di atas iman.",
+        "ta": "இறைவா! எங்கள் உயிருள்ளவர்களையும் இறந்தவர்களையும், இருப்பவர்களையும் இல்லாதவர்களையும், சிறியவர்களையும் பெரியவர்களையும், ஆண்களையும் பெண்களையும் மன்னிப்பாயாக. இறைவா! எங்களில் நீர் யாரை வாழ வைக்கிறீரோ அவரை இஸ்லாமின் மீது வாழ வைப்பாயாக, எங்களில் நீர் யாரை மரணமடையச் செய்கிறீரோ அவரை ஈமானின் மீது மரணமடையச் செய்வாயாக.",
+        "ml": "അല്ലാഹുവേ, ഞങ്ങളുടെ ജീവിക്കുന്നവരെയും മരിച്ചവരെയും, സന്നിഹിതരെയും അസന്നിഹിതരെയും, ചെറിയവരെയും വലിയവരെയും, ആണുങ്ങളെയും പെണ്ണുങ്ങളെയും പൊറുക്കണമേ. അല്ലാഹുവേ, ഞങ്ങളിൽ നീ ആരെ ജീവിപ്പിക്കുന്നുവോ അവനെ ഇസ്ലാമിൽ ജീവിപ്പിക്കുക, ഞങ്ങളിൽ നീ ആരെ മരിപ്പിക്കുന്നുവോ അവനെ ഈമാനിൽ മരിപ്പിക്കുക."
+      },
+      "reference": {
+        "source": "Abu",
+        "reference_text": "Abu Dawud 3/317"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "df-5",
+      "category_id": "death-funeral",
+      "subcategory_id": null,
+      "order": 5,
+      "title": {
+        "en": "Dua for Deceased Child",
+        "ar": "دعاء للطفل المتوفى",
+        "ur": "وفات شدہ بچے کے لیے دعا",
+        "fr": "Doua pour un Enfant Décédé",
+        "tr": "Vefat Eden Çocuk İçin Dua",
+        "id": "Doa untuk Anak yang Meninggal",
+        "bn": "মৃত সন্তানের জন্য দোয়া",
+        "ms": "Doa untuk Anak yang Meninggal",
+        "ta": "மரணித்த குழந்தைக்கான துஆ",
+        "ml": "മരിച്ച കുഞ്ഞിനുള്ള ദുആ"
+      },
+      "arabic": "اللَّهُمَّ اجْعَلْهُ لَنَا فَرَطًا، وَاجْعَلْهُ لَنَا ذُخْرًا، وَأَلْحِقْنَا بِهِ",
+      "translation": {
+        "en": "O Allah, make him a precursor for us, a treasure for us, and let us join him.",
+        "ar": "اللهم اجعله لنا فرطا واجعله لنا ذخرا وألحقنا به",
+        "ur": "اے اللہ! اسے ہمارے لیے آگے بھیجنے والا، ہمارے لیے ذخیرہ بنا اور ہمیں اس سے ملا دے۔",
+        "fr": "Ô Allah, fais de lui un précurseur pour nous, un trésor pour nous, et fais-nous le rejoindre.",
+        "tr": "Allah'ım! Onu bizim için öncü, bizim için bir hazine kıl ve bizi ona kavuştur.",
+        "id": "Ya Allah, jadikanlah ia pendahulu bagi kami, simpanan bagi kami, dan pertemukanlah kami dengannya.",
+        "bn": "হে আল্লাহ, তাকে আমাদের জন্য অগ্রগামী, আমাদের জন্য সঞ্চিত করো এবং আমাদের সাথে তাকে মিলিয়ে দাও।",
+        "ms": "Ya Allah, jadikanlah ia pendahulu bagi kami, simpanan bagi kami, dan pertemukanlah kami dengannya.",
+        "ta": "இறைவா! அவரை எங்களுக்கு முன்னோடியாக ஆக்குவாயாக, எங்களுக்கு சேமிப்பாக ஆக்குவாயாக, எங்களை அவருடன் சேர்ப்பாயாக.",
+        "ml": "അല്ലാഹുവേ, അവനെ ഞങ്ങൾക്ക് മുൻഗാമിയാക്കണമേ, ഞങ്ങൾക്ക് സമ്പത്താക്കണമേ, ഞങ്ങളെ അവനോട് ചേർക്കണമേ."
+      },
+      "reference": {
+        "source": "Bukhari,",
+        "reference_text": "Bukhari, Al-Adab Al-Mufrad"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "df-6",
+      "category_id": "death-funeral",
+      "subcategory_id": null,
+      "order": 6,
+      "title": {
+        "en": "Visiting the Grave",
+        "ar": "زيارة القبر",
+        "ur": "قبر کی زیارت",
+        "fr": "Visiter la Tombe",
+        "tr": "Mezar Ziyareti",
+        "id": "Ziarah Kubur",
+        "bn": "কবর যিয়ারত",
+        "ms": "Ziarah Kubur",
+        "ta": "கப்ரை சந்தித்தல்",
+        "ml": "ഖബ്ർ സന്ദർശനം"
+      },
+      "arabic": "السَّلاَمُ عَلَيْكُمْ أَهْلَ الدِّيَارِ مِنَ الْمُؤْمِنِينَ وَالْمُسْلِمِينَ، وَإِنَّا إِنْ شَاءَ اللهُ بِكُمْ لاَحِقُونَ، نَسْأَلُ اللهَ لَنَا وَلَكُمُ الْعَافِيَةَ",
+      "translation": {
+        "en": "Peace be upon you, O inhabitants of the dwellings, from the believers and the Muslims. And we, if Allah wills, shall surely join you. We ask Allah for well-being for us and for you.",
+        "ar": "السلام عليكم أهل الديار من المؤمنين والمسلمين وإنا إن شاء الله بكم لاحقون نسأل الله لنا ولكم العافية",
+        "ur": "اے ایمانداروں اور مسلمانوں میں سے رہنے والو! تم پر سلامتی ہو۔ اور بے شک ہم انشاءاللہ تم سے ملنے والے ہیں۔ ہم اللہ سے اپنے اور تمہارے لیے عافیت مانگتے ہیں۔",
+        "fr": "Que la paix soit sur vous, ô habitants des demeures, parmi les croyants et les musulmans. Et nous, si Allah veut, nous vous rejoindrons certainement. Nous demandons à Allah le bien-être pour nous et pour vous.",
+        "tr": "Ey müminler ve Müslümanlar olarak diyarların sakinleri! Size selam olsun. Şüphesiz biz de inşallah size kavuşacağız. Allah'tan bizim ve sizin için afiyet diliyoruz.",
+        "id": "Keselamatan atas kalian, wahai penghuni negeri, dari kalangan orang-orang mukmin dan muslim. Dan sesungguhnya kami, jika Allah menghendaki, akan menyusul kalian. Kami memohon kepada Allah keselamatan bagi kami dan bagi kalian.",
+        "bn": "হে মুমিন ও মুসলিমদের আবাসস্থলের অধিবাসীগণ! তোমাদের উপর শান্তি বর্ষিত হোক। এবং নিশ্চয়ই আমরা, আল্লাহ চাইলে, তোমাদের সাথে মিলিত হব। আমরা আল্লাহর কাছে আমাদের এবং তোমাদের জন্য নিরাপত্তা চাই।",
+        "ms": "Keselamatan atas kalian, wahai penghuni negeri, dari kalangan orang-orang mukmin dan muslim. Dan sesungguhnya kami, jika Allah menghendaki, akan menyusul kalian. Kami memohon kepada Allah keselamatan bagi kami dan bagi kalian.",
+        "ta": "ஈமான்கொண்டவர்கள் மற்றும் முஸ்லிம்களில் இருந்து வீடுகளின் குடிகளே! உங்கள் மீது சாந்தி. நிச்சயமாக நாங்கள், அல்லாஹ் நாடினால், நிச்சயமாக உங்களை சந்திப்போம். எங்களுக்கும் உங்களுக்கும் நலம் அல்லாஹ்விடம் கேட்கிறோம்.",
+        "ml": "വിശ്വാസികളിൽ നിന്നും മുസ്ലിമുകളിൽ നിന്നുമുള്ള വസതികളുടെ നിവാസികളേ! നിങ്ങൾക്ക് സമാധാനമുണ്ടാകട്ടെ. തീർച്ചയായും ഞങ്ങൾ, അല്ലാഹു ഉദ്ദേശിക്കുമ്പോൾ, നിങ്ങളെ ചേരും. ഞങ്ങൾക്കും നിങ്ങൾക്കും വേണ്ടി അല്ലാഹുവിനോട് സുരക്ഷിതത്വം ചോദിക്കുന്നു."
+      },
+      "reference": {
+        "source": "Muslim",
+        "reference_text": "Muslim 2/671"
+      },
+      "repetition_count": 1
+    }
+  ]
+}
