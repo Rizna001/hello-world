@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import { createContext, useContext, useEffect, useRef, useState, ReactNode } from 'react';
 
 const NOTIFICATION_SOUNDS = [
   { id: 'adhan', name: 'Adhan' },
@@ -13,13 +13,12 @@ interface CustomReminder {
   duaId: string;
   duaTitle: string;
   duaArabic: string;
-  times: number;
-  frequency: string; // 'daily', 'specific_days', 'custom'
-  time: string;
-  days: string[]; // ['mon', 'tue', etc.]
+  times: string[];
+  frequency: 'daily' | 'custom';
+  days: string[];
   sound: string;
   enabled: boolean;
-  lastTriggered: string | null;
+  lastTriggered: Record<string, string>;
 }
 
 interface NotificationsContextType {
@@ -41,6 +40,39 @@ interface NotificationsContextType {
 }
 
 const NotificationsContext = createContext<NotificationsContextType | undefined>(undefined);
+
+type StoredReminder = Omit<CustomReminder, 'times' | 'lastTriggered' | 'frequency'> & {
+  times?: unknown;
+  time?: unknown;
+  frequency: string;
+  lastTriggered?: unknown;
+};
+
+function readCustomReminders(): CustomReminder[] {
+  const saved = localStorage.getItem('customReminders');
+  if (!saved) return [];
+
+  const stored = JSON.parse(saved) as StoredReminder[];
+  return stored.map(reminder => {
+    const time = typeof reminder.time === 'string' ? reminder.time : undefined;
+    const times = Array.isArray(reminder.times)
+      ? reminder.times.filter((value): value is string => typeof value === 'string')
+      : time ? [time] : [];
+    const lastTriggered = typeof reminder.lastTriggered === 'string'
+      ? time ? { [time]: reminder.lastTriggered } : {}
+      : reminder.lastTriggered && typeof reminder.lastTriggered === 'object'
+        ? reminder.lastTriggered as Record<string, string>
+        : {};
+
+    return {
+      ...reminder,
+      times,
+      frequency: reminder.frequency === 'daily' ? 'daily' : 'custom',
+      days: Array.isArray(reminder.days) ? reminder.days : [],
+      lastTriggered,
+    };
+  });
+}
 
 // Generate sound using Web Audio API
 function generateTone(type: string, duration: number = 1) {
@@ -135,11 +167,12 @@ export function NotificationsProvider({ children }: { children: ReactNode }) {
 
   const [customReminders, setCustomReminders] = useState<CustomReminder[]>(() => {
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('customReminders');
-      return saved ? JSON.parse(saved) : [];
+      return readCustomReminders();
     }
     return [];
   });
+  const firedReminderKeys = useRef(new Set<string>());
+  const firedReminderDate = useRef<string | null>(null);
 
   useEffect(() => { localStorage.setItem('notificationsEnabled', String(notificationsEnabled)); }, [notificationsEnabled]);
   useEffect(() => { localStorage.setItem('notificationTime', notificationTime); }, [notificationTime]);
@@ -158,38 +191,42 @@ export function NotificationsProvider({ children }: { children: ReactNode }) {
         sendDailyNotification();
         setLastNotification(today);
       }
-      // Check custom reminders
       checkCustomReminders(currentTime, today);
     };
+    checkNotification();
     const interval = setInterval(checkNotification, 30000);
     return () => clearInterval(interval);
   }, [notificationsEnabled, notificationTime, lastNotification, customReminders]);
 
   const checkCustomReminders = (currentTime: string, today: string) => {
+    if (firedReminderDate.current !== today) {
+      firedReminderKeys.current.clear();
+      firedReminderDate.current = today;
+    }
     const dayNames = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
     const currentDay = dayNames[new Date().getDay()];
-    
-    setCustomReminders(prev => prev.map(reminder => {
-      if (!reminder.enabled) return reminder;
-      if (reminder.time !== currentTime) return reminder;
-      if (reminder.lastTriggered === today) return reminder;
-      
-      // Check if today matches the reminder's days
-      if (reminder.frequency === 'specific_days' && !reminder.days.includes(currentDay)) {
-        return reminder;
-      }
-      
-      // Trigger notification
-      showNotification(
-        reminder.duaTitle,
-        reminder.duaArabic.substring(0, 100) + '...'
-      );
-      if (reminder.sound !== 'none') {
-        playSound(reminder.sound);
-      }
-      
-      return { ...reminder, lastTriggered: today };
-    }));
+
+    customReminders.forEach(reminder => {
+      if (!reminder.enabled) return;
+      if (reminder.frequency !== 'daily' && !reminder.days.includes(currentDay)) return;
+
+      reminder.times.forEach(time => {
+        const key = `${today}|${reminder.id}|${time}`;
+        if (time !== currentTime || reminder.lastTriggered[time] === today || firedReminderKeys.current.has(key)) return;
+
+        firedReminderKeys.current.add(key);
+        showNotification(
+          reminder.duaTitle,
+          reminder.duaArabic.length > 100 ? `${reminder.duaArabic.substring(0, 100)}...` : reminder.duaArabic,
+          key
+        );
+        if (reminder.sound !== 'none') playSound(reminder.sound);
+        setCustomReminders(prev => prev.map(current => current.id === reminder.id
+          ? { ...current, lastTriggered: { ...current.lastTriggered, [time]: today } }
+          : current
+        ));
+      });
+    });
   };
 
   const playSound = (soundId?: string) => {
@@ -239,8 +276,8 @@ export function NotificationsProvider({ children }: { children: ReactNode }) {
   const addReminder = (reminder: Omit<CustomReminder, 'id' | 'lastTriggered'>) => {
     const newReminder: CustomReminder = {
       ...reminder,
-      id: `reminder-${Date.now()}`,
-      lastTriggered: null,
+      id: `reminder-${Date.now()}-${Math.random().toString(36).slice(2)}`,
+      lastTriggered: {},
     };
     setCustomReminders(prev => [...prev, newReminder]);
   };
@@ -270,9 +307,9 @@ export function NotificationsProvider({ children }: { children: ReactNode }) {
     if (notificationSound !== 'none') playSound();
   };
 
-  const showNotification = (title: string, body: string) => {
+  const showNotification = (title: string, body: string, tag = 'daily-dua') => {
     if ('Notification' in window && Notification.permission === 'granted') {
-      new Notification(title, { body, tag: 'daily-dua', requireInteraction: false });
+      new Notification(title, { body, tag, requireInteraction: false });
     }
   };
 

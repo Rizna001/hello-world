@@ -45,6 +45,7 @@ body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f7f3;
 }
 
 /* Dark mode base */
@@ -113,6 +114,30 @@ body {
   animation: slideIn 0.3s ease-out;
 }
 
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(16px) scale(0.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.animate-rise-in {
+  animation: riseIn 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  transition-property: color, background-color, border-color, box-shadow, transform, opacity;
+  transition-duration: 180ms;
+  transition-timing-function: ease;
+}
+
+:focus-visible {
+  outline: 2px solid #16865a;
+  outline-offset: 3px;
+}
+
 /* Notification toast */
 @keyframes toast-in {
   from { transform: translateY(-100%); opacity: 0; }
@@ -126,4 +151,15 @@ body {
 /* Dark mode gradient backgrounds */
 .dark .dark-gradient {
   background: linear-gradient(135deg, #00160d 0%, #003d2b 50%, #00160d 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

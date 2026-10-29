@@ -1,4 +1,5 @@
 import { useTheme } from '../contexts/ThemeContext';
+import { ChevronDown, Home, Languages } from 'lucide-react';
 
 export default function Header({
   language,
@@ -7,7 +8,7 @@ export default function Header({
   setShowLanguageMenu,
   setLanguage,
   currentLanguage,
-  onSettingsClick,
+  onHomeClick,
   viewMode,
   setViewMode,
   bookmarksCount,
@@ -18,7 +19,7 @@ export default function Header({
   setShowLanguageMenu: (v: boolean) => void;
   setLanguage: (code: any) => void;
   currentLanguage: { code: string; name: string };
-  onSettingsClick: () => void;
+  onHomeClick: () => void;
   viewMode: 'categories' | 'bookmarks';
   setViewMode: (mode: 'categories' | 'bookmarks') => void;
   bookmarksCount: number;
@@ -116,16 +117,17 @@ export default function Header({
               )}
             </button>
 
-            {/* Settings Button */}
+            {/* Home Button */}
             <button
-              onClick={onSettingsClick}
-              aria-label="Settings"
+              onClick={onHomeClick}
+              aria-label="Home"
               className={`w-10 h-10 rounded-lg flex items-center justify-center transition-colors ${
                 isDark ? 'bg-slate-800 hover:bg-slate-700 text-gray-300' : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
               }`}
-              title={language === 'en' ? 'Settings' : language === 'ar' ? 'الإعدادات' : language === 'ur' ? 'ترتیبات' : language === 'fr' ? 'Paramètres' : language === 'tr' ? 'Ayarlar' : language === 'id' ? 'Pengaturan' : language === 'bn' ? 'সেটিংস' : language === 'ms' ? 'Tetapan' : language === 'ta' ? 'அமைப்புகள்' : 'ക്രമീകരണങ്ങൾ'}
+              title="Home"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <Home className="w-5 h-5" aria-hidden="true" />
+              <svg className="hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
@@ -135,13 +137,17 @@ export default function Header({
             <div className="relative">
               <button
                 onClick={() => setShowLanguageMenu(!showLanguageMenu)}
+                aria-haspopup="menu"
+                aria-expanded={showLanguageMenu}
                 className={`flex items-center gap-2 px-3 py-2 rounded-lg border transition-colors ${
                   isDark 
                     ? 'bg-slate-800 hover:bg-slate-700 border-slate-700' 
                     : 'bg-gray-50 hover:bg-gray-100 border-gray-200'
                 }`}
               >
+                <Languages className={`w-4 h-4 ${isDark ? 'text-emerald-300' : 'text-emerald-700'}`} aria-hidden="true" />
                 <span className={`text-xs sm:text-sm font-medium ${isDark ? 'text-gray-200' : 'text-gray-700'}`}>{currentLanguage.name}</span>
+                <ChevronDown className={`w-4 h-4 transition-transform ${showLanguageMenu ? 'rotate-180' : ''} ${isDark ? 'text-gray-400' : 'text-gray-500'}`} aria-hidden="true" />
               </button>
 
               {showLanguageMenu && (

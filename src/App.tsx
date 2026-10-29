@@ -11,7 +11,6 @@ import Settings from './components/Settings';
 import BookmarksView from './components/BookmarksView';
 import AsmaUlHusnaView from './components/AsmaUlHusnaView';
 import AsmaUlAnbiyaView from './components/AsmaUlAnbiyaView';
-import DailyProgress from './components/DailyProgress';
 import DuaReminder from './components/DuaReminder';
 
 type LanguageCode = 'en' | 'ar' | 'ur' | 'fr' | 'tr' | 'id' | 'bn' | 'ms' | 'ta' | 'ml';
@@ -44,13 +43,22 @@ function AppContent() {
   const [language, setLanguage] = useState<LanguageCode>('en');
   const [searchQuery, setSearchQuery] = useState('');
   const [showLanguageMenu, setShowLanguageMenu] = useState(false);
-  const [showSettings, setShowSettings] = useState(false);
   const [viewMode, setViewMode] = useState<ViewMode>('categories');
   const [showImportantTexts, setShowImportantTexts] = useState(false);
   const { isDark } = useTheme();
   const { bookmarks } = useBookmarks();
 
-  const categories: Category[] = duasData.categories as Category[];
+  const categories = useMemo(() => (duasData.categories as Category[])
+    .filter(category => !/ruqyah|ruqya|رقية/i.test(
+      `${category.id} ${Object.values(category.name).join(' ')}`
+    ))
+    .map(category => ({
+      ...category,
+      duas: category.duas.filter(dua => !/ruqyah|ruqya|رقية/i.test(
+        `${dua.id} ${Object.values(dua.title).join(' ')} ${Object.values(dua.translation).join(' ')}`
+      )),
+    }))
+    .filter(category => category.duas.length > 0), []);
   const languages = duasData.languages;
 
   const filteredCategories = useMemo(() => {
@@ -104,7 +112,11 @@ function AppContent() {
         setShowLanguageMenu={setShowLanguageMenu} 
         setLanguage={setLanguage} 
         currentLanguage={currentLanguage}
-        onSettingsClick={() => setShowSettings(true)}
+        onHomeClick={() => {
+          setSelectedCategory(null);
+          setSelectedDua(null);
+          setViewMode('categories');
+        }}
         viewMode={viewMode}
         setViewMode={setViewMode}
         bookmarksCount={bookmarks.length}
@@ -123,17 +135,10 @@ function AppContent() {
           </div>
         )}
 
-        {/* Daily Progress Tracker */}
-        {viewMode === 'categories' && !selectedCategory && !selectedDua && (
-          <div className="mb-8">
-            <DailyProgress language={language} />
-          </div>
-        )}
-
         {/* Dua Reminder */}
         {viewMode === 'categories' && !selectedCategory && !selectedDua && (
           <div className="mb-8">
-            <DuaReminder language={language} />
+            <DuaReminder language={language} duas={categories.flatMap(category => category.duas)} />
           </div>
         )}
 
@@ -252,7 +257,6 @@ function AppContent() {
         </div>
       </footer>
 
-      {/* Settings Modal */}
       <Settings language={language} />
     </div>
   );

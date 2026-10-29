@@ -110,12 +110,15 @@ interface BookmarkedDua {
 **Features:**
 - Browser notification API integration
 - Schedule daily notifications at custom time
+- Create per-dua reminders with multiple daily times
+- Repeat per-dua reminders daily or on any selected weekdays
 - Random dua selection for each notification
 - Permission request flow
 - Enable/disable toggle
 - Persistent settings in localStorage
 - Time picker for notification schedule
 - Visual confirmation when enabled
+- Scheduled checks require the app to remain open in a browser tab
 
 **Implementation:** `src/contexts/NotificationsContext.tsx`
 
@@ -123,9 +126,10 @@ interface BookmarkedDua {
 1. User enables notifications in Settings
 2. Browser requests notification permission
 3. User sets preferred notification time
-4. App checks every minute if it's time to notify
+4. App checks every 30 seconds if it's time to notify
 5. Sends a random dua notification
 6. Tracks last notification to avoid duplicates
+7. Checks each saved dua schedule independently
 
 **Notification Content:**
 ```javascript
@@ -232,11 +236,12 @@ if (isDark) {
 7. Click "Clear All" to remove all bookmarks
 
 ### 🔔 Daily Notifications
-1. Click Settings icon (⚙️) in header
+1. Open Settings from the floating button in the bottom-right corner
 2. Toggle "Enable Daily Notifications"
 3. Grant browser permission when prompted
 4. Set your preferred notification time
 5. Receive daily dua notifications at scheduled time
+6. On the home screen, add a custom reminder, choose a dua, set any number of times, and select daily or preferred weekdays
 
 ### 🌙 Dark Mode
 1. Click the sun/moon icon (🌙/☀️) in header

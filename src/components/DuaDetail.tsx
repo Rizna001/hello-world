@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 import { useBookmarks } from '../contexts/BookmarksContext';
+import { useNotifications } from '../contexts/NotificationsContext';
 import AudioPlayer from './AudioPlayer';
 
 export default function DuaDetail({
@@ -17,8 +18,13 @@ export default function DuaDetail({
   const [copied, setCopied] = useState(false);
   const [fontSize, setFontSize] = useState<'sm' | 'md' | 'lg' | 'xl'>('lg');
   const [showReminderModal, setShowReminderModal] = useState(false);
+  const [reminderTimes, setReminderTimes] = useState(['08:00']);
+  const [reminderFrequency, setReminderFrequency] = useState<'daily' | 'custom'>('daily');
+  const [reminderDays, setReminderDays] = useState<string[]>([]);
+  const [reminderSound, setReminderSound] = useState('adhan');
   const { isDark } = useTheme();
   const { isBookmarked, toggleBookmark } = useBookmarks();
+  const { addReminder, sounds } = useNotifications();
 
   const arabicFontSize = {
     sm: 'text-2xl',
@@ -48,10 +54,34 @@ export default function DuaDetail({
   };
 
   const handleSetReminder = () => {
-    // Auto-copy the dua text
-    const text = `${dua.arabic}\n\n${dua.translation[language] || dua.translation.en}`;
-    navigator.clipboard.writeText(text);
     setShowReminderModal(true);
+  };
+
+  const saveReminder = () => {
+    const times = [...new Set(reminderTimes.filter(Boolean))];
+    if (times.length === 0 || (reminderFrequency === 'custom' && reminderDays.length === 0)) return;
+
+    addReminder({
+      duaId: dua.id,
+      duaTitle: dua.title[language] || dua.title.en,
+      duaArabic: dua.arabic,
+      times,
+      frequency: reminderFrequency,
+      days: reminderDays,
+      sound: reminderSound,
+      enabled: true,
+    });
+    setShowReminderModal(false);
+    setReminderTimes(['08:00']);
+    setReminderFrequency('daily');
+    setReminderDays([]);
+  };
+
+  const toggleReminderDay = (day: string) => {
+    setReminderDays(current => current.includes(day)
+      ? current.filter(value => value !== day)
+      : [...current, day]
+    );
   };
 
   const isCurrentlyBookmarked = isBookmarked(dua.id);
@@ -223,56 +253,96 @@ export default function DuaDetail({
                 {language === 'en' ? 'Set Reminder' : language === 'ar' ? 'تعيين تذكير' : language === 'ur' ? 'یاد دہانی سیٹ کریں' : 'Set Reminder'}
               </h3>
               <p className={`text-sm mt-2 ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-                {language === 'en' ? 'Dua text has been copied to clipboard!' : 'Text copied!'}
+                {dua.title[language] || dua.title.en}
               </p>
             </div>
 
             <div className="p-6 space-y-4">
               <div>
                 <label className={`block text-sm font-medium mb-2 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-                  {language === 'en' ? 'Title' : 'Title'}
+                  {language === 'en' ? 'Reminder times' : 'Reminder times'}
                 </label>
-                <input
-                  type="text"
-                  defaultValue={dua.title[language] || dua.title.en}
-                  className={`w-full px-3 py-2 rounded-lg border ${
-                    isDark ? 'bg-slate-700 border-slate-600 text-white' : 'bg-white border-gray-300 text-gray-900'
-                  }`}
-                />
+                <div className="space-y-2">
+                  {reminderTimes.map((time, index) => (
+                    <div className="flex items-center gap-2" key={index}>
+                      <input
+                        type="time"
+                        value={time}
+                        onChange={(event) => setReminderTimes(current => current.map((value, timeIndex) =>
+                          timeIndex === index ? event.target.value : value
+                        ))}
+                        className={`flex-1 px-3 py-2 rounded-lg border ${
+                          isDark ? 'bg-slate-700 border-slate-600 text-white' : 'bg-white border-gray-300 text-gray-900'
+                        }`}
+                      />
+                      {reminderTimes.length > 1 && (
+                        <button
+                          type="button"
+                          onClick={() => setReminderTimes(current => current.filter((_, timeIndex) => timeIndex !== index))}
+                          aria-label="Remove time"
+                          className={`rounded-lg px-3 py-2 ${isDark ? 'bg-slate-700 text-gray-300' : 'bg-gray-200 text-gray-700'}`}
+                        >
+                          ×
+                        </button>
+                      )}
+                    </div>
+                  ))}
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setReminderTimes(current => [...current, '09:00'])}
+                  className={`mt-2 text-sm font-medium ${isDark ? 'text-emerald-300' : 'text-emerald-700'}`}
+                >
+                  + Add another time
+                </button>
               </div>
 
               <div>
-                <label className={`block text-sm font-medium mb-2 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-                  {language === 'en' ? 'Reminder Time' : 'Time'}
-                </label>
+                <label className={`block text-sm font-medium mb-2 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Repeat</label>
                 <select
+                  value={reminderFrequency}
+                  onChange={(event) => setReminderFrequency(event.target.value as 'daily' | 'custom')}
                   className={`w-full px-3 py-2 rounded-lg border ${
                     isDark ? 'bg-slate-700 border-slate-600 text-white' : 'bg-white border-gray-300 text-gray-900'
                   }`}
                 >
-                  <option value="5">{language === 'en' ? '5 minutes' : '5 min'}</option>
-                  <option value="15">{language === 'en' ? '15 minutes' : '15 min'}</option>
-                  <option value="30">{language === 'en' ? '30 minutes' : '30 min'}</option>
-                  <option value="60">{language === 'en' ? '1 hour' : '1 hr'}</option>
-                  <option value="120">{language === 'en' ? '2 hours' : '2 hrs'}</option>
-                  <option value="1440">{language === 'en' ? 'Tomorrow' : 'Tomorrow'}</option>
+                  <option value="daily">Every day</option>
+                  <option value="custom">Selected days</option>
                 </select>
               </div>
+
+              {reminderFrequency === 'custom' && (
+                <div className="flex flex-wrap gap-2">
+                  {['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'].map(day => (
+                    <button
+                      key={day}
+                      type="button"
+                      onClick={() => toggleReminderDay(day)}
+                      aria-pressed={reminderDays.includes(day)}
+                      className={`rounded-lg px-3 py-1.5 text-sm capitalize ${
+                        reminderDays.includes(day)
+                          ? 'bg-emerald-600 text-white'
+                          : isDark ? 'bg-slate-700 text-gray-300' : 'bg-gray-200 text-gray-700'
+                      }`}
+                    >
+                      {day}
+                    </button>
+                  ))}
+                </div>
+              )}
 
               <div>
                 <label className={`block text-sm font-medium mb-2 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
                   {language === 'en' ? 'Sound' : 'Sound'}
                 </label>
                 <select
+                  value={reminderSound}
+                  onChange={(event) => setReminderSound(event.target.value)}
                   className={`w-full px-3 py-2 rounded-lg border ${
                     isDark ? 'bg-slate-700 border-slate-600 text-white' : 'bg-white border-gray-300 text-gray-900'
                   }`}
                 >
-                  <option value="adhan">Adhan</option>
-                  <option value="bell">Bell</option>
-                  <option value="chime">Chime</option>
-                  <option value="gentle">Gentle</option>
-                  <option value="none">No Sound</option>
+                  {sounds.map(sound => <option key={sound.id} value={sound.id}>{sound.name}</option>)}
                 </select>
               </div>
             </div>
@@ -287,11 +357,8 @@ export default function DuaDetail({
                 {language === 'en' ? 'Cancel' : 'Cancel'}
               </button>
               <button
-                onClick={() => {
-                  setShowReminderModal(false);
-                  // Here you would integrate with the actual reminder system
-                  alert(language === 'en' ? 'Reminder set! You will be notified.' : 'Reminder set!');
-                }}
+                onClick={saveReminder}
+                disabled={reminderTimes.every(time => !time) || (reminderFrequency === 'custom' && reminderDays.length === 0)}
                 className={`flex-1 py-2 px-4 rounded-lg font-medium transition-colors ${
                   isDark ? 'bg-emerald-600 hover:bg-emerald-700 text-white' : 'bg-emerald-500 hover:bg-emerald-600 text-white'
                 }`}
