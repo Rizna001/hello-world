@@ -1,0 +1,30 @@
+{
+  "id": "marriage-wedding",
+  "name": {
+    "en": "Marriage & Wedding",
+    "ar": "الزفاف والزواج",
+    "ur": "شادی اور نکاح",
+    "fr": "Mariage et Noces",
+    "tr": "Evlilik ve Düğün",
+    "id": "Pernikahan & Pernikahan",
+    "bn": "বিবাহ ও বিয়ে",
+    "ms": "Perkahwinan & Pernikahan",
+    "ta": "திருமணம் & திருமண விழா",
+    "ml": "വിവാഹവും കല്യാണവും"
+  },
+  "description": {
+    "en": "Category of duas: Marriage & Wedding"
+  },
+  "parent_id": null,
+  "order": 31,
+  "icon": "ðŸ’",
+  "theme": {
+    "color": "rose",
+    "gradient": "from-rose-400 to-pink-600",
+    "bg": "bg-rose-50",
+    "border": "border-rose-200",
+    "text": "text-rose-700"
+  },
+  "item_count": 2,
+  "data_file": "duas.json"
+}

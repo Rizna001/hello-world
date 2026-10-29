@@ -1,0 +1,30 @@
+{
+  "id": "salawat",
+  "name": {
+    "en": "Salawat upon the Prophet",
+    "ar": "الصلاة على النبي",
+    "ur": "درود شریف",
+    "fr": "Salawat sur le Prophète",
+    "tr": "Peygamber'e Salavat",
+    "id": "Shalawat atas Nabi",
+    "bn": "নবীর উপর দরূদ",
+    "ms": "Selawat ke atas Nabi",
+    "ta": "நபி மீது ஸலவாத்",
+    "ml": "നബി മേൽ സ്വലാത്ത്"
+  },
+  "description": {
+    "en": "Category of duas: Salawat upon the Prophet"
+  },
+  "parent_id": null,
+  "order": 19,
+  "icon": "ðŸ’š",
+  "theme": {
+    "color": "emerald",
+    "gradient": "from-emerald-400 to-green-600",
+    "bg": "bg-emerald-50",
+    "border": "border-emerald-200",
+    "text": "text-emerald-700"
+  },
+  "item_count": 4,
+  "data_file": "duas.json"
+}

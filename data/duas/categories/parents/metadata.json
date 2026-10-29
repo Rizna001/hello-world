@@ -1,0 +1,30 @@
+{
+  "id": "parents",
+  "name": {
+    "en": "For Parents",
+    "ar": "للوالدين",
+    "ur": "والدین کے لیے",
+    "fr": "Pour les Parents",
+    "tr": "Anne Baba İçin",
+    "id": "Untuk Orang Tua",
+    "bn": "পিতা-মাতার জন্য",
+    "ms": "Untuk Ibu Bapa",
+    "ta": "பெற்றோருக்காக",
+    "ml": "മാതാപിതാക്കൾക്കായി"
+  },
+  "description": {
+    "en": "Category of duas: For Parents"
+  },
+  "parent_id": null,
+  "order": 11,
+  "icon": "❤️",
+  "theme": {
+    "color": "pink",
+    "gradient": "from-pink-400 to-rose-500",
+    "bg": "bg-pink-50",
+    "border": "border-pink-200",
+    "text": "text-pink-700"
+  },
+  "item_count": 2,
+  "data_file": "duas.json"
+}

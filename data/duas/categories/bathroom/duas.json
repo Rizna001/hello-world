@@ -1,0 +1,43 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "bathroom",
+  "count": 1,
+  "duas": [
+    {
+      "id": "bth-1",
+      "category_id": "bathroom",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Before Entering Bathroom",
+        "ar": "قبل دخول الخلاء",
+        "ur": "بیت الخلا میں داخل ہونے سے پہلے",
+        "fr": "Avant d'Entrer aux Toilettes",
+        "tr": "Tuvaletten Önce",
+        "id": "Sebelum Masuk Kamar Mandi",
+        "bn": "বাথরুমে প্রবেশের আগে",
+        "ms": "Sebelum Masuk Tandas",
+        "ta": "கழிப்பறைக்குள் நுழையும் முன்",
+        "ml": "ശൗചാലയത്തിൽ പ്രവേശിക്കുന്നതിന് മുമ്പ്"
+      },
+      "arabic": "بِسْمِ اللهِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+      "translation": {
+        "en": "In the name of Allah. O Allah, I seek refuge in You from the male and female evil jinn.",
+        "ar": "بسم الله، اللهم إني أعوذ بك من الخبث والخبائث",
+        "ur": "اللہ کے نام سے۔ اے اللہ! میں نر اور مادہ جنات کے شر سے تیری پناہ مانگتا ہوں۔",
+        "fr": "Au nom d'Allah. Ô Allah, je cherche refuge auprès de Toi contre les djinns maléfiques mâles et femelles.",
+        "tr": "Allah'Ä±n adÄ±yla. Allah'Ä±m! Erkek ve diÅŸi cinlerin ÅŸerrinden Sana sÄ±ÄŸÄ±nÄ±rÄ±m.",
+        "id": "Dengan nama Allah. Ya Allah, aku berlindung kepada-Mu dari jin jahat laki-laki dan perempuan.",
+        "bn": "আল্লাহর নামে। হে আল্লাহ, আমি পুরুষ ও স্ত্রী জিনের অনিষ্ট থেকে তোমার আশ্রয় চাই।",
+        "ms": "Dengan nama Allah. Ya Allah, aku berlindung kepada-Mu dari jin jahat lelaki dan perempuan.",
+        "ta": "அல்லாஹ்வின் பெயரால். இறைவா! ஆண் மற்றும் பெண் தீய ஜின்களின் தீமையிலிருந்து உம்மிடம் புகலளிக்கிறேன்.",
+        "ml": "അല്ലാഹുവിന്റെ നാമത്തിൽ. അല്ലാഹുവേ, ആൺ, പെൺ ദുർജിന്നുകളുടെ തിന്മയിൽനിന്ന് ഞാൻ നിന്നോട് അഭയം തേടുന്നു."
+      },
+      "reference": {
+        "source": "Bukhari",
+        "reference_text": "Bukhari 1/45, Muslim 1/283"
+      },
+      "repetition_count": 1
+    }
+  ]
+}

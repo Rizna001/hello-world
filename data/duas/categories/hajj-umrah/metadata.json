@@ -1,0 +1,30 @@
+{
+  "id": "hajj-umrah",
+  "name": {
+    "en": "Hajj & Umrah",
+    "ar": "الحج والعمرة",
+    "ur": "حج اور عمرہ",
+    "fr": "Hajj et Omra",
+    "tr": "Hac ve Umre",
+    "id": "Haji dan Umrah",
+    "bn": "হজ ও উমরাহ",
+    "ms": "Haji dan Umrah",
+    "ta": "ஹஜ் & உம்ரா",
+    "ml": "ഹജ്ജും ഉംറയും"
+  },
+  "description": {
+    "en": "Category of duas: Hajj & Umrah"
+  },
+  "parent_id": null,
+  "order": 28,
+  "icon": "ðŸ•‹",
+  "theme": {
+    "color": "amber",
+    "gradient": "from-amber-500 to-yellow-600",
+    "bg": "bg-amber-50",
+    "border": "border-amber-200",
+    "text": "text-amber-700"
+  },
+  "item_count": 5,
+  "data_file": "duas.json"
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "dua-general",
+  "count": 3,
+  "duas": [
+    {
+      "id": "gen-1",
+      "category_id": "dua-general",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Dua for Good in This World and the Hereafter",
+        "ar": "دعاء خير الدنيا والآخرة",
+        "ur": "دنیا اور آخرت کی بھلائی کی دعا",
+        "fr": "Doua pour le Bien dans ce Monde et l'Au-delà",
+        "tr": "Dünya ve Ahiret Hayrı Duası",
+        "id": "Doa Kebaikan Dunia dan Akhirat",
+        "bn": "দুনিয়া ও আখিরাতের কল্যাণের দোয়া",
+        "ms": "Doa Kebaikan Dunia dan Akhirat",
+        "ta": "இவ்வுலகிலும் மறுமையிலும் நன்மைக்கான துஆ",
+        "ml": "ഈ ലോകത്തും പരലോകത്തും നന്മയ്ക്കുള്ള ദുആ"
+      },
+      "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "translation": {
+        "en": "Our Lord, give us in this world that which is good and in the Hereafter that which is good, and protect us from the punishment of the Fire.",
+        "ar": "ربنا آتنا في الدنيا حسنة وفي الآخرة حسنة وقنا عذاب النار",
+        "ur": "اے ہمارے رب! ہمیں دنیا میں بھی بھلائی عطا فرما اور آخرت میں بھی بھلائی عطا فرما اور ہمیں آتش جہنم کے عذاب سے بچا۔",
+        "fr": "Notre Seigneur, donne-nous le bien dans ce monde et le bien dans l'au-delà, et protège-nous du châtiment du Feu.",
+        "tr": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver ve bizi ateş azabından koru.",
+        "id": "Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari siksa api neraka.",
+        "bn": "হে আমাদের রব, আমাদের দুনিয়াতেও কল্যাণ দাও এবং আখিরাতেও কল্যাণ দাও এবং আমাদের আগুনের শাস্তি থেকে রক্ষা করো।",
+        "ms": "Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari siksa api neraka.",
+        "ta": "எங்கள் இறைவா! இவ்வுலகில் நன்மையை அளிப்பாயாக, மறுமையில் நன்மையை அளிப்பாயாக, நரக வேதனையிலிருந்து எங்களை காப்பாற்றுவாயாக.",
+        "ml": "ഞങ്ങളുടെ രക്ഷിതാവേ, ഈ ലോകത്ത് നന്മയും പരലോകത്ത് നന്മയും ഞങ്ങൾക്ക് നൽകണമേ, നരകശിക്ഷയിൽനിന്ന് ഞങ്ങളെ സംരക്ഷിക്കണമേ."
+      },
+      "reference": {
+        "source": "Quran",
+        "reference_text": "Quran 2:201"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "gen-2",
+      "category_id": "dua-general",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "Dua for Guidance",
+        "ar": "دعاء الهداية",
+        "ur": "ہدایت کی دعا",
+        "fr": "Doua pour la Guidance",
+        "tr": "Hidayet DuasÄ±",
+        "id": "Doa Petunjuk",
+        "bn": "হেদায়াতের দোয়া",
+        "ms": "Doa Petunjuk",
+        "ta": "நெறிப்படுத்தலுக்கான துஆ",
+        "ml": "നേർവഴിക്കുള്ള ദുആ"
+      },
+      "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "translation": {
+        "en": "Guide us to the straight path.",
+        "ar": "اهدنا الصراط المستقيم",
+        "ur": "ہمیں سیدھا راستہ دکھا۔",
+        "fr": "Guide-nous vers le droit chemin.",
+        "tr": "Bizi doÄŸru yola ilet.",
+        "id": "Tunjukilah kami jalan yang lurus.",
+        "bn": "আমাদের সরল পথ দেখাও।",
+        "ms": "Tunjukilah kami jalan yang lurus.",
+        "ta": "நேரான பாதையில் எங்களை நடத்துவாயாக.",
+        "ml": "ഞങ്ങളെ നേരായ പാതയിലേക്ക് നയിക്കണമേ."
+      },
+      "reference": {
+        "source": "Quran",
+        "reference_text": "Quran 1:6"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "gen-3",
+      "category_id": "dua-general",
+      "subcategory_id": null,
+      "order": 3,
+      "title": {
+        "en": "Dua for Steadfastness",
+        "ar": "دعاء الثبات",
+        "ur": "ثبات کی دعا",
+        "fr": "Doua pour la Fermeté",
+        "tr": "SaÄŸlamlÄ±k DuasÄ±",
+        "id": "Doa Keteguhan",
+        "bn": "দৃঢ়তার দোয়া",
+        "ms": "Doa Keteguhan",
+        "ta": "உறுதிக்கான துஆ",
+        "ml": "ദൃഢതയ്ക്കുള്ള ദുആ"
+      },
+      "arabic": "يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ",
+      "translation": {
+        "en": "O Turner of the hearts, keep my heart firm upon Your religion.",
+        "ar": "يا مقلب القلوب ثبت قلبي على دينك",
+        "ur": "اے دلوں کو پلٹنے والے! میرے دل کو اپنے دین پر ثابت رکھ۔",
+        "fr": "Ô Toi qui retourne les cœurs, affermis mon cœur sur Ta religion.",
+        "tr": "Ey kalpleri çeviren! Kalbimi dinin üzere sabit kıl.",
+        "id": "Wahai Yang membolak-balikkan hati, teguhkanlah hatiku atas agama-Mu.",
+        "bn": "হে অন্তরসমূহ পালটানোকারী, আমার অন্তরকে তোমার দীনের উপর দৃঢ় রাখো।",
+        "ms": "Wahai Yang membolak-balikkan hati, teguhkanlah hatiku atas agama-Mu.",
+        "ta": "இதயங்களை திருப்புவோரே! என் இதயத்தை உமது மார்க்கத்தில் உறுதியாக வைத்திடுவாயாக.",
+        "ml": "ഹൃദയങ്ങളെ തിരിക്കുന്നവനേ, എന്റെ ഹൃദയം നിന്റെ മതത്തിൽ ഉറപ്പിച്ചുനിർത്തണമേ."
+      },
+      "reference": {
+        "source": "Tirmidhi",
+        "reference_text": "Tirmidhi 5/214"
+      },
+      "repetition_count": 1
+    }
+  ]
+}

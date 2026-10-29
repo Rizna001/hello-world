@@ -1,0 +1,86 @@
+{
+  "dataset": "islamic-duas-collection",
+  "schema_version": "3.0.0",
+  "generated_by": "scripts/migrate.py",
+  "description": "Complete Islamic Duas Collection reorganized into a hierarchical, Flutter-friendly JSON architecture inspired by quran-hadith-json.",
+  "repository": "https://github.com/Rizna001/FLUTTER-FRIENDLY-DUA-2",
+  "license": "MIT",
+  "collections": [
+    {
+      "id": "duas",
+      "title": {
+        "en": "Situation-based Duas",
+        "ta": "நிலைமைக்கேற்பான துஆக்கள்"
+      },
+      "total_records": 179,
+      "total_categories": 36,
+      "index_file": "data/duas/index.json",
+      "categories_index": "data/duas/categories/index.json"
+    },
+    {
+      "id": "asma-ul-husna",
+      "title": {
+        "en": "Asma ul Husna — 99 Names of Allah",
+        "ta": "அஸ்மாவுல் ஹுஸ்னா — அல்லாஹ்வின் 99 பெயர்கள்"
+      },
+      "total_records": 110,
+      "total_categories": 1,
+      "index_file": "data/asma-ul-husna/index.json"
+    },
+    {
+      "id": "asma-ul-anbiya",
+      "title": {
+        "en": "Asma ul Anbiya — 25 Prophets",
+        "ta": "அஸ்மாவுல் அன்பியா — 25 நபிமார்கள்"
+      },
+      "total_records": 79,
+      "total_categories": 1,
+      "index_file": "data/asma-ul-anbiya/index.json"
+    },
+    {
+      "id": "rabbana-duas",
+      "title": {
+        "en": "40 Rabbana Duas (Quranic)",
+        "ta": "40 ரੱבና துஆக்கள் (குர்ஆன்)"
+      },
+      "total_records": 40,
+      "total_categories": 1,
+      "index_file": "data/rabbana-duas/index.json"
+    }
+  ],
+  "master_category_index": "metadata/categories.json",
+  "language_index": "metadata/languages.json",
+  "supported_languages": [
+    "en",
+    "ar",
+    "ur",
+    "fr",
+    "tr",
+    "id",
+    "bn",
+    "ms",
+    "ta",
+    "ml"
+  ],
+  "totals": {
+    "collections": 4,
+    "dua_categories": 36,
+    "dua_records": 179,
+    "rabbana_records": 40,
+    "prophet_dua_records": 4,
+    "intro_dua_records": 2,
+    "husna_name_records": 99,
+    "anbiya_prophet_records": 25,
+    "records_all_collections": 408
+  },
+  "paths": {
+    "relative_to": "repository root",
+    "style": "posix"
+  },
+  "compatibility": {
+    "flutter_bundle_root": "assets/data",
+    "flutter_bundle_mapping": "entries under assets/data mirror this repository's data/ tree exactly",
+    "legacy_public_api": "public/api/v1 regenerated from migrated data",
+    "original_backup": "backup/legacy-data/allData.json"
+  }
+}

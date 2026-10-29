@@ -1,0 +1,43 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "good-character",
+  "count": 1,
+  "duas": [
+    {
+      "id": "gc-1",
+      "category_id": "good-character",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Dua for Good Character",
+        "ar": "دعاء حسن الخلق",
+        "ur": "اچھے اخلاق کی دعا",
+        "fr": "Doua pour un Bon Caractère",
+        "tr": "Güzel Ahlak Duası",
+        "id": "Doa Akhlak Mulia",
+        "bn": "সুন্দর চরিত্রের দোয়া",
+        "ms": "Doa Akhlak Mulia",
+        "ta": "நல்ல ஒழுக்கத்திற்கான துஆ",
+        "ml": "സദ്സ്വഭാവത്തിനുള്ള ദുആ"
+      },
+      "arabic": "اللَّهُمَّ اهْدِنِي لأَحْسَنِ الأَخْلاَقِ لاَ يَهْدِي لأَحْسَنِهَا إِلاَّ أَنْتَ، وَاصْرِفْ عَنِّي سَيِّئَهَا لاَ يَصْرِفُ عَنِّي سَيِّئَهَا إِلاَّ أَنْتَ",
+      "translation": {
+        "en": "O Allah, guide me to the best of character, none can guide to it except You. And turn away from me evil character, none can turn it away from me except You.",
+        "ar": "اللهم اهدني لأحسن الأخلاق لا يهدي لأحسنها إلا أنت، واصرف عني سيئها لا يصرف عني سيئها إلا أنت",
+        "ur": "اے اللہ! مجھے بہترین اخلاق کی ہدایت دے، تیرے سوا کوئی بہترین اخلاق کی ہدایت نہیں دے سکتا، اور مجھ سے برے اخلاق دور فرما، تیرے سوا کوئی برے اخلاق دور نہیں کر سکتا۔",
+        "fr": "Ô Allah, guide-moi vers le meilleur des caractères, nul ne peut y guider sauf Toi. Et éloigne de moi le mauvais caractère, nul ne peut l'éloigner de moi sauf Toi.",
+        "tr": "Allah'ım! Beni en güzel ahlaka hidayet et, ona Senden başka hidayet eden yoktur. Kötü ahlaktan beni uzak tut, ondan beni uzak tutan Senden başka yoktur.",
+        "id": "Ya Allah, tunjukilah aku kepada akhlak yang terbaik, tiada yang dapat menunjukinya kecuali Engkau. Dan palingkanlah dariku akhlak yang buruk, tiada yang dapat memalingkannya dariku kecuali Engkau.",
+        "bn": "হে আল্লাহ, আমাকে সর্বোত্তম চরিত্রের পথ দেখাও, তোমার বাতীত কেউ তা দেখাতে পারে না, এবং আমার কাছ থেকে খারাপ চরিত্র দূর করো, তোমার বাতীত কেউ তা দূর করতে পারে না।",
+        "ms": "Ya Allah, tunjukilah aku kepada akhlak yang terbaik, tiada yang dapat menunjukinya kecuali Engkau. Dan palingkanlah dariku akhlak yang buruk, tiada yang dapat memalingkannya dariku kecuali Engkau.",
+        "ta": "இறைவா! சிறந்த ஒழுக்கத்திற்கு எனக்கு நெறி காட்டுவாயாக, உம்மைத் தவிர வேறு யாரும் அதற்கு நெறிகாட்ட இயலாது, மேலும் கெட்ட ஒழுக்கத்தை என்னிடமிருந்து திருப்புவாயாக, உம்மைத் தவிர வேறு யாரும் அதை என்னிடமிருந்து திருப்ப இயலாது.",
+        "ml": "അല്ലാഹുവേ, ഉത്തമമായ സ്വഭാവത്തിലേക്ക് എന്നെ നയിക്കണമേ, അതിലേക്ക് നയിക്കാൻ നിന്നല്ലാതെ ആർക്കും കഴിയില്ല, മോശമായ സ്വഭാവം എന്നിൽനിന്ന് തിരിച്ചുകളയണമേ, അത് എന്നിൽനിന്ന് തിരിച്ചുകളയാൻ നിന്നല്ലാതെ ആർക്കും കഴിയില്ല."
+      },
+      "reference": {
+        "source": "Muslim",
+        "reference_text": "Muslim 1/534"
+      },
+      "repetition_count": 1
+    }
+  ]
+}

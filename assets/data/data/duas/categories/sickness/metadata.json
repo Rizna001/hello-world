@@ -1,0 +1,30 @@
+{
+  "id": "sickness",
+  "name": {
+    "en": "Sickness & Healing",
+    "ar": "المرض والشفاء",
+    "ur": "بیماری اور شفا",
+    "fr": "Maladie et Guérison",
+    "tr": "HastalÄ±k ve Åžifa",
+    "id": "Penyakit dan Kesembuhan",
+    "bn": "অসুস্থতা ও আরোগ্য",
+    "ms": "Penyakit dan Kesembuhan",
+    "ta": "நோய் மற்றும் குணமடைதல்",
+    "ml": "രോഗവും സുഖപ്പെടുത്തലും"
+  },
+  "description": {
+    "en": "Category of duas: Sickness & Healing"
+  },
+  "parent_id": null,
+  "order": 13,
+  "icon": "ðŸ¥",
+  "theme": {
+    "color": "sky",
+    "gradient": "from-sky-400 to-blue-500",
+    "bg": "bg-sky-50",
+    "border": "border-sky-200",
+    "text": "text-sky-700"
+  },
+  "item_count": 2,
+  "data_file": "duas.json"
+}

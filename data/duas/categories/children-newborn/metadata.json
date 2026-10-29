@@ -1,0 +1,30 @@
+{
+  "id": "children-newborn",
+  "name": {
+    "en": "Children & Newborn",
+    "ar": "الأطفال والمولود",
+    "ur": "بچے اور نومولود",
+    "fr": "Enfants et Nouveau-né",
+    "tr": "Çocuklar ve Yeni Doğan",
+    "id": "Anak & Bayi Baru Lahir",
+    "bn": "শিশু ও নবজাতক",
+    "ms": "Kanak-kanak & Bayi Baru Lahir",
+    "ta": "குழந்தைகள் & புதிய பிறப்பு",
+    "ml": "കുട്ടികളും നവജാതശിശുവും"
+  },
+  "description": {
+    "en": "Category of duas: Children & Newborn"
+  },
+  "parent_id": null,
+  "order": 30,
+  "icon": "ðŸ‘¶",
+  "theme": {
+    "color": "pink",
+    "gradient": "from-pink-400 to-rose-500",
+    "bg": "bg-pink-50",
+    "border": "border-pink-200",
+    "text": "text-pink-700"
+  },
+  "item_count": 2,
+  "data_file": "duas.json"
+}

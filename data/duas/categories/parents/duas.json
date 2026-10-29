@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "parents",
+  "count": 2,
+  "duas": [
+    {
+      "id": "prn-1",
+      "category_id": "parents",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Dua for Parents",
+        "ar": "دعاء للوالدين",
+        "ur": "والدین کے لیے دعا",
+        "fr": "Doua pour les Parents",
+        "tr": "Anne Baba DuasÄ±",
+        "id": "Doa untuk Orang Tua",
+        "bn": "পিতা-মাতার জন্য দোয়া",
+        "ms": "Doa untuk Ibu Bapa",
+        "ta": "பெற்றோருக்கான துஆ",
+        "ml": "മാതാപിതാക്കൾക്കുള്ള ദുആ"
+      },
+      "arabic": "رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+      "translation": {
+        "en": "My Lord, have mercy upon them as they brought me up when I was small.",
+        "ar": "رب ارحمهما كما ربياني صغيرا",
+        "ur": "اے میرے رب! ان دونوں پر رحم فرما جیسا کہ انہوں نے مجھے بچپن میں پالا۔",
+        "fr": "Mon Seigneur, aie pitié d'eux comme ils m'ont élevé quand j'étais petit.",
+        "tr": "Rabbim! Onlara merhamet et, beni küçükken yetiştirdikleri gibi.",
+        "id": "Tuhanku, sayangilah keduanya sebagaimana keduanya telah mendidikku waktu kecil.",
+        "bn": "হে আমার রব, তাদের প্রতি রহমত করো যেমন তারা আমাকে ছোটবেলায় লালন-পালন করেছেন।",
+        "ms": "Tuhanku, kasihanilah keduanya sebagaimana keduanya telah mendidikku waktu kecil.",
+        "ta": "என் இறைவா! நான் சிறுவனாக இருந்தபோது என்னை வளர்த்தது போல் அவர்கள் மீது கருணை காட்டுவாயாக.",
+        "ml": "എന്റെ രക്ഷിതാവേ, ഞാൻ ചെറുപ്പമായിരുന്നപ്പോൾ അവർ എന്നെ വളർത്തിയതുപോലെ അവരോട് കരുണ കാണിക്കണമേ."
+      },
+      "reference": {
+        "source": "Quran",
+        "reference_text": "Quran 17:24"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "prn-2",
+      "category_id": "parents",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "Dua for Deceased Parents",
+        "ar": "دعاء للوالدين المتوفين",
+        "ur": "وفات شدہ والدین کے لیے دعا",
+        "fr": "Doua pour les Parents Décédés",
+        "tr": "Vefat Eden Anne Baba İçin Dua",
+        "id": "Doa untuk Orang Tua yang Telah Meninggal",
+        "bn": "মৃত পিতা-মাতার জন্য দোয়া",
+        "ms": "Doa untuk Ibu Bapa yang Telah Meninggal",
+        "ta": "மரணித்த பெற்றோருக்கான துஆ",
+        "ml": "മരിച്ച മാതാപിതാക്കൾക്കുള്ള ദുആ"
+      },
+      "arabic": "اللَّهُمَّ اغْفِرْ لأَبَوَيَّ وَارْحَمْهُمَا وَأَدْخِلْهُمَا الْجَنَّةَ",
+      "translation": {
+        "en": "O Allah, forgive my parents, have mercy on them, and admit them into Paradise.",
+        "ar": "اللهم اغفر لوالدي وارحمهما وأدخلهما الجنة",
+        "ur": "اے اللہ! میرے والدین کو بخش دے اور ان پر رحم فرما اور ان کو جنت میں داخل فرما۔",
+        "fr": "Ô Allah, pardonne à mes parents, aie pitié d'eux et fais-les entrer au Paradis.",
+        "tr": "Allah'Ä±m! Anne babamÄ± baÄŸÄ±ÅŸla, onlara merhamet et ve onlarÄ± cennete koy.",
+        "id": "Ya Allah, ampunilah kedua orang tuaku, rahmatilah keduanya, dan masukkanlah keduanya ke dalam surga.",
+        "bn": "হে আল্লাহ, আমার পিতা-মাতাকে ক্ষমা করো, তাদের প্রতি রহমত করো এবং তাদের জান্নাতে দাখিল করো।",
+        "ms": "Ya Allah, ampunilah kedua ibu bapaku, rahmatilah keduanya, dan masukkanlah keduanya ke dalam syurga.",
+        "ta": "இறைவா! என் பெற்றோரை மன்னிப்பாயாக, அவர்கள் மீது கருணை காட்டுவாயாக, அவர்களை சொர்க்கத்தில் சேர்ப்பாயாக.",
+        "ml": "അല്ലാഹുവേ, എന്റെ മാതാപിതാക്കളെ പൊറുക്കണമേ, അവരോട് കരുണ കാണിക്കണമേ, അവരെ സ്വർഗത്തിൽ പ്രവേശിപ്പിക്കണമേ."
+      },
+      "reference": {
+        "source": "Muslim",
+        "reference_text": "Muslim"
+      },
+      "repetition_count": 1
+    }
+  ]
+}

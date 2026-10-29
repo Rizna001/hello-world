@@ -1,0 +1,30 @@
+{
+  "id": "asma-ul-anbiya",
+  "name": {
+    "en": "Names of Prophets (Asma ul Anbiya)",
+    "ar": "أسماء الأنبياء",
+    "ur": "اسماء الانبیاء",
+    "fr": "Noms des Prophètes",
+    "tr": "Peygamberlerin Ä°simleri",
+    "id": "Nama-Nama Nabi",
+    "bn": "নবীদের নাম",
+    "ms": "Nama-Nama Nabi",
+    "ta": "நபிமார்களின் பெயர்கள்",
+    "ml": "നബിമാരുടെ നാമങ്ങൾ"
+  },
+  "description": {
+    "en": "Category of duas: Names of Prophets (Asma ul Anbiya)"
+  },
+  "parent_id": null,
+  "order": 21,
+  "icon": "ðŸ“–",
+  "theme": {
+    "color": "indigo",
+    "gradient": "from-indigo-400 to-blue-500",
+    "bg": "bg-indigo-50",
+    "border": "border-indigo-200",
+    "text": "text-indigo-700"
+  },
+  "item_count": 1,
+  "data_file": "duas.json"
+}

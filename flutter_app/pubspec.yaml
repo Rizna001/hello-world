@@ -1,0 +1,28 @@
+name: dua_data_consumer
+description: >
+  Reference Flutter integration for the FLUTTER-FRIENDLY-DUA-2 dataset.
+  This is an INTEGRATION EXAMPLE package (not the web app in ../src). It shows
+  how to load the hierarchical JSON tree on demand from bundled assets.
+  Copy the repository's assets/data/ folder into this project (or reference it
+  via pubspec asset paths) and reuse lib/models + lib/services directly.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  # Folder-based declaration: every JSON file under assets/data/** is bundled,
+  # so individual category files can be loaded on demand without parsing the
+  # whole dataset at startup.
+  assets:
+    - path: assets/data/
+      folders: true

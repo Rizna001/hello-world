@@ -1,0 +1,31 @@
+{
+  "id": "duas1To103",
+  "name": {
+    "en": "Duas 1 to 103",
+    "ar": "الأدعية من 1 إلى 103",
+    "ur": "دعائیں 1 سے 103 تک",
+    "fr": "Invocations 1 à 103",
+    "tr": "1–103 Arası Dualar",
+    "id": "Doa 1 sampai 103",
+    "bn": "১ থেকে ১০৩ নম্বর দোয়া",
+    "ms": "Doa 1 hingga 103",
+    "ta": "துஆக்கள் 1 முதல் 103 வரை",
+    "ml": "ദുആകൾ 1 മുതൽ 103 വരെ"
+  },
+  "description": {
+    "en": "Consolidated collection of 103 duas (originally numbered 1 to 103). Each record preserves the verbatim source text in source_text; several records have empty arabic/reference fields in the original data.",
+    "ta": "103 துஆக்களின் தொகுத்தல் தொகுப்பு. ஒவ்வொரு பதிவும் மூல உரத்துடன் பாதுகாக்கப்பட்டுள்ளது."
+  },
+  "parent_id": null,
+  "order": 36,
+  "icon": "📿",
+  "theme": {
+    "color": "emerald",
+    "gradient": "from-emerald-500 to-teal-600",
+    "bg": "bg-emerald-50",
+    "border": "border-emerald-200",
+    "text": "text-emerald-700"
+  },
+  "item_count": 103,
+  "data_file": "duas.json"
+}

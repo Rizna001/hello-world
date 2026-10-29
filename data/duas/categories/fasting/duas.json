@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "fasting",
+  "count": 2,
+  "duas": [
+    {
+      "id": "fst-1",
+      "category_id": "fasting",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Intention to Fast",
+        "ar": "نية الصيام",
+        "ur": "روزے کی نیت",
+        "fr": "Intention de Jeûner",
+        "tr": "Oruç Niyeti",
+        "id": "Niat Puasa",
+        "bn": "রোজার নিয়ত",
+        "ms": "Niat Puasa",
+        "ta": "நோன்பு நிய்யத்",
+        "ml": "നോമ്പ് നിയ്യത്ത്"
+      },
+      "arabic": "وَبِصَوْمِ غَدٍ نَوَيْتُ مِنْ شَهْرِ رَمَضَانَ",
+      "translation": {
+        "en": "I intend to fast tomorrow in the month of Ramadan.",
+        "ar": "وبصوم غد نويت من شهر رمضان",
+        "ur": "میں نے ماہِ رمضان کے روزے کی نیت کی۔",
+        "fr": "J'ai l'intention de jeûner demain au mois de Ramadan.",
+        "tr": "Ramazan ayında yarın oruç tutmaya niyet ettim.",
+        "id": "Aku berniat puasa esok hari di bulan Ramadhan.",
+        "bn": "আমি রমজান মাসে আগামীকাল রোজা রাখার নিয়ত করেছি।",
+        "ms": "Aku berniat puasa esok hari di bulan Ramadhan.",
+        "ta": "ரமளான் மாதத்தில் நான் நாளை நோன்பு நோற்க நிய்யத் செய்தேன்.",
+        "ml": "റമളാൻ മാസത്തിൽ ഞാൻ നാളെ നോമ്പ് അനുഷ്ഠിക്കാൻ നിയ്യത്ത് ചെയ്തു."
+      },
+      "reference": {
+        "source": "Traditional",
+        "reference_text": "Traditional"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "fst-2",
+      "category_id": "fasting",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "Breaking the Fast (Iftar)",
+        "ar": "عند الإفطار",
+        "ur": "افطاری کے وقت",
+        "fr": "Au Moment de Rupture du Jeûne",
+        "tr": "Ä°ftar Vakti",
+        "id": "Saat Berbuka",
+        "bn": "ইফতারের সময়",
+        "ms": "Ketika Berbuka",
+        "ta": "நோன்பு திறக்கும்போது",
+        "ml": "നോമ്പ് തുറക്കുമ്പോൾ"
+      },
+      "arabic": "ذَهَبَ الظَّمَأُ وَابْتَلَّتِ الْعُرُوقُ وَثَبَتَ الأَجْرُ إِنْ شَاءَ اللهُ",
+      "translation": {
+        "en": "The thirst is gone, the veins are moistened, and the reward is confirmed, if Allah wills.",
+        "ar": "ذهب الظمأ وابتلت العروق وثبت الأجر إن شاء الله",
+        "ur": "پیاس دور ہو گئی، رگیں تر ہو گئیں اور انشاءاللہ اجر ثابت ہو گیا۔",
+        "fr": "La soif est partie, les veines sont humidifiées, et la récompense est confirmée, si Allah veut.",
+        "tr": "Susuzluk gitti, damarlar Ä±slandÄ± ve inÅŸallah ecir sabit oldu.",
+        "id": "Rasa haus telah hilang, urat-urat telah basah, dan pahala telah ditetapkan, jika Allah menghendaki.",
+        "bn": "তৃষ্ণা দূর হয়েছে, শিরা-উপশিরা ভিজে গেছে এবং আল্লাহ চাইলে প্রতিদান নিশ্চিত হয়েছে।",
+        "ms": "Rasa haus telah hilang, urat-urat telah basah, dan pahala telah ditetapkan, jika Allah menghendaki.",
+        "ta": "தாகம் தீர்ந்தது, நரம்புகள் ஈரமானது, அல்லாஹ் நாடினால் கூலி உறுதி செய்யப்பட்டது.",
+        "ml": "ദാഹം മാറി, ഞരമ്പുകൾ നനഞ്ഞു, അല്ലാഹു ഉദ്ദേശിക്കുമ്പോൾ പ്രതിഫലം ഉറപ്പായി."
+      },
+      "reference": {
+        "source": "Abu",
+        "reference_text": "Abu Dawud 2/306"
+      },
+      "repetition_count": 1
+    }
+  ]
+}

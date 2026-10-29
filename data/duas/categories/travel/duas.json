@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "travel",
+  "count": 2,
+  "duas": [
+    {
+      "id": "trv-1",
+      "category_id": "travel",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Travel Dua (Riding Vehicle)",
+        "ar": "دعاء السفر",
+        "ur": "سفر کی دعا",
+        "fr": "Doua du Voyage",
+        "tr": "Yolculuk DuasÄ±",
+        "id": "Doa Perjalanan",
+        "bn": "সফরের দোয়া",
+        "ms": "Doa Perjalanan",
+        "ta": "பிரயாண துஆ",
+        "ml": "യാത്രാ ദുആ"
+      },
+      "arabic": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ، وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ. اللَّهُمَّ إِنَّا نَسْأَلُكَ فِي سَفَرِنَا هَٰذَا الْبِرَّ وَالتَّقْوَى، وَمِنَ الْعَمَلِ مَا تَرْضَى، اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَٰذَا وَاطْوِ عَنَّا بُعْدَهُ، اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ، وَالْخَلِيفَةُ فِي الأَهْلِ",
+      "translation": {
+        "en": "Glory be to the One Who has subjected this for us, as we could never have accomplished this on our own. And surely unto our Lord we shall return. O Allah, we ask You in this journey of ours for righteousness and piety, and for deeds that You are pleased with. O Allah, make this journey easy for us and shorten its distance. O Allah, You are the Companion in the journey and the Guardian over the family.",
+        "ar": "سبحان الذي سخر لنا هذا وما كنا له مقرنين وإنا إلى ربنا لمنقلبون، اللهم إنا نسألك في سفرنا هذا البر والتقوى ومن العمل ما ترضى، اللهم هون علينا سفرنا هذا واطو عنا بعده، اللهم أنت الصاحب في السفر والخليفة في الأهل",
+        "ur": "پاک ہے وہ جس نے اسے ہمارے لیے مسخر کر دیا اور ہم اس کے قابو میں نہ تھے اور بے شک ہم اپنے رب کی طرف لوٹنے والے ہیں۔ اے اللہ! ہم اس سفر میں تجھ سے نیکی اور تقویٰ اور تجھے پسندیدہ عمل مانگتے ہیں۔ اے اللہ! ہمارے لیے یہ سفر آسان فرما اور اس کی دوری کو ہمارے لیے سمیٹ لے۔ اے اللہ! تو سفر میں ساتھی ہے اور اہل میں جانشین ہے۔",
+        "fr": "Gloire à Celui qui nous a soumis ceci, car nous n'aurions jamais pu y parvenir par nous-mêmes. Et c'est vers notre Seigneur que nous retournerons. Ô Allah, nous Te demandons dans ce voyage la piété et la crainte, et des actes qui Te plaisent. Ô Allah, facilite ce voyage pour nous et raccourcis sa distance. Ô Allah, Tu es le Compagnon dans le voyage et le Gardien de la famille.",
+        "tr": "Bunu bize boyun eğdiren Allah'ı tesbih ederim, yoksa biz buna güç yetiremezdik. Ve şüphesiz Rabbimize döneceğiz. Allah'ım! Bu yolculuğumuzda Senden iyilik, takva ve razı olduğun ameller istiyoruz. Allah'ım! Bu yolculuğumuzu kolaylaştır ve mesafesini kısalt. Allah'ım! Sen yolculukta yoldaş ve ailede halifesin.",
+        "id": "Maha Suci Allah yang telah menundukkan ini untuk kami, padahal kami tidak mampu menguasainya. Dan sesungguhnya kami akan kembali kepada Tuhan kami. Ya Allah, kami memohon kepada-Mu dalam perjalanan kami ini kebaikan, ketakwaan, dan amal yang Engkau ridhai. Ya Allah, mudahkanlah perjalanan kami ini dan dekatkanlah jaraknya. Ya Allah, Engkau adalah teman dalam perjalanan dan penjaga keluarga.",
+        "bn": "পবিত্র তিনি যিনি এটিকে আমাদের বশীভূত করেছেন, আর আমরা কখনো এর অধিকারী ছিলাম না। এবং নিশ্চয়ই আমরা আমাদের রবের দিকে প্রত্যাবর্তনকারী। হে আল্লাহ, আমরা এই সফরে তোমার কাছে নেকি, তাকওয়া এবং তোমার পছন্দনীয় আমল চাই। হে আল্লাহ, আমাদের এই সফর সহজ করো এবং এর দূরত্ব কমিয়ে দাও। হে আল্লাহ, তুমি সফরে সঙ্গী এবং পরিবারে অভিভাবক।",
+        "ms": "Maha Suci Allah yang telah menundukkan ini untuk kami, padahal kami tidak mampu menguasainya. Dan sesungguhnya kami akan kembali kepada Tuhan kami. Ya Allah, kami memohon kepada-Mu dalam perjalanan kami ini kebaikan, ketakwaan, dan amal yang Engkau redhai. Ya Allah, mudahkanlah perjalanan kami ini dan dekatkanlah jaraknya. Ya Allah, Engkau adalah teman dalam perjalanan dan penjaga keluarga.",
+        "ta": "இதை நமக்கு வசப்படுத்தியவன் மிகவும் பரிசுத்தமானவன், நாங்கள் இதை நம்மால் சாதித்திருக்க முடியாது. நிச்சயமாக நாம் நம் இறைவனிடமே திரும்புவோம். இறைவா! எங்கள் இந்த பிரயாணத்தில் நீதி, பயபக்தி மற்றும் நீர் பொருந்தும் செயல்களை உம்மிடம் கேட்கிறோம். இறைவா! இந்த பிரயாணத்தை எங்களுக்கு எளிதாக்கு, அதன் தூரத்தை குறைப்பாயாக. இறைவா! பிரயாணத்தில் துணைவனும், குடும்பத்தில் பாதுகாவலனும் நீரே.",
+        "ml": "ഇത് ഞങ്ങൾക്ക് വശമാക്കിത്തന്നവൻ അതിപരിശുദ്ധനാണ്, ഇത് ഞങ്ങൾക്ക് സ്വന്തമായി സാധിക്കുമായിരുന്നില്ല. തീർച്ചയായും ഞങ്ങൾ ഞങ്ങളുടെ രക്ഷിതാവിങ്കലേക്ക് മടങ്ങും. അല്ലാഹുവേ, ഈ യാത്രയിൽ നീതി, ഭക്തി, നിന്റെ പ്രീതിക്കുള്ള പ്രവൃത്തികൾ എന്നിവ ഞങ്ങൾ നിന്നോട് ചോദിക്കുന്നു. അല്ലാഹുവേ, ഈ യാത്ര ഞങ്ങൾക്ക് എളുപ്പമാക്കുകയും ദൂരം കുറയ്ക്കുകയും ചെയ്യണമേ. അല്ലാഹുവേ, യാത്രയിലെ കൂട്ടാളിയും കുടുംബത്തിലെ കാവൽക്കാരനും നീയാണ്."
+      },
+      "reference": {
+        "source": "Muslim",
+        "reference_text": "Muslim 2/978"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "trv-2",
+      "category_id": "travel",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "Dua of the Traveler",
+        "ar": "دعوة المسافر",
+        "ur": "مسافر کی دعا",
+        "fr": "Invocation du Voyageur",
+        "tr": "Yolcunun DuasÄ±",
+        "id": "Doa Musafir",
+        "bn": "মুসাফিরের দোয়া",
+        "ms": "Doa Musafir",
+        "ta": "பிரயாணி துஆ",
+        "ml": "യാത്രക്കാരന്റെ ദുആ"
+      },
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِعِلْمِكَ الْغَيْبِ وَقُدْرَتِكَ عَلَى الْخَلْقِ أَحْيِنِي مَا عَلِمْتَ الْحَيَاةَ خَيْرًا لِي، وَتَوَفَّنِي إِذَا عَلِمْتَ الْوَفَاةَ خَيْرًا لِي",
+      "translation": {
+        "en": "O Allah, I ask You by Your knowledge of the unseen and Your power over creation, keep me alive as long as life is good for me, and cause me to die when death is good for me.",
+        "ar": "اللهم إني أسألك بعلمك الغيب وقدرتك على الخلق أحيني ما علمت الحياة خيرا لي وتوفني إذا علمت الوفاة خيرا لي",
+        "ur": "اے اللہ! میں تجھ سے تیرے علمِ غیب اور مخلوق پر تیری قدرت کے واسطے سے مانگتا ہوں کہ جب تک تو جانتا ہے کہ زندگی میرے لیے بہتر ہے مجھے زندہ رکھ اور جب تو جانے کہ موت میرے لیے بہتر ہے تو مجھے وفات دے دے۔",
+        "fr": "Ô Allah, je Te demande par Ta connaissance de l'invisible et Ton pouvoir sur la création, maintiens-moi en vie tant que la vie est bonne pour moi, et fais-moi mourir quand la mort est bonne pour moi.",
+        "tr": "Allah'ım! Gayb ilminle ve yaratığa olan kudretinle senden istiyorum, hayatın benim için hayırlı olduğunu bildiğin sürece beni yaşat ve ölümün benim için hayırlı olduğunu bildiğinde beni vefat ettir.",
+        "id": "Ya Allah, aku memohon kepada-Mu dengan ilmu-Mu tentang yang gaib dan kekuasaan-Mu atas makhluk, hidupkanlah aku selama Engkau mengetahui kehidupan itu baik bagiku, dan matikanlah aku ketika Engkau mengetahui kematian itu baik bagiku.",
+        "bn": "হে আল্লাহ, আমি তোমার অদৃশ্যের জ্ঞান এবং সৃষ্টির উপর তোমার ক্ষমতার মাধ্যমে তোমার কাছে চাই, যতদিন তুমি জানো জীবন আমার জন্য ভালো ততদিন আমাকে বাঁচিয়ে রাখো এবং যখন তুমি জানো মৃত্যু আমার জন্য ভালো তখন আমাকে মৃত্যু দাও।",
+        "ms": "Ya Allah, aku memohon kepada-Mu dengan ilmu-Mu tentang yang ghaib dan kekuasaan-Mu atas makhluk, hidupkanlah aku selama Engkau mengetahui kehidupan itu baik bagiku, dan matikanlah aku ketika Engkau mengetahui kematian itu baik bagiku.",
+        "ta": "இறைவா! மறைவானதைப் பற்றிய உமது அறிவாலும், படைப்பின் மீது உமது வல்லமையாலும் உம்மிடம் கேட்கிறேன், வாழ்க்கை எனக்கு நன்மையானது என்று நீர் அறியும் வரை என்னை வாழ வைப்பாயாக, மரணம் எனக்கு நன்மையானது என்று நீர் அறியும் போது என்னை மரணமடையச் செய்வாயாக.",
+        "ml": "അല്ലാഹുവേ, അദൃശ്യത്തെക്കുറിച്ചുള്ള നിന്റെ അറിവിലൂടെയും സൃഷ്ടിയുടെ മേലുള്ള നിന്റെ ശക്തിയിലൂടെയും ഞാൻ നിന്നോട് ചോദിക്കുന്നു, ജീവിതം എനിക്ക് നല്ലതാണെന്ന് നീ അറിയുന്നിടത്തോളം എന്നെ ജീവിപ്പിക്കുകയും, മരണം എനിക്ക് നല്ലതാണെന്ന് നീ അറിയുമ്പോൾ എന്നെ മരിപ്പിക്കുകയും ചെയ്യണമേ."
+      },
+      "reference": {
+        "source": "Nasa'i",
+        "reference_text": "Nasa'i 3/234"
+      },
+      "repetition_count": 1
+    }
+  ]
+}
