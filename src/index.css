@@ -2,9 +2,35 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* Uthmani script (Madinah Mushaf style) for all Arabic dua text.
+   KFGQPC Uthmanic Script HAFS is the primary face; Amiri Quran is the fallback. */
+@font-face {
+  font-family: 'KFGQPC Uthmanic Script HAFS';
+  src: url('./assets/fonts/KFGQPC-Uthmanic-Script-HAFS.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* KFGQPC draws the Arabic comma as an ayah-end ornament, so punctuation comes from Amiri Quran. */
+@font-face {
+  font-family: 'Arabic Punctuation';
+  src: url('./assets/fonts/AmiriQuran-Arabic.woff2') format('woff2');
+  unicode-range: U+060C, U+061B, U+061F;
+}
+
+@font-face {
+  font-family: 'Amiri Quran';
+  src: url('./assets/fonts/AmiriQuran-Arabic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
 @theme {
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-arabic: 'Amiri', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+  --font-arabic: 'Arabic Punctuation', 'KFGQPC Uthmanic Script HAFS', 'Amiri Quran', 'Amiri', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
   --color-slate-50: #f3f7f3;
   --color-slate-100: #e3ece5;
   --color-slate-200: #c8d8cd;
@@ -56,8 +82,10 @@ body {
 
 /* Arabic Text Styles */
 .font-arabic {
-  font-family: 'Amiri', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
-  line-height: 2;
+  font-family: 'Arabic Punctuation', 'KFGQPC Uthmanic Script HAFS', 'Amiri Quran', 'Amiri', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+  line-height: 2.2;
+  font-feature-settings: 'calt', 'liga', 'mark', 'mkmk';
+  text-rendering: optimizeLegibility;
 }
 
 /* Custom scrollbar */

@@ -330,7 +330,7 @@ export default function DuaReminder({ language, duas }: DuaReminderProps) {
                       {reminder.duaTitle}
                     </h4>
                   </div>
-                  <p dir="rtl" className={`text-sm mb-2 ${isDark ? 'text-gray-400' : 'text-gray-600'}`} style={{ fontFamily: "'Amiri', serif" }}>
+                  <p dir="rtl" className={`text-sm mb-2 ${isDark ? 'text-gray-400' : 'text-gray-600'}`} style={{ fontFamily: "'Arabic Punctuation', 'KFGQPC Uthmanic Script HAFS', 'Amiri Quran', 'Amiri', serif" }}>
                     {reminder.duaArabic.substring(0, 60)}...
                   </p>
                   <div className="flex items-center gap-3 text-xs">

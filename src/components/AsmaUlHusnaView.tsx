@@ -96,7 +96,7 @@ export default function AsmaUlHusnaView({ language, onBack }: AsmaUlHusnaViewPro
                 {name.n}
               </div>
               <div className="flex-1">
-                <p dir="rtl" className="text-2xl font-arabic mb-1" style={{ fontFamily: "'Amiri', serif" }}>
+                <p dir="rtl" className="text-2xl font-arabic mb-1" style={{ fontFamily: "'Arabic Punctuation', 'KFGQPC Uthmanic Script HAFS', 'Amiri Quran', 'Amiri', serif" }}>
                   {name.ar}
                 </p>
                 <p className={`text-sm font-semibold ${isDark ? 'text-yellow-300' : 'text-yellow-700'}`}>

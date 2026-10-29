@@ -187,7 +187,7 @@ export default function DuaDetail({
           <p
             dir="rtl"
             className={`${arabicFontSize[fontSize]} leading-loose text-center font-arabic ${isDark ? 'text-gray-100' : 'text-gray-800'} py-4`}
-            style={{ fontFamily: "'Amiri', 'Traditional Arabic', 'Noto Naskh Arabic', serif" }}
+            style={{ fontFamily: "'Arabic Punctuation', 'KFGQPC Uthmanic Script HAFS', 'Amiri Quran', 'Amiri', serif" }}
           >
             {dua.arabic}
           </p>

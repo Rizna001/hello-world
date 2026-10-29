@@ -2,7 +2,7 @@
   "api_version": "3.0.0",
   "description": "Complete Islamic Duas Collection - All supplications with translations (regenerated from the migrated hierarchical dataset).",
   "total_categories": 36,
-  "total_duas": 140,
+  "total_duas": 139,
   "supported_languages": [
     "en",
     "ar",
@@ -3829,7 +3829,7 @@
             "ta": "காலைத் தொழுகைக்குப் பிறகு ஓதப்படும் சிறந்த பிரார்த்தனை",
             "ml": "പ്രഭാത നമസ്കാരത്തിന് ശേഷം ചൊല്ലുന്ന ഉത്തമമായ പ്രാർത്ഥന"
           },
-          "arabic": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ. لَا اِلٰهَ اِلاَّ اللهُ الْجَلِيْلُ الْجَبَّارُ لَا اِلٰهَ اِلاَّ اللهُ الْعَزِيْزُ الْغَفَّارُ لَا اِلٰهَ اِلاَّ اللهُ الْوَاحِدُ الْقَهَّارُ لَا اِلٰهَ اِلاَّ اللهُ وَحْدَهٗ لَا شَرِيْكَ لَهٗ اِلٰهًا وَّاحِدًا وَّ نَحْنُ لَهٗ مُسْلِمُوْنَ لَا اِلٰهَ اِلاَّ اللهُ وَحْدَهٗ لاَ شَرِيْكَ لَهٗ اِلٰهًا وَّاحِدًا وَ نَحْنُ لَهٗ مُخْلِصُوْنَ لَا اِلٰهَ اِلَّا اللهُ وَحْدَهٗ لاَ شَرِيْكَ لَهٗ اِلٰهًا وَّاحِدًا وَّ نَحْنُ لَهٗ عَابِدُوْنَ لاَ اِلٰهَ اِلاَّ اللهُ مُحَمَّدٌ رَّسُوْلُ اللهِ عَلِیٌّ وَلِیُّ اللهِ وَ صَلَّی اللهُ عَلٰی خَيْرِ خَلْقِهٖ وَ مَظْهَرِ لُطْفِهٖ مُحَمَّدٍ وَّ اٰلِهٖ اَجْمَعِيْنَ الطَّيِّبِيْنَ الطَّاهِرِيْنَ بِرَحْمَتِكَ يَا اَرْحَمَ الرَّاحِمِيْنَ حَسْبُنَا اللهُ وَ نِعْمَ الْوَكِيْلُ نِعْمَ الْمَوْلٰی وَ نِعْمَ النَّصِيْرُ.",
+          "arabic": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ. لَا اِلٰهَ اِلاَّ اللهُ الْجَلِيْلُ الْجَبَّارُ لَا اِلٰهَ اِلاَّ اللهُ الْعَزِيْزُ الْغَفَّارُ لَا اِلٰهَ اِلاَّ اللهُ الْوَاحِدُ الْقَهَّارُ لَا اِلٰهَ اِلاَّ اللهُ وَحْدَهٗ لَا شَرِيْكَ لَهٗ اِلٰهًا وَّاحِدًا وَّ نَحْنُ لَهٗ مُسْلِمُوْنَ لَا اِلٰهَ اِلاَّ اللهُ وَحْدَهٗ لاَ شَرِيْكَ لَهٗ اِلٰهًا وَّاحِدًا وَ نَحْنُ لَهٗ مُخْلِصُوْنَ لَا اِلٰهَ اِلَّا اللهُ وَحْدَهٗ لاَ شَرِيْكَ لَهٗ اِلٰهًا وَّاحِدًا وَّ نَحْنُ لَهٗ عَابِدُوْنَ لاَ اِلٰهَ اِلاَّ اللهُ مُحَمَّدٌ رَّسُوْلُ اللهِ عَلِيٌّ وَلِيُّ اللهِ وَ صَلَّى اللهُ عَلىٰ خَيْرِ خَلْقِهٖ وَ مَظْهَرِ لُطْفِهٖ مُحَمَّدٍ وَّ اٰلِهٖ اَجْمَعِيْنَ الطَّيِّبِيْنَ الطَّاهِرِيْنَ بِرَحْمَتِكَ يَا اَرْحَمَ الرَّاحِمِيْنَ حَسْبُنَا اللهُ وَ نِعْمَ الْوَكِيْلُ نِعْمَ الْمَوْلىٰ وَ نِعْمَ النَّصِيْرُ.",
           "transliteration": "bismil laahir rahmaanir raheem. LAA ELAAHA ILLAL LAAHUL JALEELUL JABBAARO LAA ELAAHA ILLAL LAAHUL A'ZEEZUL GHAFFAARO LAA ELAAHA ILLAL LAAHUL WAAHEDUL QAHHAARO LAA ELAAHA ILLAL LAAHO WAHDAHU LAA SHAREEKA LAHU ELAAHAN WAAHEDAN WA NAHNO LAHU MUSLEMOONA LAA ELAAHA ILLAL LAAHO WAHDAHU LAA SHAREEKA LAHU ELAAHAN WAAHEDAN WA NAHNO LAHU MUKHLESOONA LAA ELAAHA ILLAL LAAHO WAHDAHU LAA SHAREEKA LAHU ELAAHAN WAAHEDAN WA NAHNO LAHU A'ABEDOONA LAA ELAAHA ILLAL LAAHO MOHAMMADUR RASOOLUL LAAHE A'LIYYUN WALIYYUL LAAHE WA SALLAL LAAHO A'LAA KHAYRE KHALQEHEE WA MAZHARE LUTFEHEE MOHAMMADIN WA AALEHEE AJMA-E'ENAT TAYYEBEENAT TAAHEREENA BERAHMATEKA YAA ARHAMAR RAAHEMEEN HASBONAL LAAHO WA NE'MAL WAKEELO NE'MAL MAWLAA WA NE'MAN NASEER.",
           "translation": {
             "en": "In the name of Allah the Beneficent the Merciful\n\nThere is no deity but Allah the One the All Dominant: There is no deity but Allah the Ever Prevalent the All Forgiving:\n\nThere is no deity but Allah, He has no associate: Allah the One and we submit to Him. There has no associate, Allah the One and we are (Exclusively) loyal to Him. There is no deity but Allah, He is One, He has no associate. Allah the One and Him (alone) do we worship. There is no deity but Allah. Mohammed is the Messenger of Allah. “Ali is the friend of Allah: Allah’s blessing be on the best of His creation, the manifestation of His Benignity Mohammad and his (pure) progeny, all of them the pure the purified by thy Mercy. O the Most Merciful, Sufficient is for us Allah, and (He is) the most Excellent Protector, the Most Excellent Lord and the Most Excellent helper.",
@@ -3979,7 +3979,7 @@
             "ta": "மக்ரிப் தொழுகைக்குப் பிந்தைய துஆ",
             "ml": "മഗ്‌രിബ് നമസ്കാരത്തിന് ശേഷമുള്ള ദുആ"
           },
-          "arabic": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ. اَللّٰهُمَّ اِنِّیْ اَسْاَلُكَ مُوجِبَاتِ رَحْمَتِكَ وَ عَزَائِمَ مَغْفِرَتِكَ وَ النَّجَاةَ مِنَ النَّارِ وَ مِنْ کُلِّ بَلِيَّةٍ وَ الْفَوْزَ بِالْجَنَّةِ وَ الرِّضْوَانَ فِیْ دَارِ السَّلاَمِ وَ جِوَارِ نَبِّيِّكَ مُحَمَّدٍ عَلَيْهِ وَآلِهِ السَّلاَمُ اَللّٰهُمَّ مَا بِنَا مِنْ نِعْمَةٍ فَمِنْكَ لآَ اِلٰهَ اِلاَّ اَنْتَ اَسْتَغْفِرُكَ وَ اَتُوْبُ اِلَيْكَ.",
+          "arabic": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ. اَللّٰهُمَّ اِنِّيْ اَسْاَلُكَ مُوجِبَاتِ رَحْمَتِكَ وَ عَزَائِمَ مَغْفِرَتِكَ وَ النَّجَاةَ مِنَ النَّارِ وَ مِنْ كُلِّ بَلِيَّةٍ وَ الْفَوْزَ بِالْجَنَّةِ وَ الرِّضْوَانَ فِيْ دَارِ السَّلاَمِ وَ جِوَارِ نَبِّيِّكَ مُحَمَّدٍ عَلَيْهِ وَآلِهِ السَّلاَمُ اَللّٰهُمَّ مَا بِنَا مِنْ نِعْمَةٍ فَمِنْكَ لآَ اِلٰهَ اِلاَّ اَنْتَ اَسْتَغْفِرُكَ وَ اَتُوْبُ اِلَيْكَ.",
           "transliteration": "bismil laahir rahmaanir raheem. ALLAAHUMMA INNEE AS-ALOKA MOOJEBAATE RAHMATEKA WA A'ZAAEMA MAGHFERATEKA WAN NAJAATA MeNAN NAARE WA MIN KULLE BALIYYATIN WAL FAWZA BIL JANNATE WAR RIZWAANA FEE DAARIS SALAAME WA JEWAARE NABIYYEKA MOHAMMADIN A'LAYHE WA AALEHIS SALAAMO ALLAAHUMMA MAA BENAA MIN NEA'MATIN FAMINKA LAA ELAAHA ILLAA ANTA ASTAGHFEROKA WA ATOOBO ELAYKA.",
           "translation": {
             "en": "In the name of Allah the most Beneficent, the Merciful.\n\nO Allah I beseech Thee for the causes of Thy Mercy the right of Thy pardon: safety from every sin; the benefit from every virtue; salvation from (Hell) Fire and every Calamity; achievement of the Paradise and (Thy) Pleasure in the abode of peace; and the proximity of thy prophet Mohammed and his purified progeny peace be on all of them. O Allah! Whatever bounties we have all are from Thee there is no deity except Thee; I beseech Thy forgiveness and turn unto thee.",
@@ -4229,7 +4229,7 @@
             "ta": "அளவற்ற மறுமை நற்கூலிக்காக",
             "ml": "അപരിമിതമായ പരലോക പ്രതിഫലത്തിനായി"
           },
-          "arabic": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ. سُبْحَانَ اللهِ کُلَّمَا سَبَّحَ اللهَ شَیْءٌ وَ كَمَا يُحِبُّ اللهُ اَنْ يُّسَبَّحَ وَ كَمَا هُوَ اَهْلُهٗ وَ كَمَا يَنْبَغِیْ لِكـَرَمِ وَجْهِهٖ وَ عِزِّ جَلاَلِهٖ وَ الْحَمْدُ لِلّٰهِ کُلَّمَا حَمِدَ اللهَ شَیْءٌ وَ كَمَا يُحِبُّ اللهُ اَنْ يُحْمَدَ وَ كَمَا هُوَ اَهْلُهٗ وَ كَمَا يَنْبَغِیْ لِكَرَمِ وَجْهِهٖ وَ عِزِّ جَلاَلِهٖ وَ لاَ اِلٰهَ اِلاَّ اللهُ کُلَّمَا هَلَّلَ اللهَ شَیْءٌ وَ كَمَا يُحِبُّ اللهُ اَنْ يُهَلَّلَ وَ كَمَا هُوَ اَهْلُهٗ وَ كَمَا يَنْبَغِیْ لِكَرَمِ وَجْهِهٖ وَ عِزِّ جَلاَلِهٖ وَ اللهُ اَکْبَرُ کُلَّمَا كَبَّرَ اللهَ شَیْءٌ وَ كَمَا يُحِبُّ اللهُ اَنْ يُكَبَّرَ وَ كَمَا هُوَ اَهْلُهٗ وَ كَمَا يَنْبَغِیْ لِكَرَمِ وَجْهِ وَ عِزِّ جَلاَلِهٖ سُبْحَانَ اللهِ وَ الْحَمْدُ لِلّٰهِ وَ لاَ اِلٰهَ اِلاَّ اللهُ وَ اللهُ اَکْبَرُ عَلٰی کُلِّ نِعْمَةٍ اَنْعَمَ بِهَا عَلَیَّ وَ عَلٰی کُلِّ اَحَدٍ مِنْ خَلْقِهٖ مِمَّنْ كَانَ اَوْ يَکُوْنُ اِلٰی يَوْمِ الْقِيٰمَةِ اَللّٰهُمَّ اِنِّیْ اَسْئَلُكَ اَنْ تُصَلِّىَ عَلٰی مُحَمَّدٍ وَّ اٰلِ مُحَمَّدٍ وَ اَسْئَلُكَ مِنْ خَيْرِ مَا اَرْجُوْ وَ خَيْرِ مَا لاَ اَرْجُوْ وَ اَعُوْذُ بِكَ مِنْ شَرِّ مَا اَحْذَرُ وَ مِنْ شَرِّ مَا لاَ اَحْذَرُ.",
+          "arabic": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ. سُبْحَانَ اللهِ كُلَّمَا سَبَّحَ اللهَ شَيْءٌ وَ كَمَا يُحِبُّ اللهُ اَنْ يُّسَبَّحَ وَ كَمَا هُوَ اَهْلُهٗ وَ كَمَا يَنْبَغِيْ لِكـَرَمِ وَجْهِهٖ وَ عِزِّ جَلاَلِهٖ وَ الْحَمْدُ لِلّٰهِ كُلَّمَا حَمِدَ اللهَ شَيْءٌ وَ كَمَا يُحِبُّ اللهُ اَنْ يُحْمَدَ وَ كَمَا هُوَ اَهْلُهٗ وَ كَمَا يَنْبَغِيْ لِكَرَمِ وَجْهِهٖ وَ عِزِّ جَلاَلِهٖ وَ لاَ اِلٰهَ اِلاَّ اللهُ كُلَّمَا هَلَّلَ اللهَ شَيْءٌ وَ كَمَا يُحِبُّ اللهُ اَنْ يُهَلَّلَ وَ كَمَا هُوَ اَهْلُهٗ وَ كَمَا يَنْبَغِيْ لِكَرَمِ وَجْهِهٖ وَ عِزِّ جَلاَلِهٖ وَ اللهُ اَكْبَرُ كُلَّمَا كَبَّرَ اللهَ شَيْءٌ وَ كَمَا يُحِبُّ اللهُ اَنْ يُكَبَّرَ وَ كَمَا هُوَ اَهْلُهٗ وَ كَمَا يَنْبَغِيْ لِكَرَمِ وَجْهِ وَ عِزِّ جَلاَلِهٖ سُبْحَانَ اللهِ وَ الْحَمْدُ لِلّٰهِ وَ لاَ اِلٰهَ اِلاَّ اللهُ وَ اللهُ اَكْبَرُ عَلىٰ كُلِّ نِعْمَةٍ اَنْعَمَ بِهَا عَلَيَّ وَ عَلىٰ كُلِّ اَحَدٍ مِنْ خَلْقِهٖ مِمَّنْ كَانَ اَوْ يَكُوْنُ اِلىٰ يَوْمِ الْقِيٰمَةِ اَللّٰهُمَّ اِنِّيْ اَسْئَلُكَ اَنْ تُصَلِّىَ عَلىٰ مُحَمَّدٍ وَّ اٰلِ مُحَمَّدٍ وَ اَسْئَلُكَ مِنْ خَيْرِ مَا اَرْجُوْ وَ خَيْرِ مَا لاَ اَرْجُوْ وَ اَعُوْذُ بِكَ مِنْ شَرِّ مَا اَحْذَرُ وَ مِنْ شَرِّ مَا لاَ اَحْذَرُ.",
           "transliteration": "bismil laahir rahmaanir raheem. SUBHAANAL LAAHE KULLAMAA SABBAHAL LAAHA SHAY-UN WA KAMAA YOHIBBUL LAAHO AYN YOSABBAHA WA KAMAA HOWA AHLAHU WA KAMAA YANBAGHEE LEKARAME WAJHEHI WA I'ZZE JALAALEHI WAL HAMDO LILLAAHE KULLAMAA HAMEDAL LAAHA SHAY-UN WA KAMAA YOHIBBUL LAAHO AYN YOHMADA WA KAMAA HOWA AHLOHU WA KAMAA YAMBAGHEE LEKARAME WAJHEHI WA I'ZZE JALAALEHI WA LAA ELAAHA ILLAL LAAHO KULLAMAA HALLAL LAAHA SHAY-UN WA KAMAA YOHIBBUL LAAHO AYN YOHALLALA WA KAMAA HOWA AHLOHU WA KAMAA YAMBAGHEE LEKARAME WAJHEHEE WA I'ZZE JALAALEHI WAL LAAHO AKBARO KULLAMAA KABBARAL LAAHA SHAY-UN WA KAMAA YOHIBBUL LAAHO AYN YOKABBARA WA KAMAA HOWA AHLOHU WA KAMAA YAMBAGHEE LEKARAME WAJHE WA I'ZZE JALAALEHI SUBHAANAL LAAHE WAL HAMDO LILLAAHE WA LAA ELAAHA ILLAL LAAHO WAL LAAHO AKBARO A'LAA KULLE NE'MATIN ANA'MA BEHAA A'LAYYA WA A'LAA KULLE AHADIM MIN KHALQEHI MIMMAN KAANA AW YAKOONO ELAA YAWMIL QEYAAMATE ALLAAHUMMA INNEE AS-ALOKA AN TOSALLEYA A'LAA MOHAMMADIN WA AALE MOHAMMADIN WA AS-ALOKA MIN KHAYRE MAA ARJOO WA KHAYRE MAA LAA ARJOO WA A-O'OZO BEKA MIN SHARRE MAA AHZARO WA MIN SHARRE MAA LAA AHZARO.",
           "translation": {
             "en": "In the name of Allah the Most Beneficent and Merciful\n\nGlory be to Allah! like everything that glorifies Allah; and in way Allah loves to be glorified and as He deserved it so; and as it beloved Him due to His distinct Munificence and His Excellent Glory. There is no god but Allah! like everything that praises Allah, and He desees it so and as it beloves Him due to His distinct Munificence and His Excellent Glory, There is no god but Allah! like everything that proclaims Allah’s Absolute Unity, and in the way of Allah loves to be proclaimed Absolute One, and as He deserves it so and as it beloves Him due to His distinct Munificence and Excellent Glory.\n\nAllah is the Greatest! like everything that declares Allah’s Greatness, and in the way Allah loves to be declared Great and as He deserves it so, and as it beloves Him due to His distinct Munificence and Excellent Glory. Glory be to Allah. All praise is due to Allah, there is no god but Allah, is the Greatest, (I repeatedly recite this) to the extent of the bounties He has bestowed on me and everyone of His creations those who have been and those who are to be till Day of Judgement.\n\nO Allah! I beseech Thee to shower thy blessing on Mohammed and (pure) progeny of Mohammed\n\nAnd (O Allah!) I beseech Thee to grant me the good I hope for and (the good), for which I have not hoped for and (due to my ignorance); and I beseech Thy protection from the evil I (wish) to keep away from, and (the evil) I have not taken care of (due to my ignorance)",
@@ -6399,56 +6399,6 @@
           },
           "repetition_count": 1,
           "source_text": "Dua No. 92\nDua at the time of purchase\nA reliable tradition from Imam Ja’far-e-Sadiq (a.s.) states that whenever one wants to buy something one should recite the following Dua thrice:\n\nيَا حَيُّ يَا قَيُّوْمُ يَا دَآئِمُ يَا رَءُوْفُ يَا رَحِيْمُ أَسْأَلُكَ بِعِزَّتِكَ وَ قُدْرَتِكَ وَ مَا أَحَاطَ بِهٖ عِلْمُكَ أَنْ تَقْسِمَ لِي مِنَ التِّجَارَةِ الْيَوْمَ أَعْظَمَهَا رِزْقاً وَ أَوْسَعَهَا فَضْلًا وَ خَيْرَهَا عَاقِبَةً فَإِنَّهٗ لَا خَيْرَ فِيْمَا لَا عَاقِبَةَ لَهٗ.\n\nTransliteration:\nYaa hayyo yaa qayyoomo yaa daaa-emo yaa ra-oofo yaa raheemo as-aloka be-Izzateka wa qudrateka wa maa ahaata behi I’lmoka an taqsema lee menat tejaaratil yawma a-a’zamahaa rizqan wa aw-sa-a’haa fazlan wa khayrahaa a’aqebatan fa-innahu laa khayra feemaa laa a’aqebata lahu.\n\nTranslation:\nO the Ever-living the Self subsisting; the Eternal the Generous the Merciful, I bind Thee and by thy dignity, Thy might and all those thing which are in thy knowledge and beg Thee to increase my prosperity and respect and make my end good through today’s trade, as those things whose end is not good are never good.",
-          "translation_status": {
-            "en": "source translation extracted",
-            "ar": "AI-translated; review recommended",
-            "ur": "AI-translated; review recommended",
-            "fr": "AI-translated; review recommended",
-            "tr": "AI-translated; review recommended",
-            "id": "AI-translated; review recommended",
-            "bn": "AI-translated; review recommended",
-            "ms": "AI-translated; review recommended",
-            "ta": "AI-translated; review recommended",
-            "ml": "AI-translated; review recommended"
-          }
-        },
-        {
-          "id": "d103-94",
-          "category_id": "Others",
-          "subcategory_id": null,
-          "order": 94,
-          "title": {
-            "en": "Dua for all purposes",
-            "ar": "دعاء لجميع الأغراض",
-            "ur": "ہر مقصد کے لیے دعا",
-            "fr": "Invocation pour tous les besoins",
-            "tr": "Her türlü ihtiyaç için dua",
-            "id": "Doa untuk segala keperluan",
-            "bn": "সকল প্রয়োজনের জন্য দোয়া",
-            "ms": "Doa untuk segala keperluan",
-            "ta": "அனைத்து தேவைகளுக்குமான துஆ",
-            "ml": "എല്ലാ ആവശ്യങ്ങൾക്കുമുള്ള ദുആ"
-          },
-          "arabic": "یا رب تو چنان کن که پریشان نشوم\nمحتاج برادران و خویشان نشوم\nبی منت مخلوق مرا روزی ده\nتا از در تو بر در ایشان نروم",
-          "transliteration": "yaa rabb tu chenaan kun ke pareshaan nashawam\n\nmohtaaj-e- biraadaraan-o-khishaan nashawam\n\nbi minnat-e-makhlooq maraa rozi deh\n\ntaa az dar tu bar dar-e-eeshaan narawam",
-          "translation": {
-            "en": "O Lord! Do provide such a cause for me that I may not be perturbed and perplexed; I may stand in need of my brothers and relatives (and acquaintances) Provide me sustenance without the obligation of Thy creatures; So that I may not have to leave Thy door and go to their.",
-            "ar": "يا رب، دبّر لي من أمري ما يجعلني غير مضطرب ولا حائر، وألا أحتاج إلى إخوتي وأقاربي (ومعارفي). وارزقني من غير منّةٍ من خلقك، حتى لا أضطر إلى ترك بابك والذهاب إلى بابهم.",
-            "ur": "اے رب! میرے لیے ایسا انتظام فرما کہ میں پریشان اور حیران نہ ہوں اور اپنے بھائیوں اور رشتہ داروں (اور جاننے والوں) کا محتاج نہ بنوں۔ مجھے اپنی مخلوق کے احسان کے بغیر رزق عطا فرما، تاکہ مجھے تیرا در چھوڑ کر ان کے در پر نہ جانا پڑے۔",
-            "fr": "Ô Seigneur ! Fais en sorte que je ne sois ni troublé ni perplexe et que je n’aie pas à dépendre de mes frères et de mes proches (et de mes connaissances). Accorde-moi ma subsistance sans que tes créatures aient à me faire une faveur, afin que je n’aie pas à quitter ta porte pour aller à la leur.",
-            "tr": "Ey Rabbim! Öyle bir hâl nasip et ki sıkıntıya düşüp şaşkın kalmayayım ve kardeşlerime, akrabalarıma (ve tanıdıklarıma) muhtaç olmayayım. Yaratılmışlarının minneti olmaksızın bana rızık ver ki senin kapından ayrılıp onların kapısına gitmek zorunda kalmayayım.",
-            "id": "Ya Tuhanku! Aturlah urusanku sedemikian rupa agar aku tidak gelisah dan kebingungan, serta tidak perlu bergantung kepada saudara-saudara dan kerabatku (dan orang-orang yang kukenal). Berilah aku rezeki tanpa harus berutang budi kepada makhluk-Mu, agar aku tidak perlu meninggalkan pintu-Mu dan pergi ke pintu mereka.",
-            "bn": "হে আমার রব! আমার জন্য এমন ব্যবস্থা করে দিন, যাতে আমি উদ্বিগ্ন ও দিশেহারা না হই এবং আমার ভাই ও আত্মীয়স্বজনের (ও পরিচিতদের) মুখাপেক্ষী না হই। আপনার সৃষ্টির অনুগ্রহের বাধ্যবাধকতা ছাড়াই আমাকে রিজিক দিন, যাতে আপনার দর ছেড়ে তাদের দরজায় যেতে না হয়।",
-            "ms": "Wahai Tuhanku! Aturkanlah urusanku sedemikian rupa agar aku tidak gelisah dan kebingungan, serta tidak perlu bergantung kepada saudara-saudara dan kaum kerabatku (dan kenalanku). Kurniakanlah rezeki kepadaku tanpa perlu berhutang budi kepada makhluk-Mu, agar aku tidak perlu meninggalkan pintu-Mu lalu pergi ke pintu mereka.",
-            "ta": "என் இறைவா! நான் கலக்கமடையாமலும் குழப்பமடையாமலும், என் சகோதரர்கள் மற்றும் உறவினர்கள் (அறிமுகமானவர்கள்) மீது தேவையுடையவனாகாமலும் இருக்குமாறு எனக்கு ஏற்பாடு செய்தருள்வாயாக. உன் படைப்புகளின் உபகாரத்திற்கு நான் கடன்படாமல் எனக்கு வாழ்வாதாரம் அளிப்பாயாக; அப்போது உன் வாசலை விட்டுவிட்டு அவர்களுடைய வாசலுக்குச் செல்ல வேண்டியிருக்காது.",
-            "ml": "എന്റെ രക്ഷിതാവേ! ഞാൻ വിഷമിക്കുകയും ആശയക്കുഴപ്പത്തിലാവുകയും ചെയ്യാതിരിക്കാനും, എന്റെ സഹോദരന്മാരുടെയും ബന്ധുക്കളുടെയും (പരിചയക്കാരുടെയും) ആശ്രയം തേടേണ്ടിവരാതിരിക്കാനും എനിക്ക് വേണ്ടത് ഒരുക്കിത്തരേണമേ. നിന്റെ സൃഷ്ടികളുടെ ഔദാര്യത്തിന് കടപ്പെട്ടവനാകാതെ എനിക്ക് ഉപജീവനം നൽകേണമേ; അങ്ങനെ നിന്റെ വാതിൽ വിട്ട് അവരുടെ വാതിലിലേക്ക് പോകേണ്ടിവരാതിരിക്കട്ടെ."
-          },
-          "reference": {
-            "source": null,
-            "reference_text": null
-          },
-          "repetition_count": 1,
-          "source_text": "Dua No. 94\nDua for all purposes\nThe following is recommended to be recited off and on for all purpose. This is an experienced Dua in Persian Poem. It is very effective to be free from the needs of other\n\nیا رب تو چنان کن که پریشان نشوم\n\nمحتاج برادران و خویشان نشوم\n\nبی منت مخلوق مرا روزی ده\n\nتا از در تو بر در ایشان نروم\n\nTransliteration:\nyaa rabb tu chenaan kun ke pareshaan nashawam\n\nmohtaaj-e- biraadaraan-o-khishaan nashawam\n\nbi minnat-e-makhlooq maraa rozi deh\n\ntaa az dar tu bar dar-e-eeshaan narawam\n\nTranslation:\nO Lord! Do provide such a cause for me that I may not be perturbed and perplexed; I may stand in need of my brothers and relatives (and acquaintances) Provide me sustenance without the obligation of Thy creatures; So that I may not have to leave Thy door and go to their.",
           "translation_status": {
             "en": "source translation extracted",
             "ar": "AI-translated; review recommended",

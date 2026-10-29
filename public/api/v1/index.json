@@ -8,7 +8,7 @@
                       "api_index":  "/api/v1/index.json"
                   },
     "total_categories":  36,
-    "total_duas":  140,
+    "total_duas":  139,
     "supported_languages":  [
                                 {
                                     "code":  "en",
@@ -312,7 +312,7 @@
                            "name":  {
                                         "en":  "Others"
                                     },
-                           "duas_count":  65
+                           "duas_count":  64
                        }
                    ],
     "sources":  [

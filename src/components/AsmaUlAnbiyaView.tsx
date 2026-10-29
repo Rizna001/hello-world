@@ -76,7 +76,7 @@ export default function AsmaUlAnbiyaView({ language, onBack }: AsmaUlAnbiyaViewP
               <div className="flex-1">
                 <div className="flex items-start justify-between gap-3">
                   <div>
-                    <p dir="rtl" className="text-2xl font-arabic mb-1" style={{ fontFamily: "'Amiri', serif" }}>
+                    <p dir="rtl" className="text-2xl font-arabic mb-1" style={{ fontFamily: "'Arabic Punctuation', 'KFGQPC Uthmanic Script HAFS', 'Amiri Quran', 'Amiri', serif" }}>
                       {prophet.ar}
                     </p>
                     <p className={`text-base font-semibold ${isDark ? 'text-indigo-300' : 'text-indigo-700'}`}>
@@ -150,7 +150,7 @@ export default function AsmaUlAnbiyaView({ language, onBack }: AsmaUlAnbiyaViewP
                                   <p
                                     dir="rtl"
                                     className={`text-xl mb-2 leading-relaxed ${isDark ? 'text-gray-100' : 'text-gray-800'}`}
-                                    style={{ fontFamily: "'Amiri', serif" }}
+                                    style={{ fontFamily: "'Arabic Punctuation', 'KFGQPC Uthmanic Script HAFS', 'Amiri Quran', 'Amiri', serif" }}
                                   >
                                     {dua.arabic}
                                   </p>

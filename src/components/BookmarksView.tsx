@@ -75,7 +75,7 @@ export default function BookmarksView({ language, onDuaClick }: BookmarksViewPro
                 <p 
                   dir="rtl" 
                   className={`text-lg mb-2 font-arabic ${isDark ? 'text-gray-300' : 'text-gray-700'}`}
-                  style={{ fontFamily: "'Amiri', serif" }}
+                  style={{ fontFamily: "'Arabic Punctuation', 'KFGQPC Uthmanic Script HAFS', 'Amiri Quran', 'Amiri', serif" }}
                 >
                   {bookmark.arabic}
                 </p>

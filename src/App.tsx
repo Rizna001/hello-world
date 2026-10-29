@@ -326,7 +326,8 @@ function AppContent() {
              language === 'ta' ? 'அனைத்து துஆக்களும் நம்பகமான ஆதாரங்களிலிருந்து (குர்ஆன் & சுன்னா)' :
              'എല്ലാ ദുആകളും ആധികാരികമായ ഉറവിടങ്ങളിൽ നിന്നാണ് (ഖുർആനും സുന്നത്തും)'}
           </p>
-          <p className={`text-xs mt-2 ${isDark ? 'text-gray-600' : 'text-gray-300'}`}>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+          <p className={`font-arabic text-lg mt-2 ${isDark ? 'text-gray-500' : 'text-gray-400'}`}>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+          <p className={`text-[10px] mt-1 ${isDark ? 'text-gray-600' : 'text-gray-400'}`}>Arabic text set in KFGQPC Uthmanic Script (Hafs)</p>
         </div>
       </footer>
 

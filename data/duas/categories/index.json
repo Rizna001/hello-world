@@ -10,7 +10,7 @@
     "ta": "அன்றாட துஆக்கள் 36 வகைகளாக (35 பொது வகைகள் + 'மற்றவை' தொகுப்பு) ஒழுங்கமைக்கப்பட்டவை."
   },
   "total_categories": 36,
-  "total_records": 140,
+  "total_records": 139,
   "languages": [
     "en",
     "ar",
@@ -272,7 +272,7 @@
     {
       "id": "Others",
       "order": 36,
-      "item_count": 65,
+      "item_count": 64,
       "metadata_file": "data/duas/categories/Others/metadata.json",
       "data_file": "data/duas/categories/Others/duas.json"
     }
