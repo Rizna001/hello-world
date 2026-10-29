@@ -1,0 +1,79 @@
+{
+  "schema_version": "3.0.0",
+  "category_id": "marriage-wedding",
+  "count": 2,
+  "duas": [
+    {
+      "id": "mw-1",
+      "category_id": "marriage-wedding",
+      "subcategory_id": null,
+      "order": 1,
+      "title": {
+        "en": "Dua for Newlyweds",
+        "ar": "دعاء للمتزوجين",
+        "ur": "نومسلم جوڑے کے لیے دعا",
+        "fr": "Doua pour les Jeunes Mariés",
+        "tr": "Yeni Evliler İçin Dua",
+        "id": "Doa untuk Pengantin Baru",
+        "bn": "নবদম্পতির জন্য দোয়া",
+        "ms": "Doa untuk Pengantin Baru",
+        "ta": "புதிய தம்பதியருக்கான துஆ",
+        "ml": "നവവധൂവരന്മാർക്കുള്ള ദുആ"
+      },
+      "arabic": "بَارَكَ اللهُ لَكَ، وَبَارَكَ عَلَيْكَ، وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ",
+      "translation": {
+        "en": "May Allah bless you, and shower His blessings upon you, and join you both together in goodness.",
+        "ar": "بارك الله لك وبارك عليك وجمع بينكما في خير",
+        "ur": "اللہ تمہیں برکت دے، تم پر اپنی برکت نازل کرے اور تم دونوں کو خیر میں جمع کرے۔",
+        "fr": "Qu'Allah te bénisse, et déverse Ses bénédictions sur toi, et vous unisse tous les deux dans le bien.",
+        "tr": "Allah sana bereket versin, üzerine bereketler yağdırsın ve ikinizi hayırda bir araya getirsin.",
+        "id": "Semoga Allah memberkahimu, dan mencurahkan berkah-Nya atasmu, dan menyatukan kalian berdua dalam kebaikan.",
+        "bn": "আল্লাহ তোমাকে বরকত দান করুন, তোমার উপর তাঁর বরকত নাযিল করুন এবং তোমাদের উভয়কে কল্যাণে একত্রিত করুন।",
+        "ms": "Semoga Allah memberkatimu, dan mencurahkan berkat-Nya atasmu, dan menyatukan kalian berdua dalam kebaikan.",
+        "ta": "அல்லாஹ் உமக்கு அருள்புரிவானாக, உமது மீது அவனது அருளை பொழிவானாக, உங்கள் இருவரையும் நன்மையில் ஒன்றிணைப்பானாக.",
+        "ml": "അല്ലാഹു നിനക്ക് അനുഗ്രഹം നൽകട്ടെ, നിന്റെ മേൽ അവന്റെ അനുഗ്രഹങ്ങൾ ചൊരിയട്ടെ, നിങ്ങൾ രണ്ട് പേരെയും നന്മയിൽ ഒന്നിപ്പിക്കട്ടെ."
+      },
+      "reference": {
+        "source": "Abu",
+        "reference_text": "Abu Dawud 2/205"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "mw-2",
+      "category_id": "marriage-wedding",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "Wedding Night Dua",
+        "ar": "دعاء ليلة الدخلة",
+        "ur": "شب زفاف کی دعا",
+        "fr": "Doua de la Nuit de Noces",
+        "tr": "Düğün Gecesi Duası",
+        "id": "Doa Malam Pengantin",
+        "bn": "বিয়ের রাতের দোয়া",
+        "ms": "Doa Malam Pengantin",
+        "ta": "திருமண இரவு துஆ",
+        "ml": "വിവാഹ രാത്രി ദുആ"
+      },
+      "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا وَخَيْرَ مَا جَبَلْتَهَا عَلَيْهِ، وَأَعُوذُ بِكَ مِنْ شَرِّهَا وَشَرِّ مَا جَبَلْتَهَا عَلَيْهِ",
+      "translation": {
+        "en": "O Allah, I ask You for the goodness of her and the goodness of what You have created her upon, and I seek refuge in You from the evil of her and the evil of what You have created her upon.",
+        "ar": "اللهم إني أسألك خيرها وخير ما جبلتها عليه وأعوذ بك من شرها وشر ما جبلتها عليه",
+        "ur": "اے اللہ! میں تجھ سے اس کی بھلائی اور جس فطرت پر تو نے اسے بنایا ہے اس کی بھلائی مانگتا ہوں اور اس کی برائی اور جس فطرت پر تو نے اسے بنایا ہے اس کی برائی سے تیری پناہ مانگتا ہوں۔",
+        "fr": "Ô Allah, je Te demande le bien d'elle et le bien de ce sur quoi Tu l'as créée, et je cherche refuge auprès de Toi contre le mal d'elle et le mal de ce sur quoi Tu l'as créée.",
+        "tr": "Allah'Ä±m! Ondan ve onu yarattÄ±ÄŸÄ±n fÄ±tratÄ±n hayrÄ±nÄ± senden isterim ve ondan ve onu yarattÄ±ÄŸÄ±n fÄ±tratÄ±n ÅŸerrinden Sana sÄ±ÄŸÄ±nÄ±rÄ±m.",
+        "id": "Ya Allah, aku memohon kepada-Mu kebaikannya dan kebaikan apa yang Engkau ciptakan padanya, dan aku berlindung kepada-Mu dari keburukannya dan keburukan apa yang Engkau ciptakan padanya.",
+        "bn": "হে আল্লাহ, আমি তোমার কাছে তার মঙ্গল এবং তুমি তাকে যে স্বভাবে সৃষ্টি করেছ তার মঙ্গল চাই এবং তার অমঙ্গল এবং তুমি তাকে যে স্বভাবে সৃষ্টি করেছ তার অমঙ্গল থেকে তোমার আশ্রয় চাই।",
+        "ms": "Ya Allah, aku memohon kepada-Mu kebaikannya dan kebaikan apa yang Engkau ciptakan padanya, dan aku berlindung kepada-Mu dari keburukannya dan keburukan apa yang Engkau ciptakan padanya.",
+        "ta": "இறைவா! அவளது நன்மையையும் நீர் அவளைப் படைத்த இயல்பின் நன்மையையும் உம்மிடம் கேட்கிறேன், அவளது தீமையிலிருந்தும் நீர் அவளைப் படைத்த இயல்பின் தீமையிலிருந்தும் உம்மிடம் புகலளிக்கிறேன்.",
+        "ml": "അല്ലാഹുവേ, അവളുടെ നന്മയും നീ അവളെ സൃഷ്ടിച്ച സ്വഭാവത്തിന്റെ നന്മയും ഞാൻ നിന്നോട് ചോദിക്കുന്നു, അവളുടെ തിന്മയിൽനിന്നും നീ അവളെ സൃഷ്ടിച്ച സ്വഭാവത്തിന്റെ തിന്മയിൽനിന്നും ഞാൻ നിന്നോട് അഭയം തേടുന്നു."
+      },
+      "reference": {
+        "source": "Abu",
+        "reference_text": "Abu Dawud 2/206"
+      },
+      "repetition_count": 1
+    }
+  ]
+}

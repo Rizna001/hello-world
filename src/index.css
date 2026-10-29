@@ -1,0 +1,289 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bisme-background: #000d08;
+  --bisme-surface: #00160d;
+  --bisme-search: #003d2b;
+  --bisme-gold: #e6c66b;
+  --bisme-jade: #0fa36f;
+}
+
+/* Uthmani script (Madinah Mushaf style) for all Arabic dua text.
+   KFGQPC Uthmanic Script HAFS is the primary face; Amiri Quran is the fallback. */
+@font-face {
+  font-family: 'KFGQPC Uthmanic Script HAFS';
+  src: url('./assets/fonts/KFGQPC-Uthmanic-Script-HAFS.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* KFGQPC draws the Arabic comma as an ayah-end ornament, so punctuation comes from Amiri Quran. */
+@font-face {
+  font-family: 'Arabic Punctuation';
+  src: url('./assets/fonts/AmiriQuran-Arabic.woff2') format('woff2');
+  unicode-range: U+060C, U+061B, U+061F;
+}
+
+@font-face {
+  font-family: 'Amiri Quran';
+  src: url('./assets/fonts/AmiriQuran-Arabic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-arabic: 'Arabic Punctuation', 'KFGQPC Uthmanic Script HAFS', 'Amiri Quran', 'Amiri', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+  --color-slate-50: #f3f7f3;
+  --color-slate-100: #e3ece5;
+  --color-slate-200: #c8d8cd;
+  --color-slate-300: #a7bfae;
+  --color-slate-400: #819c89;
+  --color-slate-500: #5b7b65;
+  --color-slate-600: #365d47;
+  --color-slate-700: #214833;
+  --color-slate-800: #003d2b;
+  --color-slate-900: #00160d;
+  --color-slate-950: #000d08;
+  --color-emerald-50: #e8f4ec;
+  --color-emerald-100: #d0e9d8;
+  --color-emerald-200: #a6d4b8;
+  --color-emerald-300: #79bd96;
+  --color-emerald-400: #45bb8e;
+  --color-emerald-500: #0fa36f;
+  --color-emerald-600: #0b895d;
+  --color-emerald-700: #003d2b;
+  --color-emerald-800: #00291d;
+  --color-emerald-900: #00160d;
+  --color-emerald-950: #000d08;
+  --color-amber-400: #e6c66b;
+  --color-amber-500: #e6c66b;
+  --color-amber-600: #b88932;
+  --color-yellow-300: #e3c677;
+  --color-yellow-400: #e6c66b;
+  --color-yellow-500: #e6c66b;
+  --color-yellow-600: #b88932;
+}
+
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
+  overflow-x: clip;
+  background-color: var(--bisme-background);
+  color: #fff;
+}
+
+.dark body,
+html.dark {
+  background-color: var(--bisme-background);
+  color: #fff;
+}
+
+/* Arabic Text Styles */
+.font-arabic {
+  font-family: 'Arabic Punctuation', 'KFGQPC Uthmanic Script HAFS', 'Amiri Quran', 'Amiri', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+  line-height: 2.2;
+  font-feature-settings: 'calt', 'liga', 'mark', 'mkmk';
+  text-rendering: optimizeLegibility;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(15, 163, 111, 0.65);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bisme-jade);
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(16px) scale(0.985); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.animate-rise-in {
+  animation: riseIn 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.category-card {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  min-height: 78px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid rgba(15, 163, 111, 0.4);
+  border-radius: 13px;
+  background: var(--bisme-surface);
+  color: #fff;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  transition:
+    background 250ms ease,
+    border-color 250ms ease,
+    color 250ms ease,
+    box-shadow 250ms ease,
+    transform 250ms ease;
+}
+
+.category-label {
+  min-width: 0;
+  color: var(--bisme-gold);
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.category-card:nth-child(even) .category-label {
+  color: var(--bisme-jade);
+}
+
+.category-count {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  flex: 0 0 35px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--bisme-gold);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.category-card:nth-child(even) .category-count {
+  color: var(--bisme-jade);
+}
+
+.category-back-button {
+  background: transparent;
+  color: var(--bisme-gold);
+  transition:
+    background 250ms ease,
+    border-color 250ms ease,
+    color 250ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .category-card:hover {
+    transform: translateY(-1px);
+    border-color: var(--bisme-gold);
+    background: #00291d;
+    box-shadow: 0 4px 12px rgba(15, 163, 111, 0.12);
+  }
+
+  .category-back-button:hover {
+    border-color: var(--bisme-gold);
+    background: var(--bisme-gold);
+    color: var(--bisme-background);
+  }
+}
+
+@media (max-width: 639px) {
+  .category-card {
+    min-height: 56px;
+    gap: 8px;
+    padding: 9px 12px;
+  }
+}
+
+.category-card:focus-visible,
+.category-back-button:focus-visible {
+  outline: 2px solid var(--bisme-gold);
+  outline-offset: 2px;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  transition-property: color, background-color, border-color, box-shadow, transform, opacity;
+  transition-duration: 180ms;
+  transition-timing-function: ease;
+}
+
+:focus-visible {
+  outline: 2px solid var(--bisme-jade);
+  outline-offset: 3px;
+}
+
+/* Notification toast */
+@keyframes toast-in {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-toast {
+  animation: toast-in 0.3s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
