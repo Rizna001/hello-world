@@ -162,8 +162,13 @@ function AppContent() {
       />
       
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {/* Search Bar */}
-        <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} language={language} />
+        {/* Search bar with the compact custom-reminders box beside it */}
+        <div className="mb-8 flex flex-col md:flex-row md:items-start gap-3">
+          <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} language={language} />
+          {viewMode === 'categories' && !selectedCategory && !selectedDua && (
+            <DuaReminder language={language} duas={categories.flatMap(category => category.duas)} />
+          )}
+        </div>
 
         {/* View Mode Toggle */}
         {viewMode === 'categories' && !selectedCategory && !selectedDua && !isSearching && (
@@ -171,13 +176,6 @@ function AppContent() {
             <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
               {bannerText[language as keyof typeof bannerText] || bannerText.en}
             </p>
-          </div>
-        )}
-
-        {/* Dua Reminder */}
-        {viewMode === 'categories' && !selectedCategory && !selectedDua && !isSearching && (
-          <div className="mb-8">
-            <DuaReminder language={language} duas={categories.flatMap(category => category.duas)} />
           </div>
         )}
 

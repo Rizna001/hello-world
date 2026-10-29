@@ -163,3 +163,90 @@ textarea {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ---------- Sepia theme ----------
+   Re-maps the colour variables that Tailwind utilities read, so every
+   existing "light" style automatically becomes a warm paper tone. */
+html.theme-sepia {
+  --color-white: #fbf5e6;
+  --color-gray-50: #f6efdc;
+  --color-gray-100: #efe5cc;
+  --color-gray-200: #e2d4b2;
+  --color-gray-300: #cdbb92;
+  --color-gray-400: #a8946f;
+  --color-gray-500: #86724f;
+  --color-gray-600: #6a5740;
+  --color-gray-700: #54432f;
+  --color-gray-800: #3f3224;
+  --color-gray-900: #2e2418;
+  --color-slate-50: #f3ead4;
+  --color-slate-100: #ece1c6;
+  --color-slate-200: #e0d1ad;
+  --color-slate-300: #cdbb92;
+  --color-slate-400: #a8946f;
+  --color-slate-500: #86724f;
+  --color-slate-600: #6a5740;
+  --color-slate-700: #54432f;
+  --color-slate-800: #3f3224;
+  --color-slate-900: #2e2418;
+  --color-red-50: color-mix(in srgb, #f6eedb 92%, #ef4444);
+  --color-red-100: color-mix(in srgb, #f0e4c8 86%, #ef4444);
+  --color-red-200: color-mix(in srgb, #e5d5ae 78%, #ef4444);
+  --color-orange-50: color-mix(in srgb, #f6eedb 92%, #f97316);
+  --color-orange-100: color-mix(in srgb, #f0e4c8 86%, #f97316);
+  --color-orange-200: color-mix(in srgb, #e5d5ae 78%, #f97316);
+  --color-amber-50: color-mix(in srgb, #f6eedb 92%, #f59e0b);
+  --color-amber-100: color-mix(in srgb, #f0e4c8 86%, #f59e0b);
+  --color-amber-200: color-mix(in srgb, #e5d5ae 78%, #f59e0b);
+  --color-yellow-50: color-mix(in srgb, #f6eedb 92%, #eab308);
+  --color-yellow-100: color-mix(in srgb, #f0e4c8 86%, #eab308);
+  --color-yellow-200: color-mix(in srgb, #e5d5ae 78%, #eab308);
+  --color-lime-50: color-mix(in srgb, #f6eedb 92%, #84cc16);
+  --color-lime-100: color-mix(in srgb, #f0e4c8 86%, #84cc16);
+  --color-lime-200: color-mix(in srgb, #e5d5ae 78%, #84cc16);
+  --color-green-50: color-mix(in srgb, #f6eedb 92%, #22c55e);
+  --color-green-100: color-mix(in srgb, #f0e4c8 86%, #22c55e);
+  --color-green-200: color-mix(in srgb, #e5d5ae 78%, #22c55e);
+  --color-emerald-50: color-mix(in srgb, #f6eedb 92%, #10b981);
+  --color-emerald-100: color-mix(in srgb, #f0e4c8 86%, #10b981);
+  --color-emerald-200: color-mix(in srgb, #e5d5ae 78%, #10b981);
+  --color-teal-50: color-mix(in srgb, #f6eedb 92%, #14b8a6);
+  --color-teal-100: color-mix(in srgb, #f0e4c8 86%, #14b8a6);
+  --color-teal-200: color-mix(in srgb, #e5d5ae 78%, #14b8a6);
+  --color-cyan-50: color-mix(in srgb, #f6eedb 92%, #06b6d4);
+  --color-cyan-100: color-mix(in srgb, #f0e4c8 86%, #06b6d4);
+  --color-cyan-200: color-mix(in srgb, #e5d5ae 78%, #06b6d4);
+  --color-sky-50: color-mix(in srgb, #f6eedb 92%, #0ea5e9);
+  --color-sky-100: color-mix(in srgb, #f0e4c8 86%, #0ea5e9);
+  --color-sky-200: color-mix(in srgb, #e5d5ae 78%, #0ea5e9);
+  --color-blue-50: color-mix(in srgb, #f6eedb 92%, #3b82f6);
+  --color-blue-100: color-mix(in srgb, #f0e4c8 86%, #3b82f6);
+  --color-blue-200: color-mix(in srgb, #e5d5ae 78%, #3b82f6);
+  --color-indigo-50: color-mix(in srgb, #f6eedb 92%, #6366f1);
+  --color-indigo-100: color-mix(in srgb, #f0e4c8 86%, #6366f1);
+  --color-indigo-200: color-mix(in srgb, #e5d5ae 78%, #6366f1);
+  --color-violet-50: color-mix(in srgb, #f6eedb 92%, #8b5cf6);
+  --color-violet-100: color-mix(in srgb, #f0e4c8 86%, #8b5cf6);
+  --color-violet-200: color-mix(in srgb, #e5d5ae 78%, #8b5cf6);
+  --color-purple-50: color-mix(in srgb, #f6eedb 92%, #a855f7);
+  --color-purple-100: color-mix(in srgb, #f0e4c8 86%, #a855f7);
+  --color-purple-200: color-mix(in srgb, #e5d5ae 78%, #a855f7);
+  --color-fuchsia-50: color-mix(in srgb, #f6eedb 92%, #d946ef);
+  --color-fuchsia-100: color-mix(in srgb, #f0e4c8 86%, #d946ef);
+  --color-fuchsia-200: color-mix(in srgb, #e5d5ae 78%, #d946ef);
+  --color-pink-50: color-mix(in srgb, #f6eedb 92%, #ec4899);
+  --color-pink-100: color-mix(in srgb, #f0e4c8 86%, #ec4899);
+  --color-pink-200: color-mix(in srgb, #e5d5ae 78%, #ec4899);
+  --color-rose-50: color-mix(in srgb, #f6eedb 92%, #f43f5e);
+  --color-rose-100: color-mix(in srgb, #f0e4c8 86%, #f43f5e);
+  --color-rose-200: color-mix(in srgb, #e5d5ae 78%, #f43f5e);
+}
+
+html.theme-sepia body {
+  background-color: #f1e7cf;
+  color: #433422;
+}
+
+html.theme-sepia ::-webkit-scrollbar-thumb {
+  background: #cdbb92;
+}

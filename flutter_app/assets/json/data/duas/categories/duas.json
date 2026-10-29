@@ -1,58 +1,8 @@
 {
   "schema_version": "3.0.0",
   "category_id": "Others",
-  "count": 67,
+  "count": 65,
   "duas": [
-    {
-      "id": "d103-1",
-      "category_id": "Others",
-      "subcategory_id": null,
-      "order": 1,
-      "title": {
-        "en": "Dua while using Khaak-e-Shifa",
-        "ar": "الدعاء عند استعمال تراب الشفاء",
-        "ur": "خاکِ شفا استعمال کرتے وقت کی دعا",
-        "fr": "Invocation à réciter en utilisant la terre de guérison",
-        "tr": "Şifa toprağını kullanırken okunacak dua",
-        "id": "Doa saat menggunakan Tanah Syifa",
-        "bn": "খাক-এ-শিফা ব্যবহারের সময়ের দোয়া",
-        "ms": "Doa ketika menggunakan Tanah Syifa",
-        "ta": "காக்-ஏ-ஷிஃபாவைப் பயன்படுத்தும்போது ஓதும் துஆ",
-        "ml": "ഖാക്-എ-ശിഫ ഉപയോഗിക്കുമ്പോൾ ചൊല്ലേണ്ട ദുആ"
-      },
-      "arabic": "اَللّٰهُمَّ إِنِّي أَسْأَلُكَ بِحَقِّ هٰذِهِ الطِّينَةِ وَ بِحَقِّ الْمَلَكِ الَّذِيْ أَخَذَهَا وَ بِحَقِّ النَّبِيِّ الَّذِيْ قَبَضَهَا وَ بِحَقِّ الْوَصِيِّ الَّذِيْ حَلَّ فِيْهَا صَلِّ عَلٰى مُحَمَّدٍ وَ أَهْلِ بَيْتِهٖ وَ اجْعَلْ فِيْهَا شِفَآءً مِنْ كُلِّ دَآءٍ وَ أَمَاناً مِنْ كُلِّ خَوْفٍ",
-      "transliteration": "allaahumma innee as-aloka be-haqqe haazehit teenate wa be-haqqil malakil lazee akhazahaa wa be-haqqin nabiyyil lazee qabazahaa wa be-haqqil wasiyyil lazee halla feehaa salle a'laa mohammadin wa ahle baytehi waj-a'l feehaa shefaaa-an min kulle daaa-in wa amaanan min kulle khawfin.",
-      "translation": {
-        "en": "O Allah I bind Thee by thee by this clay and of that angel who had picked up this clay and of the Prophet through whom this clay was sent and of that vicegerent who lies buried under this clay and ask Thee to shower Thy blessing on Mohammad (s.a.w.a.) and Ahle Bait (a.s.) and make this clay a cure for all my diseases and a guardian against all fears.\n\nAll the fears will disappear and he will be completely cured from all pains.",
-        "ar": "اللهم إني أتوسل إليك بحق هذه الطينة، وبحق الملك الذي أخذ هذه الطينة، وبحق النبي الذي أرسل هذه الطينة بواسطته، وبحق الوصي المدفون تحت هذه الطينة، وأسألك أن تصلي على محمد (صلى الله عليه وآله) وأهل بيته (عليهم السلام)، وأن تجعل هذه الطينة شفاءً من جميع أمراضي وأمانًا من كل خوف.\n\nستزول جميع المخاوف، وسيُشفى تمامًا من جميع الآلام.",
-        "ur": "اے اللہ! میں تجھے اس مٹی کے وسیلے سے، اس فرشتے کے وسیلے سے جس نے یہ مٹی اٹھائی، اس نبی کے وسیلے سے جس کے ذریعے یہ مٹی بھیجی گئی، اور اس وصی کے وسیلے سے جو اس مٹی کے نیچے مدفون ہیں، پکارتا ہوں۔ اور تجھ سے سوال کرتا ہوں کہ محمد (صلی اللہ علیہ وآلہ) اور اہلِ بیت (علیہم السلام) پر اپنی رحمت نازل فرما، اور اس مٹی کو میری تمام بیماریوں کے لیے شفا اور ہر خوف سے امان کا ذریعہ بنا دے۔\n\nتمام خوف دور ہو جائیں گے اور وہ تمام دردوں سے مکمل طور پر شفا پا جائے گا۔",
-        "fr": "Ô Allah, je T’implore par cette argile, par l’ange qui l’a recueillie, par le Prophète par l’intermédiaire duquel cette argile a été envoyée, et par le légataire qui repose sous cette argile. Je Te demande de répandre Tes bénédictions sur Mohammad (que la paix et les bénédictions soient sur lui et sa famille) et sur les Gens de sa Maison (que la paix soit sur eux), et de faire de cette argile un remède à toutes mes maladies et une protection contre toutes les peurs.\n\nToutes les peurs disparaîtront et il sera complètement guéri de toutes ses douleurs.",
-        "tr": "Allah’ım! Bu kilin hakkı için, bu kili almış olan meleğin hakkı için, bu kilin onun aracılığıyla gönderildiği Peygamber’in hakkı için ve bu kilin altında medfun bulunan vasînin hakkı için Sana yalvarıyorum. Muhammed’e (Allah’ın salât ve selâmı onun ve Ehl-i Beyti’nin üzerine olsun) ve Ehl-i Beyti’ne (Allah’ın selâmı onların üzerine olsun) bereketlerini indirmeni, bu kili bütün hastalıklarıma şifa ve her türlü korkuya karşı güvence kılmanı Senden diliyorum.\n\nBütün korkular ortadan kalkacak ve o, tüm ağrılarından tamamen kurtulacaktır.",
-        "id": "Ya Allah, aku memohon kepada-Mu demi tanah liat ini, demi malaikat yang telah mengambil tanah liat ini, demi Nabi yang melalui beliau tanah liat ini dikirimkan, dan demi washi yang dimakamkan di bawah tanah liat ini. Aku memohon agar Engkau melimpahkan berkah-Mu kepada Muhammad (semoga salawat dan salam Allah tercurah kepada beliau dan keluarganya) dan Ahlulbait (semoga salam tercurah kepada mereka), serta menjadikan tanah liat ini sebagai obat bagi segala penyakitku dan pelindung dari segala ketakutan.\n\nSegala ketakutan akan lenyap, dan ia akan sembuh sepenuhnya dari semua rasa sakit.",
-        "bn": "হে আল্লাহ! এই মাটির, এই মাটি তুলে নেওয়া ফেরেশতার, যে নবীর মাধ্যমে এই মাটি পাঠানো হয়েছে তাঁর, এবং এই মাটির নিচে শায়িত সেই ওসির অধিকারে আমি তোমার কাছে প্রার্থনা করছি। আমি তোমার কাছে প্রার্থনা করি, মুহাম্মদ (তাঁর ও তাঁর পরিবারের ওপর আল্লাহর রহমত ও শান্তি বর্ষিত হোক) এবং আহলে বাইতের (তাঁদের ওপর শান্তি বর্ষিত হোক) ওপর তোমার বরকত বর্ষণ করো, আর এই মাটিকে আমার সব রোগের প্রতিকার এবং সব ভয়ের বিরুদ্ধে নিরাপত্তার উপায় করে দাও।\n\nসব ভয় দূর হয়ে যাবে এবং তিনি সব ব্যথা থেকে সম্পূর্ণ সুস্থ হয়ে উঠবেন।",
-        "ms": "Ya Allah, aku memohon kepada-Mu demi tanah liat ini, demi malaikat yang telah mengambil tanah liat ini, demi Nabi yang melaluinya tanah liat ini dikirimkan, dan demi wasi yang dimakamkan di bawah tanah liat ini. Aku memohon agar Engkau melimpahkan keberkatan-Mu kepada Muhammad (semoga selawat dan salam Allah ke atas beliau dan keluarganya) dan Ahlul Bait (semoga salam ke atas mereka), serta menjadikan tanah liat ini sebagai penawar bagi segala penyakitku dan pelindung daripada segala ketakutan.\n\nSegala ketakutan akan hilang dan dia akan sembuh sepenuhnya daripada semua kesakitan.",
-        "ta": "அல்லாஹ்வே! இந்த மண்ணின் பொருட்டாலும், இந்த மண்ணை எடுத்த அந்த வானவரின் பொருட்டாலும், இந்த மண் எவர் மூலம் அனுப்பப்பட்டதோ அந்த நபியின் பொருட்டாலும், இந்த மண்ணின் கீழ் அடக்கம் செய்யப்பட்டுள்ள அந்த வஸியின் பொருட்டாலும் உன்னிடம் வேண்டுகிறேன். முஹம்மது (அவர்மீதும் அவருடைய குடும்பத்தார்மீதும் அல்லாஹ்வின் அருளும் அமைதியும் உண்டாவதாக) மற்றும் அஹ்லுல் பைத் (அவர்கள் மீது அமைதி உண்டாவதாக) ஆகியோர்மீது உன் அருளைப் பொழிந்து, இந்த மண்ணை எனது எல்லா நோய்களுக்கும் நிவாரணமாகவும், எல்லா அச்சங்களிலிருந்தும் பாதுகாப்பாகவும் ஆக்குமாறு உன்னிடம் வேண்டுகிறேன்.\n\nஎல்லா அச்சங்களும் மறைந்துவிடும்; அவர் எல்லா வலிகளிலிருந்தும் முழுமையாகக் குணமடைவார்.",
-        "ml": "അല്ലാഹുവേ, ഈ കളിമണ്ണിന്റെ പേരിലും, ഈ കളിമണ്ണ് എടുത്ത മലക്കിന്റെ പേരിലും, ഈ കളിമണ്ണ് അയക്കപ്പെട്ടത് ആരിലൂടെ ആണോ ആ പ്രവാചകന്റെ പേരിലും, ഈ കളിമണ്ണിനടിയിൽ അടക്കം ചെയ്യപ്പെട്ടിരിക്കുന്ന ആ വസിയുടെ പേരിലും ഞാൻ നിന്നോട് അപേക്ഷിക്കുന്നു. മുഹമ്മദ് (അദ്ദേഹത്തിന്റെയും അദ്ദേഹത്തിന്റെ കുടുംബത്തിന്റെയും മേൽ അല്ലാഹുവിന്റെ അനുഗ്രഹവും സമാധാനവും ഉണ്ടാകട്ടെ), അഹ്‌ലുൽ ബൈത്ത് (അവരുടെ മേൽ സമാധാനമുണ്ടാകട്ടെ) എന്നിവരുടെ മേൽ നിന്റെ അനുഗ്രഹം ചൊരിയണമെന്നും, ഈ കളിമണ്ണിനെ എന്റെ എല്ലാ രോഗങ്ങൾക്കും ശമനമായും എല്ലാ ഭയങ്ങളിൽനിന്നുമുള്ള സുരക്ഷയായും ആക്കണമെന്നും ഞാൻ നിന്നോട് അപേക്ഷിക്കുന്നു.\n\nഎല്ലാ ഭയങ്ങളും നീങ്ങിപ്പോകും; എല്ലാ വേദനകളിൽനിന്നും അദ്ദേഹം പൂർണമായി സുഖം പ്രാപിക്കും."
-      },
-      "reference": {
-        "source": null,
-        "reference_text": null
-      },
-      "repetition_count": 1,
-      "source_text": "Dua No. 1\nDua while using Khaak-e-Shifa\nAccording to another tradition a person complained to the Imam that he was always assailed by pains and diseases and whatever medicine he used to take did not benefit him. The Imam advised him to take Khaak-e-Shifa and recite the following Dua before he holds it.\n\nاَللّٰهُمَّ إِنِّي أَسْأَلُكَ بِحَقِّ هٰذِهِ الطِّينَةِ وَ بِحَقِّ الْمَلَكِ الَّذِيْ أَخَذَهَا وَ بِحَقِّ النَّبِيِّ الَّذِيْ قَبَضَهَا وَ بِحَقِّ الْوَصِيِّ الَّذِيْ حَلَّ فِيْهَا صَلِّ عَلٰى مُحَمَّدٍ وَ أَهْلِ بَيْتِهٖ وَ اجْعَلْ فِيْهَا شِفَآءً مِنْ كُلِّ دَآءٍ وَ أَمَاناً مِنْ كُلِّ خَوْفٍ\n\nTransliteration:\nallaahumma innee as-aloka be-haqqe haazehit teenate wa be-haqqil malakil lazee akhazahaa wa be-haqqin nabiyyil lazee qabazahaa wa be-haqqil wasiyyil lazee halla feehaa salle a’laa mohammadin wa ahle baytehi waj-a’l feehaa shefaaa-an min kulle daaa-in wa amaanan min kulle khawfin.\n\nTranslation:\nO Allah I bind Thee by thee by this clay and of that angel who had picked up this clay and of the Prophet through whom this clay was sent and of that vicegerent who lies buried under this clay and ask Thee to shower Thy blessing on Mohammad (s.a.w.a.) and Ahle Bait (a.s.) and make this clay a cure for all my diseases and a guardian against all fears.\n\nAll the fears will disappear and he will be completely cured from all pains.",
-      "translation_status": {
-        "en": "source translation extracted",
-        "ar": "AI-translated; review recommended",
-        "ur": "AI-translated; review recommended",
-        "fr": "AI-translated; review recommended",
-        "tr": "AI-translated; review recommended",
-        "id": "AI-translated; review recommended",
-        "bn": "AI-translated; review recommended",
-        "ms": "AI-translated; review recommended",
-        "ta": "AI-translated; review recommended",
-        "ml": "AI-translated; review recommended"
-      }
-    },
     {
       "id": "d103-5",
       "category_id": "Others",
@@ -190,56 +140,6 @@
       },
       "repetition_count": 1,
       "source_text": "Dua No. 9\nFor avoiding bad omens for traveller\nAccording to Imam Moosa Kazim (a.s.)\n\nSeven things are unlucky for a traveller, (i) the cawing of the crow on his right hand, (ii) the dog with his tail straight up. (iii) the fox sitting with is face towards the tail, howling at the sight of the traveller, (iv) the deer which cuts the travellers way from the tight side and goes off towards his left (v) the screeching of an owl, (vi) the arrival of an old woman with white hair with shorn of ears; when one of these things comes before the traveller and he is beset with doubts and fear on account of them he should recite. (vii) the coming in front of a donkey with shorn of ears; when one of these things comes before the traveller and he is beset with doubts and fear on account of them he should recite.\n\nاِعْتَصَمْتُ بِكَ يَا رَبِّ مِنْ شَرِّ مَا أَجِدُ فِي نَفْسِيْ فَاعْصِمْنِيْ مِنْ ذٰلِكَ‏\n\nTransliteration:\ni-a’tasamto beka yaa rabbe min sharre maa ajedo fee nafsee fa-a’simnee min zaaleka.\n\nTranslation:\nO my Creator! I seek Thy shelter from the mischief of the danger that is linking in my heart, protect me from it.",
-      "translation_status": {
-        "en": "source translation extracted",
-        "ar": "AI-translated; review recommended",
-        "ur": "AI-translated; review recommended",
-        "fr": "AI-translated; review recommended",
-        "tr": "AI-translated; review recommended",
-        "id": "AI-translated; review recommended",
-        "bn": "AI-translated; review recommended",
-        "ms": "AI-translated; review recommended",
-        "ta": "AI-translated; review recommended",
-        "ml": "AI-translated; review recommended"
-      }
-    },
-    {
-      "id": "d103-10",
-      "category_id": "Others",
-      "subcategory_id": null,
-      "order": 10,
-      "title": {
-        "en": "Before starting journey",
-        "ar": "قبل بدء الرحلة",
-        "ur": "سفر شروع کرنے سے پہلے",
-        "fr": "Avant de commencer un voyage",
-        "tr": "Yolculuğa başlamadan önce",
-        "id": "Sebelum memulai perjalanan",
-        "bn": "যাত্রা শুরু করার আগে",
-        "ms": "Sebelum memulakan perjalanan",
-        "ta": "பயணத்தைத் தொடங்குவதற்கு முன்",
-        "ml": "യാത്ര ആരംഭിക്കുന്നതിന് മുമ്പ്"
-      },
-      "arabic": "اَللّٰهُمَّ احْفَظْنِي وَ احْفَظْ مَا مَعِيَ وَ سَلِّمْنِي وَ سَلِّمْ مَا مَعِيَ وَ بَلِّغْنِيْ وَ بَلِّغْ مَا مَعِيَ بِبَلَاغِكَ الْحَسَنِ الْجَمِيْلِ‏",
-      "transliteration": "allaahummah fazneee wah-faz maa ma-e'ya wa sallimnee maa sallim maa ma-e'ya wa ballighnee wa balligh ma ma-e'ya be-balaaghekal hasanil jameele.",
-      "translation": {
-        "en": "O Allah! Keep me and all the things with me safe and sound and let them reach the destination safely.\n\nThe person who precedes on a journey in the above manner the Almighty God will be looking after his welfare and of those and things who are with him, and he will reach safely his destination.",
-        "ar": "اللهم احفظني واحفظ جميع ما معي، وسلّمني وسلّم ما معي، وبلّغني وبلّغ ما معي إلى الوجهة بسلام.\n\nإنّ الله تعالى سيتولى رعاية الشخص الذي يشرع في رحلته بهذه الطريقة، ويرعى من معه وما معه، وسيصل إلى وجهته سالمًا.",
-        "ur": "اے اللہ! مجھے اور میرے ساتھ موجود تمام چیزوں کو محفوظ و سلامت رکھ، اور ہمیں بحفاظت منزل تک پہنچا۔\n\nجو شخص اس طریقے سے سفر شروع کرے گا، اللہ تعالیٰ اس کی، اس کے ساتھ موجود لوگوں اور چیزوں کی حفاظت فرمائے گا، اور وہ بحفاظت اپنی منزل تک پہنچے گا۔",
-        "fr": "Ô Allah ! Garde-moi, ainsi que toutes les choses qui m’accompagnent, en sécurité et en bonne santé, et fais-nous parvenir à destination sans encombre.\n\nAllah Tout-Puissant veillera sur le bien-être de la personne qui commence son voyage de cette manière, ainsi que sur celui des personnes et des choses qui l’accompagnent, et elle arrivera à destination en toute sécurité.",
-        "tr": "Allah’ım! Beni ve yanımdaki her şeyi koru ve esenlikte tut; bizi varış noktasına güvenle ulaştır.\n\nYolculuğa yukarıda anlatılan şekilde başlayan kişinin, Yüce Allah onun ve beraberindeki kişilerin ve eşyaların iyiliğini gözetir; o da varış noktasına güvenle ulaşır.",
-        "id": "Ya Allah! Jagalah aku dan segala sesuatu yang bersamaku agar tetap aman dan selamat, serta antarkan kami ke tujuan dengan selamat.\n\nAllah Yang Mahakuasa akan menjaga kesejahteraan orang yang memulai perjalanan dengan cara seperti di atas, serta orang-orang dan barang-barang yang bersamanya, dan ia akan tiba di tujuannya dengan selamat.",
-        "bn": "হে আল্লাহ! আমাকে এবং আমার সঙ্গে থাকা সবকিছুকে নিরাপদ ও সুস্থ রাখুন এবং আমাদের নিরাপদে গন্তব্যে পৌঁছে দিন।\n\nযে ব্যক্তি উপরোক্ত পদ্ধতিতে যাত্রা শুরু করে, মহান আল্লাহ তার, তার সঙ্গে থাকা ব্যক্তিদের এবং জিনিসপত্রের কল্যাণের তত্ত্বাবধান করবেন, আর সে নিরাপদে তার গন্তব্যে পৌঁছাবে।",
-        "ms": "Ya Allah! Peliharalah aku dan segala yang bersamaku agar tetap selamat dan sejahtera, serta sampaikanlah kami ke destinasi dengan selamat.\n\nAllah Yang Maha Kuasa akan menjaga kesejahteraan orang yang memulakan perjalanan dengan cara seperti di atas, serta orang-orang dan barang-barang yang bersamanya, dan dia akan tiba di destinasinya dengan selamat.",
-        "ta": "அல்லாஹ்வே! என்னையும் என்னுடன் இருக்கும் அனைத்துப் பொருட்களையும் பாதுகாப்பாகவும் நலமாகவும் வைத்திருந்து, எங்களைப் பாதுகாப்பாக இலக்கை அடையச் செய்வாயாக.\n\nமேற்கண்ட முறையில் பயணத்தைத் தொடங்கும் நபரின் நலனையும், அவருடன் இருப்பவர்களையும் பொருட்களையும் எல்லாம் வல்ல இறைவன் கவனித்துக் காப்பான்; அவர் பாதுகாப்பாகத் தமது இலக்கை அடைவார்.",
-        "ml": "അല്ലാഹുവേ! എന്നെയും എന്നോടൊപ്പമുള്ള എല്ലാ വസ്തുക്കളെയും സുരക്ഷിതമായും ക്ഷേമത്തോടെയും കാത്തുകൊള്ളണമേ; ഞങ്ങളെ സുരക്ഷിതമായി ലക്ഷ്യസ്ഥാനത്ത് എത്തിക്കണമേ.\n\nമുകളിൽ പറഞ്ഞ രീതിയിൽ യാത്ര ആരംഭിക്കുന്ന വ്യക്തിയുടെയും കൂടെയുള്ളവരുടെയും വസ്തുക്കളുടെയും ക്ഷേമം സർവശക്തനായ ദൈവം കാത്തുകൊള്ളും; ആ വ്യക്തി സുരക്ഷിതമായി ലക്ഷ്യസ്ഥാനത്ത് എത്തുകയും ചെയ്യും."
-      },
-      "reference": {
-        "source": null,
-        "reference_text": null
-      },
-      "repetition_count": 1,
-      "source_text": "Dua No. 10\nBefore starting journey\nAccording to a tradition related to Imam Moosa Ibne Ja’far (a.s.) that\n\na person who wishes to go on a journey should stand in the door of his house facing towards the destination of journey and recite Alhamd and recite the following:\n\nاَللّٰهُمَّ احْفَظْنِي وَ احْفَظْ مَا مَعِيَ وَ سَلِّمْنِي وَ سَلِّمْ مَا مَعِيَ وَ بَلِّغْنِيْ وَ بَلِّغْ مَا مَعِيَ بِبَلَاغِكَ الْحَسَنِ الْجَمِيْلِ‏\n\nTransliteration:\nallaahummah fazneee wah-faz maa ma-e’ya wa sallimnee maa sallim maa ma-e’ya wa ballighnee wa balligh ma ma-e’ya be-balaaghekal hasanil jameele.\n\nTranslation:\nO Allah! Keep me and all the things with me safe and sound and let them reach the destination safely.\n\nThe person who precedes on a journey in the above manner the Almighty God will be looking after his welfare and of those and things who are with him, and he will reach safely his destination.",
       "translation_status": {
         "en": "source translation extracted",
         "ar": "AI-translated; review recommended",
@@ -3367,7 +3267,7 @@
       "ta",
       "ml"
     ],
-    "sourceRecords": 67,
+    "sourceRecords": 65,
     "dataPreservation": "Each original record is preserved verbatim in each dua.sourceText. Extracted Arabic, transliteration, and explicit English translation are additionally provided when detectable. Empty translation/title fields indicate translations not yet supplied; they are not represented as completed translations.",
     "translationCompletion": {
       "status": "machine translated; human review recommended",
@@ -3383,7 +3283,7 @@
         "ta",
         "ml"
       ],
-      "completedRecords": 67,
+      "completedRecords": 65,
       "englishMissingFieldsBackfilled": 12
     }
   }

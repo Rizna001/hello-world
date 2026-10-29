@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useTheme } from '../contexts/ThemeContext';
+import { useTheme, MIN_FONT_SCALE, MAX_FONT_SCALE, DEFAULT_FONT_SCALE } from '../contexts/ThemeContext';
 import { useNotifications } from '../contexts/NotificationsContext';
 
 interface SettingsProps {
@@ -7,7 +7,7 @@ interface SettingsProps {
 }
 
 export default function Settings({ language }: SettingsProps) {
-  const { isDark, toggleTheme } = useTheme();
+  const { isDark, theme, setTheme, fontScale, setFontScale } = useTheme();
   const { 
     notificationsEnabled, 
     toggleNotifications, 
@@ -36,6 +36,20 @@ export default function Settings({ language }: SettingsProps) {
 
   const label = labels[language as keyof typeof labels] || labels.en;
 
+  const extraLabels = {
+    en: { sepia: 'Sepia Mode', fontSize: 'Font Size', reset: 'Reset to default' },
+    ar: { sepia: 'وضع سيبيا', fontSize: 'حجم الخط', reset: 'إعادة الضبط' },
+    ur: { sepia: 'سیپیا موڈ', fontSize: 'فونٹ سائز', reset: 'ڈیفالٹ پر واپس' },
+    fr: { sepia: 'Mode Sépia', fontSize: 'Taille de police', reset: 'Réinitialiser' },
+    tr: { sepia: 'Sepya Modu', fontSize: 'Yazı Boyutu', reset: 'Varsayılana dön' },
+    id: { sepia: 'Mode Sepia', fontSize: 'Ukuran Font', reset: 'Atur ulang' },
+    bn: { sepia: 'সেপিয়া মোড', fontSize: 'ফন্টের আকার', reset: 'ডিফল্টে ফিরুন' },
+    ms: { sepia: 'Mod Sepia', fontSize: 'Saiz Fon', reset: 'Set semula' },
+    ta: { sepia: 'செபியா பயன்முறை', fontSize: 'எழுத்துரு அளவு', reset: 'இயல்புநிலைக்கு மீட்டமை' },
+    ml: { sepia: 'സെപ്പിയ മോഡ്', fontSize: 'ഫോണ്ട് വലുപ്പം', reset: 'ഡിഫോൾട്ടിലേക്ക് മടങ്ങുക' },
+  };
+  const extra = extraLabels[language as keyof typeof extraLabels] || extraLabels.en;
+
   return (
     <>
       <button
@@ -56,7 +70,7 @@ export default function Settings({ language }: SettingsProps) {
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm" onClick={() => setIsOpen(false)}>
           <div
-            className={`w-full max-w-md rounded-2xl shadow-2xl overflow-hidden ${isDark ? 'bg-slate-800' : 'bg-white'}`}
+            className={`w-full max-w-md max-h-[90vh] overflow-y-auto rounded-2xl shadow-2xl ${isDark ? 'bg-slate-800' : 'bg-white'}`}
             onClick={(e) => e.stopPropagation()}
           >
             {/* Header */}
@@ -78,43 +92,77 @@ export default function Settings({ language }: SettingsProps) {
 
             {/* Content */}
             <div className="p-6 space-y-6">
-              {/* Theme Toggle */}
+              {/* Theme picker */}
               <div>
                 <h3 className={`text-sm font-semibold mb-3 ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
                   {label.theme}
                 </h3>
-                <div className={`p-4 rounded-xl border ${isDark ? 'bg-slate-900 border-slate-700' : 'bg-gray-50 border-gray-200'}`}>
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <p className={`font-medium ${isDark ? 'text-white' : 'text-gray-900'}`}>
-                        {isDark ? '🌙' : '☀️'} {isDark ? label.darkMode : label.lightMode}
-                      </p>
-                      <p className={`text-xs mt-1 ${isDark ? 'text-gray-500' : 'text-gray-500'}`}>
-                        {language === 'en' ? 'Toggle between light and dark themes' :
-                         language === 'ar' ? 'التبديل بين السمات الفاتحة والداكنة' :
-                         language === 'ur' ? 'روشن اور تاریک تھیم کے درمیان ٹوگل کریں' :
-                         language === 'fr' ? 'Basculer entre les thèmes clair et sombre' :
-                         language === 'tr' ? 'Açık ve koyu temalar arasında geçiş yap' :
-                         language === 'id' ? 'Beralih antara tema terang dan gelap' :
-                         language === 'bn' ? 'হালকা এবং গাঢ় থিমের মধ্যে টগল করুন' :
-                         language === 'ms' ? 'Togol antara tema terang dan gelap' :
-                         language === 'ta' ? 'ஒளி மற்றும் இருண்ட தீம்களுக்கு இடையில் மாற்றவும்' :
-                         'ഇരുണ്ടതും വെളിച്ചമുള്ളതുമായ തീമുകൾക്കിടയിൽ മാറുക'}
-                      </p>
-                    </div>
+                <div className={`p-2 rounded-xl border grid grid-cols-3 gap-2 ${isDark ? 'bg-slate-900 border-slate-700' : 'bg-gray-50 border-gray-200'}`}>
+                  {([
+                    { id: 'light', text: label.lightMode, swatch: '#ffffff' },
+                    { id: 'sepia', text: extra.sepia, swatch: '#f1e7cf' },
+                    { id: 'dark', text: label.darkMode, swatch: '#00160d' },
+                  ] as const).map(option => (
                     <button
-                      onClick={toggleTheme}
-                      className={`relative w-14 h-7 rounded-full transition-colors ${
-                        isDark ? 'bg-emerald-600' : 'bg-gray-300'
+                      key={option.id}
+                      onClick={() => setTheme(option.id)}
+                      aria-pressed={theme === option.id}
+                      className={`flex flex-col items-center gap-2 rounded-lg px-2 py-3 text-xs font-medium transition-colors border-2 ${
+                        theme === option.id
+                          ? 'border-emerald-500 ' + (isDark ? 'bg-slate-800 text-white' : 'bg-white text-gray-900')
+                          : 'border-transparent ' + (isDark ? 'text-gray-400 hover:bg-slate-800' : 'text-gray-600 hover:bg-gray-100')
                       }`}
                     >
-                      <span
-                        className={`absolute top-0.5 left-0.5 w-6 h-6 bg-white rounded-full shadow-md transition-transform ${
-                          isDark ? 'translate-x-7' : 'translate-x-0'
-                        }`}
-                      />
+                      <span className="w-8 h-8 rounded-full border border-gray-400/50" style={{ backgroundColor: option.swatch }} />
+                      <span className="text-center leading-tight">{option.text}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Font size */}
+              <div>
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className={`text-sm font-semibold ${isDark ? 'text-gray-400' : 'text-gray-500'}`}>
+                    {extra.fontSize}
+                  </h3>
+                  <span className={`text-sm font-medium ${isDark ? 'text-white' : 'text-gray-900'}`}>{fontScale}%</span>
+                </div>
+                <div className={`p-4 rounded-xl border ${isDark ? 'bg-slate-900 border-slate-700' : 'bg-gray-50 border-gray-200'}`}>
+                  <div className="flex items-center gap-3">
+                    <button
+                      onClick={() => setFontScale(fontScale - 5)}
+                      disabled={fontScale <= MIN_FONT_SCALE}
+                      aria-label="Decrease font size"
+                      className={`w-9 h-9 rounded-lg text-sm font-bold disabled:opacity-40 ${isDark ? 'bg-slate-700 text-gray-200' : 'bg-gray-200 text-gray-700'}`}
+                    >
+                      A−
+                    </button>
+                    <input
+                      type="range"
+                      min={MIN_FONT_SCALE}
+                      max={MAX_FONT_SCALE}
+                      step={5}
+                      value={fontScale}
+                      onChange={(e) => setFontScale(Number(e.target.value))}
+                      aria-label={extra.fontSize}
+                      className="flex-1 accent-emerald-600"
+                    />
+                    <button
+                      onClick={() => setFontScale(fontScale + 5)}
+                      disabled={fontScale >= MAX_FONT_SCALE}
+                      aria-label="Increase font size"
+                      className={`w-9 h-9 rounded-lg text-base font-bold disabled:opacity-40 ${isDark ? 'bg-slate-700 text-gray-200' : 'bg-gray-200 text-gray-700'}`}
+                    >
+                      A+
                     </button>
                   </div>
+                  <button
+                    onClick={() => setFontScale(DEFAULT_FONT_SCALE)}
+                    className={`mt-3 text-xs font-medium ${isDark ? 'text-emerald-300' : 'text-emerald-700'}`}
+                  >
+                    {extra.reset}
+                  </button>
                 </div>
               </div>
 

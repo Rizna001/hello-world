@@ -379,11 +379,6 @@
       "new_category_id": "ummah"
     },
     {
-      "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-1",
-      "new_id": "d103-1",
-      "new_category_id": "Others"
-    },
-    {
       "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-5",
       "new_id": "d103-5",
       "new_category_id": "Others"
@@ -396,11 +391,6 @@
     {
       "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-9",
       "new_id": "d103-9",
-      "new_category_id": "Others"
-    },
-    {
-      "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-10",
-      "new_id": "d103-10",
       "new_category_id": "Others"
     },
     {

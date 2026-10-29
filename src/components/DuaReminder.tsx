@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 import { useNotifications } from '../contexts/NotificationsContext';
 
@@ -11,6 +11,25 @@ export default function DuaReminder({ language, duas }: DuaReminderProps) {
   const { isDark } = useTheme();
   const { customReminders, addReminder, removeReminder, toggleReminder, sounds, playSound } = useNotifications();
   const [showForm, setShowForm] = useState(false);
+  const [open, setOpen] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  // Close the popover when clicking outside it or pressing Escape.
+  useEffect(() => {
+    if (!open) return;
+    const onPointerDown = (event: MouseEvent | TouchEvent) => {
+      if (containerRef.current && !containerRef.current.contains(event.target as Node)) setOpen(false);
+    };
+    const onKeyDown = (event: KeyboardEvent) => { if (event.key === 'Escape') setOpen(false); };
+    document.addEventListener('mousedown', onPointerDown);
+    document.addEventListener('touchstart', onPointerDown);
+    document.addEventListener('keydown', onKeyDown);
+    return () => {
+      document.removeEventListener('mousedown', onPointerDown);
+      document.removeEventListener('touchstart', onPointerDown);
+      document.removeEventListener('keydown', onKeyDown);
+    };
+  }, [open]);
   const [newReminder, setNewReminder] = useState({
     duaId: '',
     times: ['08:00'],
@@ -82,15 +101,41 @@ export default function DuaReminder({ language, duas }: DuaReminderProps) {
   );
 
   return (
-    <div className={`rounded-2xl p-6 border ${isDark ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-200'} shadow-lg`}>
+    <div ref={containerRef} className="relative md:w-72 lg:w-80 shrink-0">
+      {/* Compact bar: same height as the search box */}
+      <button
+        type="button"
+        onClick={() => setOpen(current => !current)}
+        aria-expanded={open}
+        className={`w-full h-[54px] px-4 rounded-xl border shadow-sm flex items-center justify-between gap-3 text-left transition-colors ${
+          isDark
+            ? 'bg-slate-800 border-slate-700 hover:border-slate-600 text-gray-200'
+            : 'bg-white border-gray-200 hover:border-gray-300 text-gray-700'
+        }`}
+      >
+        <span className="flex items-center gap-2 min-w-0">
+          <span className="truncate font-medium text-sm">{label.title}</span>
+          {customReminders.length > 0 && (
+            <span className={`text-xs px-2 py-0.5 rounded-full ${isDark ? 'bg-emerald-900/60 text-emerald-300' : 'bg-emerald-100 text-emerald-700'}`}>
+              {customReminders.length}
+            </span>
+          )}
+        </span>
+        <svg className={`w-4 h-4 shrink-0 transition-transform ${open ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      {open && (
+      <div className={`absolute z-40 left-0 right-0 md:left-auto md:right-0 md:w-[min(92vw,26rem)] top-full mt-2 max-h-[70vh] overflow-y-auto rounded-2xl p-4 border shadow-xl ${isDark ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-200'}`}>
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
-        <h3 className={`text-lg font-bold ${isDark ? 'text-white' : 'text-gray-900'}`}>
+        <h3 className={`text-base font-bold ${isDark ? 'text-white' : 'text-gray-900'}`}>
           {label.title}
         </h3>
         <button
           onClick={() => setShowForm(!showForm)}
-          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
             isDark
               ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
               : 'bg-emerald-500 hover:bg-emerald-600 text-white'
@@ -260,7 +305,7 @@ export default function DuaReminder({ language, duas }: DuaReminderProps) {
 
       {/* Reminders List */}
       {customReminders.length === 0 ? (
-        <p className={`text-center py-8 ${isDark ? 'text-gray-500' : 'text-gray-400'}`}>
+        <p className={`text-center py-4 ${isDark ? 'text-gray-500' : 'text-gray-400'}`}>
           {label.noReminders}
         </p>
       ) : (
@@ -342,6 +387,8 @@ export default function DuaReminder({ language, duas }: DuaReminderProps) {
             </div>
           ))}
         </div>
+      )}
+      </div>
       )}
     </div>
   );

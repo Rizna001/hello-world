@@ -1,43 +1,76 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 
-type Theme = 'light' | 'dark';
+export type Theme = 'light' | 'dark' | 'sepia';
+
+export const MIN_FONT_SCALE = 80;
+export const MAX_FONT_SCALE = 150;
+export const DEFAULT_FONT_SCALE = 100;
 
 interface ThemeContextType {
   theme: Theme;
+  setTheme: (theme: Theme) => void;
+  /** Cycles light -> sepia -> dark -> light */
   toggleTheme: () => void;
   isDark: boolean;
+  isSepia: boolean;
+  /** Page font size as a percentage of the browser default (80-150). */
+  fontScale: number;
+  setFontScale: (scale: number) => void;
 }
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
+const readStorage = (key: string): string | null => {
+  try { return localStorage.getItem(key); } catch { return null; }
+};
+const writeStorage = (key: string, value: string) => {
+  try { localStorage.setItem(key, value); } catch { /* storage unavailable */ }
+};
+
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>(() => {
+  const [theme, setThemeState] = useState<Theme>(() => {
     if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('theme') as Theme;
-      if (saved) return saved;
+      const saved = readStorage('theme');
+      if (saved === 'light' || saved === 'dark' || saved === 'sepia') return saved;
       return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     }
     return 'light';
   });
 
+  const [fontScale, setFontScaleState] = useState<number>(() => {
+    const saved = Number(readStorage('fontScale'));
+    return saved >= MIN_FONT_SCALE && saved <= MAX_FONT_SCALE ? saved : DEFAULT_FONT_SCALE;
+  });
+
   useEffect(() => {
     const root = document.documentElement;
-    if (theme === 'dark') {
-      root.classList.add('dark');
-      root.classList.remove('light');
-    } else {
-      root.classList.remove('dark');
-      root.classList.add('light');
-    }
-    localStorage.setItem('theme', theme);
+    // "theme-sepia" (not "sepia") so it can't clash with Tailwind's .sepia filter utility
+    root.classList.remove('light', 'dark', 'theme-sepia');
+    root.classList.add(theme === 'sepia' ? 'theme-sepia' : theme);
+    root.setAttribute('data-theme', theme);
+    writeStorage('theme', theme);
   }, [theme]);
 
+  // Everything is sized in rem, so changing the root font size scales the whole app.
+  useEffect(() => {
+    document.documentElement.style.fontSize = `${fontScale}%`;
+    writeStorage('fontScale', String(fontScale));
+  }, [fontScale]);
+
+  const setTheme = (next: Theme) => setThemeState(next);
   const toggleTheme = () => {
-    setTheme(prev => prev === 'light' ? 'dark' : 'light');
+    setThemeState(prev => (prev === 'light' ? 'sepia' : prev === 'sepia' ? 'dark' : 'light'));
+  };
+  const setFontScale = (scale: number) => {
+    setFontScaleState(Math.min(MAX_FONT_SCALE, Math.max(MIN_FONT_SCALE, Math.round(scale))));
   };
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme, isDark: theme === 'dark' }}>
+    <ThemeContext.Provider value={{
+      theme, setTheme, toggleTheme,
+      isDark: theme === 'dark', isSepia: theme === 'sepia',
+      fontScale, setFontScale,
+    }}>
       {children}
     </ThemeContext.Provider>
   );

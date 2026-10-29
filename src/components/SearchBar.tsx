@@ -23,8 +23,8 @@ export default function SearchBar({
     'പേര് അല്ലെങ്കിൽ വിവർത്തനം അനുസരിച്ച് ദുആകൾ തിരയുക...';
 
   return (
-    <div className="mb-8">
-      <div className="relative max-w-2xl mx-auto">
+    <div className="flex-1 min-w-0">
+      <div className="relative">
         <input
           type="text"
           value={searchQuery}
