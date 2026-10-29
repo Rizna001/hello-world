@@ -13,8 +13,8 @@
     "ml": "മറ്റുള്ളവ"
   },
   "description": {
-    "en": "Consolidated collection of 103 duas (originally numbered 1 to 103). Each record preserves the verbatim source text in source_text; several records have empty arabic/reference fields in the original data.",
-    "ta": "103 துஆக்களின் தொகுத்தல் தொகுப்பு. ஒவ்வொரு பதிவும் மூல உரத்துடன் பாதுகாக்கப்பட்டுள்ளது."
+    "en": "Consolidated collection of 94 duas (originally numbered 1 to 103). Each record preserves the verbatim source text in source_text; several records have empty arabic/reference fields in the original data.",
+    "ta": "94 துஆக்களின் தொகுத்தல் தொகுப்பு. ஒவ்வொரு பதிவும் மூல உரத்துடன் பாதுகாக்கப்பட்டுள்ளது."
   },
   "parent_id": null,
   "order": 36,
@@ -25,6 +25,6 @@
     "border": "border-emerald-200",
     "text": "text-emerald-700"
   },
-  "item_count": 103,
+  "item_count": 94,
   "data_file": "duas.json"
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0.0",
   "category_id": "Others",
-  "count": 103,
+  "count": 94,
   "duas": [
     {
       "id": "d103-1",
@@ -1954,56 +1954,6 @@
       }
     },
     {
-      "id": "d103-40",
-      "category_id": "Others",
-      "subcategory_id": null,
-      "order": 40,
-      "title": {
-        "en": "For Scorpion Bite",
-        "ar": "لِلدغة العقرب",
-        "ur": "بچھو کے ڈنک کے لیے",
-        "fr": "En cas de piqûre de scorpion",
-        "tr": "Akrep sokması için",
-        "id": "Untuk Sengatan Kalajengking",
-        "bn": "বিছার কামড়ের জন্য",
-        "ms": "Untuk Sengatan Kala Jengking",
-        "ta": "தேள் கொட்டியதற்கு",
-        "ml": "തേൾ കുത്തിയതിന്"
-      },
-      "arabic": "",
-      "transliteration": "",
-      "translation": {
-        "en": "At the place of the scorpion bite, pour salt, then recite Surah Al-Kafirun (Chapter 109), Surah Al-Falaq (Chapter 113), and Surah An-Nas (Chapter 114) once each.",
-        "ar": "يُسكب الملح على موضع لدغة العقرب، ثم تُقرأ سورة الكافرون (السورة 109)، وسورة الفلق (السورة 113)، وسورة الناس (السورة 114)، مرةً واحدةً لكل سورة.",
-        "ur": "بچھو کے ڈنک کی جگہ پر نمک ڈالیں، پھر سورۂ کافرون (سورہ 109)، سورۂ فلق (سورہ 113) اور سورۂ ناس (سورہ 114) ہر ایک ایک بار پڑھیں۔",
-        "fr": "Versez du sel à l’endroit de la piqûre de scorpion, puis récitez une fois chacune les sourates Al-Kafirun (chapitre 109), Al-Falaq (chapitre 113) et An-Nas (chapitre 114).",
-        "tr": "Akrep sokan bölgeye tuz dökün, ardından Kâfirûn Suresi’ni (109. sure), Felak Suresi’ni (113. sure) ve Nâs Suresi’ni (114. sure) birer kez okuyun.",
-        "id": "Taburkan garam pada bagian yang tersengat kalajengking, lalu bacalah Surah Al-Kafirun (surah ke-109), Surah Al-Falaq (surah ke-113), dan Surah An-Nas (surah ke-114), masing-masing satu kali.",
-        "bn": "বিছার কামড়ের স্থানে লবণ ছিটিয়ে দিন, তারপর সূরা আল-কাফিরুন (অধ্যায় ১০৯), সূরা আল-ফালাক (অধ্যায় ১১৩) এবং সূরা আন-নাস (অধ্যায় ১১৪)—প্রতিটি একবার করে পাঠ করুন।",
-        "ms": "Taburkan garam pada tempat sengatan kala jengking, kemudian bacalah Surah Al-Kafirun (surah ke-109), Surah Al-Falaq (surah ke-113) dan Surah An-Nas (surah ke-114), masing-masing sekali.",
-        "ta": "தேள் கொட்டிய இடத்தில் உப்பைத் தூவி, பின்னர் ஸூரா அல்-காஃபிரூன் (அத்தியாயம் 109), ஸூரா அல்-ஃபலக் (அத்தியாயம் 113), ஸூரா அன்-நாஸ் (அத்தியாயம் 114) ஆகியவற்றை ஒவ்வொன்றும் ஒருமுறை ஓதுங்கள்.",
-        "ml": "തേൾ കുത്തിയ സ്ഥലത്ത് ഉപ്പ് വിതറുക. തുടർന്ന് സൂറത്തുൽ കാഫിറൂൻ (അധ്യായം 109), സൂറത്തുൽ ഫലഖ് (അധ്യായം 113), സൂറത്തുന്നാസ് (അധ്യായം 114) എന്നിവ ഓരോന്നും ഓരോ തവണ വീതം പാരായണം ചെയ്യുക."
-      },
-      "reference": {
-        "source": null,
-        "reference_text": null
-      },
-      "repetition_count": 1,
-      "source_text": "Dua No. 40\nFor Scorpion Bite\nAt the place of scorpion bite salt should be poured and then recite Surah “Al-Kaferoon” (Chap. 109), Surah “Al-Falaq” (Chap. 113) and Surah “Al-Naas” (Chap. 114) one time each.",
-      "translation_status": {
-        "en": "AI-translated from sourceText; review recommended",
-        "ar": "AI-translated; review recommended",
-        "ur": "AI-translated; review recommended",
-        "fr": "AI-translated; review recommended",
-        "tr": "AI-translated; review recommended",
-        "id": "AI-translated; review recommended",
-        "bn": "AI-translated; review recommended",
-        "ms": "AI-translated; review recommended",
-        "ta": "AI-translated; review recommended",
-        "ml": "AI-translated; review recommended"
-      }
-    },
-    {
       "id": "d103-41",
       "category_id": "Others",
       "subcategory_id": null,
@@ -2242,56 +2192,6 @@
       "source_text": "Dua No. 45\nDua for not getting afraid in sleep\nAccording to Imam Ja’far-e-Sadiq (a.s.)\n\nA person who gets afraid in sleep should recite the following ten times before going to bed.\n\nلَا إِلٰهَ إِلَّا اللَّهُ وَحْدَهٗ لَا شَرِيْكَ لَهٗ لَهُ الْمُلْكُ وَ لَهُ الْحَمْدُ يُحْيِيْ وَ يُمِيْتُ وَ يُمِيْتُ وَ يُحْيِيْ وَ هُوَ حَيٌّ لَا يَمُوْتُ‏\n\nTransliteration:\nlaa elaaha illal laaho wahdahu laa sahreeka lahu lahul mulko wa lahul hamdo yohyee wa yomeeto wa yomeeto wa yohyee wa howa hayyun laa yamooto.\n\nTranslation:\nThere is no Lord except Allah: He is such a One Who has no partner and holds the power of the life and death of His creatures and Himself is such a Being Who never dies.\n\nAnd should recite Tasbeeh of Hazrat Fatimah (a.s.) It is quoted in Tibbul Aimma that such a person should also recite ayatul Kursi and Qul Howallah.",
       "translation_status": {
         "en": "source translation extracted",
-        "ar": "AI-translated; review recommended",
-        "ur": "AI-translated; review recommended",
-        "fr": "AI-translated; review recommended",
-        "tr": "AI-translated; review recommended",
-        "id": "AI-translated; review recommended",
-        "bn": "AI-translated; review recommended",
-        "ms": "AI-translated; review recommended",
-        "ta": "AI-translated; review recommended",
-        "ml": "AI-translated; review recommended"
-      }
-    },
-    {
-      "id": "d103-46",
-      "category_id": "Others",
-      "subcategory_id": null,
-      "order": 46,
-      "title": {
-        "en": "For marriage proposal",
-        "ar": "للتقدّم لخطبة فتاة",
-        "ur": "شادی کے رشتے کے لیے",
-        "fr": "Pour une demande en mariage",
-        "tr": "Evlilik teklifi için",
-        "id": "Agar ada lamaran pernikahan",
-        "bn": "বিয়ের প্রস্তাবের জন্য",
-        "ms": "Untuk lamaran perkahwinan",
-        "ta": "திருமண வரன் வருவதற்காக",
-        "ml": "വിവാഹാലോചന ലഭിക്കാൻ"
-      },
-      "arabic": "",
-      "transliteration": "",
-      "translation": {
-        "en": "If a marriage proposal for a girl of marriageable age is not forthcoming, recite Surah Ta-Ha (Chapter 20), breathe onto water through the hand, and offer the water to the girl to drink. Insha Allah, suitable marriage proposals will come for her.",
-        "ar": "إذا لم يتقدّم أحد لخطبة فتاة بلغت سنّ الزواج، فاقرأ سورة طه (السورة 20)، وانفث في الماء عبر اليد، ثم قدّم الماء للفتاة لتشربه. إن شاء الله، ستأتيها عروض زواج مناسبة.",
-        "ur": "اگر شادی کی عمر کو پہنچنے والی لڑکی کے لیے شادی کا رشتہ نہ آ رہا ہو تو سورۂ طٰہٰ (سورہ 20) پڑھیں، ہاتھ کے ذریعے پانی پر دم کریں اور وہ پانی لڑکی کو پینے کے لیے دیں۔ ان شاء اللہ، اس کے لیے مناسب رشتے آئیں گے۔",
-        "fr": "Si aucune demande en mariage ne se présente pour une jeune fille en âge de se marier, récitez la sourate Ta-Ha (chapitre 20), soufflez sur de l’eau à travers la main et donnez cette eau à boire à la jeune fille. Insha Allah, des demandes en mariage convenables se présenteront pour elle.",
-        "tr": "Evlenme çağına gelmiş bir kız için evlilik teklifi gelmiyorsa Tâhâ Suresi’ni (20. sure) okuyun, eliniz aracılığıyla suya üfleyin ve bu suyu kıza içirin. İnşallah onun için uygun evlilik teklifleri gelecektir.",
-        "id": "Jika belum ada lamaran pernikahan untuk seorang gadis yang sudah cukup umur untuk menikah, bacalah Surah Ta-Ha (Surah ke-20), tiupkan napas ke arah air melalui tangan, lalu berikan air itu kepada gadis tersebut untuk diminum. Insya Allah, lamaran yang sesuai akan datang untuknya.",
-        "bn": "বিয়ের উপযুক্ত বয়সে পৌঁছানো কোনো মেয়ের জন্য বিয়ের প্রস্তাব না এলে, সূরা ত্বা-হা (২০তম সূরা) পাঠ করুন, হাতের মাধ্যমে পানির দিকে ফুঁ দিন এবং মেয়েটিকে সেই পানি পান করতে দিন। ইনশাআল্লাহ, তার জন্য উপযুক্ত বিয়ের প্রস্তাব আসবে।",
-        "ms": "Jika belum ada lamaran perkahwinan untuk seorang gadis yang telah mencapai usia untuk berkahwin, bacalah Surah Ta-Ha (surah ke-20), tiupkan nafas ke arah air melalui tangan, kemudian berikan air itu kepada gadis tersebut untuk diminum. Insya-Allah, lamaran yang sesuai akan datang untuknya.",
-        "ta": "திருமண வயதை அடைந்த ஒரு பெண்ணுக்கு திருமண வரன் வரவில்லை என்றால், ஸூரா தாஹா (20ஆம் அத்தியாயம்) ஓதி, கையின் வழியாகத் தண்ணீரை நோக்கி ஊதிவிட்டு, அந்தத் தண்ணீரைப் பெண்ணுக்குக் குடிக்கக் கொடுக்கவும். இன்ஷா அல்லாஹ், அவளுக்குப் பொருத்தமான திருமண வரன்கள் வரும்.",
-        "ml": "വിവാഹപ്രായമെത്തിയ ഒരു പെൺകുട്ടിക്ക് വിവാഹാലോചനകൾ വരുന്നില്ലെങ്കിൽ, സൂറത്ത് ത്വാഹാ (20-ാം അധ്യായം) പാരായണം ചെയ്ത് കൈയിലൂടെ വെള്ളത്തിലേക്ക് ഊതുക; ആ വെള്ളം പെൺകുട്ടിക്ക് കുടിക്കാൻ നൽകുക. ഇൻഷാ അല്ലാഹ്, അവൾക്ക് അനുയോജ്യമായ വിവാഹാലോചനകൾ വരും."
-      },
-      "reference": {
-        "source": null,
-        "reference_text": null
-      },
-      "repetition_count": 1,
-      "source_text": "Dua No. 46\nFor marriage proposal\nIf the proposal for the marriage of a girl of age is not forthcoming recite Surah “Taahaa” (Chap. 20) and blow the breath towards water through hand and offer the water to the girl for drinking. Insha Allah it will bring suitable proposals for her marriage.",
-      "translation_status": {
-        "en": "AI-translated from sourceText; review recommended",
         "ar": "AI-translated; review recommended",
         "ur": "AI-translated; review recommended",
         "fr": "AI-translated; review recommended",
@@ -2704,56 +2604,6 @@
       }
     },
     {
-      "id": "d103-55",
-      "category_id": "Others",
-      "subcategory_id": null,
-      "order": 55,
-      "title": {
-        "en": "For avoiding early deaths of children",
-        "ar": "لتجنّب وفاة الأطفال في سن مبكرة",
-        "ur": "بچوں کی کم عمری میں وفات سے بچنے کے لیے",
-        "fr": "Pour éviter la mort précoce des enfants",
-        "tr": "Çocukların erken yaşta ölmesini önlemek için",
-        "id": "Untuk menghindari kematian dini anak-anak",
-        "bn": "শিশুদের অকালমৃত্যু এড়ানোর জন্য",
-        "ms": "Untuk mengelakkan kematian awal kanak-kanak",
-        "ta": "குழந்தைகள் இளவயதில் இறப்பதைத் தவிர்க்க",
-        "ml": "കുട്ടികൾ ചെറുപ്പത്തിൽ മരിക്കുന്നത് ഒഴിവാക്കാൻ"
-      },
-      "arabic": "",
-      "transliteration": "",
-      "translation": {
-        "en": "If a woman’s children die young and do not grow up, Surah Al-Muzzammil (Chapter 73) should be recited seven times. Each time, blow one’s breath toward a betel nut, with a cotton thread passed through it, and hang it around the child’s neck. God willing, the child will grow up.",
-        "ar": "إذا مات أطفال امرأة وهم صغار ولم يكبروا، فينبغي قراءة سورة المزمل (السورة 73) سبع مرات. وفي كل مرة، يُنفخ باتجاه جوزة التنبول التي خيط فيها خيط قطني، ثم تُعلّق حول عنق الطفل. إن شاء الله، سيكبر الطفل.",
-        "ur": "اگر کسی عورت کے بچے کم عمری میں فوت ہو جائیں اور بڑے نہ ہوں تو سورۂ مزمل (سورہ 73) سات مرتبہ پڑھنی چاہیے۔ ہر مرتبہ سانس ایک چھوٹی سپاری کی طرف پھونکیں، جس میں سے سوتی دھاگا گزارا گیا ہو، اور اسے بچے کے گلے میں لٹکا دیں۔ ان شاء اللہ بچہ بڑا ہو جائے گا۔",
-        "fr": "Si les enfants d’une femme meurent en bas âge et ne grandissent pas, il faut réciter sept fois la sourate Al-Muzzammil (chapitre 73). À chaque récitation, souffler en direction d’une noix d’arec traversée par un fil de coton, puis la suspendre au cou de l’enfant. Si Dieu le veut, l’enfant grandira.",
-        "tr": "Bir kadının çocukları küçük yaşta ölür ve büyümezse, Muzzammil Suresi (73. sure) yedi kez okunmalıdır. Her okuyuşta, içinden pamuk ipliği geçirilmiş bir betel cevizi üzerine doğru nefes üfleyin ve bunu çocuğun boynuna asın. İnşallah çocuk büyür.",
-        "id": "Jika anak-anak seorang perempuan meninggal saat masih kecil dan tidak tumbuh besar, Surah Al-Muzzammil (Surah ke-73) hendaknya dibaca tujuh kali. Setiap kali, hembuskan napas ke arah buah pinang yang telah dimasukkan benang katun, lalu gantungkan di leher anak. Insyaallah, anak itu akan tumbuh besar.",
-        "bn": "কোনো নারীর সন্তানরা ছোটবেলায় মারা গেলে এবং বড় না হলে, সূরা মুযযাম্মিল (৭৩তম সূরা) সাতবার পড়তে হবে। প্রতিবার তুলার সুতা পরানো একটি সুপারির দিকে ফুঁ দিন এবং সেটি শিশুর গলায় ঝুলিয়ে দিন। ইনশাআল্লাহ, শিশুটি বড় হবে।",
-        "ms": "Jika anak-anak seorang wanita meninggal dunia ketika masih kecil dan tidak membesar, Surah Al-Muzzammil (surah ke-73) hendaklah dibaca sebanyak tujuh kali. Setiap kali, hembuskan nafas ke arah sebiji pinang yang telah dimasukkan benang kapas, kemudian gantungkannya pada leher anak itu. Insya-Allah, anak itu akan membesar.",
-        "ta": "ஒரு பெண்ணின் குழந்தைகள் சிறு வயதிலேயே இறந்து, வளராமல் இருந்தால், ஸூரா அல்-முஸ்ஸம்மில் (73-வது அத்தியாயம்) ஏழு முறை ஓத வேண்டும். ஒவ்வொரு முறையும், பருத்தி நூல் செலுத்தப்பட்ட பாக்கை நோக்கி மூச்சை ஊதி, அதை குழந்தையின் கழுத்தில் கட்டித் தொங்கவிட வேண்டும். இன்ஷா அல்லாஹ், குழந்தை வளர்ந்துவிடும்.",
-        "ml": "ഒരു സ്ത്രീയുടെ കുട്ടികൾ ചെറുപ്പത്തിൽ മരിക്കുകയും വളരാതിരിക്കുകയും ചെയ്താൽ, സൂറത്ത് അൽ-മുസ്സമ്മിൽ (73-ാം അധ്യായം) ഏഴ് പ്രാവശ്യം പാരായണം ചെയ്യണം. ഓരോ പ്രാവശ്യവും, പരുത്തിനൂൽ കടത്തിയ അടയ്ക്കയിലേക്ക് ശ്വാസം ഊതി, അത് കുട്ടിയുടെ കഴുത്തിൽ കെട്ടിത്തൂക്കണം. ഇൻഷാ അല്ലാഹ്, കുട്ടി വളരും."
-      },
-      "reference": {
-        "source": null,
-        "reference_text": null
-      },
-      "repetition_count": 1,
-      "source_text": "Dua No. 55\nFor avoiding early deaths of children\nIf the children of a woman die young and do not grow up one should recite Surah “Muzzammil” (Chap 73) seven times. Every time blowing the breath towards betel-nut round his/her neck with a cotton thread passed through the betel-nut Insha Allah the child will grow up.",
-      "translation_status": {
-        "en": "AI-translated from sourceText; review recommended",
-        "ar": "AI-translated; review recommended",
-        "ur": "AI-translated; review recommended",
-        "fr": "AI-translated; review recommended",
-        "tr": "AI-translated; review recommended",
-        "id": "AI-translated; review recommended",
-        "bn": "AI-translated; review recommended",
-        "ms": "AI-translated; review recommended",
-        "ta": "AI-translated; review recommended",
-        "ml": "AI-translated; review recommended"
-      }
-    },
-    {
       "id": "d103-56",
       "category_id": "Others",
       "subcategory_id": null,
@@ -2992,56 +2842,6 @@
       "source_text": "Dua No. 60\nFor wealth & prosperity\nThe recitation of the following Dua daily in the morning and in the evening 30 times is very effective for becoming wealthy and removing destitution\n\nسُبْحَانَ اللهِ الْعَظِيْمِ وَ بِحَمْدِهٖ، سُبْحَانَ اللهِ الْعَظِيْمِ.\n\nTransliteration:\nsubhaanal laahil a’zeeme wa be-hamdeh, subhaanal laahil a’zeeme.\n\nTranslation:\nGlory be the Allah, the Great with all His praise, Glory be the Allah the Great.",
       "translation_status": {
         "en": "source translation extracted",
-        "ar": "AI-translated; review recommended",
-        "ur": "AI-translated; review recommended",
-        "fr": "AI-translated; review recommended",
-        "tr": "AI-translated; review recommended",
-        "id": "AI-translated; review recommended",
-        "bn": "AI-translated; review recommended",
-        "ms": "AI-translated; review recommended",
-        "ta": "AI-translated; review recommended",
-        "ml": "AI-translated; review recommended"
-      }
-    },
-    {
-      "id": "d103-61",
-      "category_id": "Others",
-      "subcategory_id": null,
-      "order": 61,
-      "title": {
-        "en": "For increase in Sustenance",
-        "ar": "لزيادة الرزق",
-        "ur": "رزق میں اضافے کے لیے",
-        "fr": "Pour accroître sa subsistance",
-        "tr": "Rızkın artması için",
-        "id": "Agar rezeki bertambah",
-        "bn": "রিজিক বৃদ্ধির জন্য",
-        "ms": "Untuk menambah rezeki",
-        "ta": "வாழ்வாதாரம் பெருகுவதற்கு",
-        "ml": "ഉപജീവനം വർധിക്കാൻ"
-      },
-      "arabic": "",
-      "transliteration": "",
-      "translation": {
-        "en": "A man who recites the name “The Best Provider” 308 times every day, early in the morning during the first hour of the day, will, God willing, have his sustenance increase. This is a well-tested and effective practice.",
-        "ar": "الرجل الذي يردد اسم «خير الرازقين» 308 مرات كل يوم، في وقت مبكر من الصباح، خلال الساعة الأولى من النهار، سيزداد رزقه إن شاء الله. هذا عمل مجرّب وفعّال.",
-        "ur": "جو شخص ہر روز صبح سویرے دن کے پہلے گھنٹے میں «بہترین رزق دینے والے» کا نام 308 مرتبہ پڑھتا ہے، ان شاء اللہ اس کے رزق میں اضافہ ہوگا۔ یہ ایک آزمودہ اور مؤثر عمل ہے۔",
-        "fr": "L’homme qui récite chaque jour 308 fois le nom du « Meilleur Pourvoyeur », tôt le matin, pendant la première heure de la journée, verra sa subsistance augmenter, si Dieu le veut. Cette pratique est éprouvée et efficace.",
-        "tr": "Her gün sabah erkenden, günün ilk saatinde “En iyi rızık veren” adını 308 kez tekrarlayan kişinin rızkı, Allah’ın izniyle artar. Bu, denenmiş ve etkili bir uygulamadır.",
-        "id": "Orang yang setiap hari membaca nama “Sebaik-baik Pemberi Rezeki” sebanyak 308 kali pada pagi hari, di awal jam pertama hari itu, insya Allah rezekinya akan bertambah. Amalan ini telah teruji dan efektif.",
-        "bn": "যে ব্যক্তি প্রতিদিন সকালে দিনের প্রথম ঘণ্টায় “সর্বোত্তম রিজিকদাতা” নামটি ৩০৮ বার পাঠ করেন, ইনশাআল্লাহ তাঁর রিজিক বৃদ্ধি পাবে। এটি একটি পরীক্ষিত ও কার্যকর আমল।",
-        "ms": "Lelaki yang menyebut nama “Sebaik-baik Pemberi Rezeki” sebanyak 308 kali setiap hari, pada awal pagi dalam jam pertama hari itu, insya-Allah rezekinya akan bertambah. Amalan ini telah teruji dan berkesan.",
-        "ta": "தினமும் அதிகாலையில், நாளின் முதல் மணி நேரத்தில் “மிகச் சிறந்த வாழ்வாதாரம் வழங்குபவர்” என்ற திருநாமத்தை 308 முறை ஓதுபவரின் வாழ்வாதாரம், இன்ஷா அல்லாஹ், பெருகும். இது நன்கு சோதிக்கப்பட்டு பயனளிக்கும் ஒரு அமல் ஆகும்.",
-        "ml": "ദിവസവും അതിരാവിലെ, ദിവസത്തിന്റെ ആദ്യ മണിക്കൂറിൽ “ഏറ്റവും ഉത്തമമായി ഉപജീവനം നൽകുന്നവൻ” എന്ന നാമം 308 തവണ ചൊല്ലുന്ന വ്യക്തിയുടെ ഉപജീവനം, ഇൻഷാ അല്ലാഹ്, വർധിക്കും. ഇത് പരീക്ഷിച്ച് ഫലപ്രദമാണെന്ന് തെളിഞ്ഞ ഒരു അമലാണ്."
-      },
-      "reference": {
-        "source": null,
-        "reference_text": null
-      },
-      "repetition_count": 1,
-      "source_text": "Dua No. 61\nFor increase in Sustenance\nThe man who daily recites 308 times “Ar-Razzaqo” The Best Provider, early in die morning first are of the day; Insha Allah, his sustenance will be increased. This is a well experienced and effective “Amal”.",
-      "translation_status": {
-        "en": "AI-translated from sourceText; review recommended",
         "ar": "AI-translated; review recommended",
         "ur": "AI-translated; review recommended",
         "fr": "AI-translated; review recommended",
@@ -3692,106 +3492,6 @@
       "source_text": "Dua No. 74\nDua for easy delivery of child\nThe following Dua has been narrated by Hazrat Ali (a.s.) for easy delivery of child. It is recommended to write this Dua on a paper with saffron and tied as an amulet on the arm or the neck of the lady. Insha Allah there will be no difficulty at the time of delivery of a child:\n\nبِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ. يَا خَالِقَ النَّفْسِ مِنَ النَّفْسِ وَ مُخْرِجَ النَّفْسِ مِنَ النَّفْسِ خَلِّصْهَا‏.\n\nTransliteration:\nbismil laahir rahmaanir raheem. yaa khaaleqan nafse menan nafse wa mukhrejan nafse menan nafse khallis-haa.\n\nTranslation:\nIn the name of Allah the Most Beneficent the Merciful. O the Creator of living for the living; O the Extractor a living from the living; O the Rescuer of living from the living; O relieve it (the foetus from the womb).",
       "translation_status": {
         "en": "source translation extracted",
-        "ar": "AI-translated; review recommended",
-        "ur": "AI-translated; review recommended",
-        "fr": "AI-translated; review recommended",
-        "tr": "AI-translated; review recommended",
-        "id": "AI-translated; review recommended",
-        "bn": "AI-translated; review recommended",
-        "ms": "AI-translated; review recommended",
-        "ta": "AI-translated; review recommended",
-        "ml": "AI-translated; review recommended"
-      }
-    },
-    {
-      "id": "d103-75",
-      "category_id": "Others",
-      "subcategory_id": null,
-      "order": 75,
-      "title": {
-        "en": "Dua for easy Teething",
-        "ar": "دعاء لتسهيل التسنين",
-        "ur": "آسان دانت نکلنے کی دعا",
-        "fr": "Invocation pour faciliter la poussée dentaire",
-        "tr": "Diş çıkarmayı kolaylaştırmak için dua",
-        "id": "Doa agar tumbuh gigi mudah",
-        "bn": "সহজে দাঁত ওঠার দোয়া",
-        "ms": "Doa untuk memudahkan tumbuh gigi",
-        "ta": "எளிதாகப் பல் முளைக்க துஆ",
-        "ml": "പല്ലുകൾ എളുപ്പത്തിൽ മുളയ്ക്കാനുള്ള ദുആ"
-      },
-      "arabic": "",
-      "transliteration": "",
-      "translation": {
-        "en": "Write Surah Qaaf (Chapter 50) in saffron and wash it off. Wash the child’s mouth with that water. Insha Allah, the child will cut teeth easily.",
-        "ar": "اكتب سورة ق (الفصل ٥٠) بالزعفران ثم اغسلها. واغسل فم الطفل بذلك الماء. إن شاء الله، ستظهر أسنان الطفل بسهولة.",
-        "ur": "سورۂ ق (باب ۵۰) زعفران سے لکھیں اور اسے دھو لیں۔ اس پانی سے بچے کا منہ دھوئیں۔ ان شاء اللہ، بچے کے دانت آسانی سے نکلیں گے۔",
-        "fr": "Écrivez la sourate Qāf (chapitre 50) avec du safran, puis lavez-la. Lavez la bouche de l’enfant avec cette eau. Insha Allah, les dents de l’enfant pousseront facilement.",
-        "tr": "Kâf Suresi’ni (50. bölüm) safranla yazıp yıkayın. Çocuğun ağzını bu suyla yıkayın. İnşallah çocuğun dişleri kolayca çıkacaktır.",
-        "id": "Tulislah Surah Qaf (Bab 50) dengan kunyit dan cucilah. Basuh mulut anak dengan air tersebut. Insya Allah, gigi anak akan tumbuh dengan mudah.",
-        "bn": "সূরা কাফ (অধ্যায় ৫০) জাফরান দিয়ে লিখে ধুয়ে নিন। সেই পানি দিয়ে শিশুর মুখ ধুয়ে দিন। ইনশা আল্লাহ, শিশুর দাঁত সহজে উঠবে।",
-        "ms": "Tuliskan Surah Qaf (Bab 50) dengan safron, kemudian basuh. Basuh mulut anak dengan air itu. Insya-Allah, gigi anak akan tumbuh dengan mudah.",
-        "ta": "ஸூரா காஃப் (அத்தியாயம் 50) என்பதை குங்குமப்பூவால் எழுதி, அதைக் கழுவவும். அந்தத் தண்ணீரால் குழந்தையின் வாயைக் கழுவவும். இன்ஷா அல்லாஹ், குழந்தைக்குப் பற்கள் எளிதாக முளைக்கும்.",
-        "ml": "സൂറത്ത് ഖാഫ് (അധ്യായം 50) കുങ്കുമപ്പൂവുകൊണ്ട് എഴുതി കഴുകുക. ആ വെള്ളം കൊണ്ട് കുട്ടിയുടെ വായ കഴുകുക. ഇൻഷാ അല്ലാഹ്, കുട്ടിയുടെ പല്ലുകൾ എളുപ്പത്തിൽ മുളയ്ക്കും."
-      },
-      "reference": {
-        "source": null,
-        "reference_text": null
-      },
-      "repetition_count": 1,
-      "source_text": "Dua No. 75\nDua for easy Teething\nSurah Qaaf (Chap. 50) he written saffron and washed and child’s mouth be washed with that water, Insha Allah the child will cut teeth easily.",
-      "translation_status": {
-        "en": "AI-translated from sourceText; review recommended",
-        "ar": "AI-translated; review recommended",
-        "ur": "AI-translated; review recommended",
-        "fr": "AI-translated; review recommended",
-        "tr": "AI-translated; review recommended",
-        "id": "AI-translated; review recommended",
-        "bn": "AI-translated; review recommended",
-        "ms": "AI-translated; review recommended",
-        "ta": "AI-translated; review recommended",
-        "ml": "AI-translated; review recommended"
-      }
-    },
-    {
-      "id": "d103-76",
-      "category_id": "Others",
-      "subcategory_id": null,
-      "order": 76,
-      "title": {
-        "en": "Dua for cure of the child eating dust",
-        "ar": "دعاء لعلاج الطفل الذي يأكل التراب",
-        "ur": "مٹی کھانے والے بچے کے علاج کی دعا",
-        "fr": "Invocation pour guérir l’enfant qui mange de la terre",
-        "tr": "Toprak yiyen çocuğun iyileşmesi için dua",
-        "id": "Doa untuk mengatasi kebiasaan anak memakan tanah",
-        "bn": "মাটি খাওয়া শিশুর আরোগ্যের দোয়া",
-        "ms": "Doa untuk mengatasi tabiat anak makan tanah",
-        "ta": "மண் உண்ணும் குழந்தை குணமடைவதற்கான துஆ",
-        "ml": "മണ്ണ് തിന്നുന്ന കുട്ടിയുടെ സുഖപ്രാപ്തിക്കുള്ള ദുആ"
-      },
-      "arabic": "",
-      "transliteration": "",
-      "translation": {
-        "en": "Write the last two verses of Surah Saba (Chapter 34:53 and 54) with saffron and tie them around the child’s neck as an amulet. Insha Allah, the child will give up the bad habit of eating dust.",
-        "ar": "اكتب آخر آيتين من سورة سبأ (السورة 34: الآيتان 53 و54) بالزعفران، واربطهما حول عنق الطفل على هيئة حرز. إن شاء الله، سيترك الطفل عادة أكل التراب السيئة.",
-        "ur": "سورۂ سبأ کی آخری دو آیات (سورہ 34: آیات 53 اور 54) زعفران سے لکھیں اور تعویذ کے طور پر بچے کے گلے میں باندھ دیں۔ ان شاء اللہ، بچہ مٹی کھانے کی بری عادت چھوڑ دے گا۔",
-        "fr": "Écrivez au safran les deux derniers versets de la sourate Saba (chapitre 34, versets 53 et 54), puis attachez-les autour du cou de l’enfant sous forme d’amulette. Incha’Allah, l’enfant abandonnera la mauvaise habitude de manger de la terre.",
-        "tr": "Sebe suresinin son iki ayetini (34. sure, 53. ve 54. ayetler) safranla yazın ve muska olarak çocuğun boynuna bağlayın. İnşallah çocuk, toprak yeme kötü alışkanlığından vazgeçecektir.",
-        "id": "Tulislah dua ayat terakhir Surah Saba (surah ke-34, ayat 53 dan 54) dengan kunyit, lalu ikatkan di leher anak sebagai jimat. Insya Allah, anak akan menghentikan kebiasaan buruk memakan tanah.",
-        "bn": "সূরা সাবার শেষ ২টি আয়াত (৩৪ নম্বর সূরা, ৫৩ ও ৫৪ নম্বর আয়াত) জাফরান দিয়ে লিখে তাবিজ হিসেবে শিশুর গলায় বেঁধে দিন। ইনশাআল্লাহ, শিশু মাটি খাওয়ার বদভ্যাস ছেড়ে দেবে।",
-        "ms": "Tulislah dua ayat terakhir Surah Saba (surah ke-34, ayat 53 dan 54) dengan za‘faran, kemudian ikatkan pada leher anak sebagai azimat. Insya-Allah, anak itu akan meninggalkan tabiat buruk makan tanah.",
-        "ta": "ஸூரா ஸபாவின் கடைசி 2 வசனங்களை (34-ஆம் அத்தியாயம்: 53 மற்றும் 54-ஆம் வசனங்கள்) குங்குமப்பூவால் எழுதி, தாயத்தாகக் குழந்தையின் கழுத்தில் கட்டுங்கள். இன்ஷா அல்லாஹ், குழந்தை மண் உண்ணும் கெட்ட பழக்கத்தைக் கைவிடும்.",
-        "ml": "സൂറത്ത് സബഅിന്റെ അവസാനത്തെ രണ്ട് വചനങ്ങൾ (34-ാം അധ്യായം: 53, 54 വചനങ്ങൾ) കുങ്കുമപ്പൂവുകൊണ്ട് എഴുതി, ഏലസ്സായി കുട്ടിയുടെ കഴുത്തിൽ കെട്ടുക. ഇൻഷാ അല്ലാഹ്, കുട്ടി മണ്ണ് തിന്നുന്ന ദുശ്ശീലം ഉപേക്ഷിക്കും."
-      },
-      "reference": {
-        "source": null,
-        "reference_text": null
-      },
-      "repetition_count": 1,
-      "source_text": "Dua No. 76\nDua for cure of the child eating dust\nWrite with saffron the last 2 verses of Surah Sabaa (Chap. 34 : 53 & 54) and tied as an amulet round the neck Insha Allah the child will give up the bad habit of eating dust.",
-      "translation_status": {
-        "en": "AI-translated from sourceText; review recommended",
         "ar": "AI-translated; review recommended",
         "ur": "AI-translated; review recommended",
         "fr": "AI-translated; review recommended",
@@ -4804,56 +4504,6 @@
       }
     },
     {
-      "id": "d103-97",
-      "category_id": "Others",
-      "subcategory_id": null,
-      "order": 97,
-      "title": {
-        "en": "For saving from Squeeze of Grave",
-        "ar": "للنجاة من ضغطة القبر",
-        "ur": "قبر کی تنگی سے نجات کے لیے",
-        "fr": "Pour être préservé de l’étreinte de la tombe",
-        "tr": "Kabir sıkışmasından kurtulmak için",
-        "id": "Agar selamat dari himpitan kubur",
-        "bn": "কবরের চাপ থেকে রক্ষা পাওয়ার জন্য",
-        "ms": "Untuk terselamat daripada himpitan kubur",
-        "ta": "கப்ரின் நெருக்கடியிலிருந்து காப்பாற்றப்படுவதற்காக",
-        "ml": "ഖബറിലെ ഞെരുക്കത്തിൽ നിന്ന് രക്ഷപ്പെടാൻ"
-      },
-      "arabic": "",
-      "transliteration": "",
-      "translation": {
-        "en": "Ameerul Momineen (a.s.) says that reciting Surah Nisa (Chapter 4) every Friday will save the reciter from the squeeze of the grave.[39]",
-        "ar": "يقول أمير المؤمنين (عليه السلام) إن قراءة سورة النساء (السورة 4) كل يوم جمعة تنجي قارئها من ضغطة القبر.[39]",
-        "ur": "امیرالمؤمنین (علیہ السلام) فرماتے ہیں کہ ہر جمعہ سورۂ نساء (سورہ 4) کی تلاوت قاری کو قبر کی تنگی سے نجات دے گی۔[39]",
-        "fr": "Amir al-Mouminin (que la paix soit sur lui) dit que la récitation de la sourate An-Nisa (chapitre 4) chaque vendredi préservera celui qui la récite de l’étreinte de la tombe.[39]",
-        "tr": "Emîrü’l-Müminîn (a.s.), her cuma Nisâ Suresi’nin (4. sure) okunmasının, okuyanı kabir sıkışmasından kurtaracağını söyler.[39]",
-        "id": "Amirul Mukminin (a.s.) berkata bahwa membaca Surah Nisa (surah ke-4) setiap hari Jumat akan menyelamatkan orang yang membacanya dari himpitan kubur.[39]",
-        "bn": "আমিরুল মুমিনীন (আ.) বলেন, প্রতি শুক্রবার সূরা নিসা (৪র্থ সূরা) তিলাওয়াত করলে তিলাওয়াতকারী কবরের চাপ থেকে রক্ষা পাবেন।[39]",
-        "ms": "Amirul Mukminin (a.s.) berkata bahawa membaca Surah Nisa (surah ke-4) setiap hari Jumaat akan menyelamatkan pembacanya daripada himpitan kubur.[39]",
-        "ta": "அமீருல் முமினீன் (அலை) கூறுகிறார்கள்: ஒவ்வொரு வெள்ளிக்கிழமையும் ஸூரா நிஸாவை (4ஆம் அத்தியாயம்) ஓதுவது, அதை ஓதுபவரைக் கப்ரின் நெருக்கடியிலிருந்து காப்பாற்றும்.[39]",
-        "ml": "എല്ലാ വെള്ളിയാഴ്ചയും സൂറത്തു നിസാഅ് (അധ്യായം 4) പാരായണം ചെയ്യുന്നത് പാരായണം ചെയ്യുന്നയാളെ ഖബറിലെ ഞെരുക്കത്തിൽ നിന്ന് രക്ഷിക്കുമെന്ന് അമീറുൽ മുഅ്മിനീൻ (അ.സ.) പറയുന്നു.[39]"
-      },
-      "reference": {
-        "source": null,
-        "reference_text": null
-      },
-      "repetition_count": 1,
-      "source_text": "Dua No. 97\nFor saving from Squeeze of Grave\nAmeerul Momineen (a.s.) says that the recitation of Surah Nisa (Chap. 4) every Friday will save the reciter from the squeeze of the grave.[39]",
-      "translation_status": {
-        "en": "AI-translated from sourceText; review recommended",
-        "ar": "AI-translated; review recommended",
-        "ur": "AI-translated; review recommended",
-        "fr": "AI-translated; review recommended",
-        "tr": "AI-translated; review recommended",
-        "id": "AI-translated; review recommended",
-        "bn": "AI-translated; review recommended",
-        "ms": "AI-translated; review recommended",
-        "ta": "AI-translated; review recommended",
-        "ml": "AI-translated; review recommended"
-      }
-    },
-    {
       "id": "d103-98",
       "category_id": "Others",
       "subcategory_id": null,
@@ -5052,106 +4702,6 @@
         "ta": "AI-translated; review recommended",
         "ml": "AI-translated; review recommended"
       }
-    },
-    {
-      "id": "d103-102",
-      "category_id": "Others",
-      "subcategory_id": null,
-      "order": 102,
-      "title": {
-        "en": "Talabil Hawaa-ej",
-        "ar": "طلب الحوائج",
-        "ur": "حاجتوں کا طلب کرنا",
-        "fr": "Demander la satisfaction des besoins",
-        "tr": "İhtiyaçların giderilmesini istemek",
-        "id": "Memohon terpenuhinya kebutuhan",
-        "bn": "প্রয়োজন পূরণের প্রার্থনা",
-        "ms": "Memohon agar hajat ditunaikan",
-        "ta": "தேவைகள் நிறைவேற வேண்டுதல்",
-        "ml": "ആവശ്യങ്ങൾ നിറവേറാൻ പ്രാർത്ഥിക്കൽ"
-      },
-      "arabic": "",
-      "transliteration": "",
-      "translation": {
-        "en": "O Allah, the calamity has grown great, adversity has become severe, the veil has been lifted, hope has been cut off, the earth has become constricted, and the sky has withheld its rain. You are the One whose help is sought, and to You we make our complaint; in hardship and ease, upon You we rely. O Allah, bless Muhammad and the family of Muhammad, those vested with authority, whose obedience You have made obligatory upon us and whose rank You have made known to us. So, by their right, grant us relief—swift and near, like the twinkling of an eye, or even nearer. O Muhammad, O Ali, O Ali, O Muhammad, suffice me, for you two are indeed sufficient for me; and help me, for you two are indeed my helpers. O our master, O master of the age. Help! Help! Help! Come to my aid! Come to my aid! Come to my aid! At this very moment! At this very moment! At this very moment! Hasten! Hasten! Hasten! O Most Merciful of the merciful. By the right of Muhammad and his pure family.",
-        "ar": "اللهم لقد عظم البلاء، واشتدّت المحنة، وانكشف الغطاء، وانقطع الرجاء، وضاقت الأرض، ومنعت السماء، وأنت المستعان، وإليك المشتكى، وعليك المعوّل في الشدة والرخاء. اللهم صلِّ على محمد وآل محمد، أولي الأمر الذين فرضت علينا طاعتهم، وعرّفتنا بذلك منزلتهم، ففرّج عنا بحقهم فرجًا عاجلًا قريبًا كلمح البصر أو هو أقرب. يا محمد، يا علي، يا علي، يا محمد، اكفياني فإنكما كافيان، وانصراني فإنكما ناصران. يا مولانا، يا صاحب الزمان. الغوث، الغوث، الغوث، أدركني، أدركني، أدركني. الساعة، الساعة، الساعة، العجل، العجل، العجل، يا أرحم الراحمين. بحق محمد وآله الطاهرين.",
-        "ur": "اے اللہ، مصیبت بہت بڑی ہو گئی، سختی شدید ہو گئی، پردہ اٹھ گیا، امید منقطع ہو گئی، زمین تنگ ہو گئی اور آسمان نے بارش روک لی۔ تو ہی مدد طلب کرنے کے لائق ہے، اور تجھ ہی سے فریاد ہے؛ سختی اور آسودگی میں تجھ ہی پر بھروسا ہے۔ اے اللہ، محمد اور آلِ محمد پر رحمت نازل فرما، جو صاحبانِ امر ہیں، جن کی اطاعت تو نے ہم پر فرض کی اور ہمیں ان کے مرتبے سے آگاہ کیا۔ پس ان کے حق کے واسطے ہمیں فوری اور قریب کشادگی عطا فرما، جیسے پلک جھپکنے میں، بلکہ اس سے بھی قریب۔ اے محمد، اے علی، اے علی، اے محمد، میری کفایت فرمائیے، کیونکہ آپ دونوں میرے لیے کافی ہیں؛ اور میری مدد فرمائیے، کیونکہ آپ دونوں میرے مددگار ہیں۔ اے ہمارے آقا، اے صاحبِ زمانہ۔ فریاد رسی! فریاد رسی! فریاد رسی! میری دستگیری فرمائیے! میری دستگیری فرمائیے! میری دستگیری فرمائیے! اسی وقت! اسی وقت! اسی وقت! جلدی! جلدی! جلدی! اے سب سے بڑھ کر رحم فرمانے والے۔ محمد اور ان کی پاکیزہ آل کے حق کے واسطے۔",
-        "fr": "Ô Allah, le malheur est devenu immense, l’épreuve s’est aggravée, le voile s’est levé, l’espoir s’est éteint, la terre s’est resserrée et le ciel a retenu sa pluie. Tu es Celui dont on implore le secours, et c’est à Toi que nous adressons notre plainte ; dans l’épreuve comme dans l’aisance, c’est en Toi que nous plaçons notre confiance. Ô Allah, bénis Muhammad et la famille de Muhammad, ceux qui détiennent l’autorité, dont Tu nous as imposé l’obéissance et dont Tu nous as fait connaître le rang. Par leur droit, accorde-nous donc un soulagement prompt et proche, comme le clignement d’un œil, ou plus proche encore. Ô Muhammad, ô Ali, ô Ali, ô Muhammad, suffisez-moi, car vous deux me suffisez ; et secourez-moi, car vous deux êtes mes secoureurs. Ô notre maître, ô maître de l’époque. Au secours ! Au secours ! Au secours ! Portez-moi secours ! Portez-moi secours ! Portez-moi secours ! À l’instant même ! À l’instant même ! À l’instant même ! Hâtez-vous ! Hâtez-vous ! Hâtez-vous ! Ô le plus Miséricordieux des miséricordieux. Par le droit de Muhammad et de sa famille pure.",
-        "tr": "Allah’ım, bela büyüdü, sıkıntı şiddetlendi, perde kalktı, umut kesildi, yeryüzü daraldı ve gökyüzü yağmuru esirgedi. Yardımına başvurulan Sensin; şikâyetimiz Sanadır. Darlıkta da bollukta da dayanağımız Sensin. Allah’ım, Muhammed’e ve Muhammed’in ailesine salât eyle; onlar, itaatlerini bize farz kıldığın ve makamlarını bize bildirdiğin yetki sahipleridir. Onların hakkı için bize hemen ve yakında, göz açıp kapayıncaya kadar, hatta ondan da yakın bir ferahlık ver. Ey Muhammed, ey Ali, ey Ali, ey Muhammed, bana yeterli olun; çünkü ikiniz bana yetersiniz değil, gerçekten yeterlisiniz. Bana yardım edin; çünkü ikiniz benim yardımcılarımsınız. Ey efendimiz, ey zamanın sahibi. İmdat! İmdat! İmdat! Bana yetişin! Bana yetişin! Bana yetişin! Şimdi! Şimdi! Şimdi! Çabuk! Çabuk! Çabuk! Ey merhametlilerin en merhametlisi. Muhammed ve onun tertemiz ailesinin hakkı için.",
-        "id": "Ya Allah, musibah telah menjadi besar, kesulitan semakin berat, tabir telah tersingkap, harapan telah terputus, bumi terasa sempit, dan langit menahan hujannya. Engkaulah tempat memohon pertolongan, kepada-Mu kami mengadukan keadaan, dan kepada-Mu kami bersandar dalam kesulitan maupun kelapangan. Ya Allah, limpahkanlah rahmat kepada Muhammad dan keluarga Muhammad, para pemegang urusan yang ketaatan kepada mereka telah Engkau wajibkan atas kami dan kedudukan mereka telah Engkau perkenalkan kepada kami. Maka, demi hak mereka, berilah kami kelapangan dengan segera dan dekat, secepat kedipan mata, bahkan lebih dekat lagi. Wahai Muhammad, wahai Ali, wahai Ali, wahai Muhammad, cukuplah kalian berdua bagiku, karena kalian berdua sungguh mencukupiku; dan tolonglah aku, karena kalian berdua sungguh penolongku. Wahai junjungan kami, wahai pemilik zaman. Pertolongan! Pertolongan! Pertolongan! Tolonglah aku! Tolonglah aku! Tolonglah aku! Saat ini juga! Saat ini juga! Saat ini juga! Segerakan! Segerakan! Segerakan! Wahai Yang Maha Pengasih di antara para pengasih. Demi hak Muhammad dan keluarganya yang suci.",
-        "bn": "হে আল্লাহ, বিপদ অত্যন্ত গুরুতর হয়েছে, দুর্দশা তীব্র হয়েছে, পর্দা সরে গেছে, আশা বিচ্ছিন্ন হয়েছে, পৃথিবী সংকীর্ণ হয়েছে এবং আকাশ বৃষ্টি আটকে রেখেছে। তুমিই সেই সত্তা, যাঁর কাছে সাহায্য চাওয়া হয়; তোমার কাছেই আমাদের ফরিয়াদ, আর সংকট ও স্বাচ্ছন্দ্যে তোমার ওপরই আমাদের ভরসা। হে আল্লাহ, মুহাম্মদ ও মুহাম্মদের পরিবারবর্গের প্রতি রহমত বর্ষণ করো—তাঁরা কর্তৃত্বপ্রাপ্ত, যাঁদের আনুগত্য তুমি আমাদের ওপর ফরজ করেছ এবং তাঁদের মর্যাদা আমাদের জানিয়েছ। তাঁদের অধিকারের দোহাই দিয়ে আমাদের দ্রুত ও নিকটবর্তী স্বস্তি দাও—চোখের পলকের মতো, বরং তারও চেয়ে নিকটে। হে মুহাম্মদ, হে আলী, হে আলী, হে মুহাম্মদ, তোমরা দুজন আমার জন্য যথেষ্ট হও, কারণ তোমরা দুজনই আমার জন্য যথেষ্ট; আর আমাকে সাহায্য করো, কারণ তোমরা দুজনই আমার সাহায্যকারী। হে আমাদের প্রভু, হে যুগের অধিপতি। সাহায্য! সাহায্য! সাহায্য! আমাকে উদ্ধার করো! আমাকে উদ্ধার করো! আমাকে উদ্ধার করো! এই মুহূর্তে! এই মুহূর্তে! এই মুহূর্তে! ত্বরান্বিত করো! ত্বরান্বিত করো! ত্বরান্বিত করো! হে সর্বশ্রেষ্ঠ দয়ালু। মুহাম্মদ ও তাঁর পবিত্র পরিবারবর্গের অধিকারের দোহাই।",
-        "ms": "Ya Allah, malapetaka telah menjadi besar, kesusahan semakin berat, tabir telah tersingkap, harapan telah terputus, bumi terasa sempit dan langit menahan hujannya. Engkaulah tempat memohon pertolongan, kepada-Mu kami mengadu, dan kepada-Mu kami bersandar dalam kesusahan mahupun kelapangan. Ya Allah, limpahkanlah rahmat kepada Muhammad dan keluarga Muhammad, para pemegang urusan yang ketaatan kepada mereka telah Engkau wajibkan ke atas kami dan kedudukan mereka telah Engkau perkenalkan kepada kami. Maka, demi hak mereka, berilah kami kelapangan dengan segera dan hampir, sepantas kerlipan mata, bahkan lebih hampir lagi. Wahai Muhammad, wahai Ali, wahai Ali, wahai Muhammad, cukuplah kalian berdua bagiku, kerana kalian berdua benar-benar mencukupi bagiku; dan bantulah aku, kerana kalian berdua benar-benar penolongku. Wahai tuan kami, wahai pemilik zaman. Bantuan! Bantuan! Bantuan! Tolonglah aku! Tolonglah aku! Tolonglah aku! Sekarang juga! Sekarang juga! Sekarang juga! Segerakan! Segerakan! Segerakan! Wahai Yang Maha Penyayang antara yang penyayang. Demi hak Muhammad dan keluarganya yang suci.",
-        "ta": "அல்லாஹ்வே, துன்பம் பெரிதாகிவிட்டது, துயரம் கடுமையாகிவிட்டது, திரை விலகிவிட்டது, நம்பிக்கை அறுந்துவிட்டது, பூமி நெருக்கடியாகிவிட்டது, வானம் மழையைத் தடுத்துவிட்டது. உதவி தேடப்படுபவன் நீயே; உன்னிடமே எங்கள் முறையீடு; துன்பத்திலும் இன்பத்திலும் உன்னையே சார்ந்திருக்கிறோம். அல்லாஹ்வே, முஹம்மதுக்கும் முஹம்மதின் குடும்பத்தாருக்கும் அருள் புரிவாயாக. அவர்கள் அதிகாரம் பெற்றவர்கள்; அவர்களுக்குக் கீழ்ப்படிவதை எங்கள்மீது நீ கடமையாக்கினாய், அவர்களின் நிலையை எங்களுக்கு அறிவித்தாய். அவர்களின் உரிமையின் பொருட்டு, கண் இமைக்கும் நேரத்தில் அல்லது அதைவிட விரைவாக, உடனடியான அருகாமையான நிவாரணத்தை எங்களுக்கு அளிப்பாயாக. முஹம்மதே, அலியே, அலியே, முஹம்மதே, நீங்கள் இருவரும் எனக்குப் போதுமானவர்கள்; எனக்கு உதவுங்கள், ஏனெனில் நீங்கள் இருவரும் என் உதவியாளர்கள். எங்கள் தலைவரே, காலத்தின் அதிபதியே. உதவி! உதவி! உதவி! என்னைக் காப்பாற்றுங்கள்! என்னைக் காப்பாற்றுங்கள்! என்னைக் காப்பாற்றுங்கள்! இப்போதே! இப்போதே! இப்போதே! விரைவுபடுத்துங்கள்! விரைவுபடுத்துங்கள்! விரைவுபடுத்துங்கள்! கருணையாளர்களில் மிகக் கருணையுள்ளவரே. முஹம்மதுக்கும் அவரது தூய குடும்பத்தாருக்கும் உள்ள உரிமையின் பொருட்டு.",
-        "ml": "അല്ലാഹുവേ, ദുരിതം വലുതായിരിക്കുന്നു, കഷ്ടത കഠിനമായിരിക്കുന്നു, മറ നീങ്ങിപ്പോയിരിക്കുന്നു, പ്രതീക്ഷ അറ്റുപോയിരിക്കുന്നു, ഭൂമി ഇടുങ്ങിയിരിക്കുന്നു, ആകാശം മഴ തടഞ്ഞിരിക്കുന്നു. സഹായം തേടപ്പെടുന്നവൻ നീയാണ്; നിന്നോടാണ് ഞങ്ങളുടെ പരാതി, കഷ്ടതയിലും സൗഖ്യത്തിലും നിന്നെയാണ് ഞങ്ങൾ ആശ്രയിക്കുന്നത്. അല്ലാഹുവേ, മുഹമ്മദ് നബിക്കും മുഹമ്മദിന്റെ കുടുംബത്തിനും അനുഗ്രഹം ചൊരിയേണമേ. അധികാരമുള്ളവരായ അവരോട് അനുസരണമുള്ളവരാകാൻ നീ ഞങ്ങളോട് കൽപ്പിക്കുകയും അവരുടെ പദവി ഞങ്ങളെ അറിയിക്കുകയും ചെയ്തു. അവരുടെ അവകാശത്തിന്റെ പേരിൽ, കണ്ണിമയ്ക്കുന്ന നേരംകൊണ്ടോ അതിലും അടുത്തോ, ഉടനടിയും സമീപത്തുമായ ആശ്വാസം ഞങ്ങൾക്ക് നൽകേണമേ. ഓ മുഹമ്മദ്, ഓ അലി, ഓ അലി, ഓ മുഹമ്മദ്, നിങ്ങൾ രണ്ടുപേരും എനിക്ക് മതിയാകുന്നു; എന്നെ സഹായിക്കൂ, കാരണം നിങ്ങൾ രണ്ടുപേരും എന്റെ സഹായികളാണ്. ഞങ്ങളുടെ യജമാനനേ, കാലത്തിന്റെ അധിപനേ. സഹായം! സഹായം! സഹായം! എന്നെ രക്ഷിക്കൂ! എന്നെ രക്ഷിക്കൂ! എന്നെ രക്ഷിക്കൂ! ഇപ്പോൾ തന്നെ! ഇപ്പോൾ തന്നെ! ഇപ്പോൾ തന്നെ! വേഗത്തിലാക്കേണമേ! വേഗത്തിലാക്കേണമേ! വേഗത്തിലാക്കേണമേ! കരുണ ചെയ്യുന്നവരിൽ ഏറ്റവും കരുണാമയനേ. മുഹമ്മദിന്റെയും അദ്ദേഹത്തിന്റെ പരിശുദ്ധ കുടുംബത്തിന്റെയും അവകാശത്തിന്റെ പേരിൽ."
-      },
-      "reference": {
-        "source": null,
-        "reference_text": null
-      },
-      "repetition_count": 1,
-      "source_text": "Dua No. 102\nTalabil Hawaa-ej\nallaahumma A’ZOMAL BALAAA-O WA BAREHAL KHAFAAA-O WAN KASHAFAL GHETAAA-O WAN QATA-A’R RAJAAA-O WA ZAAQATIL ARZO WA MONE-A’TIS SAMAAA-O WA ANTAL MUSTA-A’ANO WA ELAYKAL MUSHTAKAA, WA A’LAYKAL MO-A’WWALO FISH-SHIDDATE WAR RAKHAAA-E. ALLAAHUMMA SALLE A’LAA MOHAMMADIWN WA AALE MOHAMMADIN OLIL AMRIL LAZEENA FARAZTA A’LAYNAA TAA-A’TAHUM WA A’RRAFTANAA BE ZAALEKA MANZELATAHUM FA FARRIJ A’NNAA BE HAQQEHIM FARAJAN A-A’JELAN QAREEBAN KALAM-HIL BASARE AW HOWA AQRABO YAA MOHAMMADO YAA A’LIYYO YAA A’LIYYO YAA MOHAMMADO IKFEYAANI FA INNAKOMAA KAAFEYAANE WAN SORAANEE FA INNAKOMAA NAASERAANE YAA MAWLAANAA YAA SAAHEBAZ ZAMAANE. AL-GHAWS AL-GHAWS AL-GHAWS ADRIKNEE ADRIKNEE ADRIKNEE. AS-SAA-A’TE AS-SAA-A’TE AS-SAA-A’TE AL-A’JAL AL-A’JAL AL-A’JAL YAA ARHAMAR RAAHEMEEN. BE HAQQE MOHAMMADIWN WA AALEHIT TAAHEREEN.",
-      "translation_status": {
-        "en": "AI-translated from sourceText; review recommended",
-        "ar": "AI-translated; review recommended",
-        "ur": "AI-translated; review recommended",
-        "fr": "AI-translated; review recommended",
-        "tr": "AI-translated; review recommended",
-        "id": "AI-translated; review recommended",
-        "bn": "AI-translated; review recommended",
-        "ms": "AI-translated; review recommended",
-        "ta": "AI-translated; review recommended",
-        "ml": "AI-translated; review recommended"
-      }
-    },
-    {
-      "id": "d103-103",
-      "category_id": "Others",
-      "subcategory_id": null,
-      "order": 103,
-      "title": {
-        "en": "Imam-e-Zamana (a.j.)",
-        "ar": "إمام الزمان (عج)",
-        "ur": "امامِ زمانہ (عج)",
-        "fr": "Imam-e-Zamana (a.j.)",
-        "tr": "Zamanın İmamı (a.s.)",
-        "id": "Imam Zaman (a.j.)",
-        "bn": "ইমাম-এ-জামানা (আ.)",
-        "ms": "Imam Zaman (a.j.)",
-        "ta": "இமாம்-ஏ-ஜமானா (அ.ஜ.)",
-        "ml": "ഇമാം-എ-സമാന (അ.ജ.)"
-      },
-      "arabic": "",
-      "transliteration": "",
-      "translation": {
-        "en": "O Allah! Set right the condition of Your servant and caliph, just as You set right the condition of Your Messengers and Prophets. Surround him with Your angels and support him with the Holy Spirit from Your presence. Place guardians before him and behind him to protect him from all evils. Turn his fears into security, so that he worships You alone and associates no one with You. Do not allow any of Your creatures to overpower Your vicegerent. Permit him to fight against Your enemies and his enemies, and include me among his helpers. Surely, You have power over all things.",
-        "ar": "اللهم أصلح حال عبدك وخليفتك كما أصلحت حال رسلك وأنبيائك. وأحِطْه بملائكتك، وأيّده بروح القدس من عندك. واجعل له حَرَسًا من أمامه ومن خلفه يحفظونه من جميع الشرور. وحوّل مخاوفه إلى أمن، ليعبدك وحدك ولا يشرك بك أحدًا. ولا تمكّن أحدًا من خلقك من التغلب على خليفتك. وأذِنْ له أن يقاتل أعداءك وأعداءه، واجعلني من أنصاره. إنك على كل شيء قدير.",
-        "ur": "اے اللہ! اپنے بندے اور خلیفہ کے حالات کو اسی طرح درست فرما جس طرح تو نے اپنے رسولوں اور نبیوں کے حالات درست فرمائے۔ اسے اپنے فرشتوں سے گھیر لے اور اپنی جانب سے روح القدس کے ذریعے اس کی مدد فرما۔ اس کے آگے اور پیچھے نگہبان مقرر فرما جو اسے ہر برائی سے محفوظ رکھیں۔ اس کے خوف کو امن میں بدل دے، تاکہ وہ صرف تیری عبادت کرے اور تیرے ساتھ کسی کو شریک نہ ٹھہرائے۔ اپنی مخلوق میں سے کسی کو اپنے نائب پر غالب نہ ہونے دے۔ اسے اپنے اور اس کے دشمنوں سے لڑنے کی اجازت دے، اور مجھے اس کے مددگاروں میں شامل فرما۔ بے شک تو ہر چیز پر قدرت رکھتا ہے۔",
-        "fr": "Ô Allah ! Rétablis la condition de Ton serviteur et calife, comme Tu as rétabli celle de Tes messagers et de Tes prophètes. Entoure-le de Tes anges et soutiens-le, de Ta part, par le Saint-Esprit. Place des gardiens devant lui et derrière lui pour le protéger de tous les maux. Transforme ses craintes en sécurité, afin qu’il T’adore seul et ne T’associe personne. Ne laisse aucune de Tes créatures prendre le dessus sur Ton représentant. Permets-lui de combattre Tes ennemis et les siens, et compte-moi parmi ses soutiens. Certes, Tu as pouvoir sur toute chose.",
-        "tr": "Allah’ım! Kulunun ve halifenin hâlini, elçilerinin ve peygamberlerinin hâlini düzelttiğin gibi düzelt. Onu meleklerinle kuşat ve kendi katından Kutsal Ruh ile destekle. Onu bütün kötülüklerden korumaları için önüne ve arkasına muhafızlar yerleştir. Yalnızca Sana ibadet etmesi ve Sana hiçbir şeyi ortak koşmaması için korkularını güvene dönüştür. Yaratıklarından hiçbirinin Senin vekiline üstün gelmesine izin verme. Senin düşmanlarınla ve onun düşmanlarıyla savaşmasına izin ver ve beni onun yardımcıları arasına kat. Şüphesiz Sen her şeye kadirsin.",
-        "id": "Ya Allah! Perbaikilah keadaan hamba dan khalifah-Mu sebagaimana Engkau telah memperbaiki keadaan para rasul dan nabi-Mu. Lingkupilah dia dengan para malaikat-Mu dan dukunglah dia dengan Roh Kudus dari sisi-Mu. Tempatkan para penjaga di depan dan di belakangnya untuk melindunginya dari segala keburukan. Ubahlah ketakutannya menjadi rasa aman, agar dia hanya menyembah-Mu dan tidak menyekutukan-Mu dengan siapa pun. Jangan biarkan seorang pun dari makhluk-Mu mengalahkan wakil-Mu. Izinkanlah dia memerangi musuh-musuh-Mu dan musuh-musuhnya, serta masukkanlah aku di antara para penolongnya. Sungguh, Engkau Mahakuasa atas segala sesuatu.",
-        "bn": "হে আল্লাহ! তোমার বান্দা ও খলিফার অবস্থা সেভাবে সংশোধন করো, যেভাবে তুমি তোমার রাসুল ও নবীদের অবস্থা সংশোধন করেছ। তাকে তোমার ফেরেশতাদের দ্বারা পরিবেষ্টিত করো এবং তোমার পক্ষ থেকে পবিত্র আত্মার মাধ্যমে তাকে সাহায্য করো। সব অনিষ্ট থেকে তাকে রক্ষা করার জন্য তার সামনে ও পেছনে প্রহরী নিযুক্ত করো। তার ভয়কে নিরাপত্তায় রূপান্তরিত করো, যাতে সে শুধু তোমারই ইবাদত করে এবং তোমার সঙ্গে কাউকে শরিক না করে। তোমার সৃষ্টির কাউকে তোমার প্রতিনিধির ওপর প্রাধান্য পেতে দিও না। তাকে তোমার শত্রুদের এবং তার শত্রুদের বিরুদ্ধে যুদ্ধ করার অনুমতি দাও, আর আমাকে তার সাহায্যকারীদের অন্তর্ভুক্ত করো। নিশ্চয়ই তুমি সবকিছুর ওপর ক্ষমতাবান।",
-        "ms": "Ya Allah! Perbaikilah keadaan hamba dan khalifah-Mu sebagaimana Engkau telah memperbaik keadaan para rasul dan nabi-Mu. Kelilingilah dia dengan para malaikat-Mu dan bantulah dia dengan Roh Kudus dari sisi-Mu. Tempatkan para penjaga di hadapan dan di belakangnya untuk melindunginya daripada segala keburukan. Tukarkan ketakutannya menjadi keamanan, agar dia hanya menyembah-Mu dan tidak mensyirikkan-Mu dengan sesiapa pun. Jangan biarkan mana-mana makhluk-Mu mengatasi wakil-Mu. Izinkanlah dia memerangi musuh-musuh-Mu dan musuh-musuhnya, serta masukkanlah aku dalam kalangan para pembantunya. Sesungguhnya Engkau berkuasa atas segala sesuatu.",
-        "ta": "அல்லாஹ்வே! உன் தூதர்கள் மற்றும் நபிமார்களின் நிலையைச் சீராக்கியதுபோல், உன் அடியாரும் கலீஃபாவுமான அவருடைய நிலையைச் சீராக்குவாயாக. உன் வானவர்களால் அவரைச் சூழ்ந்து, உன்னிடமிருந்து வரும் பரிசுத்த ஆவியால் அவருக்கு ஆதரவளிப்பாயாக. எல்லாத் தீமைகளிலிருந்தும் அவரைக் காக்க, அவருக்கு முன்னும் பின்னும் காவலர்களை அமைப்பாயாக. அவர் உன்னை மட்டுமே வணங்கி, உனக்கு எவரையும் இணையாக்காதிருக்க, அவருடைய அச்சங்களைப் பாதுகாப்பாக மாற்றுவாயாக. உன் படைப்புகளில் எவரும் உன் பிரதிநிதியை வெல்ல அனுமதிக்காதே. உன் எதிரிகளுடனும் அவருடைய எதிரிகளுடனும் அவர் போரிட அனுமதித்து, என்னை அவருடைய உதவியாளர்களில் சேர்ப்பாயாக. நிச்சயமாக, நீ அனைத்தின்மீதும் வல்லமை கொண்டவன்.",
-        "ml": "അല്ലാഹുവേ! നിന്റെ ദൂതന്മാരുടെയും പ്രവാചകന്മാരുടെയും അവസ്ഥ നീ നന്നാക്കിയതുപോലെ, നിന്റെ ദാസനും ഖലീഫയുമായ അദ്ദേഹത്തിന്റെ അവസ്ഥയും നന്നാക്കേണമേ. നിന്റെ മലക്കുകളാൽ അദ്ദേഹത്തെ വലയം ചെയ്യുകയും നിന്റെ സന്നിധിയിൽ നിന്നുള്ള പരിശുദ്ധാത്മാവിനാൽ അദ്ദേഹത്തെ സഹായിക്കുകയും ചെയ്യേണമേ. എല്ലാ തിന്മകളിൽ നിന്നും അദ്ദേഹത്തെ കാത്തുസൂക്ഷിക്കാൻ മുന്നിലും പിന്നിലും കാവൽക്കാരെ നിയോഗിക്കേണമേ. അദ്ദേഹം നിന്നെ മാത്രം ആരാധിക്കുകയും നിന്നോട് ആരെയും പങ്കുചേർക്കാതിരിക്കുകയും ചെയ്യുന്നതിനായി അദ്ദേഹത്തിന്റെ ഭയങ്ങളെ സുരക്ഷയാക്കി മാറ്റേണമേ. നിന്റെ സൃഷ്ടികളിൽ ആരെയും നിന്റെ പ്രതിനിധിക്കുമേൽ ആധിപത്യം നേടാൻ അനുവദിക്കരുതേ. നിന്റെ ശത്രുക്കളോടും അദ്ദേഹത്തിന്റെ ശത്രുക്കളോടും പോരാടാൻ അദ്ദേഹത്തിന് അനുമതി നൽകുകയും എന്നെ അദ്ദേഹത്തിന്റെ സഹായികളിൽ ഉൾപ്പെടുത്തുകയും ചെയ്യേണമേ. നിശ്ചയമായും നീ എല്ലാറ്റിനും കഴിവുള്ളവനാകുന്നു."
-      },
-      "reference": {
-        "source": null,
-        "reference_text": null
-      },
-      "repetition_count": 1,
-      "source_text": "Dua No. 103\nImam-e-Zamana (a.j.)\nO Allah! Reform (the condition’s of) your servant and caliph in the same way as you have reformed (the condition’s of) Your Messengers and Prophets. And surround him with Your angles and assist him with the Holy Spirit from Your side, Put up protectors for him, from the front as well as behind, guarding him from ail evils. Convert his apprehensions into security (as) he worships only You and does not associate anybody with You. Do not let any of Your creatures overpower Your vicegerent. Permit him to fight against Your enemies and his enemies and include me among his helpers. Surely You Possess power over everything.",
-      "translation_status": {
-        "en": "AI-translated from sourceText; review recommended",
-        "ar": "AI-translated; review recommended",
-        "ur": "AI-translated; review recommended",
-        "fr": "AI-translated; review recommended",
-        "tr": "AI-translated; review recommended",
-        "id": "AI-translated; review recommended",
-        "bn": "AI-translated; review recommended",
-        "ms": "AI-translated; review recommended",
-        "ta": "AI-translated; review recommended",
-        "ml": "AI-translated; review recommended"
-      }
     }
   ],
   "collection_notes": {
@@ -5167,7 +4717,7 @@
       "ta",
       "ml"
     ],
-    "sourceRecords": 103,
+    "sourceRecords": 94,
     "dataPreservation": "Each original record is preserved verbatim in each dua.sourceText. Extracted Arabic, transliteration, and explicit English translation are additionally provided when detectable. Empty translation/title fields indicate translations not yet supplied; they are not represented as completed translations.",
     "translationCompletion": {
       "status": "machine translated; human review recommended",
@@ -5183,7 +4733,7 @@
         "ta",
         "ml"
       ],
-      "completedRecords": 103,
+      "completedRecords": 94,
       "englishMissingFieldsBackfilled": 12
     }
   }

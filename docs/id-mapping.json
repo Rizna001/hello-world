@@ -579,11 +579,6 @@
       "new_category_id": "Others"
     },
     {
-      "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-40",
-      "new_id": "d103-40",
-      "new_category_id": "Others"
-    },
-    {
       "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-41",
       "new_id": "d103-41",
       "new_category_id": "Others"
@@ -606,11 +601,6 @@
     {
       "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-45",
       "new_id": "d103-45",
-      "new_category_id": "Others"
-    },
-    {
-      "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-46",
-      "new_id": "d103-46",
       "new_category_id": "Others"
     },
     {
@@ -654,11 +644,6 @@
       "new_category_id": "Others"
     },
     {
-      "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-55",
-      "new_id": "d103-55",
-      "new_category_id": "Others"
-    },
-    {
       "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-56",
       "new_id": "d103-56",
       "new_category_id": "Others"
@@ -681,11 +666,6 @@
     {
       "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-60",
       "new_id": "d103-60",
-      "new_category_id": "Others"
-    },
-    {
-      "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-61",
-      "new_id": "d103-61",
       "new_category_id": "Others"
     },
     {
@@ -751,16 +731,6 @@
     {
       "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-74",
       "new_id": "d103-74",
-      "new_category_id": "Others"
-    },
-    {
-      "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-75",
-      "new_id": "d103-75",
-      "new_category_id": "Others"
-    },
-    {
-      "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-76",
-      "new_id": "d103-76",
       "new_category_id": "Others"
     },
     {
@@ -864,11 +834,6 @@
       "new_category_id": "Others"
     },
     {
-      "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-97",
-      "new_id": "d103-97",
-      "new_category_id": "Others"
-    },
-    {
       "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-98",
       "new_id": "d103-98",
       "new_category_id": "Others"
@@ -886,16 +851,6 @@
     {
       "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-101",
       "new_id": "d103-101",
-      "new_category_id": "Others"
-    },
-    {
-      "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-102",
-      "new_id": "d103-102",
-      "new_category_id": "Others"
-    },
-    {
-      "old_locator": "src/data/allData.json#/duas1To103/0/duas/d103-103",
-      "new_id": "d103-103",
       "new_category_id": "Others"
     },
     {
