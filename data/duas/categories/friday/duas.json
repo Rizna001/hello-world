@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0.0",
   "category_id": "friday",
-  "count": 1,
+  "count": 2,
   "duas": [
     {
       "id": "fri-1",
@@ -36,6 +36,43 @@
       "reference": {
         "source": "Bukhari",
         "reference_text": "Bukhari 4/95"
+      },
+      "repetition_count": 1
+    },
+    {
+      "id": "fri-2",
+      "category_id": "friday",
+      "subcategory_id": null,
+      "order": 2,
+      "title": {
+        "en": "Jumma Dua",
+        "ta": "ஜும்ஆ துஆ",
+        "ml": "ജുമുഅ ദുആ",
+        "ar": "دعاء الجمعة",
+        "ur": "جمعہ کی دعا",
+        "fr": "Invocation du vendredi (Jumu'ah)",
+        "tr": "Cuma Duası",
+        "id": "Doa Jumat",
+        "bn": "জুমার দোয়া",
+        "ms": "Doa Jumaat"
+      },
+      "arabic": "إِلَهِي لَسْتُ لِلْفِرْدَوْسِ أَهْلًا\nوَلَا أَقْوَى عَلَى النَّارِ الْجَحِيمِ\nفَهَبْ لِي تَوْبَةً وَاغْفِرْ ذُنُوبِي\nفَإِنَّكَ غَافِرُ الذَّنْبِ الْعَظِيمِ",
+      "transliteration": "Ilahi lastu lil-firdawsi ahla\nWa la aqwa 'ala naril-jahimi\nFa hab li tawbatan waghfir dhunubi\nFa innaka ghafirudh-dhanbil-'azimi",
+      "translation": {
+        "en": "My Lord, I am not worthy of Paradise, nor can I endure the Fire of Hell. So grant me repentance and forgive my sins, for indeed You are the Forgiver of the great sin.",
+        "ta": "என் இறைவா! நான் சொர்க்கத்திற்கு தகுதியானவன் அல்ல. நரக நெருப்பையும் என்னால் தாங்கிக்கொள்ள முடியாது. எனவே, எனக்கு பாவமன்னிப்பை வழங்கி, என் பாவங்களை மன்னிப்பாயாக! நிச்சயமாக, நீயே மிகப்பெரிய பாவங்களையும் மன்னிப்பவன்.",
+        "ml": "എന്റെ രക്ഷിതാവേ, ഞാൻ സ്വർഗത്തിന് അർഹനല്ല; നരകാഗ്നി സഹിക്കാനും എനിക്ക് കഴിയില്ല. അതിനാൽ എനിക്ക് പശ്ചാത്താപം നൽകുകയും എന്റെ പാപങ്ങൾ പൊറുക്കുകയും ചെയ്യണമേ. തീർച്ചയായും, മഹാപാപം പൊറുക്കുന്നവൻ നീയാകുന്നു.",
+        "ar": "إلهي، لست أهلاً للفردوس، ولا أستطيع احتمال نار الجحيم. فامنحني توبة واغفر ذنوبي، فإنك غافر الذنب العظيم.",
+        "ur": "اے میرے رب! میں جنت کے لائق نہیں ہوں اور نہ ہی جہنم کی آگ برداشت کر سکتا ہوں۔ پس مجھے توبہ کی توفیق عطا فرما اور میرے گناہ بخش دے، بے شک تو بڑے گناہ کو بخشنے والا ہے۔",
+        "fr": "Mon Seigneur, je ne suis pas digne du Paradis et je ne peux supporter le feu de l’Enfer. Accorde-moi donc le repentir et pardonne mes péchés, car Tu es certes Celui qui pardonne le grand péché.",
+        "tr": "Rabbim! Cennete layık değilim ve Cehennem ateşine dayanacak gücüm yok. Öyleyse bana tövbe nasip et ve günahlarımı bağışla. Şüphesiz Sen büyük günahı bağışlayansın.",
+        "id": "Wahai Tuhanku, aku tidak pantas masuk surga dan tidak sanggup menahan api neraka. Maka karuniakanlah kepadaku tobat dan ampunilah dosa-dosaku. Sesungguhnya Engkau Maha Pengampun atas dosa yang besar.",
+        "bn": "হে আমার রব! আমি জান্নাতের যোগ্য নই, আর জাহান্নামের আগুন সহ্য করারও ক্ষমতা আমার নেই। তাই আমাকে তাওবা করার তাওফিক দান করুন এবং আমার পাপগুলো ক্ষমা করুন। নিশ্চয়ই আপনি মহাপাপ ক্ষমাকারী।",
+        "ms": "Wahai Tuhanku, aku tidak layak untuk syurga dan tidak mampu menanggung api neraka. Maka kurniakanlah taubat kepadaku dan ampunilah dosa-dosaku. Sesungguhnya Engkau Maha Pengampun dosa yang besar."
+      },
+      "reference": {
+        "source": "Devotional poem",
+        "reference_text": "Devotional supplication/poem; no verified prophetic attribution."
       },
       "repetition_count": 1
     }

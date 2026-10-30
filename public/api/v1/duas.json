@@ -2,7 +2,7 @@
   "api_version": "3.0.0",
   "description": "Complete Islamic Duas Collection - All supplications with translations (regenerated from the migrated hierarchical dataset).",
   "total_categories": 36,
-  "total_duas": 139,
+  "total_duas": 143,
   "supported_languages": [
     "en",
     "ar",
@@ -39,15 +39,15 @@
           "order": 1,
           "title": {
             "en": "Morning Remembrance",
-            "ar": "ذكر الصباح",
-            "ur": "صبح کا ذکر",
-            "fr": "Souvenir du Matin",
-            "tr": "Sabah Zikri",
-            "id": "Dzikir Pagi",
-            "bn": "সকালের যিকির",
-            "ms": "Zikir Pagi",
-            "ta": "காலை நினைவு",
-            "ml": "രാവിലെ സ്മരണം"
+            "ta": "காலையில் ஓத வேண்டிய துஆ",
+            "ml": "രാവിലെ ചൊല്ലേണ്ട ദുആ",
+            "ar": "دعاء يُقال في الصباح",
+            "ur": "صبح کے وقت پڑھنے کی دعا",
+            "fr": "Invocation à réciter le matin",
+            "tr": "Sabah okunacak dua",
+            "id": "Doa yang dibaca pada pagi hari",
+            "bn": "সকালে পাঠ করার দোয়া",
+            "ms": "Doa yang dibaca pada waktu pagi"
           },
           "arabic": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لاَ إِلَٰهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
           "translation": {
@@ -75,15 +75,15 @@
           "order": 2,
           "title": {
             "en": "Evening Remembrance",
-            "ar": "ذكر المساء",
-            "ur": "شام کا ذکر",
-            "fr": "Souvenir du Soir",
-            "tr": "AkÅŸam Zikri",
-            "id": "Dzikir Petang",
-            "bn": "সন্ধ্যার যিকির",
-            "ms": "Zikir Petang",
-            "ta": "மாலை நினைவு",
-            "ml": "വൈകുന്നേര സ്മരണം"
+            "ta": "மாலையில் ஓத வேண்டிய துஆ",
+            "ml": "വൈകുന്നേരം ചൊല്ലേണ്ട ദുആ",
+            "ar": "دعاء يُقال في المساء",
+            "ur": "شام کے وقت پڑھنے کی دعا",
+            "fr": "Invocation à réciter le soir",
+            "tr": "Akşam okunacak dua",
+            "id": "Doa yang dibaca pada sore hari",
+            "bn": "সন্ধ্যায় পাঠ করার দোয়া",
+            "ms": "Doa yang dibaca pada waktu petang"
           },
           "arabic": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لاَ إِلَٰهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
           "translation": {
@@ -111,15 +111,15 @@
           "order": 3,
           "title": {
             "en": "Sayyidul Istighfar (Master of Seeking Forgiveness)",
-            "ar": "سيد الاستغفار",
-            "ur": "سید الاستغفار",
-            "fr": "Maître de la Demande de Pardon",
-            "tr": "Ä°stiÄŸfarÄ±n Efendisi",
-            "id": "Penghulu Istighfar",
-            "bn": "ইস্তিগফারের সরদার",
-            "ms": "Penghulu Istighfar",
-            "ta": "இஸ்திஃபாரின் தலைவர்",
-            "ml": "ഇസ്തിഗ്ഫാറിന്റെ നേതാവ്"
+            "ta": "பாவமன்னிப்பிற்காக ஓத வேண்டிய துஆ",
+            "ml": "പാപമോചനത്തിനായി ചൊല്ലേണ്ട ദുആ",
+            "ar": "دعاء يُقال لطلب المغفرة",
+            "ur": "مغفرت طلب کرنے کے لیے پڑھی جانے والی دعا",
+            "fr": "Invocation à réciter pour demander le pardon",
+            "tr": "Bağışlanma dilemek için okunacak dua",
+            "id": "Doa yang dibaca untuk memohon ampunan",
+            "bn": "ক্ষমা প্রার্থনার জন্য পাঠ করার দোয়া",
+            "ms": "Doa yang dibaca untuk memohon keampunan"
           },
           "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَٰهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
           "translation": {
@@ -643,22 +643,59 @@
             "ta": "கழிப்பறைக்குள் நுழையும் முன்",
             "ml": "ശൗചാലയത്തിൽ പ്രവേശിക്കുന്നതിന് മുമ്പ്"
           },
-          "arabic": "بِسْمِ اللهِ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+          "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
           "translation": {
-            "en": "In the name of Allah. O Allah, I seek refuge in You from the male and female evil jinn.",
-            "ar": "بسم الله، اللهم إني أعوذ بك من الخبث والخبائث",
-            "ur": "اللہ کے نام سے۔ اے اللہ! میں نر اور مادہ جنات کے شر سے تیری پناہ مانگتا ہوں۔",
-            "fr": "Au nom d'Allah. Ô Allah, je cherche refuge auprès de Toi contre les djinns maléfiques mâles et femelles.",
-            "tr": "Allah'Ä±n adÄ±yla. Allah'Ä±m! Erkek ve diÅŸi cinlerin ÅŸerrinden Sana sÄ±ÄŸÄ±nÄ±rÄ±m.",
-            "id": "Dengan nama Allah. Ya Allah, aku berlindung kepada-Mu dari jin jahat laki-laki dan perempuan.",
-            "bn": "আল্লাহর নামে। হে আল্লাহ, আমি পুরুষ ও স্ত্রী জিনের অনিষ্ট থেকে তোমার আশ্রয় চাই।",
-            "ms": "Dengan nama Allah. Ya Allah, aku berlindung kepada-Mu dari jin jahat lelaki dan perempuan.",
-            "ta": "அல்லாஹ்வின் பெயரால். இறைவா! ஆண் மற்றும் பெண் தீய ஜின்களின் தீமையிலிருந்து உம்மிடம் புகலளிக்கிறேன்.",
-            "ml": "അല്ലാഹുവിന്റെ നാമത്തിൽ. അല്ലാഹുവേ, ആൺ, പെൺ ദുർജിന്നുകളുടെ തിന്മയിൽനിന്ന് ഞാൻ നിന്നോട് അഭയം തേടുന്നു."
+            "en": "O Allah, I seek refuge in You from the male and female evil jinn.",
+            "ta": "இறைவா! ஆண் மற்றும் பெண் தீய ஜின்களின் தீமையிலிருந்து உம்மிடம் புகலிடம் தேடுகிறேன்.",
+            "ml": "അല്ലാഹുവേ, ദുഷ്ടരായ ആൺ-പെൺ ജിന്നുകളിൽ നിന്ന് ഞാൻ നിന്നോട് അഭയം തേടുന്നു.",
+            "ar": "اللهم إني أعوذ بك من الخبث والخبائث.",
+            "ur": "اے اللہ! میں نر اور مادہ خبیث جنوں سے تیری پناہ مانگتا ہوں۔",
+            "fr": "Ô Allah, je cherche refuge auprès de Toi contre les djinns mâles et femelles malfaisants.",
+            "tr": "Allah’ım, erkek ve dişi kötü cinlerden Sana sığınırım.",
+            "id": "Ya Allah, aku berlindung kepada-Mu dari jin jahat laki-laki dan perempuan.",
+            "bn": "হে আল্লাহ, আমি পুরুষ ও নারী দুষ্ট জিনের অনিষ্ট থেকে তোমার আশ্রয় চাই।",
+            "ms": "Ya Allah, aku berlindung kepada-Mu daripada jin jahat lelaki dan perempuan."
           },
           "reference": {
             "source": "Bukhari",
             "reference_text": "Bukhari 1/45, Muslim 1/283"
+          },
+          "repetition_count": 1
+        },
+        {
+          "id": "bth-2",
+          "category_id": "bathroom",
+          "subcategory_id": null,
+          "order": 2,
+          "title": {
+            "en": "After Leaving the Bathroom",
+            "ta": "கழிப்பறையிலிருந்து வெளியே வந்த பின் ஓதும் துஆ",
+            "ml": "ശൗചാലയത്തിൽ നിന്ന് പുറത്തുവന്ന ശേഷം ചൊല്ലുന്ന ദുആ",
+            "ar": "دعاء الخروج من الخلاء",
+            "ur": "بیت الخلا سے نکلنے کے بعد کی دعا",
+            "fr": "Invocation après être sorti des toilettes",
+            "tr": "Tuvaletten çıktıktan sonra okunacak dua",
+            "id": "Doa setelah keluar dari kamar mandi",
+            "bn": "শৌচাগার থেকে বের হওয়ার পরের দোয়া",
+            "ms": "Doa selepas keluar dari tandas"
+          },
+          "arabic": "غُفْرَانَكَ الْحَمْدُ لِلَّهِ الَّذِي أَذْهَبَ عَنِّي الأَذَى وَعَافَانِي",
+          "transliteration": "Ghufranaka, al-hamdu lillahi alladhi adh-haba anni al-adha wa afani.",
+          "translation": {
+            "en": "I seek Your forgiveness. All praise is for Allah who removed harm from me and granted me well-being.",
+            "ta": "உன்னிடம் மன்னிப்புக் கோருகிறேன். எனக்கு ஏற்பட்ட அசௌகரியத்தை நீக்கி, நலத்தை வழங்கிய அல்லாஹ்வுக்கே எல்லாப் புகழும்.",
+            "ml": "ഞാൻ നിന്നോട് പാപമോചനം തേടുന്നു. എന്നിൽ നിന്നുള്ള ഉപദ്രവം നീക്കി സുഖവും ക്ഷേമവും നൽകിയ അല്ലാഹുവിനാണ് എല്ലാ സ്തുതിയും.",
+            "ar": "أستغفرك. الحمد لله الذي أذهب عني الأذى وعافاني.",
+            "ur": "میں تجھ سے بخشش مانگتا ہوں۔ سب تعریف اللہ کے لیے ہے جس نے مجھ سے تکلیف دور کی اور مجھے عافیت عطا فرمائی۔",
+            "fr": "Je Te demande pardon. Toute louange appartient à Allah, qui m’a débarrassé de ce qui m’incommodait et m’a accordé le bien-être.",
+            "tr": "Senden bağışlanma dilerim. Benden sıkıntıyı gideren ve bana sağlık veren Allah’a hamd olsun.",
+            "id": "Aku memohon ampun kepada-Mu. Segala puji bagi Allah yang telah menghilangkan gangguan dariku dan menganugerahkan kesehatan kepadaku.",
+            "bn": "আমি তোমার কাছে ক্ষমা প্রার্থনা করছি। সমস্ত প্রশংসা আল্লাহর, যিনি আমার কষ্ট দূর করেছেন এবং আমাকে সুস্থতা দিয়েছেন।",
+            "ms": "Aku memohon keampunan-Mu. Segala puji bagi Allah yang telah menghilangkan kesusahan daripadaku dan mengurniakan kesejahteraan kepadaku."
+          },
+          "reference": {
+            "source": "Sunan Abi Dawud; Sunan Ibn Majah",
+            "reference_text": "Sunan Abi Dawud 30 (Sahih according to al-Albani) reports “Ghufranak.” The added praise clause is separately reported in Sunan Ibn Majah 301 (Da’if, Darussalam)."
           },
           "repetition_count": 1
         }
@@ -812,16 +849,16 @@
           "subcategory_id": null,
           "order": 2,
           "title": {
-            "en": "Dua of Prophet Yunus (AS) in the Whale",
-            "ar": "دعاء ذي النون",
-            "ur": "دعائے ذوالنون",
-            "fr": "Doua de Yunus (AS)",
-            "tr": "Yunus (AS) DuasÄ±",
-            "id": "Doa Nabi Yunus (AS)",
-            "bn": "নবী ইউনুস (আঃ) এর দোয়া",
-            "ms": "Doa Nabi Yunus (AS)",
-            "ta": "திமிங்கலத்தில் நபி யூனுஸ் (அலை) துஆ",
-            "ml": "തിമിംഗലത്തിലെ നബി യൂനുസ് (അ) ദുആ"
+            "en": "Dua of Prophet Yunus (AS) in the Fish",
+            "ta": "மீனின் வயிற்றில் நபி யூனுஸ் (அலை) அவர்கள் இருந்தபோது ஓதிய துஆ",
+            "ml": "മത്സ്യത്തിന്റെ വയറ്റിലായിരുന്നപ്പോൾ നബി യൂനുസ് (അ) ചൊല്ലിയ ദുആ",
+            "ar": "دعاء النبي يونس (عليه السلام) في بطن السمكة",
+            "ur": "مچھلی کے پیٹ میں نبی یونس علیہ السلام کی دعا",
+            "fr": "Invocation du prophète Jonas (que la paix soit sur lui) dans le ventre du poisson",
+            "tr": "Balığın karnındayken Hz. Yunus’un (a.s.) duası",
+            "id": "Doa Nabi Yunus (AS) di dalam perut ikan",
+            "bn": "মাছের পেটে থাকা অবস্থায় নবী ইউনুস (আ.)-এর দোয়া",
+            "ms": "Doa Nabi Yunus (a.s.) di dalam perut ikan"
           },
           "arabic": "لاَ إِلَٰهَ إِلاَّ أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
           "translation": {
@@ -1561,6 +1598,43 @@
             "reference_text": "Bukhari 4/95"
           },
           "repetition_count": 1
+        },
+        {
+          "id": "fri-2",
+          "category_id": "friday",
+          "subcategory_id": null,
+          "order": 2,
+          "title": {
+            "en": "Jumma Dua",
+            "ta": "ஜும்ஆ துஆ",
+            "ml": "ജുമുഅ ദുആ",
+            "ar": "دعاء الجمعة",
+            "ur": "جمعہ کی دعا",
+            "fr": "Invocation du vendredi (Jumu'ah)",
+            "tr": "Cuma Duası",
+            "id": "Doa Jumat",
+            "bn": "জুমার দোয়া",
+            "ms": "Doa Jumaat"
+          },
+          "arabic": "إِلَهِي لَسْتُ لِلْفِرْدَوْسِ أَهْلًا\nوَلَا أَقْوَى عَلَى النَّارِ الْجَحِيمِ\nفَهَبْ لِي تَوْبَةً وَاغْفِرْ ذُنُوبِي\nفَإِنَّكَ غَافِرُ الذَّنْبِ الْعَظِيمِ",
+          "transliteration": "Ilahi lastu lil-firdawsi ahla\nWa la aqwa 'ala naril-jahimi\nFa hab li tawbatan waghfir dhunubi\nFa innaka ghafirudh-dhanbil-'azimi",
+          "translation": {
+            "en": "My Lord, I am not worthy of Paradise, nor can I endure the Fire of Hell. So grant me repentance and forgive my sins, for indeed You are the Forgiver of the great sin.",
+            "ta": "என் இறைவா! நான் சொர்க்கத்திற்கு தகுதியானவன் அல்ல. நரக நெருப்பையும் என்னால் தாங்கிக்கொள்ள முடியாது. எனவே, எனக்கு பாவமன்னிப்பை வழங்கி, என் பாவங்களை மன்னிப்பாயாக! நிச்சயமாக, நீயே மிகப்பெரிய பாவங்களையும் மன்னிப்பவன்.",
+            "ml": "എന്റെ രക്ഷിതാവേ, ഞാൻ സ്വർഗത്തിന് അർഹനല്ല; നരകാഗ്നി സഹിക്കാനും എനിക്ക് കഴിയില്ല. അതിനാൽ എനിക്ക് പശ്ചാത്താപം നൽകുകയും എന്റെ പാപങ്ങൾ പൊറുക്കുകയും ചെയ്യണമേ. തീർച്ചയായും, മഹാപാപം പൊറുക്കുന്നവൻ നീയാകുന്നു.",
+            "ar": "إلهي، لست أهلاً للفردوس، ولا أستطيع احتمال نار الجحيم. فامنحني توبة واغفر ذنوبي، فإنك غافر الذنب العظيم.",
+            "ur": "اے میرے رب! میں جنت کے لائق نہیں ہوں اور نہ ہی جہنم کی آگ برداشت کر سکتا ہوں۔ پس مجھے توبہ کی توفیق عطا فرما اور میرے گناہ بخش دے، بے شک تو بڑے گناہ کو بخشنے والا ہے۔",
+            "fr": "Mon Seigneur, je ne suis pas digne du Paradis et je ne peux supporter le feu de l’Enfer. Accorde-moi donc le repentir et pardonne mes péchés, car Tu es certes Celui qui pardonne le grand péché.",
+            "tr": "Rabbim! Cennete layık değilim ve Cehennem ateşine dayanacak gücüm yok. Öyleyse bana tövbe nasip et ve günahlarımı bağışla. Şüphesiz Sen büyük günahı bağışlayansın.",
+            "id": "Wahai Tuhanku, aku tidak pantas masuk surga dan tidak sanggup menahan api neraka. Maka karuniakanlah kepadaku tobat dan ampunilah dosa-dosaku. Sesungguhnya Engkau Maha Pengampun atas dosa yang besar.",
+            "bn": "হে আমার রব! আমি জান্নাতের যোগ্য নই, আর জাহান্নামের আগুন সহ্য করারও ক্ষমতা আমার নেই। তাই আমাকে তাওবা করার তাওফিক দান করুন এবং আমার পাপগুলো ক্ষমা করুন। নিশ্চয়ই আপনি মহাপাপ ক্ষমাকারী।",
+            "ms": "Wahai Tuhanku, aku tidak layak untuk syurga dan tidak mampu menanggung api neraka. Maka kurniakanlah taubat kepadaku dan ampunilah dosa-dosaku. Sesungguhnya Engkau Maha Pengampun dosa yang besar."
+          },
+          "reference": {
+            "source": "Devotional poem",
+            "reference_text": "Devotional supplication/poem; no verified prophetic attribution."
+          },
+          "repetition_count": 1
         }
       ]
     },
@@ -2206,7 +2280,7 @@
         "id": "Wudhu & Adzan",
         "bn": "অজু ও আযান",
         "ms": "Wuduk & Azan",
-        "ta": "வுழு & அழான்",
+        "ta": "உளு மற்றும் அதான்",
         "ml": "വുദൂഅും അദാനും"
       },
       "duas": [
@@ -2623,6 +2697,80 @@
             "reference_text": "Abu Dawud 2/306"
           },
           "repetition_count": 1
+        },
+        {
+          "id": "fst-3",
+          "category_id": "fasting",
+          "subcategory_id": null,
+          "order": 3,
+          "title": {
+            "en": "Another Intention for Ramadan Fast",
+            "ta": "ரமளான் நோன்புக்கான மற்றொரு நிய்யத்",
+            "ml": "റമദാൻ നോമ്പിനുള്ള മറ്റൊരു നിയ്യത്ത്",
+            "ar": "صيغة أخرى لنية صيام رمضان",
+            "ur": "رمضان کے روزے کی ایک اور نیت",
+            "fr": "Autre formulation de l’intention du jeûne de Ramadan",
+            "tr": "Ramazan Orucu İçin Başka Bir Niyet",
+            "id": "Niat Lain untuk Puasa Ramadan",
+            "bn": "রমজানের রোজার জন্য আরেকটি নিয়ত",
+            "ms": "Satu Lagi Niat untuk Puasa Ramadan"
+          },
+          "arabic": "نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ فَرْضِ شَهْرِ رَمَضَانَ هَذِهِ السَّنَةِ لِلَّهِ تَعَالَى",
+          "transliteration": "Nawaytu sawma ghadin an ada’i fardi shahri Ramadana hadhihi as-sanati lillahi ta‘ala.",
+          "translation": {
+            "en": "I intend to fast tomorrow for the fulfillment of the obligatory fast of the month of Ramadan this year for the sake of Allah, the Most High.",
+            "ta": "இந்த வருடத்தில் கடமையான நோன்பை நாளை முழுவதும் அல்லாஹ்வுக்காக நோன்பு நோற்க நிய்யத் செய்கிறேன்.",
+            "ml": "ഈ വർഷത്തെ റമദാൻ മാസത്തിലെ നിർബന്ധ നോമ്പ് അനുഷ്ഠിക്കുന്നതിനായി നാളെ അല്ലാഹുവിന്റെ പ്രീതിക്കായി നോമ്പെടുക്കാൻ ഞാൻ നിയ്യത്ത് ചെയ്യുന്നു.",
+            "ar": "نويت أن أصوم غدًا أداءً لفرض شهر رمضان من هذه السنة ابتغاء وجه الله تعالى.",
+            "ur": "میں نے اس سال ماہِ رمضان کے فرض روزے کی ادائیگی کے لیے کل اللہ تعالیٰ کی رضا کی خاطر روزہ رکھنے کی نیت کی۔",
+            "fr": "J’ai l’intention de jeûner demain afin d’accomplir le jeûne obligatoire du mois de Ramadan de cette année, pour Allah, le Très-Haut.",
+            "tr": "Bu yılın Ramazan ayındaki farz orucu yerine getirmek üzere yarın Allah Teâlâ rızası için oruç tutmaya niyet ediyorum.",
+            "id": "Aku berniat berpuasa esok hari untuk menunaikan puasa wajib bulan Ramadan tahun ini kerana Allah Taala.",
+            "bn": "আমি এ বছরের রমজান মাসের ফরজ রোজা আদায়ের জন্য আগামীকাল আল্লাহ তাআলার সন্তুষ্টির উদ্দেশ্যে রোজা রাখার নিয়ত করছি।",
+            "ms": "Saya berniat berpuasa esok bagi menunaikan puasa fardu bulan Ramadan tahun ini kerana Allah Taala."
+          },
+          "reference": {
+            "source": "Personal intention wording",
+            "reference_text": "Personal intention formula; no prophetic attribution is claimed."
+          },
+          "repetition_count": 1
+        },
+        {
+          "id": "fst-4",
+          "category_id": "fasting",
+          "subcategory_id": null,
+          "order": 4,
+          "title": {
+            "en": "Another Dua for Breaking the Fast",
+            "ta": "நோன்பு திறப்பதற்கான மற்றொரு துஆ",
+            "ml": "നോമ്പ് തുറക്കാനുള്ള മറ്റൊരു ദുആ",
+            "ar": "دعاء آخر عند الإفطار",
+            "ur": "افطار کے لیے ایک اور دعا",
+            "fr": "Autre invocation pour rompre le jeûne",
+            "tr": "İftarda Okunacak Başka Bir Dua",
+            "id": "Doa Lain untuk Berbuka Puasa",
+            "bn": "ইফতারের জন্য আরেকটি দোয়া",
+            "ms": "Satu Lagi Doa Berbuka Puasa"
+          },
+          "arabic": "اللَّهُمَّ لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَيْكَ تَوَكَّلْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ، فَتَقَبَّلْ مِنِّي.",
+          "transliteration": "Allahumma laka sumtu wa bika amantu wa alayka tawakkaltu wa ala rizqika aftartu, fataqabbal minni.",
+          "translation": {
+            "en": "O Allah, I fasted for You, I believe in You, I put my trust in You, and with Your provision I break my fast, so accept [it] from me.",
+            "ta": "யா அல்லாஹ், உனக்காகவே நோன்பு நோற்றேன், உன்னைக் கொண்டே ஈமான் கொண்டேன், உன்னிடம் பொறுப்பைச் சாட்டினேன், இன்னும் நீ அளித்த உணவைக் கொண்டே நோன்பு திறக்கிறேன். எனது நோன்பை ஏற்றுக்கொள்வாயாக.",
+            "ml": "അല്ലാഹുവേ, നിനക്കുവേണ്ടിയാണ് ഞാൻ നോമ്പെടുത്തത്; നിന്നിൽ വിശ്വസിക്കുകയും നിന്നിൽ ഭരമേൽപ്പിക്കുകയും ചെയ്തു; നീ നൽകിയ ഉപജീവനത്താൽ ഞാൻ നോമ്പ് തുറക്കുന്നു. അതിനാൽ അത് എന്നിൽ നിന്ന് സ്വീകരിക്കണമേ.",
+            "ar": "اللهم إني صمت لك، وآمنت بك، وتوكلت عليك، وعلى رزقك أفطرت، فتقبل مني.",
+            "ur": "اے اللہ! میں نے تیرے لیے روزہ رکھا، تجھ پر ایمان لایا، تجھ ہی پر بھروسا کیا، اور تیرے دیے ہوئے رزق سے افطار کیا؛ پس اسے میری طرف سے قبول فرما۔",
+            "fr": "Ô Allah, j’ai jeûné pour Toi, j’ai cru en Toi, je m’en remets à Toi et je romps le jeûne avec la subsistance que Tu m’as accordée. Accepte-le donc de ma part.",
+            "tr": "Allah’ım, Senin için oruç tuttum, Sana iman ettim, Sana tevekkül ettim ve verdiğin rızıkla orucumu açtım. Benden kabul buyur.",
+            "id": "Ya Allah, aku berpuasa karena-Mu, beriman kepada-Mu, bertawakal kepada-Mu, dan berbuka dengan rezeki-Mu. Maka terimalah dariku.",
+            "bn": "হে আল্লাহ, আমি তোমার জন্য রোজা রেখেছি, তোমার প্রতি ঈমান এনেছি, তোমার ওপর ভরসা করেছি এবং তোমার দেওয়া রিজিক দিয়ে ইফতার করেছি। অতএব, আমার পক্ষ থেকে তা কবুল করো।",
+            "ms": "Ya Allah, aku berpuasa kerana-Mu, beriman kepada-Mu, bertawakal kepada-Mu dan berbuka dengan rezeki yang Engkau kurniakan. Maka terimalah daripadaku."
+          },
+          "reference": {
+            "source": "Sunan Abi Dawud 2358",
+            "reference_text": "Sunan Abi Dawud 2358 reports a shorter wording and is graded Da’if by al-Albani. The added phrases in this supplied wording are not present in that report; no authenticity claim is made for them."
+          },
+          "repetition_count": 1
         }
       ]
     },
@@ -2936,16 +3084,16 @@
           "subcategory_id": null,
           "order": 1,
           "title": {
-            "en": "Dua for Newborn (Tahnik)",
-            "ar": "دعاء المولود الجديد",
-            "ur": "نومولود کے لیے دعا",
-            "fr": "Doua pour le Nouveau-né",
-            "tr": "Yeni Doğan İçin Dua",
-            "id": "Doa untuk Bayi Baru Lahir",
-            "bn": "নবজাতকের জন্য দোয়া",
-            "ms": "Doa untuk Bayi Baru Lahir",
-            "ta": "புதிய பிறப்புக்கான துஆ",
-            "ml": "നവജാതശിശുവിനുള്ള ദുആ"
+            "en": "Dua for Congratulating Someone on a Newborn",
+            "ta": "குழந்தை பிறந்தவருக்குச் சொல்லும் துஆ",
+            "ml": "കുഞ്ഞ് ജനിച്ചതിന് ആശംസ അറിയിക്കുമ്പോൾ ചൊല്ലുന്ന ദുആ",
+            "ar": "دعاء يُقال لتهنئة المولود",
+            "ur": "نومولود کی مبارک باد کے لیے دعا",
+            "fr": "Invocation de félicitations à l’occasion d’une naissance",
+            "tr": "Yeni doğan bebek için tebrik duası",
+            "id": "Doa untuk mengucapkan selamat atas kelahiran bayi",
+            "bn": "নবজাতকের জন্মে অভিনন্দন জানানোর দোয়া",
+            "ms": "Doa ucapan tahniah atas kelahiran bayi"
           },
           "arabic": "بَارَكَ اللهُ لَكَ فِي الْمَوْهُوبِ لَكَ، وَشَكَرْتَ الْوَاهِبَ، وَبَلَغَ أَشُدَّهُ، وَرُزِقْتَ بِرَّهُ",
           "translation": {
@@ -3304,7 +3452,7 @@
         "id": "Untuk Umat",
         "bn": "উম্মাহর জন্য",
         "ms": "Untuk Ummah",
-        "ta": "உம்மாவுக்காக",
+        "ta": "உம்மத்துகளுக்கான துஆ",
         "ml": "ഉമ്മത്തിനായി"
       },
       "duas": [
@@ -3315,15 +3463,15 @@
           "order": 1,
           "title": {
             "en": "Dua for the Muslim Ummah",
+            "ta": "முஸ்லிம் உம்மத்துகளுக்கான துஆ",
+            "ml": "മുസ്ലിം ഉമ്മത്തിനുവേണ്ടിയുള്ള ദുആ",
             "ar": "دعاء للأمة الإسلامية",
-            "ur": "اسلامی امت کے لیے دعا",
-            "fr": "Doua pour la Ummah Musulmane",
-            "tr": "Müslüman Ümmet İçin Dua",
-            "id": "Doa untuk Umat Islam",
+            "ur": "مسلم امت کے لیے دعا",
+            "fr": "Invocation pour la communauté musulmane",
+            "tr": "Müslüman ümmeti için dua",
+            "id": "Doa untuk umat Islam",
             "bn": "মুসলিম উম্মাহর জন্য দোয়া",
-            "ms": "Doa untuk Umat Islam",
-            "ta": "முஸ்லிம் உம்மாவுக்கான துஆ",
-            "ml": "മുസ്ലിം ഉമ്മത്തിനുള്ള ദുആ"
+            "ms": "Doa untuk umat Islam"
           },
           "arabic": "رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالإِيمَانِ وَلاَ تَجْعَلْ فِي قُلُوبِنَا غِلاًّ لِلَّذِينَ آمَنُوا رَبَّنَا إِنَّكَ رَءُوفٌ رَحِيمٌ",
           "translation": {
@@ -3468,16 +3616,16 @@
           "subcategory_id": null,
           "order": 9,
           "title": {
-            "en": "For avoiding bad omens for traveller",
-            "ar": "لدفع النحس عن المسافر",
-            "ur": "مسافر کے لیے بدشگونی سے بچنے کی دعا",
-            "fr": "Pour éviter les mauvais présages en voyage",
-            "tr": "Yolcunun kötü alametlerden korunması için",
-            "id": "Agar musafir terhindar dari pertanda buruk",
-            "bn": "মুসাফিরের অশুভ লক্ষণ এড়ানোর জন্য",
-            "ms": "Untuk menghindari petanda buruk bagi musafir",
-            "ta": "பயணிக்கு அபசகுனங்களைத் தவிர்ப்பதற்காக",
-            "ml": "യാത്രക്കാരന് ദുശ്ശകുനങ്ങൾ ഒഴിവാക്കാൻ"
+            "en": "Dua for Protection from Harm During Travel",
+            "ta": "பயணங்களில் நடக்கும் தீங்கிலிருந்து பாதுகாப்புக்கான துஆ",
+            "ml": "യാത്രയ്ക്കിടെ ഉണ്ടാകുന്ന ഉപദ്രവങ്ങളിൽ നിന്ന് രക്ഷയ്ക്കുള്ള ദുആ",
+            "ar": "دعاء للحماية من الأذى أثناء السفر",
+            "ur": "سفر کے دوران نقصان سے حفاظت کی دعا",
+            "fr": "Invocation pour être protégé du mal pendant le voyage",
+            "tr": "Yolculuk sırasında zarardan korunma duası",
+            "id": "Doa memohon perlindungan dari bahaya selama perjalanan",
+            "bn": "ভ্রমণের সময় ক্ষতি থেকে সুরক্ষার দোয়া",
+            "ms": "Doa perlindungan daripada bahaya semasa perjalanan"
           },
           "arabic": "اِعْتَصَمْتُ بِكَ يَا رَبِّ مِنْ شَرِّ مَا أَجِدُ فِي نَفْسِيْ فَاعْصِمْنِيْ مِنْ ذٰلِكَ‏",
           "transliteration": "i-a'tasamto beka yaa rabbe min sharre maa ajedo fee nafsee fa-a'simnee min zaaleka.",
@@ -3518,16 +3666,16 @@
           "subcategory_id": null,
           "order": 11,
           "title": {
-            "en": "For talisman to be keep by traveller",
-            "ar": "للمسافر ليحتفظ به كتعويذة",
-            "ur": "مسافر کے پاس رکھنے کے لیے تعویذ",
-            "fr": "À garder comme talisman par le voyageur",
-            "tr": "Yolcunun yanında bulunduracağı muska",
-            "id": "Untuk disimpan sebagai azimat oleh musafir",
-            "bn": "মুসাফিরের কাছে রাখার জন্য তাবিজ",
-            "ms": "Untuk disimpan sebagai azimat oleh pengembara",
-            "ta": "பயணி தன்னுடன் வைத்திருக்க வேண்டிய தாயத்து",
-            "ml": "യാത്രക്കാരൻ കൈവശം സൂക്ഷിക്കാനുള്ള ഏലസ്സ്"
+            "en": "Dua for a Traveller to Recite",
+            "ta": "பயணி ஓத வேண்டிய துஆ",
+            "ml": "യാത്രക്കാരൻ ചൊല്ലേണ്ട ദുആ",
+            "ar": "دعاء يقرؤه المسافر",
+            "ur": "مسافر کے پڑھنے کی دعا",
+            "fr": "Invocation à réciter par le voyageur",
+            "tr": "Yolcunun okuyacağı dua",
+            "id": "Doa yang dibaca oleh musafir",
+            "bn": "ভ্রমণকারীর পাঠ করার দোয়া",
+            "ms": "Doa yang dibaca oleh musafir"
           },
           "arabic": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ. بِاللَّهِ بِاللَّهِ بِاللَّهِ أَسْأَلُكَ يَا مَلِكَ الْمُلُوكِ الْأَوَّلَ الْقَدِيمَ الْأَبَدِيَّ الَّذِي لَا يَزُولُ وَ لَا يَحُولُ أَنْتَ اللَّهُ الْعَظِيمُ الْكَـافِي كُلَّ شَيْ‏ءٍ الْمُحِيْطُ بِكُـلِّ شَيْ‏ءٍ اَللّٰهُمَّ اكْفِنِيْ بِاسْمِكَ الْأَعْظَمِ الْأَجَلِّ الْوَاحِدِ الْأَحَدِ الصَّمَدِ الَّذِيْ لَمْ يَلِدْ وَ لَمْ يُولَدْ وَ لَمْ يَكُنْ لَهٗ كُفُواً أَحَدٌ احْجُبْ عَنِّي شُرُوْرَهُمْ وَ شُرُوْرَ الْأَعْدَاءِ كُلِّهِمْ وَ سُيُوْفِهِمْ وَ بَأْسَهُمْ وَ اللَّهُ مِنْ وَرَائِهِمْ مُحِيْطٌ اَللّٰهُمَّ احْجُبْ عَنِّي شَرَّ مَنْ أَرَادَنِيْ بِسُوءٍ بِحِجَابِكَ الَّذِي احْتَجَبْتَ بِهٖ فَلَمْ يَنْظُرْ إِلَيْهِ أَحَدٌ مِنْ شَرِّ فَسَقَةِ الْجِنِّ وَ الْإِنْسِ وَ مِنْ شَرِّ سِلَاحِهِمْ وَ مِنَ الْحَدِيْدِ وَ مِنْ شَرِّ كُلِّ مَا نَتَخَوَّفُ وَ نَحْذَرُ وَ مِنْ شَرِّ كُلِّ شِدَّةٍ وَ بَلِيَّةٍ وَ مِنْ شَرِّ مَا أَنْتَ بِهٖ أَعْلَمُ وَ عَلَيْهِ أَقْدَرُ إِنَّكَ عَلٰى‏ كُلِّ شَيْ‏ءٍ قَدِيْرٌ وَ صَلَّى اللَّهُ عَلٰى مُحَمَّدٍ نَبِيِّهٖ وَ آلِهٖ وَ سَلَّمَ تَسْلِيْماً كَثِيْرًا.",
           "transliteration": "bismil laahir rahmaanir raheem. Billaahe billaahe billaahe as-aloka yaa malekal molookil awwalal qadeemal abadiyyil lazee laa yazoolo wa laa yahoolo antal laahul a'zeemul kaafee kulla shay-il moheeto be-kulle shay-in allaahummak fenee bis-mekal a-a'zamil ajallil waahedil ahadis samadil laze lam yalid wa lam yoolad wa lam yakun lahu kofowan ahadun ohjob a'nnee shoroorahum wa shorooral a-a'daa-e kullehim wa soyoofehim wa baasahum wallaaho min waraa-ehim moheetun allaahummah jub a'nnee sharra man araadanee be-sooo-in be-hejaabekal lazih tajabta behi falam yanzur elayhe ahadun min sharre fasaqatil jinne wal-inse wa min sharre salaahehim wa menal hadeede wa min sharre kulle maa natakhawwafo wa nahzaro wa min sharre kulle shiddatin wa baliyyatin wa min sharre maa anta behi a-a'lamo wa a'layhe aqdaro innaka a'laa kulle shay-in qadeerun wa sallal laaho a'laa mohammadin nabiyyehi wa aalehi wa sallama tasleeman kaseeran.",
@@ -3876,7 +4024,7 @@
             "id": "Doa setelah salat Zuhur",
             "bn": "জোহরের নামাজের পরের দোয়া",
             "ms": "Doa selepas solat Zuhur",
-            "ta": "ழுஹர் தொழுகைக்குப் பிறகான துஆ",
+            "ta": "லுஹர் தொழுகைக்குப் பிறகான துஆ",
             "ml": "ളുഹർ നമസ്കാരത്തിനു ശേഷമുള്ള ദുആ"
           },
           "arabic": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ. لاَ اِلٰـهَ اِلاَّ اللهُ الْعَظِيْمُ الْحَلِيْمُ لاَ اِلٰـهَ اِلاَّ اللهُ رَبُّ الْعَرْشِ الْكَرِيْمُ الْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِيْنَ اَللّٰهُمَّ اِنِّيْ أَسْأَلُكَ مُوْجِبَاتِ رَحْمَتِكَ وَ عَزَآئِمَ مَغْفِرَتِكَ وَ الْغَنِيْمَةَ مِنْ كُلِّ بِرٍّ وَ السَّلاَمَةَ مِنْ كُلِّ اِثْمٍ اَللّٰهُمَّ لاَ تَدَعْ لِيْ ذَنْباً اِلاَّ غَفَرْتَهٗ وَ لاَ هَمّاً اِلاَّ فَرَّجْتَهٗ وَ لاَ سُقْمًا اِلاَّ شَفَيْتَهٗ وَ لاَ عَيْباً اِلاَّ سَتَرْتَهٗ وَ لاَ رِزْقاً اِلاَّ بَسَطْتَهٗ وَ لاَ خَوْفاً اِلاَّ اٰمَنْتَهٗ وَ لاَ سُوْءاً اِلاَّ صَرَفْتَهٗ وَ لاَ حَاجَةً هِيَ لَكَ رِضاً وَ لِيَ فِيْهَا صَلاَحٌ اِلاَّ قَضَيْتَهَا يَا اَرْحَمَ الرَّاحِمِيْنَ اٰمِيْنَ رَبَّ الْعَالَمِيْنَ.",
@@ -4918,16 +5066,16 @@
           "subcategory_id": null,
           "order": 48,
           "title": {
-            "en": "For love (Wife & Husband)",
-            "ar": "للمحبة (الزوجة والزوج)",
-            "ur": "محبت کے لیے (بیوی اور شوہر)",
-            "fr": "Pour l’amour (épouse et époux)",
-            "tr": "Sevgi için (eşler arasında)",
-            "id": "Untuk cinta (istri dan suami)",
-            "bn": "ভালোবাসার জন্য (স্ত্রী ও স্বামী)",
-            "ms": "Untuk kasih sayang (isteri dan suami)",
-            "ta": "அன்பிற்காக (மனைவி மற்றும் கணவன்)",
-            "ml": "സ്നേഹത്തിനായി (ഭാര്യയും ഭർത്താവും)"
+            "en": "Qur’anic Verses for Night Worship",
+            "ta": "இரவு வணக்கத்திற்கான குர்ஆன் வசனங்கள்",
+            "ml": "രാത്രിയിലെ ആരാധനയ്ക്കുള്ള ഖുർആൻ വചനങ്ങൾ",
+            "ar": "آيات قرآنية لقيام الليل",
+            "ur": "رات کی عبادت کے لیے قرآنی آیات",
+            "fr": "Versets coraniques pour la prière nocturne",
+            "tr": "Gece ibadeti için Kur’an ayetleri",
+            "id": "Ayat Al-Qur’an untuk ibadah malam",
+            "bn": "রাতের ইবাদতের জন্য কুরআনের আয়াত",
+            "ms": "Ayat al-Quran untuk ibadah malam"
           },
           "arabic": "يُّحِبُّهُمْ وَ يُحِبُّوْنَهٗٓ، اَذِلَّةٍ عَلَى الْمُؤْمِنِيْنَ اَعِزَّةٍ عَلَى الْكَافِرِيْنَ",
           "transliteration": "yohibbohum wa yohibboonahu, azillatin a'lal moameneena a'izzatin a'lal kaafereena.",
@@ -4968,16 +5116,16 @@
           "subcategory_id": null,
           "order": 49,
           "title": {
-            "en": "For love (Wife & Husband)",
-            "ar": "للمحبة (الزوجة والزوج)",
-            "ur": "محبت کے لیے (بیوی اور شوہر)",
-            "fr": "Pour l’amour (épouse et époux)",
-            "tr": "Sevgi için (eşler)",
-            "id": "Untuk cinta (istri dan suami)",
-            "bn": "ভালোবাসার জন্য (স্ত্রী ও স্বামী)",
-            "ms": "Untuk kasih sayang (isteri dan suami)",
-            "ta": "அன்பிற்காக (மனைவி மற்றும் கணவர்)",
-            "ml": "സ്നേഹത്തിനായി (ഭാര്യയും ഭർത്താവും)"
+            "en": "Dua for Forgiveness of Sins",
+            "ta": "பாவ மன்னிப்புக் கோரும் துஆ",
+            "ml": "പാപമോചനത്തിനുള്ള ദുആ",
+            "ar": "دعاء لطلب مغفرة الذنوب",
+            "ur": "گناہوں کی معافی کی دعا",
+            "fr": "Invocation pour le pardon des péchés",
+            "tr": "Günahların bağışlanması için dua",
+            "id": "Doa memohon ampun atas dosa",
+            "bn": "পাপের ক্ষমা প্রার্থনার দোয়া",
+            "ms": "Doa memohon keampunan dosa"
           },
           "arabic": "اِنَّ الَّذِيْنَ اٰمَنُوْا وَ عَمِلُوا الصَّالِحَاتِ سَيَجْعَلُ لَهُمُ الرَّحْمٰنُ وُدًّا",
           "transliteration": "innal lazeena aamanoo wa a'melus saalehaate sayaj-a'lo lahomur rahmaano wuddaan.",
@@ -5118,16 +5266,16 @@
           "subcategory_id": null,
           "order": 52,
           "title": {
-            "en": "For Getting A Child",
-            "ar": "للحصول على طفل",
-            "ur": "اولاد کے حصول کے لیے",
-            "fr": "Pour avoir un enfant",
-            "tr": "Çocuk sahibi olmak için",
-            "id": "Agar Mendapatkan Anak",
-            "bn": "সন্তান লাভের জন্য",
-            "ms": "Untuk Mendapatkan Anak",
-            "ta": "குழந்தை பெறுவதற்காக",
-            "ml": "കുട്ടിയെ ലഭിക്കുന്നതിനായി"
+            "en": "Dua for a Righteous Child",
+            "ta": "நல்ல சந்ததியை வேண்டி ஓதும் துஆ",
+            "ml": "സൽസന്താനത്തിനായി പ്രാർത്ഥിക്കുന്ന ദുആ",
+            "ar": "دعاء لطلب ذرية صالحة",
+            "ur": "نیک اولاد عطا ہونے کی دعا",
+            "fr": "Invocation pour demander une descendance vertueuse",
+            "tr": "Salih bir evlat için dua",
+            "id": "Doa memohon keturunan yang saleh",
+            "bn": "নেক সন্তান লাভের দোয়া",
+            "ms": "Doa memohon zuriat yang soleh"
           },
           "arabic": "رَبِّ هَبْ لِىْ مِنْ لَّدُنْكَ ذُرِّيَّةً طَيِّبَةً، اِنَّكَ سَمِيْعُ الدُّعَآءِ",
           "transliteration": "rabbe hab lee mil ladunka zurriyyatan tayyebatan, innaka samee-u'd do-a'aaa.",
@@ -5168,16 +5316,16 @@
           "subcategory_id": null,
           "order": 53,
           "title": {
-            "en": "For getting a child",
-            "ar": "للحصول على طفل",
-            "ur": "اولاد کے حصول کے لیے",
-            "fr": "Pour avoir un enfant",
-            "tr": "Çocuk sahibi olmak için",
-            "id": "Untuk mendapatkan anak",
-            "bn": "সন্তান লাভের জন্য",
-            "ms": "Untuk memperoleh anak",
-            "ta": "குழந்தை பெறுவதற்காக",
-            "ml": "കുട്ടിയെ ലഭിക്കാൻ"
+            "en": "Dua to Not Be Left Without an Heir",
+            "ta": "சந்ததியின்றி தனியாக விடப்படாதிருக்க ஓதும் துஆ",
+            "ml": "സന്താനമില്ലാതെ ഉപേക്ഷിക്കപ്പെടാതിരിക്കാനുള്ള ദുആ",
+            "ar": "دعاء لئلا أُترك بلا ذرية",
+            "ur": "بے اولاد نہ چھوڑے جانے کی دعا",
+            "fr": "Invocation pour ne pas rester sans descendance",
+            "tr": "Evlat sahibi olmadan bırakılmamak için dua",
+            "id": "Doa agar tidak dibiarkan tanpa keturunan",
+            "bn": "নিঃসন্তান না রাখার প্রার্থনা",
+            "ms": "Doa agar tidak dibiarkan tanpa zuriat"
           },
           "arabic": "رَبِّ لاَ تَذَرْنِىْ فَرْدًا وَّ اَنْتَ خَيْرُ الْوَارِثِيْنَ",
           "transliteration": "rabbe laa tazarnee fardawn wa anta khayrul waareseen.",
@@ -6368,16 +6516,16 @@
           "subcategory_id": null,
           "order": 92,
           "title": {
-            "en": "Dua at the time of purchase",
-            "ar": "الدعاء عند الشراء",
-            "ur": "خرید کے وقت کی دعا",
-            "fr": "Invocation au moment de l’achat",
-            "tr": "Alışveriş sırasında okunacak dua",
-            "id": "Doa saat membeli",
-            "bn": "কেনাকাটার সময়ের দোয়া",
-            "ms": "Doa ketika membeli",
-            "ta": "வாங்கும் நேரத்தில் ஓத வேண்டிய துஆ",
-            "ml": "വാങ്ങുമ്പോൾ ചൊല്ലേണ്ട ദുആ"
+            "en": "Dua to Recite When Buying Something from Someone",
+            "ta": "பிறரிடம் பொருள் வாங்கும்போது ஓதும் துஆ",
+            "ml": "മറ്റൊരാളിൽ നിന്ന് സാധനം വാങ്ങുമ്പോൾ ചൊല്ലുന്ന ദുആ",
+            "ar": "دعاء عند شراء شيء من شخص آخر",
+            "ur": "کسی سے کوئی چیز خریدتے وقت کی دعا",
+            "fr": "Invocation à réciter lors de l’achat d’un bien à quelqu’un",
+            "tr": "Birinden bir şey satın alırken okunacak dua",
+            "id": "Doa saat membeli barang dari orang lain",
+            "bn": "অন্যের কাছ থেকে কিছু কেনার সময়ের দোয়া",
+            "ms": "Doa ketika membeli sesuatu daripada orang lain"
           },
           "arabic": "يَا حَيُّ يَا قَيُّوْمُ يَا دَآئِمُ يَا رَءُوْفُ يَا رَحِيْمُ أَسْأَلُكَ بِعِزَّتِكَ وَ قُدْرَتِكَ وَ مَا أَحَاطَ بِهٖ عِلْمُكَ أَنْ تَقْسِمَ لِي مِنَ التِّجَارَةِ الْيَوْمَ أَعْظَمَهَا رِزْقاً وَ أَوْسَعَهَا فَضْلًا وَ خَيْرَهَا عَاقِبَةً فَإِنَّهٗ لَا خَيْرَ فِيْمَا لَا عَاقِبَةَ لَهٗ.",
           "transliteration": "Yaa hayyo yaa qayyoomo yaa daaa-emo yaa ra-oofo yaa raheemo as-aloka be-Izzateka wa qudrateka wa maa ahaata behi I'lmoka an taqsema lee menat tejaaratil yawma a-a'zamahaa rizqan wa aw-sa-a'haa fazlan wa khayrahaa a'aqebatan fa-innahu laa khayra feemaa laa a'aqebata lahu.",
@@ -6418,16 +6566,16 @@
           "subcategory_id": null,
           "order": 95,
           "title": {
-            "en": "Dua Moosa Kazim (a.s.) Dua for all purposes",
+            "en": "Dua of Musa Kazim (AS) for All Needs",
+            "ta": "மூஸா காஸிம் (அலை) அவர்களின் அனைத்துத் தேவைகளுக்கான துஆ",
+            "ml": "എല്ലാ ആവശ്യങ്ങൾക്കുമുള്ള മൂസാ കാസിം (അ)യുടെ ദുആ",
             "ar": "دعاء موسى الكاظم (عليه السلام) لجميع الحاجات",
             "ur": "دعائے موسیٰ کاظمؑ، تمام حاجات کے لیے",
             "fr": "Invocation de Moussa al-Kazim (que la paix soit sur lui) pour tous les besoins",
             "tr": "Mûsâ Kâzım’ın (a.s.) her türlü ihtiyaç için duası",
             "id": "Doa Musa Kazim (a.s.) untuk Segala Keperluan",
             "bn": "সকল প্রয়োজনের জন্য মূসা কাযিম (আ.)-এর দোয়া",
-            "ms": "Doa Musa Kazim (a.s.) untuk Segala Hajat",
-            "ta": "அனைத்துத் தேவைகளுக்குமான மூசா காழிம் (அலை) அவர்களின் துஆ",
-            "ml": "എല്ലാ ആവശ്യങ്ങൾക്കുമുള്ള മൂസാ കാളിം (അ)യുടെ ദുആ"
+            "ms": "Doa Musa Kazim (a.s.) untuk Segala Hajat"
           },
           "arabic": "اَللّٰهُمَّ إِنِّي أَطَعْتُكَ فِي أَحَبِّ الْأَشْيَاءِ إِلَيْكَ وَ هُوَ التَّوْحِيْدُ، وَ لَمْ أَعْصِكَ فِي أَبْغَضِ الْأَشْيَاءِ إِلَيْكَ وَ هُوَ الْكُفْرُ، فَاغْفِرْ لِي مَا بَيْنَهُمَا، يَا مَنْ إِلَيْهِ مَفَرِّي آمِنِّي مِمَّا فَزِعْتُ مِنْهُ إِلَيْكَ. اَللّٰهُمَّ اغْفِرْ لِيَ الْكَثِيْرَ مِنْ مَعَاصِيْكَ، وَ اقْبَلْ مِنِّي الْيَسِيْرَ مِنْ طَاعَتِكَ‏، يَا عُدَّتِي دُوْنَ الْعُدَدِ، وَ يَا رَجَائِيْ وَ الْمُعْتَمَدَ، وَ يَا كَهْفِيْ وَ السَّنَدَ، وَ يَا وَاحِدُ يَا أَحَدُ، يَا قُلْ هُوَ اللَّهُ أَحَدٌ اَللَّهُ الصَّمَدُ لَمْ يَلِدْ وَ لَمْ يُوْلَدْ وَ لَمْ يَكُنْ لَهٗ كُفُواً أَحَدٌ، أَسْأَلُكَ بِحَقِّ مَنِ اصْطَفَيْتَهُمْ مِنْ خَلْقِكَ، وَ لَمْ تَجْعَلْ فِي خَلْقِكَ مِثْلَهُمْ أَحَداً، أَنْ تُصَلِّيَ عَلٰى مُحَمَّدٍ وَ آلِهٖ، وَ تَفْعَلَ بِي مَا أَنْتَ أَهْلُهٗ اَللّٰهُمَّ إِنِّي أَسْأَلُكَ بِالْوَحْدَانِيَّةِ الْكُبْرٰى، وَ الْمُحَمَّدِيَّةِ الْبَيْضَاءِ، وَ الْعَلَوِيَّةِ الْعُلْيَا، وَ بِجَمِيْعِ مَا احْتَجَجْتَ بِهٖ عَلٰى عِبَادِكَ، وَ بِالاِسْمِ الَّذِيْ حَجَبْتَهٗ عَنْ خَلْقِكَ فَلَمْ يَخْرُجْ مِنْكَ إِلاَّ إِلَيْكَ‏، صَلِّ عَلٰى مُحَمَّدٍ وَ آلِهٖ، وَ اجْعَلْ لِي مِنْ أَمْرِيْ فَرَجاً وَ مَخْرَجاً، وَ ارْزُقْنِيْ مِنْ حَيْثُ أَحْتَسِبُ وَ مِنْ حَيْثُ لاَ أَحْتَسِبُ، إِنَّكَ تَرْزُقُ مَنْ تَشَآءُ بِغَيْرِ حِسَابٍ.",
           "transliteration": "allaahumma innee a-ta'toka fee ahabbil ashyaa-e elayka wa howat tawheed, wa lam a-a'seka fee abghazil ashyaa-e elayka wa howal kufr, fagh-fir lee maa baynahomaa, yaa man elayhe mafarree aaminnee mimmaa fa-ze'to minho elayka. allaahummagh fir leyal kaseera min ma-a'aseeka, waq-bal minnil yaseera min ta-a'teka, yaa u'ddatee doonal o'dade, wa yaa rajaaa-ee wal-moa'tamada, wa yaa kahfee was-sanada, wa yaa waahedo yaa ahado, yaa qul howal laaho ahadun allaahus samado lam yalid wa lam yoolad wa lam yakun lahu kofowan ahad, as-aloka be-haqqe manis tafaytahum min khalqeka, wa lam yaj-a'l fee kahlqeka mislahum ahadan, an tosalleya a'laa mohammadin wa aalehi, wa taf-a'la bee maa anta ahlohu. allaahumma innee as-aloka bil-wahdaaniyyatil kubraa, wal-mohammadiyyatil bayzaa, wal-a'lawiyyatil u'lyaa, wa be-jamee-e' mah-tajajta behi a'laa e'baadeka, wa bil-ismil lazee hajabtahu a'n khalqeka falam yakhruj minka illaa elayka,salle a'laa mohammadin wa aalehi, waj-a'l lee min amree farajan wa makhrajan, war-zuqnee min hayso ahtasebo wa min hayso laa ahtasebo, innaka tarzoqo man tashaaa-o be-ghayre hesaab.",
@@ -6518,16 +6666,16 @@
           "subcategory_id": null,
           "order": 101,
           "title": {
-            "en": "While Entering the Graveyard",
+            "en": "When Entering a Cemetery",
+            "ta": "கபரிடங்களில் நுழையும்போது",
+            "ml": "ഖബർസ്ഥാനിൽ പ്രവേശിക്കുമ്പോൾ ചൊല്ലേണ്ട ദുആ",
             "ar": "عند دخول المقبرة",
-            "ur": "قبرستان میں داخل ہوتے وقت",
-            "fr": "En entrant dans le cimetière",
-            "tr": "Mezarlığa Girerken",
-            "id": "Saat Memasuki Pemakaman",
-            "bn": "কবরস্থানে প্রবেশের সময়",
-            "ms": "Ketika Memasuki Tanah Perkuburan",
-            "ta": "மயானத்திற்குள் நுழையும்போது",
-            "ml": "ഖബർസ്ഥാനിൽ പ്രവേശിക്കുമ്പോൾ"
+            "ur": "قبرستان میں داخل ہوتے وقت کی دعا",
+            "fr": "Invocation à réciter en entrant au cimetière",
+            "tr": "Mezarlığa girerken okunacak dua",
+            "id": "Doa saat memasuki pemakaman",
+            "bn": "কবরস্থানে প্রবেশের সময়ের দোয়া",
+            "ms": "Doa ketika memasuki tanah perkuburan"
           },
           "arabic": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ. اَللّٰهُمَّ رَبَّ هٰذِهِ الْأَرْوَاحِ الْفَانِيَةِ وَ الْأَجْسَادِ الْبَالِيَةِ وَ الْعِظَامِ النَّخِرَةِ الَّتِيْ خَرَجَتْ مِنَ الدُّنْيَا وَ هِيَ بِكَ مُؤْمِنَةٌ أَدْخِلْ عَلَيْهِمْ رَوْحاً مِنْكَ وَ سَلَاماً مِنِّيْ.",
           "transliteration": "Bismillaahir rahmaanir raheem. allaahumma rabba haazehil arwaahil faaneyate wal-ajsaadil baaleyate wal-e'zaamin nakheratil latee kharajat menad dunyaa wa heya beka moamenatun adkhil a'layhim rawhan minka wa salaaman minnee.",

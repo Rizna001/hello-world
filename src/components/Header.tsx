@@ -49,7 +49,7 @@ export default function Header({
   const savedLabel = language === 'en' ? 'Saved' : language === 'ar' ? 'المحفوظة' : language === 'ur' ? 'محفوظ' : language === 'fr' ? 'Enregistrés' : language === 'tr' ? 'Kaydedilen' : language === 'id' ? 'Tersimpan' : language === 'bn' ? 'সংরক্ষিত' : language === 'ms' ? 'Disimpan' : language === 'ta' ? 'சேமிக்கப்பட்டவை' : 'സേവ് ചെയ്തവ';
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[rgba(230,198,107,0.3)] bg-[#000d08]">
+    <header className="app-header sticky top-0 z-50 border-b">
       <div className="mx-auto max-w-7xl px-3 sm:px-6 lg:px-8">
         <div className="flex h-[60px] items-center justify-between gap-3 sm:h-16">
           {/* Logo & Title */}
@@ -68,7 +68,7 @@ export default function Header({
                 onClick={() => setViewMode('categories')}
                 aria-pressed={viewMode === 'categories'}
                 className={`rounded-md px-3 py-1.5 text-xs font-medium transition-colors ${
-                  viewMode === 'categories' ? 'bg-[var(--bisme-gold)] text-[#000d08]' : 'text-white/70 hover:text-white'
+                  viewMode === 'categories' ? 'gold-gradient-surface text-[var(--bisme-on-gold)]' : 'text-white/75 hover:text-white'
                 }`}
               >
                 {categoriesLabel}
@@ -77,7 +77,7 @@ export default function Header({
                 onClick={() => setViewMode('bookmarks')}
                 aria-pressed={viewMode === 'bookmarks'}
                 className={`flex items-center gap-1 rounded-md px-3 py-1.5 text-xs font-medium transition-colors ${
-                  viewMode === 'bookmarks' ? 'bg-[var(--bisme-gold)] text-[#000d08]' : 'text-white/70 hover:text-white'
+                  viewMode === 'bookmarks' ? 'gold-gradient-surface text-[var(--bisme-on-gold)]' : 'text-white/75 hover:text-white'
                 }`}
               >
                 {savedLabel}
@@ -93,7 +93,7 @@ export default function Header({
             <button
               onClick={onHomeClick}
               aria-label="Home"
-              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white/10 text-[var(--bisme-gold)] transition-colors hover:bg-white/15 hover:text-white"
+              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-[var(--bisme-gold-border)] bg-[#063b2b] text-[var(--bisme-gold)] transition-colors hover:bg-[#084633] hover:text-white"
               title="Home"
             >
               <Home className="w-5 h-5" aria-hidden="true" />
@@ -109,7 +109,7 @@ export default function Header({
                 onClick={() => setShowLanguageMenu(!showLanguageMenu)}
                 aria-haspopup="menu"
                 aria-expanded={showLanguageMenu}
-                className="flex items-center gap-2 rounded-lg border border-[rgba(230,198,107,0.35)] bg-white/5 px-3 py-2 transition-colors hover:bg-white/10"
+                className="flex items-center gap-2 rounded-lg border border-[var(--bisme-gold-border)] bg-[#063b2b] px-3 py-2 transition-colors hover:bg-[#084633]"
               >
                 <Languages className="h-4 w-4 text-[var(--bisme-gold)]" aria-hidden="true" />
                 <span className="text-xs font-medium text-white sm:text-sm">{currentLanguage.name}</span>
@@ -119,7 +119,7 @@ export default function Header({
               {showLanguageMenu && (
                 <>
                   <div className="fixed inset-0 z-40" onClick={() => setShowLanguageMenu(false)} />
-                  <div className="absolute right-0 z-50 mt-2 max-h-80 w-48 overflow-y-auto rounded-xl border border-[rgba(230,198,107,0.35)] bg-[#003d2b] py-2 shadow-xl">
+                  <div className="dropdown-panel absolute right-0 z-50 mt-2 max-h-80 w-48 overflow-y-auto rounded-xl border border-[var(--bisme-gold-border)] bg-[#063b2b] py-2 shadow-xl">
                     {languages.map((lang) => (
                       <button
                         key={lang.code}
@@ -147,7 +147,7 @@ export default function Header({
             onClick={() => setViewMode('categories')}
             aria-pressed={viewMode === 'categories'}
             className={`flex min-h-9 min-w-0 flex-1 items-center justify-center rounded-md px-2 py-1.5 text-center text-xs font-medium transition-colors ${
-              viewMode === 'categories' ? 'bg-[var(--bisme-gold)] text-[#000d08]' : 'bg-white/5 text-white/75'
+              viewMode === 'categories' ? 'gold-gradient-surface text-[var(--bisme-on-gold)]' : 'bg-white/5 text-white/75'
             }`}
           >
             {categoriesLabel}
@@ -156,7 +156,7 @@ export default function Header({
             onClick={() => setViewMode('bookmarks')}
             aria-pressed={viewMode === 'bookmarks'}
             className={`flex min-h-9 min-w-0 flex-1 items-center justify-center gap-1 rounded-md px-2 py-1.5 text-center text-xs font-medium transition-colors ${
-              viewMode === 'bookmarks' ? 'bg-[var(--bisme-gold)] text-[#000d08]' : 'bg-white/5 text-white/75'
+              viewMode === 'bookmarks' ? 'gold-gradient-surface text-[var(--bisme-on-gold)]' : 'bg-white/5 text-white/75'
             }`}
           >
             <span>{savedLabel}</span>

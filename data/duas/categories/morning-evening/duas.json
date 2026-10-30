@@ -10,15 +10,15 @@
       "order": 1,
       "title": {
         "en": "Morning Remembrance",
-        "ar": "ذكر الصباح",
-        "ur": "صبح کا ذکر",
-        "fr": "Souvenir du Matin",
-        "tr": "Sabah Zikri",
-        "id": "Dzikir Pagi",
-        "bn": "সকালের যিকির",
-        "ms": "Zikir Pagi",
-        "ta": "காலை நினைவு",
-        "ml": "രാവിലെ സ്മരണം"
+        "ta": "காலையில் ஓத வேண்டிய துஆ",
+        "ml": "രാവിലെ ചൊല്ലേണ്ട ദുആ",
+        "ar": "دعاء يُقال في الصباح",
+        "ur": "صبح کے وقت پڑھنے کی دعا",
+        "fr": "Invocation à réciter le matin",
+        "tr": "Sabah okunacak dua",
+        "id": "Doa yang dibaca pada pagi hari",
+        "bn": "সকালে পাঠ করার দোয়া",
+        "ms": "Doa yang dibaca pada waktu pagi"
       },
       "arabic": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لاَ إِلَٰهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
       "translation": {
@@ -46,15 +46,15 @@
       "order": 2,
       "title": {
         "en": "Evening Remembrance",
-        "ar": "ذكر المساء",
-        "ur": "شام کا ذکر",
-        "fr": "Souvenir du Soir",
-        "tr": "AkÅŸam Zikri",
-        "id": "Dzikir Petang",
-        "bn": "সন্ধ্যার যিকির",
-        "ms": "Zikir Petang",
-        "ta": "மாலை நினைவு",
-        "ml": "വൈകുന്നേര സ്മരണം"
+        "ta": "மாலையில் ஓத வேண்டிய துஆ",
+        "ml": "വൈകുന്നേരം ചൊല്ലേണ്ട ദുആ",
+        "ar": "دعاء يُقال في المساء",
+        "ur": "شام کے وقت پڑھنے کی دعا",
+        "fr": "Invocation à réciter le soir",
+        "tr": "Akşam okunacak dua",
+        "id": "Doa yang dibaca pada sore hari",
+        "bn": "সন্ধ্যায় পাঠ করার দোয়া",
+        "ms": "Doa yang dibaca pada waktu petang"
       },
       "arabic": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لاَ إِلَٰهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
       "translation": {
@@ -82,15 +82,15 @@
       "order": 3,
       "title": {
         "en": "Sayyidul Istighfar (Master of Seeking Forgiveness)",
-        "ar": "سيد الاستغفار",
-        "ur": "سید الاستغفار",
-        "fr": "Maître de la Demande de Pardon",
-        "tr": "Ä°stiÄŸfarÄ±n Efendisi",
-        "id": "Penghulu Istighfar",
-        "bn": "ইস্তিগফারের সরদার",
-        "ms": "Penghulu Istighfar",
-        "ta": "இஸ்திஃபாரின் தலைவர்",
-        "ml": "ഇസ്തിഗ്ഫാറിന്റെ നേതാവ്"
+        "ta": "பாவமன்னிப்பிற்காக ஓத வேண்டிய துஆ",
+        "ml": "പാപമോചനത്തിനായി ചൊല്ലേണ്ട ദുആ",
+        "ar": "دعاء يُقال لطلب المغفرة",
+        "ur": "مغفرت طلب کرنے کے لیے پڑھی جانے والی دعا",
+        "fr": "Invocation à réciter pour demander le pardon",
+        "tr": "Bağışlanma dilemek için okunacak dua",
+        "id": "Doa yang dibaca untuk memohon ampunan",
+        "bn": "ক্ষমা প্রার্থনার জন্য পাঠ করার দোয়া",
+        "ms": "Doa yang dibaca untuk memohon keampunan"
       },
       "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَٰهَ إِلاَّ أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوبَ إِلاَّ أَنْتَ",
       "translation": {

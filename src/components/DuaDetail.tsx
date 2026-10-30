@@ -132,11 +132,11 @@ export default function DuaDetail({
       </button>
 
       {/* Dua Card */}
-      <div className={`rounded-2xl shadow-xl border overflow-hidden ${
+      <div className={`dua-detail-shell rounded-2xl shadow-xl border overflow-hidden ${
         isDark ? 'bg-slate-800 border-slate-700' : 'bg-white border-gray-100'
       }`}>
         {/* Header */}
-        <div className="border-b border-[rgba(230,198,107,0.35)] bg-[#003d2b] p-4 text-white sm:p-6">
+        <div className="dua-detail-header border-b p-4 text-white sm:p-6">
           <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
             <div className="min-w-0 flex-1">
               <span className="break-words text-sm text-white/80">{category.name[language] || category.name.en}</span>
@@ -144,17 +144,17 @@ export default function DuaDetail({
             {/* Bookmark Button */}
             <button
               onClick={handleBookmark}
-              className={`px-3 py-1 rounded-lg text-sm font-medium transition-all ${
+              className={`rounded-lg border border-[var(--bisme-gold-border)] px-3 py-1 text-sm font-medium transition-all ${
                 isCurrentlyBookmarked 
-                  ? 'bg-white/30 hover:bg-white/40' 
-                  : 'bg-white/10 hover:bg-white/20'
+                  ? 'gold-gradient-surface text-[var(--bisme-on-gold)] hover:brightness-105' 
+                  : 'bg-white/10 text-white hover:bg-white/20'
               }`}
               title={isCurrentlyBookmarked ? 'Remove bookmark' : 'Add bookmark'}
             >
               {isCurrentlyBookmarked ? 'Saved' : 'Save'}
             </button>
           </div>
-          <h2 className="break-words text-xl font-bold text-[var(--bisme-gold)]">{dua.title[language] || dua.title.en}</h2>
+          <h2 className="break-words text-xl font-bold text-white">{dua.title[language] || dua.title.en}</h2>
           <div className="mt-2 flex flex-wrap items-center gap-2">
             <span className="text-xs bg-white/20 px-2 py-1 rounded-full">{referenceLabel}: {dua.reference}</span>
             <span className="text-xs bg-white/20 px-2 py-1 rounded-full">{reciteLabel}: {dua.times} {timesLabel}</span>
@@ -162,7 +162,7 @@ export default function DuaDetail({
         </div>
 
         {/* Arabic Text */}
-        <div className={`border-b p-4 sm:p-6 ${isDark ? 'border-slate-700' : 'border-gray-100'}`}>
+        <div className="border-b border-[rgba(185,154,69,0.32)] p-4 sm:p-6">
           <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
             <span className={`text-xs font-medium uppercase tracking-wider ${isDark ? 'text-gray-400' : 'text-gray-400'}`}>
               {language === 'en' ? 'Arabic Text' : language === 'ar' ? 'النص العربي' : language === 'ur' ? 'عربی متن' : language === 'fr' ? 'Texte Arabe' : language === 'tr' ? 'Arapça Metin' : language === 'id' ? 'Teks Arab' : language === 'bn' ? 'আরবি টেক্সট' : language === 'ms' ? 'Teks Arab' : language === 'ta' ? 'அரபி உரை' : 'അറബിക് പാഠം'}
@@ -186,35 +186,40 @@ export default function DuaDetail({
           </div>
           <p
             dir="rtl"
-            className={`${arabicFontSize[fontSize]} max-w-full break-words py-4 text-center leading-loose font-arabic ${isDark ? 'text-gray-100' : 'text-gray-800'}`}
+            className={`${arabicFontSize[fontSize]} max-w-full break-words whitespace-pre-line py-4 text-center leading-loose font-arabic text-white`}
             style={{ fontFamily: "'Arabic Punctuation', 'KFGQPC Uthmanic Script HAFS', 'Amiri Quran', 'Amiri', serif" }}
           >
             {dua.arabic}
           </p>
+          {dua.transliteration && (
+            <p className="whitespace-pre-line break-words text-center text-sm italic leading-relaxed text-[var(--bisme-text-secondary)]">
+              {dua.transliteration}
+            </p>
+          )}
         </div>
 
         {/* Audio Player */}
-        <div className={`p-4 border-b ${isDark ? 'border-slate-700' : 'border-gray-100'}`}>
+        <div className="border-b border-[rgba(185,154,69,0.32)] p-4">
           <AudioPlayer arabicText={dua.arabic} language={language} />
         </div>
 
         {/* Translation */}
-        <div className={`border-b p-4 sm:p-6 ${isDark ? 'border-slate-700 bg-slate-900/50' : 'border-gray-100 bg-gray-50/50'}`}>
+        <div className="border-b border-[rgba(185,154,69,0.32)] bg-[#00251b] p-4 sm:p-6">
           <span className={`text-xs font-medium uppercase tracking-wider mb-3 block ${isDark ? 'text-gray-400' : 'text-gray-400'}`}>
             {language === 'en' ? 'Translation' : language === 'ar' ? 'الترجمة' : language === 'ur' ? 'ترجمہ' : language === 'fr' ? 'Traduction' : language === 'tr' ? 'Çeviri' : language === 'id' ? 'Terjemahan' : language === 'bn' ? 'অনুবাদ' : language === 'ms' ? 'Terjemahan' : language === 'ta' ? 'மொழிபெயர்ப்பு' : 'വിവർത്തനം'}
           </span>
-          <p className={`text-lg leading-relaxed ${isDark ? 'text-gray-200' : 'text-gray-700'}`}>
+          <p dir={language === 'ar' || language === 'ur' ? 'rtl' : 'auto'} className="text-lg leading-relaxed text-[var(--bisme-text-secondary)]">
             {dua.translation[language] || dua.translation.en}
           </p>
         </div>
 
         {/* Actions */}
-        <div className={`flex flex-wrap items-center justify-between gap-3 p-4 ${isDark ? 'bg-slate-800' : 'bg-white'}`}>
-          <span className={`text-xs ${isDark ? 'text-gray-400' : 'text-gray-400'}`}>{dua.reference}</span>
+        <div className="flex flex-wrap items-center justify-between gap-3 bg-[#063b2b] p-4">
+          <span className="text-xs text-[var(--bisme-text-muted)]">{dua.reference}</span>
           <div className="flex flex-1 flex-wrap items-center justify-end gap-2">
             <button
               onClick={handleSetReminder}
-              className="flex min-h-10 items-center justify-center gap-2 rounded-lg bg-[var(--bisme-jade)] px-3 py-2 text-center text-sm font-medium text-[#000d08] transition-colors hover:bg-[#0b895d]"
+              className="flex min-h-10 items-center justify-center gap-2 rounded-lg border border-[var(--bisme-gold-border)] bg-[var(--bisme-jade)] px-3 py-2 text-center text-sm font-medium text-[#173b2b] transition-colors hover:brightness-110"
             >
               {language === 'en' ? 'Set Reminder' : language === 'ar' ? 'تعيين تذكير' : language === 'ur' ? 'یاد دہانی سیٹ کریں' : language === 'fr' ? 'Définir un Rappel' : language === 'tr' ? 'Hatırlatıcı Ayarla' : language === 'id' ? 'Atur Pengingat' : language === 'bn' ? 'রিমাইন্ডার সেট করুন' : language === 'ms' ? 'Tetapkan Peringatan' : language === 'ta' ? 'நினைவூட்டல் அமை' : 'ഒരു ഓർമ്മപ്പെടുത്തൽ സജ്ജമാക്കുക'}
             </button>
@@ -239,12 +244,12 @@ export default function DuaDetail({
 
       {/* Reminder Modal */}
       {showReminderModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm" onClick={() => setShowReminderModal(false)}>
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#001c14]/80 p-4 backdrop-blur-sm" onClick={() => setShowReminderModal(false)}>
           <div 
-            className={`w-full max-w-md rounded-2xl shadow-2xl overflow-hidden ${isDark ? 'bg-slate-800' : 'bg-white'}`}
+            className="modal-panel w-full max-w-md overflow-hidden rounded-2xl shadow-2xl"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className={`p-6 border-b ${isDark ? 'border-slate-700' : 'border-gray-200'}`}>
+            <div className="border-b border-[rgba(185,154,69,0.35)] p-6">
               <h3 className={`text-xl font-bold ${isDark ? 'text-white' : 'text-gray-900'}`}>
                 {language === 'en' ? 'Set Reminder' : language === 'ar' ? 'تعيين تذكير' : language === 'ur' ? 'یاد دہانی سیٹ کریں' : 'Set Reminder'}
               </h3>
@@ -267,7 +272,7 @@ export default function DuaDetail({
                         onChange={(event) => setReminderTimes(current => current.map((value, timeIndex) =>
                           timeIndex === index ? event.target.value : value
                         ))}
-                        className={`flex-1 px-3 py-2 rounded-lg border ${
+                        className={`themed-input flex-1 rounded-lg border px-3 py-2 ${
                           isDark ? 'bg-slate-700 border-slate-600 text-white' : 'bg-white border-gray-300 text-gray-900'
                         }`}
                       />
@@ -298,7 +303,7 @@ export default function DuaDetail({
                 <select
                   value={reminderFrequency}
                   onChange={(event) => setReminderFrequency(event.target.value as 'daily' | 'custom')}
-                  className={`w-full px-3 py-2 rounded-lg border ${
+                  className={`themed-input w-full rounded-lg border px-3 py-2 ${
                     isDark ? 'bg-slate-700 border-slate-600 text-white' : 'bg-white border-gray-300 text-gray-900'
                   }`}
                 >

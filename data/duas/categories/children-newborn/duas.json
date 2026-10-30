@@ -9,16 +9,16 @@
       "subcategory_id": null,
       "order": 1,
       "title": {
-        "en": "Dua for Newborn (Tahnik)",
-        "ar": "دعاء المولود الجديد",
-        "ur": "نومولود کے لیے دعا",
-        "fr": "Doua pour le Nouveau-né",
-        "tr": "Yeni Doğan İçin Dua",
-        "id": "Doa untuk Bayi Baru Lahir",
-        "bn": "নবজাতকের জন্য দোয়া",
-        "ms": "Doa untuk Bayi Baru Lahir",
-        "ta": "புதிய பிறப்புக்கான துஆ",
-        "ml": "നവജാതശിശുവിനുള്ള ദുആ"
+        "en": "Dua for Congratulating Someone on a Newborn",
+        "ta": "குழந்தை பிறந்தவருக்குச் சொல்லும் துஆ",
+        "ml": "കുഞ്ഞ് ജനിച്ചതിന് ആശംസ അറിയിക്കുമ്പോൾ ചൊല്ലുന്ന ദുആ",
+        "ar": "دعاء يُقال لتهنئة المولود",
+        "ur": "نومولود کی مبارک باد کے لیے دعا",
+        "fr": "Invocation de félicitations à l’occasion d’une naissance",
+        "tr": "Yeni doğan bebek için tebrik duası",
+        "id": "Doa untuk mengucapkan selamat atas kelahiran bayi",
+        "bn": "নবজাতকের জন্মে অভিনন্দন জানানোর দোয়া",
+        "ms": "Doa ucapan tahniah atas kelahiran bayi"
       },
       "arabic": "بَارَكَ اللهُ لَكَ فِي الْمَوْهُوبِ لَكَ، وَشَكَرْتَ الْوَاهِبَ، وَبَلَغَ أَشُدَّهُ، وَرُزِقْتَ بِرَّهُ",
       "translation": {

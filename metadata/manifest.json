@@ -52,26 +52,26 @@
   "language_index": "metadata/languages.json",
   "supported_languages": [
     "en",
+    "ta",
+    "ml",
     "ar",
     "ur",
     "fr",
     "tr",
     "id",
     "bn",
-    "ms",
-    "ta",
-    "ml"
+    "ms"
   ],
   "totals": {
     "collections": 4,
     "dua_categories": 36,
-    "dua_records": 139,
+    "dua_records": 142,
     "rabbana_records": 40,
     "prophet_dua_records": 4,
     "intro_dua_records": 2,
     "husna_name_records": 99,
     "anbiya_prophet_records": 25,
-    "records_all_collections": 408
+    "records_all_collections": 411
   },
   "paths": {
     "relative_to": "repository root",

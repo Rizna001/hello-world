@@ -202,11 +202,7 @@ export default function AudioPlayer({ arabicText, language }: AudioPlayerProps) 
       <button
         onClick={togglePlay}
         className={`w-full py-3 px-4 rounded-lg font-medium transition-all text-center ${
-          isPlaying
-            ? isDark
-              ? 'bg-red-600 hover:bg-red-700 text-white'
-              : 'bg-red-500 hover:bg-red-600 text-white'
-            : isDark
+          isDark
             ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
             : 'bg-emerald-500 hover:bg-emerald-600 text-white'
         }`}

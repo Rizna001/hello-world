@@ -41,14 +41,14 @@ export default function BookmarksView({ language, onDuaClick }: BookmarksViewPro
   return (
     <div>
       <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <h2 className={`break-words text-xl font-bold sm:text-2xl ${isDark ? 'text-[var(--bisme-gold)]' : 'text-gray-900'}`}>
+        <h2 className={`break-words text-xl font-bold sm:text-2xl ${        isDark ? 'text-white' : 'text-gray-900'}`}>
           {label.title} ({bookmarks.length})
         </h2>
         <button
           onClick={clearAllBookmarks}
           className={`text-sm px-3 py-1.5 rounded-lg transition-colors ${
             isDark 
-              ? 'bg-red-900/50 hover:bg-red-900 text-red-300' 
+              ? 'border border-[var(--bisme-gold-border)] bg-[#063b2b] text-[var(--bisme-gold)] hover:bg-[#084633]' 
               : 'bg-red-50 hover:bg-red-100 text-red-600'
           }`}
         >
@@ -60,7 +60,7 @@ export default function BookmarksView({ language, onDuaClick }: BookmarksViewPro
         {bookmarks.map((bookmark) => (
           <div
             key={bookmark.id}
-            className={`p-4 rounded-xl border cursor-pointer transition-all hover:shadow-md ${
+            className={`dua-card p-4 rounded-xl border cursor-pointer transition-all hover:shadow-md ${
               isDark 
                 ? 'bg-slate-800 border-slate-700 hover:border-slate-600' 
                 : 'bg-white border-gray-200 hover:border-gray-300'
@@ -95,7 +95,7 @@ export default function BookmarksView({ language, onDuaClick }: BookmarksViewPro
                 }}
                 className={`min-h-10 flex-shrink-0 px-3 py-2 rounded-lg text-sm transition-colors ${
                   isDark 
-                    ? 'hover:bg-red-900/50 text-red-400' 
+                    ? 'border border-[var(--bisme-gold-border)] bg-[#00251b] text-[var(--bisme-text-secondary)] hover:bg-[#063b2b]' 
                     : 'hover:bg-red-50 text-red-500'
                 }`}
                 title={label.remove}

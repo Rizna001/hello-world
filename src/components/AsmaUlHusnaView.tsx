@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Search } from 'lucide-react';
 import completeListsData from '../data/allData.json';
 const { asmaUlHusna } = completeListsData;
 import { useTheme } from '../contexts/ThemeContext';
@@ -51,24 +52,27 @@ export default function AsmaUlHusnaView({ language, onBack }: AsmaUlHusnaViewPro
         <span>{label.back}</span>
       </button>
 
-      <div className="mb-6 rounded-2xl border border-[rgba(230,198,107,0.4)] bg-[#003d2b] p-4 text-white shadow-lg sm:p-6">
+      <div className="category-detail-header mb-6 rounded-2xl p-4 sm:p-6">
         <div className="flex items-center gap-3 mb-2">
           <div>
-            <h2 className="text-xl font-bold text-[var(--bisme-gold)] sm:text-2xl">{label.title}</h2>
-            <p className="text-white/80 text-sm">{label.subtitle}</p>
+            <h2 className="text-xl font-bold sm:text-2xl">{label.title}</h2>
+            <p className="text-sm">{label.subtitle}</p>
           </div>
         </div>
       </div>
 
       {/* Search */}
       <div className="mb-6">
-        <input
-          type="text"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder={label.search}
-          className="box-border w-full rounded-xl border border-white/10 bg-[#00160d] px-4 py-3 text-white placeholder:text-white/50 focus-visible:outline-2 focus-visible:outline-[var(--bisme-gold)]"
-        />
+        <div className="glass-search flex min-h-[50px] items-center gap-3 rounded-full px-4">
+          <Search className="glass-search-icon h-[18px] w-[18px] shrink-0" aria-hidden="true" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder={label.search}
+            className="glass-search-input box-border min-h-[48px] min-w-0 flex-1 font-sans text-sm"
+          />
+        </div>
       </div>
 
       {/* Grid of Names */}
@@ -77,15 +81,15 @@ export default function AsmaUlHusnaView({ language, onBack }: AsmaUlHusnaViewPro
           <div
             key={name.n}
             onClick={() => setSelectedName(selectedName === name.n ? null : name.n)}
-            className={`cursor-pointer rounded-xl border p-4 transition-all ${
+            className={`themed-card cursor-pointer rounded-xl border p-4 transition-all ${
               isDark 
-                ? 'bg-[#00160d] border-white/10 hover:border-[var(--bisme-jade)]' 
+                ? 'bg-[#063b2b] border-[var(--bisme-gold-border)] hover:border-[var(--bisme-jade)]' 
                 : 'bg-white border-gray-200 hover:border-yellow-400 hover:shadow-md'
             } ${selectedName === name.n ? (isDark ? 'border-[var(--bisme-gold)]' : 'border-yellow-500 shadow-lg') : ''}`}
           >
             <div className="flex items-start gap-3">
               <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${
-                isDark ? 'bg-[var(--bisme-jade)] text-[#000d08]' : 'bg-yellow-100 text-yellow-700'
+                isDark ? 'bg-[var(--bisme-jade)] text-[var(--bisme-on-gold)]' : 'bg-yellow-100 text-yellow-700'
               }`}>
                 {name.n}
               </div>

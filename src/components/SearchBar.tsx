@@ -1,3 +1,5 @@
+import { Search } from 'lucide-react';
+
 export default function SearchBar({
   searchQuery,
   setSearchQuery,
@@ -20,20 +22,19 @@ export default function SearchBar({
 
   return (
     <div className="flex-1 min-w-0">
-      <div className="relative">
+      <div className="glass-search relative flex h-[46px] min-w-0 items-center gap-2 rounded-full px-3">
+        <Search className="glass-search-icon h-[18px] w-[18px] shrink-0" aria-hidden="true" />
         <input
           type="text"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder={placeholder}
-          className={`box-border h-[46px] w-full rounded-[13px] border border-[rgba(230,198,107,0.35)] bg-[var(--bisme-search)] px-[13px] font-sans text-[14px] font-normal text-white placeholder:text-white/55 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--bisme-gold)] ${
-            searchQuery ? 'pr-16' : 'pr-[13px]'
-          }`}
+          className="glass-search-input box-border h-full min-w-0 flex-1 font-sans text-[14px] font-normal"
         />
         {searchQuery && (
           <button
             onClick={() => setSearchQuery('')}
-            className="absolute inset-y-0 right-0 flex items-center pr-[13px] text-sm text-white/70 hover:text-white"
+            className="glass-search-clear shrink-0 text-sm"
             aria-label="Clear search"
           >
             Clear

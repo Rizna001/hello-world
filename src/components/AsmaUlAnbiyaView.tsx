@@ -44,11 +44,11 @@ export default function AsmaUlAnbiyaView({ language, onBack }: AsmaUlAnbiyaViewP
         <span>{label.back}</span>
       </button>
 
-      <div className="mb-6 rounded-2xl border border-[rgba(230,198,107,0.4)] bg-[#003d2b] p-4 text-white shadow-lg sm:p-6">
+      <div className="category-detail-header mb-6 rounded-2xl p-4 sm:p-6">
         <div className="flex items-center gap-3 mb-2">
           <div>
-            <h2 className="text-xl font-bold text-[var(--bisme-gold)] sm:text-2xl">{label.title}</h2>
-            <p className="text-white/80 text-sm">{label.subtitle}</p>
+            <h2 className="text-xl font-bold sm:text-2xl">{label.title}</h2>
+            <p className="text-sm">{label.subtitle}</p>
           </div>
         </div>
       </div>
@@ -59,15 +59,15 @@ export default function AsmaUlAnbiyaView({ language, onBack }: AsmaUlAnbiyaViewP
           <div
             key={prophet.n}
             onClick={() => setSelectedProphet(selectedProphet === prophet.n ? null : prophet.n)}
-            className={`cursor-pointer rounded-xl border p-4 transition-all sm:p-5 ${
+            className={`themed-card cursor-pointer rounded-xl border p-4 transition-all sm:p-5 ${
               isDark 
-                ? 'bg-[#00160d] border-white/10 hover:border-[var(--bisme-jade)]' 
+                ? 'bg-[#063b2b] border-[var(--bisme-gold-border)] hover:border-[var(--bisme-jade)]' 
                 : 'bg-white border-gray-200 hover:border-indigo-400 hover:shadow-md'
             } ${selectedProphet === prophet.n ? (isDark ? 'border-[var(--bisme-gold)]' : 'border-indigo-500 shadow-lg') : ''}`}
           >
             <div className="flex min-w-0 items-start gap-3 sm:gap-4">
               <div className={`w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 ${
-                isDark ? 'bg-[var(--bisme-jade)] text-[#000d08]' : 'bg-indigo-100 text-indigo-700'
+                isDark ? 'bg-[var(--bisme-jade)] text-[var(--bisme-on-gold)]' : 'bg-indigo-100 text-indigo-700'
               }`}>
                 {prophet.n}
               </div>
@@ -116,7 +116,7 @@ export default function AsmaUlAnbiyaView({ language, onBack }: AsmaUlAnbiyaViewP
                             }}
                             className={`mb-3 min-h-10 w-full rounded-lg px-4 py-2 font-medium transition-colors ${
                               isDark
-                                ? 'bg-[var(--bisme-jade)] hover:bg-[#0b895d] text-[#000d08]'
+                                ? 'bg-[var(--bisme-jade)] hover:bg-[var(--bisme-emerald)] text-[var(--bisme-on-gold)]'
                                 : 'bg-indigo-500 hover:bg-indigo-600 text-white'
                             }`}
                           >
@@ -136,7 +136,7 @@ export default function AsmaUlAnbiyaView({ language, onBack }: AsmaUlAnbiyaViewP
                                 >
                                   <div className="flex items-start gap-3 mb-2">
                                     <span className={`text-xs font-bold px-2 py-1 rounded ${
-                                      isDark ? 'bg-[var(--bisme-jade)] text-[#000d08]' : 'bg-indigo-100 text-indigo-700'
+                                      isDark ? 'bg-[var(--bisme-jade)] text-[var(--bisme-on-gold)]' : 'bg-indigo-100 text-indigo-700'
                                     }`}>
                                       {idx + 1}
                                     </span>

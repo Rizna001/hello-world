@@ -139,7 +139,7 @@ function AppContent() {
   };
 
   return (
-    <div className="min-h-screen overflow-x-clip bg-[#000d08] text-white">
+    <div className="min-h-screen overflow-x-clip bg-[var(--bisme-bg-primary)] text-white">
       <Header 
         language={language} 
         languages={languages} 
@@ -205,17 +205,17 @@ function AppContent() {
                   <div
                     key={`${category.id}-${dua.id}`}
                     onClick={() => { setSelectedCategory(category); setSelectedDua(dua); }}
-                    className={`${isDark ? 'bg-slate-800 border-slate-700 hover:border-slate-600' : `${category.bg} ${category.border} hover:shadow-md`} border rounded-xl p-4 cursor-pointer transition-all duration-200`}
+                    className="dua-card cursor-pointer rounded-xl border p-4 transition-all duration-200"
                   >
                     <div className="mb-1 flex min-w-0 flex-wrap items-center justify-between gap-2">
                       <h3 className={`min-w-0 break-words font-semibold ${isDark ? 'text-white' : category.text}`}>
                         {dua.title[language] || dua.title.en}
                       </h3>
-                      <span className={`max-w-[45%] break-words rounded-full px-2 py-0.5 text-right text-xs ${isDark ? 'bg-slate-700 text-gray-300' : 'bg-white/80 text-gray-500'}`}>
+                      <span className="max-w-[45%] break-words rounded-full border border-[var(--bisme-gold-border)] bg-[#00251b] px-2 py-0.5 text-right text-xs text-[var(--bisme-text-secondary)]">
                         {category.name[language] || category.name.en}
                       </span>
                     </div>
-                    <p className={`${isDark ? 'text-gray-400' : 'text-gray-600'} text-sm line-clamp-2`}>
+                    <p className="text-sm line-clamp-2 text-[var(--bisme-text-secondary)]">
                       {dua.translation[language] || dua.translation.en}
                     </p>
                   </div>
@@ -253,10 +253,10 @@ function AppContent() {
             </button>
             
             {/* Category Header */}
-            <div className="mb-6 rounded-2xl border border-[rgba(230,198,107,0.35)] bg-[#003d2b] p-4 text-white shadow-lg sm:p-6">
+            <div className="category-detail-header mb-6 rounded-2xl p-4 sm:p-6">
               <div>
-                <h2 className="text-xl font-bold text-[var(--bisme-gold)] sm:text-2xl">{selectedCategory.name[language] || selectedCategory.name.en}</h2>
-                <p className="text-white/80 text-sm">{visibleCategoryDuas.length} {language === 'en' ? 'duas' : language === 'ar' ? 'دعاء' : language === 'ur' ? 'دعائیں' : language === 'fr' ? 'duas' : language === 'tr' ? 'dua' : language === 'id' ? 'doa' : language === 'bn' ? 'দোয়া' : language === 'ms' ? 'doa' : language === 'ta' ? 'துஆ' : 'ദുആ'}</p>
+                <h2 className="text-xl font-bold sm:text-2xl">{selectedCategory.name[language] || selectedCategory.name.en}</h2>
+                <p className="text-sm">{visibleCategoryDuas.length} {language === 'en' ? 'duas' : language === 'ar' ? 'دعاء' : language === 'ur' ? 'دعائیں' : language === 'fr' ? 'duas' : language === 'tr' ? 'dua' : language === 'id' ? 'doa' : language === 'bn' ? 'দোয়া' : language === 'ms' ? 'doa' : language === 'ta' ? 'துஆ' : 'ദുആ'}</p>
               </div>
             </div>
 
@@ -266,23 +266,23 @@ function AppContent() {
                 <div
                   key={dua.id}
                   onClick={() => setSelectedDua(dua)}
-                  className={`${isDark ? 'bg-slate-800 border-slate-700 hover:border-slate-600' : `${selectedCategory.bg} ${selectedCategory.border} hover:shadow-md`} border rounded-xl p-5 cursor-pointer transition-all duration-200 hover:scale-[1.01]`}
+                  className="dua-card cursor-pointer rounded-xl border p-5 transition-all duration-200"
                 >
                   <div className="flex items-start gap-4">
-                    <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-[var(--bisme-jade)] text-sm font-bold text-[#000d08]">
+                    <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border border-[var(--bisme-gold-border)] bg-[#00251b] text-sm font-bold text-white">
                       {index + 1}
                     </div>
                     <div className="flex-1 min-w-0">
-                      <h3 className={`font-semibold ${isDark ? 'text-white' : selectedCategory.text} text-lg mb-1`}>
+                      <h3 className="mb-1 text-lg font-semibold text-white">
                         {dua.title[language] || dua.title.en}
                       </h3>
-                      <p className={`${isDark ? 'text-gray-400' : 'text-gray-600'} text-sm line-clamp-2`}>
+                      <p className="text-sm text-[var(--bisme-text-secondary)] line-clamp-2">
                         {dua.translation[language] || dua.translation.en}
                       </p>
                       <div className="flex items-center gap-3 mt-2">
-                        <span className={`text-xs ${isDark ? 'text-gray-500' : 'text-gray-400'}`}>{dua.reference}</span>
+                        <span className="text-xs text-[var(--bisme-text-muted)]">{dua.reference}</span>
                         {dua.times > 1 && (
-                          <span className={`text-xs ${isDark ? 'bg-slate-700 text-gray-400' : 'bg-white/80 text-gray-500'} px-2 py-0.5 rounded-full`}>
+                          <span className="rounded-full border border-[var(--bisme-gold-border)] bg-[#00251b] px-2 py-0.5 text-xs text-[var(--bisme-text-secondary)]">
                             x{dua.times}
                           </span>
                         )}
@@ -307,19 +307,19 @@ function AppContent() {
       </main>
 
       {/* Footer */}
-      <footer className={`mt-16 py-8 border-t ${isDark ? 'border-slate-800' : 'border-gray-100'}`}>
+      <footer className="app-footer mt-16 border-t py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-sm text-white/60">
-            {language === 'en' ? 'All duas are from authentic sources (Quran & Sunnah)' :
-             language === 'ar' ? 'جميع الأدعية من مصادر صحيحة (القرآن والسنة)' :
-             language === 'ur' ? 'تمام دعائیں مستند مصادر سے ہیں (قرآن و سنت)' :
-             language === 'fr' ? 'Tous les duas proviennent de sources authentiques (Coran & Sunnah)' :
-             language === 'tr' ? 'Tüm dualar sahih kaynaklardandır (Kur\'an ve Sünnet)' :
-             language === 'id' ? 'Semua doa dari sumber yang shahih (Al-Quran & Sunnah)' :
-             language === 'bn' ? 'সকল দোয়া সহীহ উৎস থেকে (কুরআন ও সুন্নাহ)' :
-             language === 'ms' ? 'Semua doa dari sumber yang sahih (Al-Quran & Sunnah)' :
-             language === 'ta' ? 'அனைத்து துஆக்களும் நம்பகமான ஆதாரங்களிலிருந்து (குர்ஆன் & சுன்னா)' :
-             'എല്ലാ ദുആകളും ആധികാരികമായ ഉറവിടങ്ങളിൽ നിന്നാണ് (ഖുർആനും സുന്നത്തും)'}
+            {language === 'en' ? 'Source and authenticity notes are shown where available.' :
+             language === 'ar' ? 'تُعرض المصادر وملاحظات درجة الصحة حيثما توفرت.' :
+             language === 'ur' ? 'جہاں دستیاب ہو، ماخذ اور درجۂ صحت کی وضاحت درج ہے۔' :
+             language === 'fr' ? 'Les sources et les indications d’authenticité sont affichées lorsqu’elles sont disponibles.' :
+             language === 'tr' ? 'Kaynak ve sıhhat bilgileri mevcut olduğunda gösterilir.' :
+             language === 'id' ? 'Keterangan sumber dan status keaslian ditampilkan jika tersedia.' :
+             language === 'bn' ? 'উৎস ও বিশুদ্ধতার তথ্য পাওয়া গেলে দেখানো হয়েছে।' :
+             language === 'ms' ? 'Maklumat sumber dan status kesahihan dipaparkan jika tersedia.' :
+             language === 'ta' ? 'ஆதாரம் மற்றும் நம்பகத்தன்மைக் குறிப்புகள் கிடைக்கும்போது காட்டப்படும்.' :
+             'ലഭ്യമായിടത്ത് ഉറവിടവും ആധികാരികതയെക്കുറിച്ചുള്ള കുറിപ്പുകളും കാണിച്ചിരിക്കുന്നു.'}
           </p>
           <p className="mt-2 font-arabic text-lg text-[var(--bisme-gold)]">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
           <p className="mt-1 text-[10px] text-white/50">Arabic text set in KFGQPC Uthmanic Script (Hafs)</p>
